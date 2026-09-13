@@ -1,0 +1,1 @@
+import fs from'node:fs';import{loadProjects}from'./project-lib.mjs';const{items,errors}=loadProjects();if(errors.length){console.error(errors.join('\n'));process.exit(1)}fs.mkdirSync('data',{recursive:true});fs.writeFileSync('data/projects.json',JSON.stringify(items,null,2));console.log(`✓ catálogo gerado com ${items.length} projeto(s)`);

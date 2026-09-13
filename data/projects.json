@@ -3,16 +3,25 @@
     "id": "cashflow-intelligence",
     "title": "CashFlow Intelligence",
     "category": "Dados & BI",
-    "status": "MVP concluído",
-    "year": "2026",
-    "summary": "Inteligência financeira para acompanhar realizado, previsto, atrasos e disponibilidade de caixa.",
+    "status": "Concluído",
+    "year": 2026,
+    "featured": true,
+    "summary": "Solução de inteligência financeira para acompanhar realizado, previsto, atrasos e disponibilidade de caixa.",
+    "problem": "Controles financeiros fragmentados dificultam a leitura do caixa e a antecipação de riscos.",
+    "role": "Análise de negócio, construção da base sintética, modelagem dimensional, definição de KPIs e experiência visual.",
+    "solution": "Modelo de dados orientado a fatos e dimensões, com dashboard executivo e documentação reproduzível.",
+    "results": [
+      "1.600 movimentações sintéticas e documentadas",
+      "Visão consolidada de entradas, saídas, saldo e títulos vencidos",
+      "Estrutura preparada para Power BI Online ou dashboard HTML"
+    ],
     "technologies": [
       "Power BI",
-      "Power Query",
       "DAX",
+      "Power Query",
       "Python"
     ],
-    "featured": true,
+    "cover": "cover.png",
     "metrics": {
       "movimentos": 1600,
       "entradas": 7323077.61,
@@ -21,6 +30,20 @@
       "valor_vencido": 98220.44,
       "taxa_atraso": 11.4,
       "periodo": "jan/2025–ago/2026"
+    },
+    "demo": {
+      "mode": "github-html",
+      "embedPath": "content/projects/cashflow-intelligence/dashboard/index.html",
+      "embedUrl": "",
+      "externalUrl": "",
+      "fallbackImage": "content/projects/cashflow-intelligence/cover.png",
+      "pbixDownload": ""
+    },
+    "links": {
+      "github": "https://github.com/kpassaros/portfolio-dados-bi",
+      "kaggle": "",
+      "documentation": "content/projects/cashflow-intelligence/README.md",
+      "dataset": "data/fluxo_caixa.csv"
     }
   }
 ]

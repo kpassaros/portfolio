@@ -1,0 +1,139 @@
+{
+  "summary": {
+    "movimentos": 1600,
+    "entradas": 7323077.61,
+    "saidas": 7864273.98,
+    "saldo": -541196.37,
+    "valor_vencido": 98220.44,
+    "taxa_atraso": 11.4,
+    "periodo": "jan/2025–ago/2026"
+  },
+  "months": [
+    {
+      "mes": "2025-01",
+      "entradas": 346292.95,
+      "saidas": 384208.89
+    },
+    {
+      "mes": "2025-02",
+      "entradas": 373998.47,
+      "saidas": 426467.15
+    },
+    {
+      "mes": "2025-03",
+      "entradas": 394299.38,
+      "saidas": 446474.26
+    },
+    {
+      "mes": "2025-04",
+      "entradas": 439264.29,
+      "saidas": 447393.99
+    },
+    {
+      "mes": "2025-05",
+      "entradas": 398017.67,
+      "saidas": 491343.21
+    },
+    {
+      "mes": "2025-06",
+      "entradas": 383874.42,
+      "saidas": 413356.69
+    },
+    {
+      "mes": "2025-07",
+      "entradas": 284571.28,
+      "saidas": 428048.55
+    },
+    {
+      "mes": "2025-08",
+      "entradas": 315415.01,
+      "saidas": 334488.91
+    },
+    {
+      "mes": "2025-09",
+      "entradas": 287007.27,
+      "saidas": 319486.19
+    },
+    {
+      "mes": "2025-10",
+      "entradas": 322731.46,
+      "saidas": 325421.77
+    },
+    {
+      "mes": "2025-11",
+      "entradas": 375198.8,
+      "saidas": 367255.85
+    },
+    {
+      "mes": "2025-12",
+      "entradas": 410497.67,
+      "saidas": 399416.71
+    },
+    {
+      "mes": "2026-01",
+      "entradas": 332948.9,
+      "saidas": 360376.3
+    },
+    {
+      "mes": "2026-02",
+      "entradas": 389040.13,
+      "saidas": 427601.96
+    },
+    {
+      "mes": "2026-03",
+      "entradas": 368342.83,
+      "saidas": 393347.3
+    },
+    {
+      "mes": "2026-04",
+      "entradas": 422951.22,
+      "saidas": 449731.71
+    },
+    {
+      "mes": "2026-05",
+      "entradas": 401073.96,
+      "saidas": 426995.77
+    },
+    {
+      "mes": "2026-06",
+      "entradas": 448194.22,
+      "saidas": 397888.53
+    },
+    {
+      "mes": "2026-07",
+      "entradas": 324491.4,
+      "saidas": 356359.42
+    },
+    {
+      "mes": "2026-08",
+      "entradas": 304866.28,
+      "saidas": 268610.82
+    }
+  ],
+  "categories": [
+    {
+      "categoria": "Pessoal",
+      "valor": 3016490.35
+    },
+    {
+      "categoria": "Fornecedores",
+      "valor": 2017952.18
+    },
+    {
+      "categoria": "Marketing",
+      "valor": 898489.01
+    },
+    {
+      "categoria": "Logística",
+      "valor": 773663.13
+    },
+    {
+      "categoria": "Tecnologia",
+      "valor": 638261.76
+    },
+    {
+      "categoria": "Administrativo",
+      "valor": 519417.55
+    }
+  ]
+}

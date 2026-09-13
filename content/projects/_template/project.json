@@ -1,0 +1,34 @@
+{
+  "id": "nome-do-projeto",
+  "title": "Nome do projeto",
+  "category": "Dados & BI",
+  "status": "Em desenvolvimento",
+  "year": 2026,
+  "featured": false,
+  "summary": "Descrição curta para o card.",
+  "problem": "Problema de negócio.",
+  "role": "Seu papel.",
+  "solution": "Solução criada.",
+  "results": [
+    "Resultado ou evidência"
+  ],
+  "technologies": [
+    "Tecnologia 1"
+  ],
+  "cover": "cover.png",
+  "metrics": {},
+  "demo": {
+    "mode": "none",
+    "embedPath": "",
+    "embedUrl": "",
+    "externalUrl": "",
+    "fallbackImage": "cover.png",
+    "pbixDownload": ""
+  },
+  "links": {
+    "github": "",
+    "kaggle": "",
+    "documentation": "",
+    "dataset": ""
+  }
+}

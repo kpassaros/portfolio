@@ -1,0 +1,1 @@
+import{loadProjects}from'./project-lib.mjs';const{items,errors}=loadProjects();if(errors.length){console.error(errors.join('\n'));process.exit(1)}console.log(`✓ ${items.length} projeto(s) validado(s)`);
