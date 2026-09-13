@@ -30,3 +30,9 @@ Antes de divulgar, substitua os links genéricos do GitHub e LinkedIn no `index.
 - `assets/brand/apple-touch-icon.png`: atalho para dispositivos móveis
 
 Os arquivos de origem enviados pelo autor permanecem em `assets/brand/source/`.
+
+## Refinamento de interface
+- Corrigido contraste do filtro ativo no modo escuro
+- Removido feixe que seguia o ponteiro nos cards
+- Adicionado destaque fixo e sutil no rodapé do card durante hover ou foco
+- Link do GitHub atualizado para `https://github.com/kpassaros`
