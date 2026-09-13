@@ -21,7 +21,7 @@ Sincronizar uma Google Planilha com `data/projects.json`. Preserve o JSON no Git
 - Ícones sociais em SVG nativo
 - Respeito a `prefers-reduced-motion`
 
-Antes de divulgar, substitua os links genéricos do GitHub e LinkedIn no `index.html`.
+Links oficiais configurados: GitHub `https://github.com/kpassaros`, LinkedIn `https://www.linkedin.com/in/kaiquepassaros/` e e-mail `kaiquepassarosva@gmail.com`.
 
 ## Identidade visual
 - `assets/brand/brand-mark.png`: símbolo principal com transparência
@@ -35,4 +35,5 @@ Os arquivos de origem enviados pelo autor permanecem em `assets/brand/source/`.
 - Corrigido contraste do filtro ativo no modo escuro
 - Removido feixe que seguia o ponteiro nos cards
 - Adicionado destaque fixo e sutil no rodapé do card durante hover ou foco
-- Link do GitHub atualizado para `https://github.com/kpassaros`
+- Contatos atualizados: GitHub, LinkedIn e e-mail pessoal
+- Densidade do fundo ajustada para até 180 estrelas
