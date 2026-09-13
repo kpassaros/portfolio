@@ -1,0 +1,1601 @@
+﻿id_movimento,data_emissao,data_vencimento,data_pagamento,tipo,categoria,centro_custo,entidade,forma_pagamento,valor_previsto,valor_realizado,status
+MOV-00001,2024-12-09,2025-01-09,2025-01-06,Entrada,Assinaturas,Administrativo,Cliente 06,Cartão,3180.16,3225.28,Pago
+MOV-00002,2024-12-07,2025-01-08,2025-01-03,Entrada,Vendas B2B,Administrativo,Cliente 27,Boleto,4224.17,4239.69,Pago
+MOV-00003,2025-01-08,2025-01-28,2025-02-03,Entrada,Vendas B2B,Tecnologia,Cliente 10,Boleto,7028.5,7112.06,Pago em atraso
+MOV-00004,2024-12-05,2025-01-03,2025-01-03,Entrada,Serviços,Tecnologia,Cliente 03,Cartão,7916.24,8081.29,Pago
+MOV-00005,2024-12-15,2025-01-13,2025-01-23,Entrada,Assinaturas,Tecnologia,Cliente 37,Boleto,17591.36,17939.04,Pago em atraso
+MOV-00006,2024-12-26,2025-01-08,2025-01-04,Entrada,Assinaturas,Marketing,Cliente 18,Cartão,3496.53,3571.07,Pago
+MOV-00007,2024-12-12,2025-01-12,2025-01-11,Entrada,Assinaturas,Comercial,Cliente 39,Boleto,8345.45,8446.51,Pago
+MOV-00008,2024-12-12,2025-01-15,2025-01-13,Entrada,Assinaturas,Comercial,Cliente 15,PIX,6521.13,6593.36,Pago
+MOV-00009,2024-12-09,2025-01-03,2025-01-03,Entrada,Assinaturas,Marketing,Cliente 42,Cartão,8897.7,8744.28,Pago
+MOV-00010,2025-01-01,2025-01-24,2025-01-23,Entrada,Vendas B2B,Administrativo,Cliente 26,Transferência,4922.38,4995.33,Pago
+MOV-00011,2025-01-03,2025-01-17,2025-01-12,Entrada,Vendas B2B,Operações,Cliente 44,Cartão,17962.57,18351.75,Pago
+MOV-00012,2025-01-10,2025-01-20,2025-01-19,Entrada,Assinaturas,Comercial,Cliente 44,Transferência,8648.46,8892.91,Pago
+MOV-00013,2024-12-08,2025-01-10,2025-01-12,Entrada,Assinaturas,Tecnologia,Cliente 33,Boleto,7970.67,7733.1,Pago
+MOV-00014,2024-12-18,2025-01-21,2025-01-19,Entrada,Vendas B2B,Operações,Cliente 35,PIX,4417.44,4325.43,Pago
+MOV-00015,2024-12-18,2025-01-04,2025-01-03,Entrada,Assinaturas,Administrativo,Cliente 06,PIX,10226.81,10066.94,Pago
+MOV-00016,2024-12-31,2025-01-25,2025-01-22,Entrada,Assinaturas,Administrativo,Cliente 11,Transferência,15203.55,14864.56,Pago
+MOV-00017,2024-12-16,2025-01-07,2025-01-05,Entrada,Assinaturas,Tecnologia,Cliente 29,Cartão,12020.23,12173.81,Pago
+MOV-00018,2024-12-25,2025-01-11,2025-01-29,Entrada,Vendas B2B,Comercial,Cliente 05,PIX,6215.4,6114.75,Pago em atraso
+MOV-00019,2025-01-03,2025-01-28,2025-01-26,Entrada,Vendas B2B,Operações,Cliente 35,Boleto,16562.38,16342.24,Pago
+MOV-00020,2025-01-03,2025-01-19,2025-01-21,Entrada,Assinaturas,Comercial,Cliente 07,Cartão,16212.22,16511.33,Pago
+MOV-00021,2024-12-26,2025-01-28,2025-01-24,Entrada,Vendas B2B,Tecnologia,Cliente 07,Boleto,9048.75,8810.2,Pago
+MOV-00022,2024-12-24,2025-01-05,2025-01-04,Entrada,Vendas B2B,Marketing,Cliente 36,PIX,10951.54,10926.98,Pago
+MOV-00023,2025-01-10,2025-01-27,2025-01-30,Entrada,Vendas B2B,Operações,Cliente 27,Cartão,17989.09,18449.29,Pago em atraso
+MOV-00024,2024-12-15,2025-01-02,2024-12-28,Entrada,Vendas B2B,Marketing,Cliente 19,Cartão,15942.69,16406.92,Pago
+MOV-00025,2025-01-07,2025-01-26,2025-01-28,Entrada,Assinaturas,Operações,Cliente 04,PIX,13903.68,13615.7,Pago
+MOV-00026,2024-12-24,2025-01-19,2025-01-16,Entrada,Assinaturas,Comercial,Cliente 12,PIX,3668.91,3571.36,Pago
+MOV-00027,2024-12-28,2025-01-08,2025-01-06,Entrada,Assinaturas,Administrativo,Cliente 06,Cartão,13063.23,13125.09,Pago
+MOV-00028,2024-12-22,2025-01-11,2025-01-09,Entrada,Assinaturas,Operações,Cliente 17,Cartão,11391.45,11507.46,Pago
+MOV-00029,2024-12-17,2025-01-15,2025-01-11,Entrada,Vendas B2B,Administrativo,Cliente 07,PIX,12611.61,12240.31,Pago
+MOV-00030,2024-12-15,2025-01-05,2025-01-01,Entrada,Assinaturas,Tecnologia,Cliente 11,Cartão,10489.45,10728.15,Pago
+MOV-00031,2024-12-24,2025-01-20,2025-01-15,Entrada,Serviços,Tecnologia,Cliente 43,PIX,13493.81,13629.72,Pago
+MOV-00032,2024-12-06,2025-01-04,2025-01-01,Entrada,Serviços,Operações,Cliente 22,Boleto,4841.22,4775.09,Pago
+MOV-00033,2024-12-25,2025-01-17,2025-01-12,Entrada,Assinaturas,Tecnologia,Cliente 03,PIX,15764.27,15378.64,Pago
+MOV-00034,2024-12-17,2025-01-09,2025-01-11,Entrada,Vendas B2B,Administrativo,Cliente 01,PIX,4788.46,4803.31,Pago
+MOV-00035,2024-12-22,2025-01-05,2025-01-05,Saída,Fornecedores,Marketing,Fornecedor 09,PIX,11179.1,11234.44,Pago
+MOV-00036,2025-01-11,2025-01-28,2025-02-09,Saída,Pessoal,Comercial,Fornecedor 23,Cartão,14461.22,14209.66,Pago em atraso
+MOV-00037,2024-12-29,2025-01-08,2025-01-05,Saída,Administrativo,Operações,Fornecedor 22,Cartão,9669.1,9890.38,Pago
+MOV-00038,2025-01-13,2025-01-26,2025-01-23,Saída,Logística,Marketing,Fornecedor 03,Cartão,10963.92,11152.97,Pago
+MOV-00039,2024-12-15,2025-01-15,2025-01-13,Saída,Fornecedores,Operações,Fornecedor 26,Transferência,10427.43,10254.08,Pago
+MOV-00040,2024-12-29,2025-01-25,2025-01-26,Saída,Fornecedores,Tecnologia,Fornecedor 02,PIX,1984.45,2005.82,Pago
+MOV-00041,2024-12-21,2025-01-19,2025-01-18,Saída,Logística,Marketing,Fornecedor 23,Transferência,4151.73,4036.71,Pago
+MOV-00042,2025-01-09,2025-01-19,2025-01-14,Saída,Pessoal,Administrativo,Fornecedor 35,Boleto,7656.46,7752.37,Pago
+MOV-00043,2024-12-23,2025-01-11,2025-01-07,Saída,Pessoal,Administrativo,Fornecedor 20,Cartão,13142.38,13315.67,Pago
+MOV-00044,2024-12-23,2025-01-07,2025-01-08,Saída,Pessoal,Administrativo,Fornecedor 37,Transferência,12044.12,12172.26,Pago
+MOV-00045,2024-12-14,2025-01-07,2025-01-07,Saída,Pessoal,Operações,Fornecedor 33,Cartão,9538.75,9518.71,Pago
+MOV-00046,2024-12-24,2025-01-24,2025-01-20,Saída,Tecnologia,Administrativo,Fornecedor 22,PIX,12046.1,11889.83,Pago
+MOV-00047,2025-01-11,2025-01-22,2025-01-20,Saída,Logística,Operações,Fornecedor 31,PIX,9687.86,9482.88,Pago
+MOV-00048,2025-01-09,2025-01-23,2025-01-25,Saída,Pessoal,Comercial,Fornecedor 07,Cartão,12256.71,12182.91,Pago
+MOV-00049,2025-01-10,2025-01-23,2025-01-18,Saída,Fornecedores,Marketing,Fornecedor 09,Cartão,10286.44,10321.87,Pago
+MOV-00050,2024-12-18,2025-01-20,2025-01-22,Saída,Marketing,Administrativo,Fornecedor 28,Cartão,12363.18,12446.74,Pago
+MOV-00051,2024-12-29,2025-01-16,2025-01-14,Saída,Logística,Administrativo,Fornecedor 32,Boleto,9603.31,9799.14,Pago
+MOV-00052,2024-12-14,2025-01-10,2025-01-10,Saída,Fornecedores,Comercial,Fornecedor 09,Boleto,2075.56,2053.11,Pago
+MOV-00053,2024-12-27,2025-01-23,2025-01-24,Saída,Fornecedores,Marketing,Fornecedor 27,PIX,9041.63,8991.5,Pago
+MOV-00054,2024-12-22,2025-01-25,2025-01-20,Saída,Fornecedores,Administrativo,Fornecedor 25,Cartão,5947.62,6074.92,Pago
+MOV-00055,2024-12-23,2025-01-25,2025-01-26,Saída,Fornecedores,Administrativo,Fornecedor 39,Boleto,5174.87,5186.74,Pago
+MOV-00056,2024-12-20,2025-01-13,2025-01-14,Saída,Pessoal,Operações,Fornecedor 40,PIX,11356.42,11509.17,Pago
+MOV-00057,2024-12-29,2025-01-22,2025-02-05,Saída,Logística,Operações,Fornecedor 04,Transferência,7888.39,7715.97,Pago em atraso
+MOV-00058,2025-01-02,2025-01-25,2025-01-24,Saída,Pessoal,Tecnologia,Fornecedor 06,Cartão,9768.46,9916.16,Pago
+MOV-00059,2024-12-13,2025-01-12,2025-01-08,Saída,Fornecedores,Comercial,Fornecedor 02,Boleto,7295.44,7418.54,Pago
+MOV-00060,2024-12-08,2025-01-05,2025-01-07,Saída,Fornecedores,Operações,Fornecedor 30,Transferência,1430.29,1444.83,Pago
+MOV-00061,2025-01-05,2025-01-20,2025-01-16,Saída,Tecnologia,Tecnologia,Fornecedor 07,PIX,3096.02,3147.62,Pago
+MOV-00062,2024-12-12,2025-01-13,2025-01-11,Saída,Administrativo,Operações,Fornecedor 07,Transferência,7706.5,7510.45,Pago
+MOV-00063,2024-12-12,2025-01-04,2024-12-30,Saída,Logística,Tecnologia,Fornecedor 05,Transferência,7984.65,7911.45,Pago
+MOV-00064,2024-12-23,2025-01-16,2025-01-16,Saída,Fornecedores,Operações,Fornecedor 28,Boleto,5946.66,5995.04,Pago
+MOV-00065,2024-12-07,2025-01-09,2025-01-11,Saída,Tecnologia,Administrativo,Fornecedor 18,Transferência,12109.85,12084.33,Pago
+MOV-00066,2024-12-10,2025-01-03,2025-01-05,Saída,Logística,Administrativo,Fornecedor 40,Cartão,10587.26,10424.55,Pago
+MOV-00067,2024-12-18,2025-01-16,2025-01-15,Saída,Pessoal,Tecnologia,Fornecedor 36,PIX,9750.14,9656.74,Pago
+MOV-00068,2024-12-15,2025-01-14,2025-01-12,Saída,Pessoal,Marketing,Fornecedor 29,PIX,8913.56,9015.5,Pago
+MOV-00069,2024-12-28,2025-01-23,2025-01-23,Saída,Fornecedores,Tecnologia,Fornecedor 28,Transferência,3704.04,3698.1,Pago
+MOV-00070,2024-12-06,2025-01-08,2025-01-06,Saída,Pessoal,Administrativo,Fornecedor 45,Boleto,9566.23,9460.36,Pago
+MOV-00071,2024-12-24,2025-01-09,2025-01-08,Saída,Fornecedores,Tecnologia,Fornecedor 15,Transferência,9546.23,9821.45,Pago
+MOV-00072,2024-12-22,2025-01-18,2025-01-13,Saída,Fornecedores,Tecnologia,Fornecedor 45,Boleto,1359.88,1398.58,Pago
+MOV-00073,2024-12-11,2025-01-04,2025-01-03,Saída,Marketing,Tecnologia,Fornecedor 12,PIX,9706.55,9688.73,Pago
+MOV-00074,2024-12-07,2025-01-04,2025-01-05,Saída,Fornecedores,Comercial,Fornecedor 10,Boleto,10937.47,10932.05,Pago
+MOV-00075,2024-12-11,2025-01-03,2024-12-30,Saída,Logística,Administrativo,Fornecedor 39,Boleto,11925.12,11966.67,Pago
+MOV-00076,2024-12-17,2025-01-15,2025-01-16,Saída,Tecnologia,Comercial,Fornecedor 40,PIX,5498.27,5434.07,Pago
+MOV-00077,2024-12-23,2025-01-07,2025-01-03,Saída,Administrativo,Administrativo,Fornecedor 05,Boleto,3548.0,3474.99,Pago
+MOV-00078,2024-12-19,2025-01-20,2025-01-15,Saída,Fornecedores,Tecnologia,Fornecedor 45,Cartão,6290.69,6189.34,Pago
+MOV-00079,2024-12-13,2025-01-09,2025-01-07,Saída,Fornecedores,Operações,Fornecedor 42,Boleto,3837.69,3820.45,Pago
+MOV-00080,2024-12-06,2025-01-03,2025-01-13,Saída,Logística,Tecnologia,Fornecedor 29,PIX,10540.93,10601.04,Pago em atraso
+MOV-00081,2025-01-15,2025-02-13,2025-02-15,Entrada,Vendas B2B,Comercial,Cliente 28,Transferência,8090.18,8059.97,Pago
+MOV-00082,2025-01-08,2025-02-08,2025-02-03,Entrada,Assinaturas,Tecnologia,Cliente 37,PIX,3480.53,3584.86,Pago
+MOV-00083,2025-01-20,2025-02-17,2025-02-16,Entrada,Assinaturas,Marketing,Cliente 41,Cartão,5954.56,5840.76,Pago
+MOV-00084,2025-01-25,2025-02-14,2025-02-10,Entrada,Serviços,Marketing,Cliente 45,Cartão,10839.13,11071.78,Pago
+MOV-00085,2025-02-07,2025-02-27,2025-02-22,Entrada,Vendas B2B,Tecnologia,Cliente 21,PIX,18711.97,18661.25,Pago
+MOV-00086,2025-01-21,2025-02-17,2025-02-12,Entrada,Serviços,Marketing,Cliente 27,PIX,9748.37,9840.59,Pago
+MOV-00087,2025-02-09,2025-02-25,2025-02-27,Entrada,Vendas B2B,Tecnologia,Cliente 36,Boleto,9045.96,9187.07,Pago
+MOV-00088,2025-01-25,2025-02-23,2025-02-18,Entrada,Serviços,Operações,Cliente 11,Transferência,10310.71,10603.42,Pago
+MOV-00089,2025-01-21,2025-02-03,2025-01-30,Entrada,Assinaturas,Operações,Cliente 32,Transferência,12201.7,12173.48,Pago
+MOV-00090,2025-01-31,2025-02-27,2025-03-01,Entrada,Vendas B2B,Operações,Cliente 25,Boleto,7582.1,7465.52,Pago
+MOV-00091,2025-01-13,2025-02-05,2025-02-04,Entrada,Serviços,Tecnologia,Cliente 33,Transferência,11472.54,11660.24,Pago
+MOV-00092,2025-01-17,2025-02-10,2025-02-12,Entrada,Serviços,Administrativo,Cliente 31,Transferência,7738.08,7907.66,Pago
+MOV-00093,2025-01-12,2025-02-13,2025-02-13,Entrada,Vendas B2B,Operações,Cliente 37,Cartão,15691.27,16039.24,Pago
+MOV-00094,2024-12-29,2025-02-02,2025-02-04,Entrada,Vendas B2B,Marketing,Cliente 25,Boleto,15901.22,16097.02,Pago
+MOV-00095,2025-01-24,2025-02-17,2025-02-17,Entrada,Vendas B2B,Comercial,Cliente 34,Cartão,3665.34,3746.64,Pago
+MOV-00096,2025-01-24,2025-02-28,2025-02-25,Entrada,Vendas B2B,Tecnologia,Cliente 22,Cartão,5440.37,5301.58,Pago
+MOV-00097,2025-01-29,2025-02-28,2025-03-01,Entrada,Assinaturas,Marketing,Cliente 35,PIX,17164.05,17631.74,Pago
+MOV-00098,2025-01-30,2025-02-22,2025-02-20,Entrada,Assinaturas,Comercial,Cliente 41,PIX,6941.67,7044.45,Pago
+MOV-00099,2025-01-11,2025-02-01,2025-02-03,Entrada,Vendas B2B,Marketing,Cliente 10,Boleto,14550.21,14369.82,Pago
+MOV-00100,2025-02-04,2025-02-26,2025-02-23,Entrada,Assinaturas,Administrativo,Cliente 44,Boleto,12428.3,12114.34,Pago
+MOV-00101,2025-01-08,2025-02-08,2025-02-07,Entrada,Vendas B2B,Comercial,Cliente 30,Transferência,12713.75,12682.91,Pago
+MOV-00102,2025-01-23,2025-02-15,2025-02-14,Entrada,Assinaturas,Tecnologia,Cliente 30,Transferência,5669.34,5716.6,Pago
+MOV-00103,2025-01-19,2025-02-16,2025-03-01,Entrada,Vendas B2B,Tecnologia,Cliente 45,Transferência,9425.6,9466.27,Pago em atraso
+MOV-00104,2025-01-11,2025-02-13,2025-02-08,Entrada,Vendas B2B,Marketing,Cliente 19,Boleto,16804.06,17218.06,Pago
+MOV-00105,2025-01-19,2025-02-21,2025-02-20,Entrada,Assinaturas,Operações,Cliente 41,PIX,8889.25,8984.06,Pago
+MOV-00106,2025-01-08,2025-02-10,2025-02-05,Entrada,Serviços,Operações,Cliente 06,Transferência,13760.57,13826.27,Pago
+MOV-00107,2025-01-17,2025-02-07,2025-02-25,Entrada,Vendas B2B,Administrativo,Cliente 33,Transferência,9936.06,10160.49,Pago em atraso
+MOV-00108,2025-02-07,2025-02-27,2025-02-26,Entrada,Serviços,Comercial,Cliente 30,PIX,7309.48,7417.61,Pago
+MOV-00109,2025-01-24,2025-02-28,2025-03-01,Entrada,Vendas B2B,Administrativo,Cliente 24,PIX,19064.98,19599.49,Pago
+MOV-00110,2025-01-18,2025-02-18,2025-03-02,Entrada,Assinaturas,Tecnologia,Cliente 38,Cartão,3282.6,3316.64,Pago em atraso
+MOV-00111,2025-01-08,2025-02-04,2025-02-06,Entrada,Serviços,Tecnologia,Cliente 40,Boleto,18630.76,18099.81,Pago
+MOV-00112,2025-02-02,2025-02-15,2025-02-14,Entrada,Assinaturas,Operações,Cliente 03,PIX,13579.37,13700.96,Pago
+MOV-00113,2025-01-14,2025-02-04,2025-02-01,Entrada,Vendas B2B,Administrativo,Cliente 27,Boleto,11213.8,11138.88,Pago
+MOV-00114,2025-02-09,2025-02-27,2025-02-28,Entrada,Serviços,Comercial,Cliente 45,Transferência,13902.75,14268.99,Pago
+MOV-00115,2025-01-18,2025-02-08,2025-02-04,Saída,Fornecedores,Administrativo,Fornecedor 42,Transferência,6785.32,6981.11,Pago
+MOV-00116,2025-01-19,2025-02-04,2025-02-06,Saída,Fornecedores,Administrativo,Fornecedor 02,PIX,4706.03,4590.73,Pago
+MOV-00117,2025-01-02,2025-02-05,2025-02-03,Saída,Tecnologia,Administrativo,Fornecedor 14,Boleto,4308.04,4196.53,Pago
+MOV-00118,2025-02-11,2025-02-25,2025-02-20,Saída,Logística,Operações,Fornecedor 35,Transferência,4177.84,4122.01,Pago
+MOV-00119,2025-01-24,2025-02-28,2025-03-01,Saída,Tecnologia,Operações,Fornecedor 38,Transferência,2661.96,2639.32,Pago
+MOV-00120,2025-01-11,2025-02-05,2025-02-01,Saída,Fornecedores,Marketing,Fornecedor 24,PIX,4576.53,4643.99,Pago
+MOV-00121,2025-02-14,2025-02-24,2025-02-23,Saída,Pessoal,Comercial,Fornecedor 31,Cartão,13789.66,13754.95,Pago
+MOV-00122,2025-02-01,2025-02-15,2025-02-18,Saída,Pessoal,Comercial,Fornecedor 09,Transferência,14850.17,14691.67,Pago em atraso
+MOV-00123,2025-01-25,2025-02-23,2025-02-22,Saída,Marketing,Marketing,Fornecedor 07,PIX,8517.94,8494.29,Pago
+MOV-00124,2025-02-08,2025-02-25,2025-02-23,Saída,Logística,Marketing,Fornecedor 22,Cartão,9325.34,9286.21,Pago
+MOV-00125,2025-01-11,2025-02-11,2025-02-11,Saída,Pessoal,Marketing,Fornecedor 05,PIX,10491.78,10777.32,Pago
+MOV-00126,2025-01-08,2025-02-04,2025-02-04,Saída,Logística,Comercial,Fornecedor 38,Transferência,2456.32,2502.27,Pago
+MOV-00127,2025-01-26,2025-02-28,2025-03-01,Saída,Marketing,Comercial,Fornecedor 19,Transferência,6367.93,6508.57,Pago
+MOV-00128,2025-01-26,2025-02-22,2025-02-18,Saída,Pessoal,Tecnologia,Fornecedor 08,Transferência,9403.85,9319.28,Pago
+MOV-00129,2025-01-25,2025-02-25,2025-02-20,Saída,Pessoal,Tecnologia,Fornecedor 02,Boleto,16297.19,16403.77,Pago
+MOV-00130,2025-01-14,2025-02-11,2025-02-08,Saída,Fornecedores,Marketing,Fornecedor 05,Boleto,10698.6,10936.02,Pago
+MOV-00131,2025-01-10,2025-02-03,2025-02-01,Saída,Tecnologia,Tecnologia,Fornecedor 11,Transferência,13277.79,13179.16,Pago
+MOV-00132,2025-01-17,2025-02-20,2025-02-22,Saída,Pessoal,Administrativo,Fornecedor 04,PIX,17346.34,16987.87,Pago
+MOV-00133,2025-01-13,2025-02-16,2025-02-17,Saída,Fornecedores,Administrativo,Fornecedor 08,Transferência,9461.1,9332.33,Pago
+MOV-00134,2025-01-25,2025-02-16,2025-02-15,Saída,Pessoal,Administrativo,Fornecedor 04,PIX,14480.5,14085.54,Pago
+MOV-00135,2025-02-12,2025-02-25,2025-02-24,Saída,Fornecedores,Comercial,Fornecedor 32,Cartão,12951.56,12787.94,Pago
+MOV-00136,2025-01-21,2025-02-23,2025-02-23,Saída,Fornecedores,Comercial,Fornecedor 28,PIX,5991.02,5837.2,Pago
+MOV-00137,2025-01-23,2025-02-14,2025-02-15,Saída,Pessoal,Comercial,Fornecedor 21,Boleto,10497.36,10364.79,Pago
+MOV-00138,2025-02-14,2025-02-27,2025-02-27,Saída,Logística,Operações,Fornecedor 28,Cartão,8921.45,8700.98,Pago
+MOV-00139,2025-01-12,2025-02-11,2025-02-08,Saída,Pessoal,Comercial,Fornecedor 34,Boleto,10466.99,10200.95,Pago
+MOV-00140,2025-02-10,2025-02-24,2025-02-21,Saída,Logística,Tecnologia,Fornecedor 13,Boleto,5611.26,5522.47,Pago
+MOV-00141,2025-01-24,2025-02-21,2025-03-09,Saída,Marketing,Administrativo,Fornecedor 29,Transferência,10671.57,10648.49,Pago em atraso
+MOV-00142,2025-01-17,2025-02-05,2025-02-07,Saída,Logística,Tecnologia,Fornecedor 38,PIX,9033.44,9002.12,Pago
+MOV-00143,2025-01-21,2025-02-02,2025-02-12,Saída,Pessoal,Administrativo,Fornecedor 39,Cartão,12117.99,11810.24,Pago em atraso
+MOV-00144,2025-01-08,2025-02-02,2025-01-31,Saída,Pessoal,Administrativo,Fornecedor 10,PIX,15715.81,15547.52,Pago
+MOV-00145,2025-01-22,2025-02-23,2025-03-01,Saída,Pessoal,Marketing,Fornecedor 29,Boleto,16212.41,15764.11,Pago em atraso
+MOV-00146,2025-01-26,2025-02-25,2025-02-20,Saída,Pessoal,Tecnologia,Fornecedor 05,Transferência,11307.84,11504.07,Pago
+MOV-00147,2025-01-13,2025-02-10,2025-02-07,Saída,Fornecedores,Operações,Fornecedor 23,Transferência,9663.6,9566.98,Pago
+MOV-00148,2025-01-22,2025-02-13,2025-02-09,Saída,Administrativo,Tecnologia,Fornecedor 09,PIX,9911.18,9797.94,Pago
+MOV-00149,2025-01-27,2025-02-12,2025-02-22,Saída,Marketing,Tecnologia,Fornecedor 32,Boleto,6523.1,6397.96,Pago em atraso
+MOV-00150,2025-01-07,2025-02-03,2025-01-30,Saída,Fornecedores,Administrativo,Fornecedor 03,Transferência,3002.39,3003.78,Pago
+MOV-00151,2025-01-19,2025-02-20,2025-02-17,Saída,Logística,Administrativo,Fornecedor 11,Cartão,8920.29,8749.47,Pago
+MOV-00152,2025-01-21,2025-02-24,2025-02-26,Saída,Fornecedores,Marketing,Fornecedor 15,Boleto,5795.08,5833.53,Pago
+MOV-00153,2025-02-08,2025-02-27,2025-03-01,Saída,Pessoal,Marketing,Fornecedor 33,Cartão,12197.27,12169.23,Pago
+MOV-00154,2025-02-01,2025-02-26,2025-02-25,Saída,Administrativo,Tecnologia,Fornecedor 36,PIX,11369.65,11064.16,Pago
+MOV-00155,2025-01-09,2025-02-04,2025-02-01,Saída,Tecnologia,Operações,Fornecedor 28,PIX,7662.46,7558.0,Pago
+MOV-00156,2025-01-24,2025-02-15,2025-02-10,Saída,Administrativo,Administrativo,Fornecedor 24,Boleto,4042.84,4022.2,Pago
+MOV-00157,2025-01-28,2025-02-11,2025-02-11,Saída,Pessoal,Comercial,Fornecedor 19,Cartão,9532.47,9699.12,Pago
+MOV-00158,2025-02-13,2025-02-23,2025-02-18,Saída,Marketing,Tecnologia,Fornecedor 14,Boleto,3017.51,3090.99,Pago
+MOV-00159,2025-01-24,2025-02-04,2025-02-02,Saída,Pessoal,Operações,Fornecedor 27,Cartão,12837.71,12684.54,Pago
+MOV-00160,2025-01-19,2025-02-16,2025-02-11,Saída,Fornecedores,Operações,Fornecedor 10,Transferência,11613.48,11705.43,Pago
+MOV-00161,2025-02-24,2025-03-08,2025-03-05,Entrada,Vendas B2B,Administrativo,Cliente 24,PIX,14038.34,14176.79,Pago
+MOV-00162,2025-03-01,2025-03-26,2025-03-21,Entrada,Serviços,Comercial,Cliente 41,Cartão,12795.7,12711.6,Pago
+MOV-00163,2025-01-27,2025-03-01,2025-02-25,Entrada,Serviços,Comercial,Cliente 38,Transferência,7692.97,7621.33,Pago
+MOV-00164,2025-02-08,2025-03-11,2025-03-08,Entrada,Vendas B2B,Marketing,Cliente 45,Cartão,9426.18,9613.04,Pago
+MOV-00165,2025-02-15,2025-03-03,2025-03-05,Entrada,Assinaturas,Comercial,Cliente 13,PIX,17494.04,17008.04,Pago
+MOV-00166,2025-02-07,2025-03-13,2025-03-15,Entrada,Vendas B2B,Operações,Cliente 19,Transferência,8684.34,8555.8,Pago
+MOV-00167,2025-02-26,2025-03-21,2025-03-17,Entrada,Serviços,Marketing,Cliente 29,Cartão,4076.37,4149.58,Pago
+MOV-00168,2025-02-18,2025-03-23,2025-03-22,Entrada,Vendas B2B,Marketing,Cliente 06,Cartão,6518.75,6636.54,Pago
+MOV-00169,2025-02-15,2025-03-18,2025-03-14,Entrada,Assinaturas,Tecnologia,Cliente 20,Cartão,17684.56,17238.98,Pago
+MOV-00170,2025-03-02,2025-03-23,2025-03-25,Entrada,Assinaturas,Administrativo,Cliente 28,Transferência,10723.1,10428.66,Pago
+MOV-00171,2025-01-26,2025-03-02,2025-03-15,Entrada,Assinaturas,Operações,Cliente 02,Boleto,17142.3,17001.71,Pago em atraso
+MOV-00172,2025-02-13,2025-03-15,2025-03-18,Entrada,Serviços,Tecnologia,Cliente 24,Cartão,15150.12,14910.14,Pago em atraso
+MOV-00173,2025-01-30,2025-03-05,2025-03-05,Entrada,Serviços,Comercial,Cliente 37,Boleto,3805.47,3776.25,Pago
+MOV-00174,2025-03-06,2025-03-21,2025-03-17,Entrada,Assinaturas,Marketing,Cliente 34,Cartão,10229.71,9938.72,Pago
+MOV-00175,2025-02-24,2025-03-25,2025-03-27,Entrada,Serviços,Tecnologia,Cliente 45,Cartão,5305.47,5214.61,Pago
+MOV-00176,2025-01-27,2025-03-03,2025-03-05,Entrada,Vendas B2B,Tecnologia,Cliente 43,Transferência,5621.15,5788.86,Pago
+MOV-00177,2025-02-06,2025-03-10,2025-03-07,Entrada,Assinaturas,Operações,Cliente 24,Boleto,12899.62,13063.56,Pago
+MOV-00178,2025-02-06,2025-03-05,2025-03-07,Entrada,Vendas B2B,Administrativo,Cliente 24,Cartão,6767.59,6575.24,Pago
+MOV-00179,2025-02-16,2025-03-20,2025-03-16,Entrada,Assinaturas,Marketing,Cliente 34,Cartão,12928.61,12780.67,Pago
+MOV-00180,2025-02-07,2025-03-03,2025-03-14,Entrada,Assinaturas,Marketing,Cliente 44,Transferência,17702.09,17853.27,Pago em atraso
+MOV-00181,2025-03-04,2025-03-18,2025-03-15,Entrada,Vendas B2B,Marketing,Cliente 33,PIX,17802.49,18088.52,Pago
+MOV-00182,2025-02-21,2025-03-10,2025-03-10,Entrada,Serviços,Tecnologia,Cliente 34,Transferência,12339.24,12661.1,Pago
+MOV-00183,2025-03-02,2025-03-21,2025-03-20,Entrada,Serviços,Administrativo,Cliente 35,PIX,7639.47,7467.66,Pago
+MOV-00184,2025-02-19,2025-03-19,2025-03-30,Entrada,Vendas B2B,Comercial,Cliente 02,PIX,6199.32,6326.73,Pago em atraso
+MOV-00185,2025-02-24,2025-03-19,2025-03-17,Entrada,Vendas B2B,Administrativo,Cliente 41,PIX,14506.46,14738.82,Pago
+MOV-00186,2025-02-03,2025-03-10,2025-03-09,Entrada,Vendas B2B,Marketing,Cliente 20,Cartão,14255.4,14240.81,Pago
+MOV-00187,2025-02-14,2025-03-15,2025-03-17,Entrada,Vendas B2B,Operações,Cliente 21,Transferência,4289.12,4212.95,Pago
+MOV-00188,2025-02-28,2025-03-13,2025-03-25,Entrada,Assinaturas,Tecnologia,Cliente 16,Cartão,18359.86,18376.36,Pago em atraso
+MOV-00189,2025-02-04,2025-03-05,2025-03-15,Entrada,Vendas B2B,Marketing,Cliente 16,Boleto,11135.63,11433.21,Pago em atraso
+MOV-00190,2025-02-26,2025-03-24,2025-03-21,Entrada,Assinaturas,Marketing,Cliente 32,Transferência,19641.97,19639.93,Pago
+MOV-00191,2025-02-20,2025-03-13,2025-03-11,Entrada,Vendas B2B,Comercial,Cliente 04,Transferência,4818.59,4736.23,Pago
+MOV-00192,2025-03-08,2025-03-21,2025-03-20,Entrada,Vendas B2B,Marketing,Cliente 09,Transferência,18738.69,18779.94,Pago
+MOV-00193,2025-02-24,2025-03-12,2025-03-14,Entrada,Assinaturas,Tecnologia,Cliente 36,Transferência,16657.02,16727.26,Pago
+MOV-00194,2025-03-12,2025-03-25,2025-03-21,Entrada,Vendas B2B,Marketing,Cliente 24,Transferência,12095.97,11826.47,Pago
+MOV-00195,2025-03-06,2025-03-20,2025-03-15,Saída,Pessoal,Tecnologia,Fornecedor 31,Cartão,9180.81,8930.34,Pago
+MOV-00196,2025-02-04,2025-03-05,2025-03-05,Saída,Fornecedores,Tecnologia,Fornecedor 38,Transferência,13052.7,12788.38,Pago
+MOV-00197,2025-02-16,2025-03-19,2025-03-14,Saída,Pessoal,Comercial,Fornecedor 27,Transferência,13175.31,13071.24,Pago
+MOV-00198,2025-02-21,2025-03-23,2025-03-25,Saída,Tecnologia,Administrativo,Fornecedor 37,Boleto,10860.88,10708.09,Pago
+MOV-00199,2025-02-03,2025-03-06,2025-03-07,Saída,Tecnologia,Operações,Fornecedor 03,PIX,9008.75,8818.36,Pago
+MOV-00200,2025-02-08,2025-03-14,2025-03-12,Saída,Fornecedores,Administrativo,Fornecedor 31,PIX,7147.68,7109.24,Pago
+MOV-00201,2025-02-26,2025-03-18,2025-03-20,Saída,Tecnologia,Operações,Fornecedor 30,Transferência,8161.84,8174.32,Pago
+MOV-00202,2025-03-06,2025-03-22,2025-03-21,Saída,Pessoal,Operações,Fornecedor 18,Transferência,17542.33,17658.19,Pago
+MOV-00203,2025-02-13,2025-03-10,2025-03-08,Saída,Fornecedores,Tecnologia,Fornecedor 31,Transferência,14094.73,14255.61,Pago
+MOV-00204,2025-02-16,2025-03-10,2025-03-11,Saída,Pessoal,Tecnologia,Fornecedor 10,Transferência,15854.86,16231.34,Pago
+MOV-00205,2025-01-29,2025-03-03,2025-03-05,Saída,Fornecedores,Marketing,Fornecedor 14,Boleto,13864.89,13994.64,Pago
+MOV-00206,2025-02-13,2025-03-18,2025-03-15,Saída,Logística,Administrativo,Fornecedor 16,Boleto,4928.46,4812.91,Pago
+MOV-00207,2025-02-16,2025-03-08,2025-03-03,Saída,Fornecedores,Marketing,Fornecedor 07,Boleto,13210.12,12893.23,Pago
+MOV-00208,2025-02-18,2025-03-06,2025-03-08,Saída,Fornecedores,Tecnologia,Fornecedor 21,Transferência,8575.49,8563.89,Pago
+MOV-00209,2025-01-29,2025-03-03,2025-03-01,Saída,Marketing,Comercial,Fornecedor 12,Cartão,13246.08,13274.02,Pago
+MOV-00210,2025-02-15,2025-03-02,2025-03-03,Saída,Logística,Tecnologia,Fornecedor 03,PIX,3683.12,3746.76,Pago
+MOV-00211,2025-02-25,2025-03-11,2025-03-13,Saída,Fornecedores,Administrativo,Fornecedor 30,Transferência,9260.31,9476.59,Pago
+MOV-00212,2025-02-24,2025-03-06,2025-03-05,Saída,Fornecedores,Tecnologia,Fornecedor 19,Boleto,2858.4,2895.89,Pago
+MOV-00213,2025-02-10,2025-03-13,2025-03-13,Saída,Fornecedores,Comercial,Fornecedor 12,Boleto,12569.62,12257.95,Pago
+MOV-00214,2025-02-22,2025-03-13,2025-03-12,Saída,Pessoal,Administrativo,Fornecedor 37,PIX,7592.2,7799.03,Pago
+MOV-00215,2025-02-21,2025-03-08,2025-03-12,Saída,Fornecedores,Marketing,Fornecedor 44,Transferência,6083.35,6070.72,Pago em atraso
+MOV-00216,2025-02-24,2025-03-10,2025-03-08,Saída,Marketing,Marketing,Fornecedor 10,Cartão,9729.59,9565.62,Pago
+MOV-00217,2025-02-07,2025-03-14,2025-03-16,Saída,Tecnologia,Operações,Fornecedor 16,PIX,9298.92,9442.5,Pago
+MOV-00218,2025-03-05,2025-03-19,2025-03-17,Saída,Pessoal,Operações,Fornecedor 21,Cartão,11695.07,11746.09,Pago
+MOV-00219,2025-02-23,2025-03-19,2025-03-21,Saída,Fornecedores,Operações,Fornecedor 33,Cartão,4069.91,4145.29,Pago
+MOV-00220,2025-03-16,2025-03-26,2025-03-21,Saída,Pessoal,Operações,Fornecedor 38,PIX,12857.81,12777.54,Pago
+MOV-00221,2025-02-19,2025-03-03,2025-02-26,Saída,Fornecedores,Marketing,Fornecedor 03,Transferência,5887.12,6040.63,Pago
+MOV-00222,2025-03-02,2025-03-24,2025-03-25,Saída,Pessoal,Marketing,Fornecedor 25,Cartão,16365.33,16242.06,Pago
+MOV-00223,2025-03-01,2025-03-28,2025-03-28,Saída,Fornecedores,Marketing,Fornecedor 34,Boleto,13980.23,13660.33,Pago
+MOV-00224,2025-01-27,2025-03-01,2025-02-28,Saída,Tecnologia,Administrativo,Fornecedor 28,Cartão,4295.73,4286.19,Pago
+MOV-00225,2025-02-07,2025-03-12,2025-03-10,Saída,Logística,Comercial,Fornecedor 03,Cartão,4619.94,4741.19,Pago
+MOV-00226,2025-02-18,2025-03-01,2025-02-25,Saída,Marketing,Marketing,Fornecedor 39,PIX,13615.73,13289.69,Pago
+MOV-00227,2025-02-09,2025-03-15,2025-03-13,Saída,Fornecedores,Comercial,Fornecedor 09,Transferência,1964.86,1994.85,Pago
+MOV-00228,2025-03-05,2025-03-19,2025-03-19,Saída,Fornecedores,Administrativo,Fornecedor 15,Cartão,13356.58,13145.74,Pago
+MOV-00229,2025-03-13,2025-03-24,2025-03-25,Saída,Pessoal,Tecnologia,Fornecedor 42,Cartão,18477.05,18538.97,Pago
+MOV-00230,2025-02-08,2025-03-14,2025-03-13,Saída,Tecnologia,Administrativo,Fornecedor 31,Boleto,5550.21,5509.07,Pago
+MOV-00231,2025-02-24,2025-03-23,2025-03-25,Saída,Logística,Marketing,Fornecedor 27,Boleto,5315.13,5447.39,Pago
+MOV-00232,2025-01-29,2025-03-03,2025-03-03,Saída,Pessoal,Operações,Fornecedor 04,Transferência,11330.71,11053.65,Pago
+MOV-00233,2025-02-11,2025-03-03,2025-03-01,Saída,Pessoal,Tecnologia,Fornecedor 01,Boleto,7970.37,7960.52,Pago
+MOV-00234,2025-01-31,2025-03-04,2025-03-06,Saída,Administrativo,Administrativo,Fornecedor 14,Cartão,13953.23,14300.2,Pago
+MOV-00235,2025-03-04,2025-03-25,2025-03-27,Saída,Logística,Tecnologia,Fornecedor 17,Transferência,8598.04,8615.4,Pago
+MOV-00236,2025-03-03,2025-03-24,2025-03-24,Saída,Pessoal,Tecnologia,Fornecedor 27,PIX,8653.05,8868.16,Pago
+MOV-00237,2025-02-21,2025-03-09,2025-03-10,Saída,Pessoal,Tecnologia,Fornecedor 15,Cartão,9199.95,9086.9,Pago
+MOV-00238,2025-02-20,2025-03-22,2025-03-24,Saída,Pessoal,Marketing,Fornecedor 30,Boleto,13878.04,14266.49,Pago
+MOV-00239,2025-02-06,2025-03-05,2025-03-07,Saída,Tecnologia,Comercial,Fornecedor 34,PIX,5987.01,5873.51,Pago
+MOV-00240,2025-02-25,2025-03-27,2025-03-22,Saída,Logística,Operações,Fornecedor 05,Boleto,2357.93,2345.54,Pago
+MOV-00241,2025-04-02,2025-04-12,2025-04-28,Entrada,Vendas B2B,Comercial,Cliente 35,Cartão,12374.83,12493.1,Pago em atraso
+MOV-00242,2025-03-08,2025-04-09,2025-04-08,Entrada,Vendas B2B,Marketing,Cliente 12,PIX,12799.63,12428.81,Pago
+MOV-00243,2025-03-21,2025-04-08,2025-04-07,Entrada,Serviços,Marketing,Cliente 06,Transferência,12709.38,12949.75,Pago
+MOV-00244,2025-03-27,2025-04-08,2025-04-06,Entrada,Serviços,Comercial,Cliente 06,Cartão,11536.58,11398.12,Pago
+MOV-00245,2025-03-10,2025-04-02,2025-03-30,Entrada,Vendas B2B,Tecnologia,Cliente 37,PIX,13217.25,12886.31,Pago
+MOV-00246,2025-03-27,2025-04-08,2025-04-10,Entrada,Serviços,Tecnologia,Cliente 35,PIX,19789.91,19518.11,Pago
+MOV-00247,2025-02-28,2025-04-01,2025-03-29,Entrada,Vendas B2B,Marketing,Cliente 05,Transferência,18557.27,18838.14,Pago
+MOV-00248,2025-03-25,2025-04-27,2025-04-27,Entrada,Vendas B2B,Operações,Cliente 45,PIX,7617.11,7564.02,Pago
+MOV-00249,2025-03-13,2025-04-02,2025-04-10,Entrada,Vendas B2B,Administrativo,Cliente 40,Cartão,20779.46,21201.71,Pago em atraso
+MOV-00250,2025-03-31,2025-04-21,2025-04-23,Entrada,Serviços,Administrativo,Cliente 25,Cartão,9157.89,9152.73,Pago
+MOV-00251,2025-03-12,2025-04-13,2025-04-23,Entrada,Vendas B2B,Comercial,Cliente 06,Transferência,13812.26,14059.27,Pago em atraso
+MOV-00252,2025-04-08,2025-04-21,2025-05-04,Entrada,Vendas B2B,Comercial,Cliente 01,Transferência,16068.64,15891.9,Pago em atraso
+MOV-00253,2025-03-08,2025-04-04,2025-04-10,Entrada,Vendas B2B,Administrativo,Cliente 33,Cartão,16959.51,16889.28,Pago em atraso
+MOV-00254,2025-04-08,2025-04-18,2025-04-29,Entrada,Vendas B2B,Tecnologia,Cliente 27,Cartão,4911.4,5018.58,Pago em atraso
+MOV-00255,2025-04-03,2025-04-18,2025-04-16,Entrada,Assinaturas,Marketing,Cliente 11,Boleto,16304.8,16375.2,Pago
+MOV-00256,2025-03-17,2025-04-05,2025-04-19,Entrada,Vendas B2B,Marketing,Cliente 05,Transferência,8118.14,8009.01,Pago em atraso
+MOV-00257,2025-04-07,2025-04-21,2025-04-19,Entrada,Vendas B2B,Tecnologia,Cliente 01,Cartão,7726.84,7707.3,Pago
+MOV-00258,2025-03-27,2025-04-26,2025-04-28,Entrada,Vendas B2B,Administrativo,Cliente 09,Transferência,14427.77,14284.71,Pago
+MOV-00259,2025-03-18,2025-04-07,2025-04-04,Entrada,Vendas B2B,Tecnologia,Cliente 45,Cartão,20294.39,20860.09,Pago
+MOV-00260,2025-03-14,2025-04-11,2025-04-12,Entrada,Serviços,Operações,Cliente 38,Boleto,17329.49,17189.14,Pago
+MOV-00261,2025-04-05,2025-04-24,2025-04-22,Entrada,Assinaturas,Comercial,Cliente 27,Cartão,13170.58,13121.94,Pago
+MOV-00262,2025-03-28,2025-04-09,2025-04-10,Entrada,Vendas B2B,Marketing,Cliente 39,Cartão,8735.61,8887.13,Pago
+MOV-00263,2025-04-07,2025-04-28,2025-04-23,Entrada,Assinaturas,Administrativo,Cliente 39,PIX,12888.41,13113.23,Pago
+MOV-00264,2025-03-23,2025-04-22,2025-04-17,Entrada,Vendas B2B,Marketing,Cliente 22,Cartão,7756.27,7785.69,Pago
+MOV-00265,2025-03-17,2025-04-08,2025-04-06,Entrada,Vendas B2B,Marketing,Cliente 44,Boleto,5072.61,5056.11,Pago
+MOV-00266,2025-03-02,2025-04-04,2025-03-31,Entrada,Vendas B2B,Operações,Cliente 23,Transferência,3744.56,3658.3,Pago
+MOV-00267,2025-03-15,2025-04-17,2025-04-19,Entrada,Vendas B2B,Marketing,Cliente 21,PIX,17370.67,16951.3,Pago
+MOV-00268,2025-03-04,2025-04-04,2025-04-15,Entrada,Vendas B2B,Operações,Cliente 16,Boleto,17835.49,17993.84,Pago em atraso
+MOV-00269,2025-03-15,2025-04-14,2025-04-12,Entrada,Assinaturas,Operações,Cliente 12,Cartão,9240.63,9405.72,Pago
+MOV-00270,2025-03-06,2025-04-07,2025-04-08,Entrada,Vendas B2B,Operações,Cliente 14,Transferência,16529.8,16419.55,Pago
+MOV-00271,2025-03-18,2025-04-03,2025-03-31,Entrada,Assinaturas,Marketing,Cliente 08,Transferência,17809.38,17665.97,Pago
+MOV-00272,2025-03-24,2025-04-21,2025-04-22,Entrada,Assinaturas,Comercial,Cliente 23,Transferência,12083.38,12164.08,Pago
+MOV-00273,2025-03-30,2025-04-27,2025-04-26,Entrada,Serviços,Comercial,Cliente 44,Boleto,14377.02,14738.18,Pago
+MOV-00274,2025-03-12,2025-04-04,2025-04-01,Entrada,Vendas B2B,Administrativo,Cliente 09,Cartão,7583.04,7587.97,Pago
+MOV-00275,2025-03-27,2025-04-21,2025-04-18,Saída,Pessoal,Tecnologia,Fornecedor 09,Boleto,14011.08,14057.24,Pago
+MOV-00276,2025-03-21,2025-04-12,2025-04-14,Saída,Pessoal,Administrativo,Fornecedor 33,Cartão,8302.61,8121.55,Pago
+MOV-00277,2025-03-11,2025-04-15,2025-04-11,Saída,Pessoal,Operações,Fornecedor 19,PIX,16049.68,16112.66,Pago
+MOV-00278,2025-03-24,2025-04-06,2025-04-08,Saída,Fornecedores,Administrativo,Fornecedor 08,Transferência,8584.47,8610.08,Pago
+MOV-00279,2025-03-19,2025-04-12,2025-04-07,Saída,Tecnologia,Administrativo,Fornecedor 14,Cartão,12393.65,12586.99,Pago
+MOV-00280,2025-04-04,2025-04-25,2025-04-20,Saída,Fornecedores,Comercial,Fornecedor 29,PIX,12484.16,12446.51,Pago
+MOV-00281,2025-03-28,2025-04-26,2025-04-26,Saída,Tecnologia,Marketing,Fornecedor 11,Boleto,4575.44,4674.56,Pago
+MOV-00282,2025-03-28,2025-04-26,2025-05-08,Saída,Tecnologia,Administrativo,Fornecedor 11,Transferência,12263.61,12287.36,Pago em atraso
+MOV-00283,2025-03-16,2025-04-19,2025-04-15,Saída,Administrativo,Marketing,Fornecedor 04,Transferência,5317.99,5201.71,Pago
+MOV-00284,2025-04-11,2025-04-28,2025-04-25,Saída,Logística,Marketing,Fornecedor 32,Boleto,3107.93,3147.35,Pago
+MOV-00285,2025-03-13,2025-04-15,2025-04-18,Saída,Pessoal,Tecnologia,Fornecedor 45,Transferência,12557.86,12484.66,Pago em atraso
+MOV-00286,2025-04-04,2025-04-28,2025-04-24,Saída,Pessoal,Tecnologia,Fornecedor 05,Cartão,14537.08,14738.5,Pago
+MOV-00287,2025-03-18,2025-04-07,2025-04-07,Saída,Fornecedores,Administrativo,Fornecedor 37,Boleto,7144.86,7285.62,Pago
+MOV-00288,2025-03-18,2025-04-22,2025-04-17,Saída,Pessoal,Marketing,Fornecedor 02,PIX,11726.13,11444.4,Pago
+MOV-00289,2025-03-14,2025-04-15,2025-04-29,Saída,Administrativo,Operações,Fornecedor 42,Transferência,3522.55,3459.63,Pago em atraso
+MOV-00290,2025-03-19,2025-04-09,2025-04-09,Saída,Fornecedores,Operações,Fornecedor 04,Cartão,13852.96,13645.49,Pago
+MOV-00291,2025-04-15,2025-04-25,2025-04-21,Saída,Marketing,Operações,Fornecedor 31,PIX,11096.33,11231.95,Pago
+MOV-00292,2025-04-09,2025-04-22,2025-04-17,Saída,Fornecedores,Marketing,Fornecedor 45,Boleto,4432.03,4484.04,Pago
+MOV-00293,2025-04-07,2025-04-26,2025-04-26,Saída,Pessoal,Operações,Fornecedor 25,Boleto,8724.11,8654.79,Pago
+MOV-00294,2025-03-19,2025-04-03,2025-03-29,Saída,Marketing,Marketing,Fornecedor 23,Boleto,10444.95,10514.09,Pago
+MOV-00295,2025-04-02,2025-04-14,2025-04-16,Saída,Marketing,Comercial,Fornecedor 09,PIX,3434.42,3508.6,Pago
+MOV-00296,2025-03-15,2025-04-14,2025-04-11,Saída,Marketing,Comercial,Fornecedor 16,Transferência,6536.68,6437.76,Pago
+MOV-00297,2025-03-30,2025-04-28,2025-04-27,Saída,Tecnologia,Administrativo,Fornecedor 13,Cartão,10622.81,10435.07,Pago
+MOV-00298,2025-04-09,2025-04-26,2025-04-28,Saída,Fornecedores,Marketing,Fornecedor 41,PIX,2143.62,2128.94,Pago
+MOV-00299,2025-03-11,2025-04-11,2025-04-12,Saída,Pessoal,Operações,Fornecedor 31,PIX,19315.21,19159.23,Pago
+MOV-00300,2025-03-18,2025-04-09,2025-04-04,Saída,Fornecedores,Administrativo,Fornecedor 19,Cartão,2316.48,2378.84,Pago
+MOV-00301,2025-04-06,2025-04-18,2025-04-17,Saída,Pessoal,Administrativo,Fornecedor 14,Boleto,15228.34,14847.87,Pago
+MOV-00302,2025-04-04,2025-04-27,2025-04-23,Saída,Pessoal,Operações,Fornecedor 04,Boleto,15154.67,14982.06,Pago
+MOV-00303,2025-03-13,2025-04-15,2025-04-10,Saída,Fornecedores,Operações,Fornecedor 08,PIX,7209.4,7126.91,Pago
+MOV-00304,2025-03-02,2025-04-06,2025-04-06,Saída,Tecnologia,Tecnologia,Fornecedor 11,Transferência,10769.8,10784.67,Pago
+MOV-00305,2025-03-30,2025-04-09,2025-04-05,Saída,Fornecedores,Tecnologia,Fornecedor 28,Transferência,11831.51,12024.2,Pago
+MOV-00306,2025-04-10,2025-04-21,2025-05-06,Saída,Pessoal,Marketing,Fornecedor 37,Boleto,19175.6,19188.0,Pago em atraso
+MOV-00307,2025-03-24,2025-04-19,2025-04-15,Saída,Pessoal,Comercial,Fornecedor 03,PIX,8884.28,8739.5,Pago
+MOV-00308,2025-04-02,2025-04-13,2025-04-10,Saída,Fornecedores,Administrativo,Fornecedor 42,Cartão,7706.51,7905.87,Pago
+MOV-00309,2025-04-11,2025-04-24,2025-04-20,Saída,Fornecedores,Administrativo,Fornecedor 44,PIX,4726.34,4746.63,Pago
+MOV-00310,2025-03-14,2025-04-02,2025-03-29,Saída,Fornecedores,Tecnologia,Fornecedor 21,PIX,12141.04,12415.66,Pago
+MOV-00311,2025-03-22,2025-04-19,2025-04-17,Saída,Pessoal,Marketing,Fornecedor 13,Boleto,10037.92,10016.19,Pago
+MOV-00312,2025-02-28,2025-04-01,2025-04-01,Saída,Fornecedores,Comercial,Fornecedor 22,PIX,13848.59,13961.55,Pago
+MOV-00313,2025-04-07,2025-04-24,2025-04-20,Saída,Tecnologia,Marketing,Fornecedor 32,PIX,6433.25,6319.46,Pago
+MOV-00314,2025-03-14,2025-04-09,2025-04-07,Saída,Administrativo,Marketing,Fornecedor 45,Transferência,3314.41,3393.42,Pago
+MOV-00315,2025-03-20,2025-04-17,2025-04-18,Saída,Pessoal,Comercial,Fornecedor 28,Boleto,14523.09,14152.6,Pago
+MOV-00316,2025-03-09,2025-04-11,2025-04-12,Saída,Fornecedores,Tecnologia,Fornecedor 21,Cartão,4896.05,4955.02,Pago
+MOV-00317,2025-03-23,2025-04-07,2025-04-03,Saída,Fornecedores,Marketing,Fornecedor 30,Transferência,2411.88,2362.01,Pago
+MOV-00318,2025-03-25,2025-04-07,2025-04-09,Saída,Pessoal,Comercial,Fornecedor 11,Transferência,19052.69,18784.06,Pago
+MOV-00319,2025-03-01,2025-04-02,2025-04-02,Saída,Logística,Operações,Fornecedor 23,Cartão,10708.17,10482.22,Pago
+MOV-00320,2025-03-10,2025-04-06,2025-04-19,Saída,Pessoal,Administrativo,Fornecedor 16,PIX,10739.97,10968.47,Pago em atraso
+MOV-00321,2025-04-18,2025-05-05,2025-05-07,Entrada,Vendas B2B,Operações,Cliente 13,Cartão,17360.5,17704.63,Pago
+MOV-00322,2025-05-09,2025-05-21,2025-05-30,Entrada,Vendas B2B,Comercial,Cliente 05,Boleto,14310.46,14668.88,Pago em atraso
+MOV-00323,2025-04-11,2025-05-05,2025-05-16,Entrada,Serviços,Comercial,Cliente 11,Cartão,11027.32,10777.57,Pago em atraso
+MOV-00324,2025-04-15,2025-05-01,2025-05-02,Entrada,Serviços,Operações,Cliente 18,Transferência,10176.38,9976.6,Pago
+MOV-00325,2025-04-25,2025-05-20,2025-05-18,Entrada,Vendas B2B,Marketing,Cliente 36,Cartão,5847.85,5899.53,Pago
+MOV-00326,2025-03-31,2025-05-05,2025-05-03,Entrada,Vendas B2B,Administrativo,Cliente 02,Cartão,8151.99,8215.94,Pago
+MOV-00327,2025-04-22,2025-05-18,2025-05-18,Entrada,Assinaturas,Tecnologia,Cliente 25,Transferência,9545.88,9782.24,Pago
+MOV-00328,2025-04-13,2025-05-08,2025-05-17,Entrada,Vendas B2B,Administrativo,Cliente 23,Boleto,8838.98,8604.88,Pago em atraso
+MOV-00329,2025-05-05,2025-05-22,2025-05-17,Entrada,Serviços,Administrativo,Cliente 25,Transferência,4995.78,5074.93,Pago
+MOV-00330,2025-04-04,2025-05-06,2025-05-06,Entrada,Serviços,Tecnologia,Cliente 38,PIX,20657.32,21036.85,Pago
+MOV-00331,2025-04-14,2025-05-19,2025-05-17,Entrada,Assinaturas,Marketing,Cliente 35,Transferência,9415.34,9605.55,Pago
+MOV-00332,2025-04-07,2025-05-02,2025-04-30,Entrada,Vendas B2B,Comercial,Cliente 22,Boleto,3903.48,3791.04,Pago
+MOV-00333,2025-04-22,2025-05-06,2025-05-06,Entrada,Assinaturas,Administrativo,Cliente 10,PIX,9223.42,8979.68,Pago
+MOV-00334,2025-04-13,2025-05-03,2025-05-04,Entrada,Serviços,Tecnologia,Cliente 21,Boleto,18357.96,18452.71,Pago
+MOV-00335,2025-04-29,2025-05-14,2025-05-16,Entrada,Serviços,Administrativo,Cliente 45,Transferência,16103.5,16247.64,Pago
+MOV-00336,2025-04-03,2025-05-06,2025-05-05,Entrada,Vendas B2B,Comercial,Cliente 45,Cartão,13584.0,13280.27,Pago
+MOV-00337,2025-04-20,2025-05-19,2025-05-30,Entrada,Serviços,Operações,Cliente 41,PIX,16779.54,17203.43,Pago em atraso
+MOV-00338,2025-05-09,2025-05-24,2025-06-05,Entrada,Serviços,Comercial,Cliente 43,Transferência,5707.5,5872.69,Pago em atraso
+MOV-00339,2025-04-25,2025-05-08,2025-05-08,Entrada,Vendas B2B,Comercial,Cliente 04,Cartão,7896.11,7780.82,Pago
+MOV-00340,2025-04-15,2025-05-06,2025-05-08,Entrada,Vendas B2B,Administrativo,Cliente 25,PIX,10609.55,10852.57,Pago
+MOV-00341,2025-05-07,2025-05-19,2025-05-17,Entrada,Serviços,Comercial,Cliente 19,PIX,17094.03,16748.04,Pago
+MOV-00342,2025-04-21,2025-05-03,2025-05-04,Entrada,Vendas B2B,Administrativo,Cliente 06,Transferência,19956.65,19550.62,Pago
+MOV-00343,2025-05-01,2025-05-16,2025-05-17,Entrada,Assinaturas,Administrativo,Cliente 28,Boleto,14017.87,14390.0,Pago
+MOV-00344,2025-04-18,2025-05-07,2025-05-06,Entrada,Vendas B2B,Operações,Cliente 07,PIX,9053.62,9140.86,Pago
+MOV-00345,2025-05-04,2025-05-16,2025-05-28,Entrada,Vendas B2B,Tecnologia,Cliente 43,Cartão,12893.74,12509.88,Pago em atraso
+MOV-00346,2025-04-23,2025-05-06,2025-05-02,Entrada,Vendas B2B,Tecnologia,Cliente 26,Cartão,3688.64,3682.79,Pago
+MOV-00347,2025-04-11,2025-05-03,2025-05-04,Entrada,Vendas B2B,Tecnologia,Cliente 12,Cartão,14850.58,14569.8,Pago
+MOV-00348,2025-04-25,2025-05-09,2025-05-08,Entrada,Vendas B2B,Comercial,Cliente 06,Transferência,10962.47,11004.73,Pago
+MOV-00349,2025-04-29,2025-05-25,2025-05-20,Entrada,Assinaturas,Marketing,Cliente 35,Cartão,10509.99,10724.9,Pago
+MOV-00350,2025-04-14,2025-05-10,2025-05-12,Entrada,Assinaturas,Administrativo,Cliente 44,Boleto,7376.58,7377.51,Pago
+MOV-00351,2025-04-01,2025-05-06,2025-05-03,Entrada,Vendas B2B,Operações,Cliente 09,PIX,16539.86,17008.43,Pago
+MOV-00352,2025-04-26,2025-05-14,2025-05-11,Entrada,Vendas B2B,Tecnologia,Cliente 05,PIX,20600.01,21012.97,Pago
+MOV-00353,2025-05-01,2025-05-11,2025-05-13,Entrada,Vendas B2B,Administrativo,Cliente 38,Cartão,10217.78,10473.53,Pago
+MOV-00354,2025-04-21,2025-05-19,2025-05-15,Entrada,Vendas B2B,Comercial,Cliente 19,Transferência,5865.61,6015.16,Pago
+MOV-00355,2025-05-03,2025-05-21,2025-05-23,Saída,Logística,Marketing,Fornecedor 10,Cartão,4837.08,4702.84,Pago
+MOV-00356,2025-04-23,2025-05-11,2025-05-06,Saída,Fornecedores,Tecnologia,Fornecedor 02,Transferência,13006.23,13198.01,Pago
+MOV-00357,2025-04-22,2025-05-09,2025-05-05,Saída,Logística,Operações,Fornecedor 20,Cartão,5345.41,5496.95,Pago
+MOV-00358,2025-05-08,2025-05-24,2025-05-20,Saída,Tecnologia,Marketing,Fornecedor 32,Transferência,5578.08,5473.64,Pago
+MOV-00359,2025-04-02,2025-05-06,2025-05-23,Saída,Logística,Administrativo,Fornecedor 37,PIX,8117.25,8070.2,Pago em atraso
+MOV-00360,2025-04-26,2025-05-07,2025-05-05,Saída,Fornecedores,Tecnologia,Fornecedor 13,Transferência,12818.23,12459.12,Pago
+MOV-00361,2025-04-05,2025-05-04,2025-05-02,Saída,Pessoal,Marketing,Fornecedor 12,Cartão,12101.44,12008.84,Pago
+MOV-00362,2025-04-04,2025-05-06,2025-05-05,Saída,Marketing,Comercial,Fornecedor 19,PIX,5955.45,6044.41,Pago
+MOV-00363,2025-04-19,2025-05-07,2025-05-05,Saída,Pessoal,Marketing,Fornecedor 33,PIX,14127.89,14278.52,Pago
+MOV-00364,2025-04-23,2025-05-22,2025-05-27,Saída,Logística,Comercial,Fornecedor 15,Transferência,14019.33,14143.29,Pago em atraso
+MOV-00365,2025-05-01,2025-05-23,2025-05-22,Saída,Marketing,Tecnologia,Fornecedor 30,Transferência,13704.12,13641.47,Pago
+MOV-00366,2025-05-07,2025-05-17,2025-05-18,Saída,Fornecedores,Administrativo,Fornecedor 43,Transferência,5333.53,5360.57,Pago
+MOV-00367,2025-05-04,2025-05-22,2025-05-18,Saída,Pessoal,Tecnologia,Fornecedor 18,Transferência,10780.67,10674.77,Pago
+MOV-00368,2025-05-04,2025-05-21,2025-05-18,Saída,Marketing,Comercial,Fornecedor 39,Cartão,13824.06,13838.4,Pago
+MOV-00369,2025-05-06,2025-05-24,2025-06-09,Saída,Marketing,Marketing,Fornecedor 26,Cartão,10278.75,10585.55,Pago em atraso
+MOV-00370,2025-05-02,2025-05-19,2025-05-19,Saída,Tecnologia,Administrativo,Fornecedor 41,Cartão,9002.22,9124.59,Pago
+MOV-00371,2025-04-20,2025-05-17,2025-05-14,Saída,Logística,Operações,Fornecedor 19,PIX,10162.67,10370.38,Pago
+MOV-00372,2025-04-28,2025-05-18,2025-05-15,Saída,Pessoal,Comercial,Fornecedor 15,Transferência,15895.57,16321.82,Pago
+MOV-00373,2025-04-16,2025-05-14,2025-05-14,Saída,Fornecedores,Tecnologia,Fornecedor 30,PIX,12769.27,12670.96,Pago
+MOV-00374,2025-04-19,2025-05-20,2025-05-27,Saída,Pessoal,Marketing,Fornecedor 34,Transferência,14258.7,14259.11,Pago em atraso
+MOV-00375,2025-04-05,2025-05-07,2025-05-09,Saída,Pessoal,Operações,Fornecedor 06,Cartão,9256.07,9057.93,Pago
+MOV-00376,2025-03-29,2025-05-02,2025-05-11,Saída,Pessoal,Operações,Fornecedor 37,Boleto,11135.95,10941.77,Pago em atraso
+MOV-00377,2025-04-25,2025-05-20,2025-05-21,Saída,Pessoal,Marketing,Fornecedor 01,PIX,8530.91,8481.46,Pago
+MOV-00378,2025-05-01,2025-05-11,2025-05-09,Saída,Pessoal,Operações,Fornecedor 15,Transferência,18494.95,17959.98,Pago
+MOV-00379,2025-04-21,2025-05-10,2025-05-05,Saída,Pessoal,Marketing,Fornecedor 34,Transferência,13331.24,13169.83,Pago
+MOV-00380,2025-04-11,2025-05-16,2025-05-14,Saída,Pessoal,Marketing,Fornecedor 02,Boleto,9059.7,8877.54,Pago
+MOV-00381,2025-04-05,2025-05-07,2025-05-04,Saída,Fornecedores,Comercial,Fornecedor 25,Transferência,14251.06,13928.84,Pago
+MOV-00382,2025-05-10,2025-05-20,2025-05-16,Saída,Tecnologia,Comercial,Fornecedor 45,PIX,9526.13,9613.9,Pago
+MOV-00383,2025-04-16,2025-05-16,2025-05-14,Saída,Pessoal,Comercial,Fornecedor 20,Cartão,13839.2,14001.28,Pago
+MOV-00384,2025-04-26,2025-05-09,2025-05-06,Saída,Marketing,Administrativo,Fornecedor 40,PIX,10040.08,9991.18,Pago
+MOV-00385,2025-04-20,2025-05-16,2025-05-14,Saída,Fornecedores,Operações,Fornecedor 23,Cartão,11637.2,11831.28,Pago
+MOV-00386,2025-05-06,2025-05-16,2025-05-18,Saída,Fornecedores,Comercial,Fornecedor 43,PIX,1901.76,1882.43,Pago
+MOV-00387,2025-05-10,2025-05-22,2025-05-18,Saída,Logística,Comercial,Fornecedor 17,Boleto,12296.44,12502.67,Pago
+MOV-00388,2025-04-13,2025-05-02,2025-04-29,Saída,Pessoal,Tecnologia,Fornecedor 44,Transferência,10566.23,10803.43,Pago
+MOV-00389,2025-04-17,2025-05-02,2025-05-07,Saída,Pessoal,Tecnologia,Fornecedor 23,Cartão,17352.67,17522.75,Pago em atraso
+MOV-00390,2025-05-02,2025-05-24,2025-05-24,Saída,Administrativo,Marketing,Fornecedor 30,Transferência,4891.58,4798.5,Pago
+MOV-00391,2025-04-14,2025-05-16,2025-05-13,Saída,Logística,Comercial,Fornecedor 11,PIX,10398.22,10156.81,Pago
+MOV-00392,2025-04-23,2025-05-22,2025-05-23,Saída,Pessoal,Comercial,Fornecedor 44,Boleto,16786.5,17067.67,Pago
+MOV-00393,2025-05-05,2025-05-15,2025-05-24,Saída,Pessoal,Administrativo,Fornecedor 37,Boleto,17772.81,17938.07,Pago em atraso
+MOV-00394,2025-04-08,2025-05-11,2025-05-07,Saída,Administrativo,Operações,Fornecedor 31,Transferência,10136.23,10095.39,Pago
+MOV-00395,2025-04-20,2025-05-05,2025-04-30,Saída,Marketing,Administrativo,Fornecedor 31,Cartão,9764.76,9478.64,Pago
+MOV-00396,2025-05-05,2025-05-16,2025-05-16,Saída,Logística,Administrativo,Fornecedor 15,Cartão,2364.91,2431.62,Pago
+MOV-00397,2025-05-02,2025-05-26,2025-05-22,Saída,Pessoal,Tecnologia,Fornecedor 08,Cartão,12819.85,13094.14,Pago
+MOV-00398,2025-04-08,2025-05-13,2025-05-08,Saída,Tecnologia,Administrativo,Fornecedor 40,Transferência,1619.15,1650.81,Pago
+MOV-00399,2025-05-10,2025-05-21,2025-05-21,Saída,Logística,Operações,Fornecedor 30,Transferência,8731.97,8660.37,Pago
+MOV-00400,2025-04-18,2025-05-22,2025-05-24,Saída,Pessoal,Operações,Fornecedor 01,Transferência,12982.13,12681.48,Pago
+MOV-00401,2025-06-15,2025-06-26,2025-06-26,Entrada,Vendas B2B,Operações,Cliente 32,Boleto,13550.5,13714.81,Pago
+MOV-00402,2025-05-23,2025-06-14,2025-06-21,Entrada,Serviços,Operações,Cliente 30,Boleto,15353.92,15066.07,Pago em atraso
+MOV-00403,2025-05-21,2025-06-14,2025-06-18,Entrada,Assinaturas,Marketing,Cliente 43,Boleto,4837.46,4916.45,Pago em atraso
+MOV-00404,2025-05-30,2025-06-24,2025-07-08,Entrada,Serviços,Administrativo,Cliente 12,Boleto,3123.87,3187.38,Pago em atraso
+MOV-00405,2025-05-22,2025-06-13,2025-06-13,Entrada,Assinaturas,Marketing,Cliente 39,Boleto,5179.03,5180.31,Pago
+MOV-00406,2025-05-12,2025-06-10,2025-06-07,Entrada,Vendas B2B,Administrativo,Cliente 20,Transferência,19016.82,18603.98,Pago
+MOV-00407,2025-06-02,2025-06-21,2025-06-19,Entrada,Assinaturas,Tecnologia,Cliente 44,Boleto,18551.56,18689.77,Pago
+MOV-00408,2025-05-03,2025-06-06,2025-06-06,Entrada,Serviços,Tecnologia,Cliente 36,Cartão,13822.63,13997.09,Pago
+MOV-00409,2025-05-31,2025-06-23,2025-06-22,Entrada,Assinaturas,Comercial,Cliente 34,PIX,18670.22,19093.07,Pago
+MOV-00410,2025-06-07,2025-06-22,2025-07-01,Entrada,Vendas B2B,Tecnologia,Cliente 44,Transferência,5459.77,5541.73,Pago em atraso
+MOV-00411,2025-06-02,2025-06-26,2025-06-21,Entrada,Vendas B2B,Comercial,Cliente 40,Boleto,4079.76,4045.17,Pago
+MOV-00412,2025-05-28,2025-06-08,2025-06-07,Entrada,Assinaturas,Marketing,Cliente 25,Cartão,12351.13,12494.11,Pago
+MOV-00413,2025-05-24,2025-06-11,2025-06-06,Entrada,Serviços,Operações,Cliente 40,Cartão,19219.43,18657.8,Pago
+MOV-00414,2025-05-27,2025-06-23,2025-06-23,Entrada,Serviços,Administrativo,Cliente 13,Boleto,18153.51,18431.38,Pago
+MOV-00415,2025-06-09,2025-06-22,2025-06-28,Entrada,Vendas B2B,Marketing,Cliente 03,Cartão,5991.59,6076.1,Pago em atraso
+MOV-00416,2025-05-13,2025-06-06,2025-06-05,Entrada,Vendas B2B,Operações,Cliente 03,Boleto,7429.92,7209.54,Pago
+MOV-00417,2025-05-28,2025-06-25,2025-06-24,Entrada,Serviços,Administrativo,Cliente 23,PIX,12941.11,12933.77,Pago
+MOV-00418,2025-05-24,2025-06-08,2025-06-04,Entrada,Assinaturas,Marketing,Cliente 35,Cartão,8318.29,8461.16,Pago
+MOV-00419,2025-05-22,2025-06-07,2025-06-07,Entrada,Vendas B2B,Administrativo,Cliente 34,Cartão,6716.81,6660.71,Pago
+MOV-00420,2025-05-22,2025-06-21,2025-07-03,Entrada,Serviços,Administrativo,Cliente 40,Boleto,16698.87,16644.43,Pago em atraso
+MOV-00421,2025-05-15,2025-06-11,2025-06-07,Entrada,Serviços,Tecnologia,Cliente 02,Transferência,14360.51,14262.18,Pago
+MOV-00422,2025-06-04,2025-06-16,2025-06-23,Entrada,Vendas B2B,Comercial,Cliente 11,PIX,11480.73,11356.95,Pago em atraso
+MOV-00423,2025-06-05,2025-06-21,2025-06-22,Entrada,Assinaturas,Administrativo,Cliente 45,Cartão,6544.23,6676.03,Pago
+MOV-00424,2025-06-04,2025-06-24,2025-06-19,Entrada,Assinaturas,Comercial,Cliente 06,PIX,18621.8,18576.24,Pago
+MOV-00425,2025-05-26,2025-06-18,2025-06-26,Entrada,Vendas B2B,Marketing,Cliente 29,Cartão,16210.55,16610.29,Pago em atraso
+MOV-00426,2025-05-24,2025-06-22,2025-06-23,Entrada,Vendas B2B,Comercial,Cliente 38,PIX,3331.85,3360.12,Pago
+MOV-00427,2025-05-29,2025-06-17,2025-06-27,Entrada,Assinaturas,Marketing,Cliente 25,Cartão,4254.66,4281.86,Pago em atraso
+MOV-00428,2025-05-02,2025-06-06,2025-06-03,Entrada,Serviços,Administrativo,Cliente 19,Boleto,3562.61,3615.36,Pago
+MOV-00429,2025-06-16,2025-06-26,2025-06-26,Entrada,Vendas B2B,Administrativo,Cliente 36,Boleto,17747.45,18234.5,Pago
+MOV-00430,2025-05-18,2025-06-20,2025-06-16,Entrada,Vendas B2B,Tecnologia,Cliente 14,Cartão,3135.33,3098.59,Pago
+MOV-00431,2025-05-18,2025-06-05,2025-06-03,Entrada,Serviços,Operações,Cliente 08,Boleto,17158.97,17279.31,Pago
+MOV-00432,2025-05-21,2025-06-02,2025-06-04,Entrada,Assinaturas,Tecnologia,Cliente 43,PIX,12450.9,12558.98,Pago
+MOV-00433,2025-05-19,2025-06-19,2025-06-19,Entrada,Vendas B2B,Operações,Cliente 07,Transferência,6322.81,6268.61,Pago
+MOV-00434,2025-05-23,2025-06-11,2025-06-11,Entrada,Assinaturas,Administrativo,Cliente 10,Transferência,17965.16,18090.57,Pago
+MOV-00435,2025-05-05,2025-06-06,2025-06-14,Saída,Logística,Marketing,Fornecedor 18,Transferência,13115.8,13340.6,Pago em atraso
+MOV-00436,2025-05-22,2025-06-16,2025-06-16,Saída,Fornecedores,Administrativo,Fornecedor 07,Boleto,10336.03,10506.43,Pago
+MOV-00437,2025-05-24,2025-06-09,2025-06-06,Saída,Marketing,Tecnologia,Fornecedor 41,PIX,2317.67,2372.08,Pago
+MOV-00438,2025-05-31,2025-06-28,2025-06-23,Saída,Tecnologia,Marketing,Fornecedor 38,Boleto,12296.06,12526.72,Pago
+MOV-00439,2025-06-04,2025-06-18,2025-06-20,Saída,Logística,Tecnologia,Fornecedor 26,Boleto,8101.98,8176.8,Pago
+MOV-00440,2025-06-16,2025-06-28,2025-06-30,Saída,Logística,Marketing,Fornecedor 24,PIX,8570.11,8570.69,Pago
+MOV-00441,2025-06-12,2025-06-26,2025-06-23,Saída,Marketing,Marketing,Fornecedor 11,Boleto,11752.59,11933.96,Pago
+MOV-00442,2025-05-25,2025-06-05,2025-06-07,Saída,Pessoal,Operações,Fornecedor 32,Boleto,16591.93,17029.14,Pago
+MOV-00443,2025-05-09,2025-06-02,2025-06-02,Saída,Fornecedores,Comercial,Fornecedor 03,Transferência,5858.33,5818.99,Pago
+MOV-00444,2025-05-24,2025-06-21,2025-06-20,Saída,Fornecedores,Operações,Fornecedor 25,Cartão,13236.29,13298.74,Pago
+MOV-00445,2025-05-27,2025-06-17,2025-06-15,Saída,Pessoal,Tecnologia,Fornecedor 32,Cartão,16191.61,16207.52,Pago
+MOV-00446,2025-05-06,2025-06-05,2025-06-03,Saída,Logística,Tecnologia,Fornecedor 14,Boleto,1389.26,1354.01,Pago
+MOV-00447,2025-06-03,2025-06-23,2025-06-21,Saída,Fornecedores,Comercial,Fornecedor 31,Cartão,5769.5,5739.94,Pago
+MOV-00448,2025-05-17,2025-06-14,2025-06-16,Saída,Pessoal,Operações,Fornecedor 09,PIX,14140.13,13824.42,Pago
+MOV-00449,2025-05-15,2025-06-06,2025-06-03,Saída,Logística,Administrativo,Fornecedor 37,PIX,3116.94,3120.05,Pago
+MOV-00450,2025-05-29,2025-06-27,2025-06-23,Saída,Logística,Marketing,Fornecedor 31,Boleto,10274.46,10099.75,Pago
+MOV-00451,2025-05-10,2025-06-05,2025-06-02,Saída,Fornecedores,Tecnologia,Fornecedor 11,Transferência,6367.42,6414.49,Pago
+MOV-00452,2025-05-24,2025-06-03,2025-06-04,Saída,Administrativo,Operações,Fornecedor 34,Cartão,8655.5,8464.5,Pago
+MOV-00453,2025-05-10,2025-06-06,2025-06-01,Saída,Logística,Administrativo,Fornecedor 08,PIX,8766.08,8964.76,Pago
+MOV-00454,2025-06-06,2025-06-27,2025-07-11,Saída,Pessoal,Comercial,Fornecedor 45,Cartão,13662.87,13680.94,Pago em atraso
+MOV-00455,2025-05-24,2025-06-26,2025-06-26,Saída,Fornecedores,Administrativo,Fornecedor 07,Cartão,11189.93,11249.72,Pago
+MOV-00456,2025-05-12,2025-06-08,2025-06-04,Saída,Fornecedores,Marketing,Fornecedor 17,Boleto,7184.95,7091.52,Pago
+MOV-00457,2025-05-10,2025-06-01,2025-05-28,Saída,Fornecedores,Operações,Fornecedor 45,Transferência,10467.48,10479.89,Pago
+MOV-00458,2025-05-21,2025-06-19,2025-06-20,Saída,Pessoal,Tecnologia,Fornecedor 44,Cartão,11729.18,11774.69,Pago
+MOV-00459,2025-05-30,2025-06-26,2025-06-23,Saída,Tecnologia,Marketing,Fornecedor 17,Transferência,6397.73,6347.91,Pago
+MOV-00460,2025-05-12,2025-06-05,2025-06-01,Saída,Pessoal,Operações,Fornecedor 07,Boleto,11424.61,11594.48,Pago
+MOV-00461,2025-05-21,2025-06-20,2025-06-15,Saída,Pessoal,Comercial,Fornecedor 06,Boleto,15814.31,15492.4,Pago
+MOV-00462,2025-05-07,2025-06-09,2025-06-05,Saída,Pessoal,Marketing,Fornecedor 26,Transferência,8045.73,8098.36,Pago
+MOV-00463,2025-06-09,2025-06-25,2025-06-27,Saída,Tecnologia,Administrativo,Fornecedor 19,Boleto,8667.07,8635.33,Pago
+MOV-00464,2025-05-27,2025-06-17,2025-06-14,Saída,Fornecedores,Operações,Fornecedor 42,PIX,8692.23,8782.99,Pago
+MOV-00465,2025-05-18,2025-06-09,2025-06-09,Saída,Administrativo,Administrativo,Fornecedor 13,PIX,2377.64,2401.84,Pago
+MOV-00466,2025-05-16,2025-06-03,2025-06-03,Saída,Tecnologia,Operações,Fornecedor 39,Boleto,2153.16,2133.46,Pago
+MOV-00467,2025-05-11,2025-06-06,2025-06-02,Saída,Pessoal,Tecnologia,Fornecedor 22,PIX,7135.7,7160.8,Pago
+MOV-00468,2025-05-27,2025-06-18,2025-06-17,Saída,Logística,Administrativo,Fornecedor 31,Boleto,13091.79,13244.33,Pago
+MOV-00469,2025-05-28,2025-06-15,2025-06-10,Saída,Tecnologia,Comercial,Fornecedor 25,Boleto,13147.58,13133.36,Pago
+MOV-00470,2025-06-01,2025-06-11,2025-06-11,Saída,Marketing,Tecnologia,Fornecedor 16,Transferência,4140.05,4144.15,Pago
+MOV-00471,2025-06-06,2025-06-27,2025-06-24,Saída,Fornecedores,Operações,Fornecedor 37,Transferência,9605.94,9592.43,Pago
+MOV-00472,2025-05-21,2025-06-07,2025-06-05,Saída,Fornecedores,Tecnologia,Fornecedor 14,Boleto,10498.41,10331.4,Pago
+MOV-00473,2025-06-08,2025-06-20,2025-06-16,Saída,Fornecedores,Marketing,Fornecedor 40,PIX,4383.5,4283.52,Pago
+MOV-00474,2025-05-08,2025-06-02,2025-06-02,Saída,Tecnologia,Administrativo,Fornecedor 18,Cartão,7977.33,8035.09,Pago
+MOV-00475,2025-06-03,2025-06-17,2025-06-15,Saída,Fornecedores,Comercial,Fornecedor 34,Cartão,10721.42,10882.35,Pago
+MOV-00476,2025-05-31,2025-06-13,2025-06-10,Saída,Pessoal,Administrativo,Fornecedor 30,Transferência,12561.98,12529.72,Pago
+MOV-00477,2025-05-09,2025-06-07,2025-06-03,Saída,Marketing,Tecnologia,Fornecedor 12,Transferência,1453.59,1438.37,Pago
+MOV-00478,2025-06-04,2025-06-20,2025-06-17,Saída,Fornecedores,Marketing,Fornecedor 45,Transferência,7113.56,7113.04,Pago
+MOV-00479,2025-05-17,2025-06-19,2025-06-17,Saída,Pessoal,Tecnologia,Fornecedor 16,Cartão,11997.95,12224.13,Pago
+MOV-00480,2025-06-16,2025-06-26,2025-06-23,Saída,Logística,Operações,Fornecedor 27,Cartão,3722.91,3716.88,Pago
+MOV-00481,2025-07-02,2025-07-21,2025-07-21,Entrada,Vendas B2B,Tecnologia,Cliente 36,PIX,16377.71,16658.1,Pago
+MOV-00482,2025-06-02,2025-07-02,2025-07-01,Entrada,Vendas B2B,Comercial,Cliente 29,Transferência,13296.26,13277.54,Pago
+MOV-00483,2025-06-25,2025-07-18,2025-07-17,Entrada,Vendas B2B,Comercial,Cliente 23,Boleto,8276.66,8199.26,Pago
+MOV-00484,2025-06-17,2025-07-18,2025-07-17,Entrada,Assinaturas,Administrativo,Cliente 32,Cartão,12677.96,12567.74,Pago
+MOV-00485,2025-06-10,2025-07-10,2025-07-07,Entrada,Serviços,Tecnologia,Cliente 27,Cartão,8592.28,8782.13,Pago
+MOV-00486,2025-06-17,2025-07-06,2025-07-06,Entrada,Serviços,Tecnologia,Cliente 39,Cartão,3884.43,3841.75,Pago
+MOV-00487,2025-07-13,2025-07-28,2025-07-30,Entrada,Vendas B2B,Comercial,Cliente 09,Boleto,9562.46,9513.11,Pago
+MOV-00488,2025-07-10,2025-07-23,2025-07-21,Entrada,Assinaturas,Comercial,Cliente 05,Cartão,17094.65,16753.01,Pago
+MOV-00489,2025-06-14,2025-07-13,2025-07-09,Entrada,Assinaturas,Operações,Cliente 06,Cartão,3200.75,3124.69,Pago
+MOV-00490,2025-06-25,2025-07-10,2025-07-07,Entrada,Vendas B2B,Comercial,Cliente 03,Transferência,6560.43,6415.29,Pago
+MOV-00491,2025-07-02,2025-07-16,2025-07-15,Entrada,Serviços,Administrativo,Cliente 12,Cartão,7743.06,7765.61,Pago
+MOV-00492,2025-06-24,2025-07-19,2025-07-18,Entrada,Assinaturas,Administrativo,Cliente 15,PIX,12464.94,12770.77,Pago
+MOV-00493,2025-06-05,2025-07-09,2025-07-10,Entrada,Vendas B2B,Operações,Cliente 23,Transferência,8359.91,8109.16,Pago
+MOV-00494,2025-06-12,2025-07-16,2025-07-18,Entrada,Vendas B2B,Marketing,Cliente 19,Boleto,2926.42,2891.23,Pago
+MOV-00495,2025-06-22,2025-07-07,2025-07-08,Entrada,Assinaturas,Marketing,Cliente 25,Boleto,11132.83,11062.53,Pago
+MOV-00496,2025-06-05,2025-07-08,2025-07-07,Entrada,Vendas B2B,Administrativo,Cliente 18,Cartão,9218.04,9098.95,Pago
+MOV-00497,2025-06-17,2025-07-05,2025-07-07,Entrada,Vendas B2B,Administrativo,Cliente 32,Boleto,3840.65,3867.78,Pago
+MOV-00498,2025-07-04,2025-07-18,2025-07-22,Entrada,Vendas B2B,Marketing,Cliente 01,Boleto,5112.67,5045.83,Pago em atraso
+MOV-00499,2025-06-12,2025-07-07,2025-07-06,Entrada,Vendas B2B,Tecnologia,Cliente 30,PIX,3023.82,3075.66,Pago
+MOV-00500,2025-06-10,2025-07-05,2025-07-18,Entrada,Vendas B2B,Operações,Cliente 13,Transferência,15621.9,15220.15,Pago em atraso
+MOV-00501,2025-06-10,2025-07-04,2025-07-02,Entrada,Assinaturas,Operações,Cliente 03,Boleto,15389.43,15283.06,Pago
+MOV-00502,2025-06-16,2025-07-17,2025-07-15,Entrada,Vendas B2B,Tecnologia,Cliente 21,Boleto,14519.14,14495.47,Pago
+MOV-00503,2025-06-29,2025-07-18,2025-07-17,Entrada,Assinaturas,Operações,Cliente 24,PIX,3441.23,3437.35,Pago
+MOV-00504,2025-06-19,2025-07-04,2025-07-05,Entrada,Serviços,Tecnologia,Cliente 38,PIX,6110.38,6046.04,Pago
+MOV-00505,2025-06-18,2025-07-02,2025-07-04,Entrada,Vendas B2B,Tecnologia,Cliente 06,Boleto,6494.96,6568.38,Pago
+MOV-00506,2025-06-20,2025-07-20,2025-07-15,Entrada,Vendas B2B,Operações,Cliente 45,PIX,4189.3,4078.65,Pago
+MOV-00507,2025-06-24,2025-07-18,2025-07-18,Entrada,Vendas B2B,Operações,Cliente 02,Cartão,6336.65,6452.81,Pago
+MOV-00508,2025-06-05,2025-07-02,2025-07-04,Entrada,Vendas B2B,Marketing,Cliente 13,Boleto,4847.93,4865.1,Pago
+MOV-00509,2025-07-01,2025-07-15,2025-07-12,Entrada,Assinaturas,Marketing,Cliente 19,Transferência,7719.95,7520.25,Pago
+MOV-00510,2025-07-15,2025-07-25,2025-07-26,Entrada,Assinaturas,Administrativo,Cliente 24,Boleto,9702.0,9838.02,Pago
+MOV-00511,2025-06-23,2025-07-18,2025-07-16,Entrada,Vendas B2B,Administrativo,Cliente 10,Transferência,3762.79,3768.22,Pago
+MOV-00512,2025-06-20,2025-07-04,2025-07-07,Entrada,Vendas B2B,Operações,Cliente 03,Boleto,12541.74,12198.43,Pago em atraso
+MOV-00513,2025-06-06,2025-07-02,2025-07-03,Entrada,Vendas B2B,Administrativo,Cliente 45,Transferência,5712.57,5766.7,Pago
+MOV-00514,2025-07-11,2025-07-23,2025-07-30,Entrada,Vendas B2B,Marketing,Cliente 41,PIX,6154.99,6212.51,Pago em atraso
+MOV-00515,2025-07-09,2025-07-27,2025-07-22,Saída,Pessoal,Administrativo,Fornecedor 03,PIX,15404.31,15703.44,Pago
+MOV-00516,2025-06-20,2025-07-07,2025-07-03,Saída,Logística,Administrativo,Fornecedor 25,Boleto,2080.67,2030.89,Pago
+MOV-00517,2025-06-22,2025-07-19,2025-07-16,Saída,Fornecedores,Marketing,Fornecedor 07,Transferência,8622.7,8652.93,Pago
+MOV-00518,2025-06-17,2025-07-14,2025-07-11,Saída,Marketing,Marketing,Fornecedor 33,Transferência,9138.82,9299.19,Pago
+MOV-00519,2025-06-23,2025-07-20,2025-07-20,Saída,Marketing,Tecnologia,Fornecedor 24,Cartão,7233.08,7407.75,Pago
+MOV-00520,2025-07-08,2025-07-24,2025-07-22,Saída,Tecnologia,Marketing,Fornecedor 36,Transferência,6065.65,6088.63,Pago
+MOV-00521,2025-06-05,2025-07-01,2025-06-30,Saída,Pessoal,Operações,Fornecedor 20,PIX,16098.24,16190.74,Pago
+MOV-00522,2025-06-05,2025-07-01,2025-06-30,Saída,Pessoal,Administrativo,Fornecedor 37,Boleto,15057.2,15435.84,Pago
+MOV-00523,2025-06-18,2025-07-05,2025-07-05,Saída,Fornecedores,Operações,Fornecedor 17,Transferência,6402.18,6551.85,Pago
+MOV-00524,2025-06-22,2025-07-07,2025-07-07,Saída,Fornecedores,Marketing,Fornecedor 45,PIX,5717.72,5818.2,Pago
+MOV-00525,2025-07-13,2025-07-24,2025-07-25,Saída,Marketing,Tecnologia,Fornecedor 23,Cartão,4594.44,4478.24,Pago
+MOV-00526,2025-06-08,2025-07-08,2025-07-03,Saída,Pessoal,Marketing,Fornecedor 04,Transferência,15197.87,15319.96,Pago
+MOV-00527,2025-06-10,2025-07-11,2025-07-09,Saída,Pessoal,Marketing,Fornecedor 29,PIX,12149.13,11896.33,Pago
+MOV-00528,2025-06-15,2025-07-13,2025-07-13,Saída,Fornecedores,Comercial,Fornecedor 36,Cartão,4474.55,4362.47,Pago
+MOV-00529,2025-06-19,2025-07-14,2025-07-11,Saída,Fornecedores,Administrativo,Fornecedor 13,Cartão,5703.36,5793.03,Pago
+MOV-00530,2025-06-20,2025-07-24,2025-07-22,Saída,Pessoal,Marketing,Fornecedor 21,PIX,12111.68,11800.39,Pago
+MOV-00531,2025-06-12,2025-07-12,2025-07-12,Saída,Fornecedores,Comercial,Fornecedor 20,Boleto,5873.48,5818.69,Pago
+MOV-00532,2025-07-09,2025-07-26,2025-07-23,Saída,Administrativo,Operações,Fornecedor 44,Transferência,8163.3,8134.14,Pago
+MOV-00533,2025-06-04,2025-07-03,2025-06-28,Saída,Fornecedores,Operações,Fornecedor 19,PIX,9431.9,9286.49,Pago
+MOV-00534,2025-06-30,2025-07-16,2025-07-23,Saída,Pessoal,Operações,Fornecedor 35,Transferência,9551.18,9688.72,Pago em atraso
+MOV-00535,2025-06-22,2025-07-23,2025-07-18,Saída,Pessoal,Administrativo,Fornecedor 03,Transferência,16423.02,16301.43,Pago
+MOV-00536,2025-06-26,2025-07-26,2025-07-25,Saída,Fornecedores,Comercial,Fornecedor 05,Cartão,4409.35,4291.11,Pago
+MOV-00537,2025-06-22,2025-07-22,2025-07-18,Saída,Marketing,Marketing,Fornecedor 15,Cartão,8691.69,8440.89,Pago
+MOV-00538,2025-06-20,2025-07-16,2025-07-12,Saída,Pessoal,Marketing,Fornecedor 36,PIX,15538.72,15246.36,Pago
+MOV-00539,2025-06-30,2025-07-10,2025-07-11,Saída,Fornecedores,Tecnologia,Fornecedor 44,Transferência,11621.65,11792.06,Pago
+MOV-00540,2025-06-25,2025-07-17,2025-07-12,Saída,Pessoal,Comercial,Fornecedor 36,Transferência,16459.94,16584.17,Pago
+MOV-00541,2025-06-17,2025-07-13,2025-07-09,Saída,Fornecedores,Administrativo,Fornecedor 41,Boleto,5062.18,5132.0,Pago
+MOV-00542,2025-06-26,2025-07-10,2025-07-10,Saída,Pessoal,Operações,Fornecedor 42,Boleto,10764.65,10731.82,Pago
+MOV-00543,2025-06-11,2025-07-07,2025-07-06,Saída,Marketing,Operações,Fornecedor 28,Boleto,8929.75,9030.76,Pago
+MOV-00544,2025-06-22,2025-07-06,2025-07-02,Saída,Marketing,Comercial,Fornecedor 21,Cartão,7582.74,7439.03,Pago
+MOV-00545,2025-07-08,2025-07-24,2025-07-23,Saída,Administrativo,Comercial,Fornecedor 09,Boleto,4627.83,4531.19,Pago
+MOV-00546,2025-07-03,2025-07-20,2025-07-18,Saída,Fornecedores,Comercial,Fornecedor 23,PIX,12341.3,12412.65,Pago
+MOV-00547,2025-06-26,2025-07-17,2025-07-19,Saída,Marketing,Operações,Fornecedor 25,Cartão,6585.61,6669.39,Pago
+MOV-00548,2025-06-21,2025-07-14,2025-07-09,Saída,Pessoal,Operações,Fornecedor 43,Boleto,8762.73,8986.41,Pago
+MOV-00549,2025-06-21,2025-07-15,2025-07-17,Saída,Tecnologia,Operações,Fornecedor 28,Cartão,1947.34,1969.29,Pago
+MOV-00550,2025-06-24,2025-07-27,2025-07-27,Saída,Tecnologia,Administrativo,Fornecedor 39,PIX,8069.61,8018.36,Pago
+MOV-00551,2025-06-10,2025-07-02,2025-06-30,Saída,Pessoal,Comercial,Fornecedor 36,Cartão,14770.1,14786.67,Pago
+MOV-00552,2025-06-21,2025-07-10,2025-07-09,Saída,Pessoal,Marketing,Fornecedor 11,Cartão,6992.95,7107.78,Pago
+MOV-00553,2025-06-23,2025-07-23,2025-07-20,Saída,Fornecedores,Marketing,Fornecedor 06,PIX,11585.07,11559.75,Pago
+MOV-00554,2025-06-29,2025-07-23,2025-07-24,Saída,Fornecedores,Comercial,Fornecedor 12,Cartão,7815.56,7775.03,Pago
+MOV-00555,2025-06-05,2025-07-07,2025-07-03,Saída,Marketing,Operações,Fornecedor 08,PIX,9252.77,9114.02,Pago
+MOV-00556,2025-06-16,2025-07-12,2025-07-25,Saída,Fornecedores,Administrativo,Fornecedor 11,Cartão,6278.2,6363.66,Pago em atraso
+MOV-00557,2025-06-27,2025-07-11,2025-07-08,Saída,Pessoal,Operações,Fornecedor 04,Cartão,8208.85,8042.44,Pago
+MOV-00558,2025-06-24,2025-07-10,2025-07-06,Saída,Pessoal,Comercial,Fornecedor 40,Transferência,16109.66,16494.88,Pago
+MOV-00559,2025-06-21,2025-07-16,2025-07-11,Saída,Fornecedores,Operações,Fornecedor 14,Cartão,6823.19,6867.4,Pago
+MOV-00560,2025-06-04,2025-07-01,2025-06-30,Saída,Pessoal,Operações,Fornecedor 04,Boleto,12512.17,12602.08,Pago
+MOV-00561,2025-07-04,2025-08-02,2025-08-04,Entrada,Vendas B2B,Tecnologia,Cliente 22,PIX,11584.13,11700.2,Pago
+MOV-00562,2025-07-05,2025-08-06,2025-08-05,Entrada,Vendas B2B,Administrativo,Cliente 37,Boleto,8315.35,8370.78,Pago
+MOV-00563,2025-07-23,2025-08-12,2025-08-08,Entrada,Serviços,Tecnologia,Cliente 25,PIX,12912.8,13120.83,Pago
+MOV-00564,2025-07-16,2025-08-03,2025-07-31,Entrada,Assinaturas,Tecnologia,Cliente 34,Cartão,14212.66,13890.34,Pago
+MOV-00565,2025-07-26,2025-08-20,2025-09-06,Entrada,Assinaturas,Administrativo,Cliente 19,Cartão,12172.71,12528.53,Pago em atraso
+MOV-00566,2025-07-19,2025-08-17,2025-08-17,Entrada,Assinaturas,Administrativo,Cliente 32,Cartão,6925.67,7103.15,Pago
+MOV-00567,2025-08-10,2025-08-20,2025-08-19,Entrada,Vendas B2B,Comercial,Cliente 02,Cartão,5036.48,5181.31,Pago
+MOV-00568,2025-08-08,2025-08-28,2025-08-29,Entrada,Assinaturas,Tecnologia,Cliente 36,Boleto,4179.15,4157.6,Pago
+MOV-00569,2025-07-15,2025-08-10,2025-08-06,Entrada,Vendas B2B,Administrativo,Cliente 21,PIX,5330.82,5269.34,Pago
+MOV-00570,2025-07-28,2025-08-13,2025-08-08,Entrada,Vendas B2B,Tecnologia,Cliente 22,Cartão,7157.97,7300.58,Pago
+MOV-00571,2025-07-25,2025-08-21,2025-08-26,Entrada,Serviços,Tecnologia,Cliente 30,Cartão,13575.62,13679.23,Pago em atraso
+MOV-00572,2025-08-07,2025-08-17,2025-08-17,Entrada,Serviços,Operações,Cliente 37,Transferência,3322.9,3333.9,Pago
+MOV-00573,2025-08-02,2025-08-12,2025-08-17,Entrada,Assinaturas,Tecnologia,Cliente 25,Boleto,14831.22,14635.86,Pago em atraso
+MOV-00574,2025-07-31,2025-08-20,2025-08-30,Entrada,Assinaturas,Comercial,Cliente 18,Cartão,7936.48,8034.23,Pago em atraso
+MOV-00575,2025-07-24,2025-08-12,2025-08-11,Entrada,Vendas B2B,Operações,Cliente 08,Transferência,14679.34,14429.33,Pago
+MOV-00576,2025-07-08,2025-08-03,2025-07-29,Entrada,Assinaturas,Operações,Cliente 13,Transferência,13306.4,13545.14,Pago
+MOV-00577,2025-08-04,2025-08-17,2025-08-17,Entrada,Serviços,Administrativo,Cliente 44,Boleto,12679.12,12407.76,Pago
+MOV-00578,2025-08-02,2025-08-13,2025-08-09,Entrada,Vendas B2B,Administrativo,Cliente 06,Transferência,3053.59,2962.74,Pago
+MOV-00579,2025-07-14,2025-08-17,2025-08-16,Entrada,Vendas B2B,Tecnologia,Cliente 41,Boleto,3186.21,3094.92,Pago
+MOV-00580,2025-07-22,2025-08-09,2025-08-11,Entrada,Vendas B2B,Operações,Cliente 11,Transferência,5211.29,5264.8,Pago
+MOV-00581,2025-07-22,2025-08-18,2025-08-16,Entrada,Vendas B2B,Tecnologia,Cliente 18,Boleto,15803.18,15843.51,Pago
+MOV-00582,2025-07-30,2025-08-19,2025-08-15,Entrada,Serviços,Administrativo,Cliente 29,PIX,13668.97,13514.27,Pago
+MOV-00583,2025-07-30,2025-08-22,2025-09-04,Entrada,Vendas B2B,Marketing,Cliente 12,Cartão,9059.21,8816.68,Pago em atraso
+MOV-00584,2025-07-24,2025-08-27,2025-08-23,Entrada,Assinaturas,Marketing,Cliente 37,Boleto,6869.68,7064.92,Pago
+MOV-00585,2025-07-24,2025-08-23,2025-08-25,Entrada,Vendas B2B,Marketing,Cliente 31,Boleto,13646.11,13490.87,Pago
+MOV-00586,2025-07-19,2025-08-20,2025-08-20,Entrada,Serviços,Tecnologia,Cliente 21,Cartão,4535.96,4506.59,Pago
+MOV-00587,2025-07-16,2025-08-04,2025-08-06,Entrada,Vendas B2B,Tecnologia,Cliente 39,Boleto,3452.13,3523.75,Pago
+MOV-00588,2025-08-11,2025-08-23,2025-08-23,Entrada,Vendas B2B,Tecnologia,Cliente 35,Cartão,8159.45,8186.94,Pago
+MOV-00589,2025-07-29,2025-08-20,2025-08-17,Entrada,Vendas B2B,Comercial,Cliente 22,Boleto,8266.73,8501.78,Pago
+MOV-00590,2025-08-09,2025-08-26,2025-08-26,Entrada,Assinaturas,Operações,Cliente 43,PIX,10722.3,10750.95,Pago
+MOV-00591,2025-08-14,2025-08-27,2025-08-29,Entrada,Assinaturas,Marketing,Cliente 12,Transferência,12395.12,12265.25,Pago
+MOV-00592,2025-07-05,2025-08-04,2025-08-05,Entrada,Serviços,Comercial,Cliente 06,Boleto,3510.81,3474.45,Pago
+MOV-00593,2025-07-25,2025-08-25,2025-08-20,Entrada,Assinaturas,Operações,Cliente 29,Transferência,14820.6,15049.2,Pago
+MOV-00594,2025-07-03,2025-08-07,2025-08-07,Entrada,Vendas B2B,Tecnologia,Cliente 28,Transferência,10541.95,10415.28,Pago
+MOV-00595,2025-08-01,2025-08-20,2025-08-21,Saída,Administrativo,Comercial,Fornecedor 24,PIX,7084.18,7231.94,Pago
+MOV-00596,2025-07-26,2025-08-12,2025-08-11,Saída,Fornecedores,Marketing,Fornecedor 45,Cartão,6850.79,7001.1,Pago
+MOV-00597,2025-07-19,2025-08-13,2025-08-11,Saída,Marketing,Operações,Fornecedor 13,Cartão,8411.17,8493.17,Pago
+MOV-00598,2025-08-02,2025-08-14,2025-08-11,Saída,Logística,Comercial,Fornecedor 10,Cartão,4796.84,4691.58,Pago
+MOV-00599,2025-07-01,2025-08-05,2025-08-19,Saída,Marketing,Administrativo,Fornecedor 28,Boleto,11117.67,11357.91,Pago em atraso
+MOV-00600,2025-08-03,2025-08-13,2025-08-10,Saída,Pessoal,Administrativo,Fornecedor 32,Boleto,13377.65,13317.27,Pago
+MOV-00601,2025-07-21,2025-08-18,2025-08-13,Saída,Tecnologia,Marketing,Fornecedor 24,PIX,3860.7,3971.48,Pago
+MOV-00602,2025-07-22,2025-08-03,2025-08-02,Saída,Marketing,Administrativo,Fornecedor 40,PIX,10981.55,10958.45,Pago
+MOV-00603,2025-07-26,2025-08-22,2025-08-18,Saída,Fornecedores,Administrativo,Fornecedor 20,PIX,7577.11,7660.79,Pago
+MOV-00604,2025-07-12,2025-08-01,2025-08-03,Saída,Logística,Marketing,Fornecedor 23,Transferência,6593.75,6623.01,Pago
+MOV-00605,2025-07-26,2025-08-20,2025-08-19,Saída,Fornecedores,Administrativo,Fornecedor 11,PIX,1455.26,1416.96,Pago
+MOV-00606,2025-08-10,2025-08-24,2025-08-23,Saída,Marketing,Administrativo,Fornecedor 05,Transferência,4092.1,4088.36,Pago
+MOV-00607,2025-07-11,2025-08-09,2025-08-04,Saída,Fornecedores,Operações,Fornecedor 38,Boleto,7424.25,7531.8,Pago
+MOV-00608,2025-07-02,2025-08-06,2025-08-04,Saída,Marketing,Administrativo,Fornecedor 03,Transferência,4894.31,4889.88,Pago
+MOV-00609,2025-07-17,2025-08-20,2025-08-17,Saída,Administrativo,Marketing,Fornecedor 25,Boleto,11039.22,11262.84,Pago
+MOV-00610,2025-07-19,2025-08-06,2025-08-06,Saída,Marketing,Comercial,Fornecedor 04,Boleto,8557.45,8328.62,Pago
+MOV-00611,2025-07-24,2025-08-25,2025-08-23,Saída,Pessoal,Marketing,Fornecedor 31,Transferência,10249.02,10175.1,Pago
+MOV-00612,2025-07-12,2025-08-01,2025-08-03,Saída,Fornecedores,Administrativo,Fornecedor 44,PIX,10041.07,9969.98,Pago
+MOV-00613,2025-07-13,2025-08-12,2025-08-13,Saída,Fornecedores,Tecnologia,Fornecedor 22,Transferência,6555.29,6598.75,Pago
+MOV-00614,2025-07-19,2025-08-21,2025-08-23,Saída,Fornecedores,Operações,Fornecedor 44,Boleto,2102.58,2137.04,Pago
+MOV-00615,2025-08-01,2025-08-11,2025-08-06,Saída,Pessoal,Marketing,Fornecedor 07,PIX,14953.26,15250.85,Pago
+MOV-00616,2025-07-26,2025-08-24,2025-08-22,Saída,Marketing,Comercial,Fornecedor 04,Boleto,4706.64,4575.05,Pago
+MOV-00617,2025-08-09,2025-08-23,2025-08-19,Saída,Administrativo,Marketing,Fornecedor 43,Boleto,7653.41,7817.09,Pago
+MOV-00618,2025-07-22,2025-08-09,2025-08-05,Saída,Logística,Marketing,Fornecedor 45,Transferência,8245.41,8314.07,Pago
+MOV-00619,2025-07-29,2025-08-09,2025-08-10,Saída,Fornecedores,Tecnologia,Fornecedor 17,Boleto,9120.26,9059.29,Pago
+MOV-00620,2025-07-24,2025-08-20,2025-08-22,Saída,Pessoal,Marketing,Fornecedor 14,PIX,14365.14,14027.64,Pago
+MOV-00621,2025-07-17,2025-08-04,2025-08-07,Saída,Logística,Marketing,Fornecedor 02,Cartão,8448.46,8484.63,Pago em atraso
+MOV-00622,2025-07-13,2025-08-02,2025-08-01,Saída,Fornecedores,Marketing,Fornecedor 37,PIX,7676.57,7516.1,Pago
+MOV-00623,2025-08-04,2025-08-14,2025-08-10,Saída,Pessoal,Marketing,Fornecedor 45,Cartão,10380.18,10405.17,Pago
+MOV-00624,2025-07-13,2025-08-12,2025-08-11,Saída,Fornecedores,Comercial,Fornecedor 24,Transferência,6596.53,6557.19,Pago
+MOV-00625,2025-08-14,2025-08-25,2025-08-23,Saída,Fornecedores,Marketing,Fornecedor 43,Boleto,5818.47,5705.57,Pago
+MOV-00626,2025-07-05,2025-08-04,2025-08-04,Saída,Fornecedores,Marketing,Fornecedor 13,Boleto,5103.45,5099.32,Pago
+MOV-00627,2025-07-23,2025-08-19,2025-08-20,Saída,Fornecedores,Tecnologia,Fornecedor 32,Cartão,1352.82,1317.35,Pago
+MOV-00628,2025-07-26,2025-08-11,2025-08-13,Saída,Administrativo,Administrativo,Fornecedor 30,Boleto,1260.83,1253.68,Pago
+MOV-00629,2025-07-24,2025-08-03,2025-08-08,Saída,Tecnologia,Marketing,Fornecedor 40,PIX,3487.79,3485.47,Pago em atraso
+MOV-00630,2025-06-27,2025-08-01,2025-07-27,Saída,Fornecedores,Comercial,Fornecedor 30,Boleto,7763.47,7951.97,Pago
+MOV-00631,2025-07-29,2025-08-27,2025-08-29,Saída,Logística,Operações,Fornecedor 05,Boleto,1749.68,1759.65,Pago
+MOV-00632,2025-07-25,2025-08-22,2025-08-18,Saída,Pessoal,Administrativo,Fornecedor 09,Transferência,14852.95,15277.02,Pago
+MOV-00633,2025-08-12,2025-08-25,2025-08-31,Saída,Logística,Tecnologia,Fornecedor 10,Cartão,9247.46,9156.19,Pago em atraso
+MOV-00634,2025-07-02,2025-08-06,2025-08-01,Saída,Fornecedores,Administrativo,Fornecedor 25,Boleto,4895.96,4788.26,Pago
+MOV-00635,2025-07-04,2025-08-01,2025-08-04,Saída,Fornecedores,Tecnologia,Fornecedor 27,Cartão,6099.49,6175.15,Pago em atraso
+MOV-00636,2025-08-06,2025-08-21,2025-08-23,Saída,Marketing,Administrativo,Fornecedor 45,PIX,3211.95,3195.0,Pago
+MOV-00637,2025-08-10,2025-08-20,2025-08-19,Saída,Marketing,Administrativo,Fornecedor 16,Boleto,8466.95,8389.66,Pago
+MOV-00638,2025-07-05,2025-08-04,2025-08-02,Saída,Fornecedores,Operações,Fornecedor 18,PIX,6544.04,6529.99,Pago
+MOV-00639,2025-08-07,2025-08-22,2025-08-24,Saída,Fornecedores,Comercial,Fornecedor 04,Transferência,9283.57,9282.19,Pago
+MOV-00640,2025-07-09,2025-08-11,2025-08-13,Saída,Fornecedores,Comercial,Fornecedor 35,Boleto,5561.73,5409.33,Pago
+MOV-00641,2025-08-20,2025-09-17,2025-09-25,Entrada,Vendas B2B,Administrativo,Cliente 21,Cartão,2736.45,2772.8,Pago em atraso
+MOV-00642,2025-08-29,2025-09-11,2025-09-07,Entrada,Vendas B2B,Operações,Cliente 27,Boleto,11047.92,10932.67,Pago
+MOV-00643,2025-09-02,2025-09-16,2025-09-11,Entrada,Vendas B2B,Operações,Cliente 40,Cartão,5194.75,5316.46,Pago
+MOV-00644,2025-08-30,2025-09-15,2025-09-15,Entrada,Vendas B2B,Tecnologia,Cliente 09,PIX,7155.54,7359.71,Pago
+MOV-00645,2025-08-21,2025-09-05,2025-09-20,Entrada,Assinaturas,Tecnologia,Cliente 15,Transferência,3128.89,3121.11,Pago em atraso
+MOV-00646,2025-08-25,2025-09-21,2025-09-18,Entrada,Assinaturas,Operações,Cliente 06,Cartão,12493.85,12552.41,Pago
+MOV-00647,2025-08-05,2025-09-07,2025-09-09,Entrada,Serviços,Marketing,Cliente 16,Boleto,8640.4,8525.92,Pago
+MOV-00648,2025-09-08,2025-09-19,2025-09-14,Entrada,Vendas B2B,Comercial,Cliente 31,PIX,9798.41,9750.07,Pago
+MOV-00649,2025-09-09,2025-09-26,2025-09-22,Entrada,Vendas B2B,Comercial,Cliente 36,PIX,7422.87,7401.69,Pago
+MOV-00650,2025-08-26,2025-09-07,2025-09-17,Entrada,Assinaturas,Comercial,Cliente 31,Transferência,7580.66,7461.98,Pago em atraso
+MOV-00651,2025-08-26,2025-09-19,2025-09-14,Entrada,Vendas B2B,Operações,Cliente 26,Boleto,8256.38,8492.39,Pago
+MOV-00652,2025-09-03,2025-09-15,2025-09-10,Entrada,Assinaturas,Marketing,Cliente 45,Transferência,7116.22,7270.09,Pago
+MOV-00653,2025-09-13,2025-09-25,2025-09-23,Entrada,Assinaturas,Administrativo,Cliente 22,PIX,6168.94,6275.43,Pago
+MOV-00654,2025-08-19,2025-09-12,2025-09-08,Entrada,Vendas B2B,Administrativo,Cliente 03,Transferência,14039.38,13940.79,Pago
+MOV-00655,2025-09-03,2025-09-23,2025-09-30,Entrada,Vendas B2B,Operações,Cliente 35,PIX,10679.94,10448.23,Pago em atraso
+MOV-00656,2025-08-22,2025-09-25,2025-09-23,Entrada,Assinaturas,Operações,Cliente 21,Transferência,11824.52,12004.14,Pago
+MOV-00657,2025-08-21,2025-09-14,2025-09-10,Entrada,Serviços,Marketing,Cliente 33,PIX,8824.55,8757.21,Pago
+MOV-00658,2025-09-06,2025-09-27,2025-09-26,Entrada,Vendas B2B,Comercial,Cliente 13,Cartão,9188.15,9161.68,Pago
+MOV-00659,2025-08-19,2025-09-06,2025-09-02,Entrada,Vendas B2B,Comercial,Cliente 45,Boleto,7376.2,7203.32,Pago
+MOV-00660,2025-08-17,2025-09-17,2025-09-12,Entrada,Vendas B2B,Administrativo,Cliente 09,Cartão,13590.17,13421.52,Pago
+MOV-00661,2025-08-17,2025-09-21,2025-09-28,Entrada,Vendas B2B,Operações,Cliente 34,Transferência,8058.49,7847.17,Pago em atraso
+MOV-00662,2025-08-20,2025-09-21,2025-09-23,Entrada,Vendas B2B,Administrativo,Cliente 36,Cartão,6761.74,6799.62,Pago
+MOV-00663,2025-09-05,2025-09-26,2025-09-25,Entrada,Vendas B2B,Tecnologia,Cliente 04,Boleto,9641.68,9483.62,Pago
+MOV-00664,2025-08-18,2025-09-06,2025-09-03,Entrada,Vendas B2B,Operações,Cliente 12,Boleto,8213.31,8317.69,Pago
+MOV-00665,2025-08-27,2025-09-11,2025-09-13,Entrada,Vendas B2B,Operações,Cliente 36,PIX,3863.64,3808.1,Pago
+MOV-00666,2025-08-23,2025-09-05,2025-09-02,Entrada,Assinaturas,Comercial,Cliente 26,Cartão,14912.09,14942.19,Pago
+MOV-00667,2025-08-22,2025-09-11,2025-09-29,Entrada,Assinaturas,Tecnologia,Cliente 31,Transferência,14524.18,14938.64,Pago em atraso
+MOV-00668,2025-09-06,2025-09-19,2025-09-21,Entrada,Serviços,Marketing,Cliente 03,Boleto,12039.84,11923.31,Pago
+MOV-00669,2025-08-20,2025-09-01,2025-08-30,Entrada,Assinaturas,Tecnologia,Cliente 04,Boleto,3863.11,3850.59,Pago
+MOV-00670,2025-09-01,2025-09-25,2025-09-20,Entrada,Assinaturas,Comercial,Cliente 33,Cartão,5213.75,5083.49,Pago
+MOV-00671,2025-08-30,2025-09-20,2025-09-15,Entrada,Vendas B2B,Marketing,Cliente 10,Cartão,6440.53,6598.37,Pago
+MOV-00672,2025-08-14,2025-09-10,2025-09-09,Entrada,Vendas B2B,Comercial,Cliente 14,Cartão,7147.15,7351.93,Pago
+MOV-00673,2025-08-23,2025-09-15,2025-09-16,Entrada,Assinaturas,Operações,Cliente 38,PIX,7696.03,7801.59,Pago
+MOV-00674,2025-08-31,2025-09-28,2025-09-28,Entrada,Vendas B2B,Marketing,Cliente 06,PIX,6254.15,6091.34,Pago
+MOV-00675,2025-08-27,2025-09-18,2025-09-15,Saída,Pessoal,Tecnologia,Fornecedor 36,Cartão,8985.73,8823.59,Pago
+MOV-00676,2025-09-03,2025-09-27,2025-09-29,Saída,Fornecedores,Operações,Fornecedor 02,PIX,8894.11,8925.75,Pago
+MOV-00677,2025-08-21,2025-09-21,2025-09-23,Saída,Fornecedores,Tecnologia,Fornecedor 27,Boleto,3876.11,3788.71,Pago
+MOV-00678,2025-08-23,2025-09-04,2025-09-06,Saída,Pessoal,Administrativo,Fornecedor 24,Cartão,7552.72,7776.73,Pago
+MOV-00679,2025-08-14,2025-09-16,2025-09-12,Saída,Pessoal,Administrativo,Fornecedor 02,Transferência,10787.76,10705.69,Pago
+MOV-00680,2025-08-31,2025-09-11,2025-09-08,Saída,Fornecedores,Tecnologia,Fornecedor 24,Cartão,1571.04,1557.6,Pago
+MOV-00681,2025-07-30,2025-09-02,2025-08-29,Saída,Marketing,Operações,Fornecedor 07,Boleto,10123.7,10132.12,Pago
+MOV-00682,2025-08-21,2025-09-22,2025-09-21,Saída,Pessoal,Tecnologia,Fornecedor 07,Transferência,12466.08,12604.79,Pago
+MOV-00683,2025-09-02,2025-09-17,2025-09-19,Saída,Logística,Comercial,Fornecedor 14,Boleto,1135.96,1129.96,Pago
+MOV-00684,2025-09-06,2025-09-18,2025-09-14,Saída,Pessoal,Comercial,Fornecedor 09,PIX,12198.37,12137.88,Pago
+MOV-00685,2025-09-08,2025-09-27,2025-09-27,Saída,Pessoal,Comercial,Fornecedor 08,Boleto,8547.25,8379.15,Pago
+MOV-00686,2025-09-11,2025-09-23,2025-09-20,Saída,Fornecedores,Marketing,Fornecedor 45,PIX,7634.99,7502.07,Pago
+MOV-00687,2025-08-21,2025-09-25,2025-09-23,Saída,Fornecedores,Administrativo,Fornecedor 38,PIX,8402.34,8204.62,Pago
+MOV-00688,2025-08-12,2025-09-10,2025-09-06,Saída,Pessoal,Operações,Fornecedor 38,Boleto,5852.1,5951.25,Pago
+MOV-00689,2025-08-13,2025-09-03,2025-09-02,Saída,Fornecedores,Tecnologia,Fornecedor 11,Boleto,4366.04,4483.61,Pago
+MOV-00690,2025-09-06,2025-09-25,2025-10-02,Saída,Pessoal,Operações,Fornecedor 35,PIX,12405.01,12565.64,Pago em atraso
+MOV-00691,2025-08-10,2025-09-07,2025-09-09,Saída,Administrativo,Operações,Fornecedor 29,PIX,1954.25,1938.59,Pago
+MOV-00692,2025-08-10,2025-09-13,2025-09-11,Saída,Fornecedores,Tecnologia,Fornecedor 08,Cartão,4397.41,4373.02,Pago
+MOV-00693,2025-09-14,2025-09-25,2025-09-24,Saída,Fornecedores,Comercial,Fornecedor 21,Cartão,2309.34,2317.26,Pago
+MOV-00694,2025-08-28,2025-09-20,2025-09-22,Saída,Fornecedores,Tecnologia,Fornecedor 28,Boleto,3718.17,3657.02,Pago
+MOV-00695,2025-08-26,2025-09-26,2025-09-26,Saída,Logística,Marketing,Fornecedor 44,PIX,9547.56,9363.84,Pago
+MOV-00696,2025-08-22,2025-09-04,2025-09-05,Saída,Pessoal,Operações,Fornecedor 05,Transferência,11197.35,11328.38,Pago
+MOV-00697,2025-08-28,2025-09-20,2025-09-21,Saída,Administrativo,Marketing,Fornecedor 18,Transferência,4242.98,4146.94,Pago
+MOV-00698,2025-08-18,2025-09-13,2025-09-14,Saída,Tecnologia,Tecnologia,Fornecedor 10,Cartão,8653.13,8906.25,Pago
+MOV-00699,2025-08-14,2025-09-16,2025-09-13,Saída,Fornecedores,Comercial,Fornecedor 05,Cartão,3404.14,3308.09,Pago
+MOV-00700,2025-08-15,2025-09-13,2025-09-13,Saída,Marketing,Administrativo,Fornecedor 07,PIX,10285.06,10070.76,Pago
+MOV-00701,2025-08-22,2025-09-16,2025-09-14,Saída,Marketing,Marketing,Fornecedor 33,Transferência,5972.47,5898.49,Pago
+MOV-00702,2025-08-19,2025-09-01,2025-08-27,Saída,Pessoal,Marketing,Fornecedor 29,Transferência,10049.44,10345.32,Pago
+MOV-00703,2025-07-30,2025-09-02,2025-09-20,Saída,Logística,Tecnologia,Fornecedor 11,Cartão,5234.26,5284.32,Pago em atraso
+MOV-00704,2025-08-25,2025-09-25,2025-09-27,Saída,Pessoal,Administrativo,Fornecedor 37,Cartão,8771.04,8855.28,Pago
+MOV-00705,2025-08-23,2025-09-13,2025-09-14,Saída,Pessoal,Tecnologia,Fornecedor 21,PIX,9763.76,9832.27,Pago
+MOV-00706,2025-08-28,2025-09-27,2025-09-22,Saída,Fornecedores,Tecnologia,Fornecedor 25,PIX,1443.3,1466.27,Pago
+MOV-00707,2025-08-14,2025-09-02,2025-08-31,Saída,Pessoal,Administrativo,Fornecedor 06,PIX,8963.91,8821.18,Pago
+MOV-00708,2025-08-06,2025-09-06,2025-09-17,Saída,Logística,Marketing,Fornecedor 37,Cartão,2104.82,2046.4,Pago em atraso
+MOV-00709,2025-08-28,2025-09-19,2025-09-30,Saída,Fornecedores,Tecnologia,Fornecedor 37,PIX,7651.34,7595.21,Pago em atraso
+MOV-00710,2025-08-19,2025-09-22,2025-09-24,Saída,Logística,Tecnologia,Fornecedor 11,Transferência,1967.33,1967.66,Pago
+MOV-00711,2025-09-01,2025-09-28,2025-09-24,Saída,Pessoal,Operações,Fornecedor 19,Transferência,9681.6,9879.33,Pago
+MOV-00712,2025-08-16,2025-09-13,2025-09-09,Saída,Fornecedores,Comercial,Fornecedor 38,Transferência,10515.46,10652.82,Pago
+MOV-00713,2025-09-05,2025-09-17,2025-09-15,Saída,Fornecedores,Tecnologia,Fornecedor 33,Transferência,6415.82,6357.04,Pago
+MOV-00714,2025-08-17,2025-09-13,2025-09-15,Saída,Pessoal,Operações,Fornecedor 02,Boleto,7175.63,7249.49,Pago
+MOV-00715,2025-08-28,2025-09-24,2025-09-23,Saída,Pessoal,Administrativo,Fornecedor 28,PIX,13608.13,13965.07,Pago
+MOV-00716,2025-08-13,2025-09-05,2025-09-04,Saída,Pessoal,Tecnologia,Fornecedor 05,Boleto,6733.88,6872.92,Pago
+MOV-00717,2025-08-24,2025-09-10,2025-09-09,Saída,Logística,Marketing,Fornecedor 16,PIX,3559.1,3599.0,Pago
+MOV-00718,2025-09-03,2025-09-26,2025-09-28,Saída,Fornecedores,Marketing,Fornecedor 42,PIX,1277.19,1276.07,Pago
+MOV-00719,2025-08-17,2025-09-01,2025-08-31,Saída,Fornecedores,Comercial,Fornecedor 32,PIX,3614.2,3648.61,Pago
+MOV-00720,2025-08-19,2025-09-11,2025-09-07,Saída,Fornecedores,Tecnologia,Fornecedor 43,PIX,9564.26,9794.13,Pago
+MOV-00721,2025-10-01,2025-10-27,2025-10-31,Entrada,Vendas B2B,Comercial,Cliente 34,Transferência,12763.4,12817.75,Pago em atraso
+MOV-00722,2025-09-22,2025-10-20,2025-10-31,Entrada,Vendas B2B,Marketing,Cliente 16,Cartão,3420.86,3385.82,Pago em atraso
+MOV-00723,2025-09-09,2025-10-07,2025-10-09,Entrada,Vendas B2B,Comercial,Cliente 32,Transferência,3627.33,3607.39,Pago
+MOV-00724,2025-09-13,2025-10-18,2025-10-16,Entrada,Assinaturas,Operações,Cliente 24,Cartão,3703.95,3806.92,Pago
+MOV-00725,2025-08-31,2025-10-01,2025-09-26,Entrada,Assinaturas,Comercial,Cliente 45,Boleto,12533.5,12790.29,Pago
+MOV-00726,2025-09-20,2025-10-21,2025-10-21,Entrada,Vendas B2B,Comercial,Cliente 35,Boleto,7090.78,7262.3,Pago
+MOV-00727,2025-09-09,2025-10-13,2025-10-12,Entrada,Serviços,Operações,Cliente 20,Boleto,7137.9,7052.63,Pago
+MOV-00728,2025-09-27,2025-10-15,2025-10-16,Entrada,Serviços,Comercial,Cliente 32,Cartão,4293.07,4367.59,Pago
+MOV-00729,2025-09-09,2025-10-11,2025-10-07,Entrada,Assinaturas,Tecnologia,Cliente 33,PIX,13843.86,14113.32,Pago
+MOV-00730,2025-10-17,2025-10-27,2025-10-27,Entrada,Vendas B2B,Comercial,Cliente 42,Boleto,9800.77,9773.29,Pago
+MOV-00731,2025-09-15,2025-10-05,2025-10-12,Entrada,Assinaturas,Administrativo,Cliente 06,PIX,12155.26,12248.83,Pago em atraso
+MOV-00732,2025-09-24,2025-10-25,2025-10-22,Entrada,Vendas B2B,Marketing,Cliente 21,Cartão,8731.98,8913.76,Pago
+MOV-00733,2025-09-23,2025-10-09,2025-10-09,Entrada,Vendas B2B,Comercial,Cliente 27,Transferência,11459.19,11665.13,Pago
+MOV-00734,2025-10-17,2025-10-27,2025-10-25,Entrada,Vendas B2B,Administrativo,Cliente 42,Boleto,13219.33,12839.2,Pago
+MOV-00735,2025-09-08,2025-10-07,2025-10-04,Entrada,Serviços,Marketing,Cliente 39,Transferência,14437.53,14047.53,Pago
+MOV-00736,2025-09-10,2025-10-06,2025-10-02,Entrada,Vendas B2B,Marketing,Cliente 30,Cartão,14236.92,13821.87,Pago
+MOV-00737,2025-09-12,2025-10-07,2025-10-06,Entrada,Vendas B2B,Marketing,Cliente 09,Cartão,11189.86,11047.5,Pago
+MOV-00738,2025-10-04,2025-10-27,2025-10-25,Entrada,Serviços,Operações,Cliente 02,Transferência,9775.43,9727.53,Pago
+MOV-00739,2025-09-15,2025-10-15,2025-10-15,Entrada,Serviços,Marketing,Cliente 06,PIX,5231.09,5257.11,Pago
+MOV-00740,2025-09-21,2025-10-23,2025-10-21,Entrada,Vendas B2B,Marketing,Cliente 39,Transferência,13157.67,13326.09,Pago
+MOV-00741,2025-09-11,2025-10-02,2025-09-30,Entrada,Vendas B2B,Administrativo,Cliente 43,PIX,9238.45,9222.34,Pago
+MOV-00742,2025-09-29,2025-10-13,2025-10-14,Entrada,Vendas B2B,Administrativo,Cliente 03,Boleto,8584.61,8672.82,Pago
+MOV-00743,2025-09-09,2025-10-11,2025-10-08,Entrada,Vendas B2B,Administrativo,Cliente 28,Boleto,8574.7,8363.58,Pago
+MOV-00744,2025-09-12,2025-10-05,2025-10-04,Entrada,Vendas B2B,Tecnologia,Cliente 17,Transferência,6200.59,6292.79,Pago
+MOV-00745,2025-09-22,2025-10-06,2025-10-08,Entrada,Vendas B2B,Administrativo,Cliente 43,Cartão,7727.5,7849.75,Pago
+MOV-00746,2025-09-06,2025-10-08,2025-10-10,Entrada,Vendas B2B,Marketing,Cliente 28,PIX,4148.41,4088.73,Pago
+MOV-00747,2025-09-19,2025-10-02,2025-10-04,Entrada,Serviços,Operações,Cliente 08,Transferência,13852.7,13817.59,Pago
+MOV-00748,2025-09-05,2025-10-06,2025-10-05,Entrada,Vendas B2B,Administrativo,Cliente 14,PIX,13116.91,13166.69,Pago
+MOV-00749,2025-09-13,2025-10-14,2025-10-12,Entrada,Assinaturas,Comercial,Cliente 22,PIX,9410.3,9561.76,Pago
+MOV-00750,2025-09-20,2025-10-04,2025-09-30,Entrada,Vendas B2B,Comercial,Cliente 06,Cartão,14527.35,14821.07,Pago
+MOV-00751,2025-10-05,2025-10-15,2025-10-14,Entrada,Serviços,Tecnologia,Cliente 03,Cartão,10516.5,10575.94,Pago
+MOV-00752,2025-10-13,2025-10-24,2025-10-21,Entrada,Vendas B2B,Tecnologia,Cliente 21,PIX,11413.98,11216.31,Pago
+MOV-00753,2025-10-03,2025-10-20,2025-10-21,Entrada,Assinaturas,Marketing,Cliente 06,PIX,9115.76,8981.85,Pago
+MOV-00754,2025-09-30,2025-10-25,2025-10-22,Entrada,Serviços,Marketing,Cliente 20,Boleto,4326.89,4228.39,Pago
+MOV-00755,2025-09-09,2025-10-07,2025-10-08,Saída,Pessoal,Administrativo,Fornecedor 28,PIX,8343.15,8331.36,Pago
+MOV-00756,2025-09-24,2025-10-20,2025-10-21,Saída,Tecnologia,Tecnologia,Fornecedor 30,Boleto,8498.67,8291.11,Pago
+MOV-00757,2025-09-23,2025-10-16,2025-10-12,Saída,Marketing,Comercial,Fornecedor 31,Transferência,7596.55,7501.15,Pago
+MOV-00758,2025-09-29,2025-10-10,2025-10-11,Saída,Fornecedores,Administrativo,Fornecedor 05,PIX,2168.1,2141.5,Pago
+MOV-00759,2025-09-17,2025-10-15,2025-10-14,Saída,Pessoal,Comercial,Fornecedor 33,PIX,8716.76,8641.16,Pago
+MOV-00760,2025-09-13,2025-10-06,2025-10-07,Saída,Fornecedores,Tecnologia,Fornecedor 21,Cartão,7114.18,6920.07,Pago
+MOV-00761,2025-10-14,2025-10-26,2025-10-23,Saída,Tecnologia,Administrativo,Fornecedor 17,PIX,5153.22,5063.88,Pago
+MOV-00762,2025-09-09,2025-10-01,2025-10-03,Saída,Pessoal,Administrativo,Fornecedor 32,Transferência,8568.46,8547.98,Pago
+MOV-00763,2025-09-30,2025-10-12,2025-10-13,Saída,Marketing,Operações,Fornecedor 09,PIX,10008.36,10191.3,Pago
+MOV-00764,2025-09-23,2025-10-23,2025-10-18,Saída,Fornecedores,Operações,Fornecedor 42,Boleto,8544.76,8395.69,Pago
+MOV-00765,2025-09-14,2025-10-07,2025-10-22,Saída,Pessoal,Comercial,Fornecedor 08,Boleto,11808.09,11558.82,Pago em atraso
+MOV-00766,2025-09-21,2025-10-15,2025-10-17,Saída,Logística,Administrativo,Fornecedor 16,Boleto,7829.55,7603.88,Pago
+MOV-00767,2025-09-11,2025-10-13,2025-10-14,Saída,Fornecedores,Marketing,Fornecedor 27,Cartão,8669.69,8463.0,Pago
+MOV-00768,2025-09-23,2025-10-18,2025-10-13,Saída,Tecnologia,Administrativo,Fornecedor 38,Cartão,6505.05,6500.17,Pago
+MOV-00769,2025-09-13,2025-10-01,2025-10-01,Saída,Fornecedores,Marketing,Fornecedor 31,PIX,1546.49,1551.43,Pago
+MOV-00770,2025-10-07,2025-10-23,2025-10-20,Saída,Pessoal,Marketing,Fornecedor 23,Cartão,8173.47,8069.51,Pago
+MOV-00771,2025-10-03,2025-10-22,2025-10-24,Saída,Fornecedores,Marketing,Fornecedor 27,Transferência,3019.76,2952.93,Pago
+MOV-00772,2025-09-25,2025-10-28,2025-10-26,Saída,Tecnologia,Comercial,Fornecedor 43,Cartão,8394.53,8284.96,Pago
+MOV-00773,2025-09-25,2025-10-20,2025-10-21,Saída,Fornecedores,Tecnologia,Fornecedor 16,Boleto,2832.42,2907.72,Pago
+MOV-00774,2025-09-13,2025-10-09,2025-10-06,Saída,Pessoal,Comercial,Fornecedor 05,Transferência,8272.05,8110.6,Pago
+MOV-00775,2025-09-04,2025-10-08,2025-10-08,Saída,Pessoal,Comercial,Fornecedor 36,Transferência,6319.64,6427.66,Pago
+MOV-00776,2025-10-04,2025-10-28,2025-10-24,Saída,Logística,Marketing,Fornecedor 08,PIX,8891.68,9001.8,Pago
+MOV-00777,2025-10-13,2025-10-28,2025-10-23,Saída,Tecnologia,Comercial,Fornecedor 14,Transferência,6633.07,6635.98,Pago
+MOV-00778,2025-10-02,2025-10-15,2025-10-17,Saída,Fornecedores,Operações,Fornecedor 42,Transferência,3690.81,3742.31,Pago
+MOV-00779,2025-09-10,2025-10-15,2025-10-10,Saída,Pessoal,Marketing,Fornecedor 22,Transferência,12288.48,12100.7,Pago
+MOV-00780,2025-09-21,2025-10-25,2025-10-23,Saída,Pessoal,Administrativo,Fornecedor 27,Boleto,8383.98,8208.73,Pago
+MOV-00781,2025-09-20,2025-10-14,2025-10-14,Saída,Fornecedores,Operações,Fornecedor 01,PIX,4957.47,5089.46,Pago
+MOV-00782,2025-10-14,2025-10-25,2025-10-20,Saída,Fornecedores,Operações,Fornecedor 37,PIX,3900.98,3876.0,Pago
+MOV-00783,2025-09-25,2025-10-26,2025-10-25,Saída,Administrativo,Administrativo,Fornecedor 20,Transferência,10065.12,10016.39,Pago
+MOV-00784,2025-09-15,2025-10-09,2025-10-06,Saída,Logística,Operações,Fornecedor 35,Cartão,1057.22,1069.93,Pago
+MOV-00785,2025-10-14,2025-10-26,2025-10-24,Saída,Marketing,Comercial,Fornecedor 35,Transferência,9209.2,9419.71,Pago
+MOV-00786,2025-09-21,2025-10-17,2025-10-16,Saída,Pessoal,Administrativo,Fornecedor 20,Transferência,12544.98,12329.51,Pago
+MOV-00787,2025-08-28,2025-10-01,2025-09-30,Saída,Tecnologia,Tecnologia,Fornecedor 28,PIX,2466.81,2428.53,Pago
+MOV-00788,2025-09-05,2025-10-09,2025-10-09,Saída,Tecnologia,Comercial,Fornecedor 29,Transferência,8782.11,8583.89,Pago
+MOV-00789,2025-09-19,2025-10-08,2025-10-06,Saída,Pessoal,Administrativo,Fornecedor 44,Boleto,8109.64,8036.82,Pago
+MOV-00790,2025-09-17,2025-10-08,2025-10-06,Saída,Tecnologia,Marketing,Fornecedor 07,Boleto,5799.23,5911.56,Pago
+MOV-00791,2025-09-08,2025-10-03,2025-10-04,Saída,Tecnologia,Operações,Fornecedor 29,PIX,8660.3,8862.18,Pago
+MOV-00792,2025-09-17,2025-10-17,2025-10-16,Saída,Pessoal,Marketing,Fornecedor 29,Cartão,10153.56,10204.92,Pago
+MOV-00793,2025-09-12,2025-10-06,2025-10-03,Saída,Tecnologia,Operações,Fornecedor 33,PIX,4847.2,4842.77,Pago
+MOV-00794,2025-09-19,2025-10-02,2025-10-02,Saída,Marketing,Administrativo,Fornecedor 27,PIX,5204.04,5335.71,Pago
+MOV-00795,2025-09-11,2025-10-02,2025-09-28,Saída,Fornecedores,Tecnologia,Fornecedor 19,Cartão,6281.97,6233.52,Pago
+MOV-00796,2025-10-07,2025-10-26,2025-10-21,Saída,Fornecedores,Tecnologia,Fornecedor 14,Boleto,2307.83,2368.32,Pago
+MOV-00797,2025-09-11,2025-10-04,2025-09-30,Saída,Logística,Marketing,Fornecedor 37,Transferência,5513.16,5635.69,Pago
+MOV-00798,2025-09-20,2025-10-16,2025-10-13,Saída,Pessoal,Marketing,Fornecedor 29,Cartão,11737.06,11921.53,Pago
+MOV-00799,2025-09-11,2025-10-03,2025-10-04,Saída,Fornecedores,Tecnologia,Fornecedor 35,PIX,7728.39,7676.1,Pago
+MOV-00800,2025-09-22,2025-10-24,2025-10-20,Saída,Administrativo,Comercial,Fornecedor 37,Transferência,9231.14,9433.83,Pago
+MOV-00801,2025-11-07,2025-11-18,2025-12-06,Entrada,Assinaturas,Administrativo,Cliente 34,Boleto,4888.01,4910.55,Pago em atraso
+MOV-00802,2025-10-22,2025-11-01,2025-11-19,Entrada,Assinaturas,Tecnologia,Cliente 14,Boleto,10900.68,10691.22,Pago em atraso
+MOV-00803,2025-11-08,2025-11-19,2025-11-19,Entrada,Serviços,Marketing,Cliente 02,Transferência,16237.61,16141.94,Pago
+MOV-00804,2025-11-15,2025-11-28,2025-11-29,Entrada,Vendas B2B,Comercial,Cliente 35,Boleto,9508.79,9370.25,Pago
+MOV-00805,2025-10-25,2025-11-25,2025-12-05,Entrada,Vendas B2B,Operações,Cliente 04,Transferência,5822.58,5980.55,Pago em atraso
+MOV-00806,2025-10-21,2025-11-10,2025-11-10,Entrada,Vendas B2B,Tecnologia,Cliente 25,PIX,14244.0,13938.43,Pago
+MOV-00807,2025-10-25,2025-11-20,2025-11-22,Entrada,Vendas B2B,Marketing,Cliente 08,Transferência,6726.47,6729.95,Pago
+MOV-00808,2025-10-28,2025-11-14,2025-11-15,Entrada,Vendas B2B,Comercial,Cliente 18,PIX,10300.53,10243.36,Pago
+MOV-00809,2025-10-27,2025-11-26,2025-12-10,Entrada,Vendas B2B,Administrativo,Cliente 14,Boleto,11727.04,11689.03,Pago em atraso
+MOV-00810,2025-10-30,2025-11-26,2025-11-27,Entrada,Vendas B2B,Marketing,Cliente 03,PIX,18560.92,19074.71,Pago
+MOV-00811,2025-10-26,2025-11-20,2025-11-17,Entrada,Assinaturas,Tecnologia,Cliente 39,Transferência,18176.94,17632.22,Pago
+MOV-00812,2025-10-17,2025-11-12,2025-11-10,Entrada,Serviços,Tecnologia,Cliente 03,Boleto,8956.77,9002.54,Pago
+MOV-00813,2025-10-08,2025-11-10,2025-11-14,Entrada,Assinaturas,Administrativo,Cliente 18,Cartão,11859.94,12095.12,Pago em atraso
+MOV-00814,2025-10-23,2025-11-26,2025-11-26,Entrada,Vendas B2B,Marketing,Cliente 18,Boleto,10935.3,11023.99,Pago
+MOV-00815,2025-10-06,2025-11-07,2025-11-07,Entrada,Assinaturas,Operações,Cliente 42,PIX,8028.1,7794.9,Pago
+MOV-00816,2025-09-30,2025-11-01,2025-11-02,Entrada,Assinaturas,Marketing,Cliente 26,PIX,2991.44,3001.45,Pago
+MOV-00817,2025-10-13,2025-11-03,2025-11-05,Entrada,Assinaturas,Marketing,Cliente 39,Transferência,13225.06,13361.74,Pago
+MOV-00818,2025-11-05,2025-11-26,2025-11-21,Entrada,Vendas B2B,Operações,Cliente 29,PIX,16241.23,15875.57,Pago
+MOV-00819,2025-10-11,2025-11-09,2025-11-09,Entrada,Vendas B2B,Tecnologia,Cliente 15,Boleto,3237.47,3177.55,Pago
+MOV-00820,2025-10-03,2025-11-02,2025-10-31,Entrada,Serviços,Marketing,Cliente 08,Transferência,18275.06,17734.63,Pago
+MOV-00821,2025-11-04,2025-11-18,2025-11-15,Entrada,Assinaturas,Comercial,Cliente 09,Transferência,10763.76,10483.06,Pago
+MOV-00822,2025-10-17,2025-11-17,2025-11-16,Entrada,Serviços,Comercial,Cliente 45,Transferência,16500.45,16195.37,Pago
+MOV-00823,2025-10-12,2025-11-01,2025-10-27,Entrada,Assinaturas,Marketing,Cliente 27,Transferência,16938.84,17298.48,Pago
+MOV-00824,2025-10-30,2025-11-16,2025-11-11,Entrada,Vendas B2B,Comercial,Cliente 18,Cartão,11149.16,11405.9,Pago
+MOV-00825,2025-10-09,2025-11-13,2025-11-09,Entrada,Assinaturas,Comercial,Cliente 15,Cartão,7942.46,8123.6,Pago
+MOV-00826,2025-10-08,2025-11-07,2025-11-06,Entrada,Serviços,Comercial,Cliente 02,Cartão,17476.75,17018.35,Pago
+MOV-00827,2025-11-09,2025-11-26,2025-11-26,Entrada,Vendas B2B,Comercial,Cliente 31,Boleto,3304.79,3372.31,Pago
+MOV-00828,2025-10-24,2025-11-27,2025-11-25,Entrada,Serviços,Administrativo,Cliente 40,Cartão,16136.04,16565.47,Pago
+MOV-00829,2025-10-28,2025-11-19,2025-11-21,Entrada,Assinaturas,Tecnologia,Cliente 45,PIX,12848.15,13169.39,Pago
+MOV-00830,2025-11-03,2025-11-26,2025-11-25,Entrada,Assinaturas,Comercial,Cliente 07,PIX,3907.53,3933.49,Pago
+MOV-00831,2025-10-15,2025-11-13,2025-11-14,Entrada,Assinaturas,Administrativo,Cliente 01,Cartão,7604.02,7482.25,Pago
+MOV-00832,2025-10-20,2025-11-20,2025-11-20,Entrada,Vendas B2B,Comercial,Cliente 30,Transferência,15543.23,15683.98,Pago
+MOV-00833,2025-10-16,2025-11-01,2025-10-28,Entrada,Assinaturas,Administrativo,Cliente 09,Transferência,4637.65,4663.5,Pago
+MOV-00834,2025-11-09,2025-11-20,2025-11-18,Entrada,Vendas B2B,Comercial,Cliente 09,Transferência,10563.6,10333.95,Pago
+MOV-00835,2025-10-25,2025-11-21,2025-11-20,Saída,Marketing,Operações,Fornecedor 10,Cartão,7307.05,7343.73,Pago
+MOV-00836,2025-10-06,2025-11-01,2025-10-29,Saída,Pessoal,Administrativo,Fornecedor 04,Cartão,10637.76,10355.21,Pago
+MOV-00837,2025-10-13,2025-11-07,2025-11-07,Saída,Pessoal,Marketing,Fornecedor 39,Transferência,13474.88,13223.73,Pago
+MOV-00838,2025-10-29,2025-11-11,2025-11-12,Saída,Logística,Marketing,Fornecedor 03,Cartão,7932.04,7850.48,Pago
+MOV-00839,2025-10-22,2025-11-08,2025-11-10,Saída,Fornecedores,Marketing,Fornecedor 22,Cartão,1296.56,1306.2,Pago
+MOV-00840,2025-10-05,2025-11-01,2025-10-28,Saída,Fornecedores,Comercial,Fornecedor 10,Transferência,3426.75,3397.53,Pago
+MOV-00841,2025-10-24,2025-11-12,2025-11-13,Saída,Pessoal,Operações,Fornecedor 15,Transferência,16316.48,16021.92,Pago
+MOV-00842,2025-10-31,2025-11-18,2025-11-16,Saída,Tecnologia,Comercial,Fornecedor 02,Boleto,5262.28,5111.2,Pago
+MOV-00843,2025-10-17,2025-11-07,2025-11-05,Saída,Pessoal,Operações,Fornecedor 34,Cartão,7945.39,7883.24,Pago
+MOV-00844,2025-10-20,2025-11-05,2025-11-02,Saída,Logística,Administrativo,Fornecedor 25,Transferência,2024.3,2060.12,Pago
+MOV-00845,2025-10-14,2025-11-02,2025-10-31,Saída,Pessoal,Operações,Fornecedor 21,Boleto,13428.82,13714.4,Pago
+MOV-00846,2025-11-16,2025-11-28,2025-11-30,Saída,Fornecedores,Marketing,Fornecedor 43,PIX,10639.97,10454.35,Pago
+MOV-00847,2025-10-28,2025-11-21,2025-11-21,Saída,Fornecedores,Operações,Fornecedor 21,Transferência,5832.12,5831.63,Pago
+MOV-00848,2025-10-12,2025-11-16,2025-11-17,Saída,Pessoal,Administrativo,Fornecedor 42,PIX,16765.9,16904.83,Pago
+MOV-00849,2025-10-23,2025-11-15,2025-11-16,Saída,Fornecedores,Marketing,Fornecedor 37,Boleto,11811.24,11611.81,Pago
+MOV-00850,2025-10-23,2025-11-18,2025-11-21,Saída,Administrativo,Tecnologia,Fornecedor 15,PIX,5666.85,5597.16,Pago em atraso
+MOV-00851,2025-10-26,2025-11-15,2025-11-15,Saída,Pessoal,Tecnologia,Fornecedor 25,PIX,11235.75,11441.03,Pago
+MOV-00852,2025-10-26,2025-11-21,2025-11-24,Saída,Fornecedores,Administrativo,Fornecedor 35,PIX,4011.32,3961.86,Pago em atraso
+MOV-00853,2025-10-19,2025-11-04,2025-11-04,Saída,Tecnologia,Tecnologia,Fornecedor 13,Transferência,12185.5,11847.92,Pago
+MOV-00854,2025-10-27,2025-11-25,2025-11-24,Saída,Fornecedores,Operações,Fornecedor 35,Transferência,10045.32,9858.86,Pago
+MOV-00855,2025-10-30,2025-11-27,2025-11-28,Saída,Fornecedores,Comercial,Fornecedor 31,Boleto,4786.29,4914.32,Pago
+MOV-00856,2025-10-27,2025-11-24,2025-11-26,Saída,Logística,Administrativo,Fornecedor 30,Cartão,3938.02,3875.1,Pago
+MOV-00857,2025-10-21,2025-11-14,2025-11-15,Saída,Pessoal,Administrativo,Fornecedor 02,Transferência,15617.9,15345.76,Pago
+MOV-00858,2025-10-10,2025-11-10,2025-11-05,Saída,Fornecedores,Tecnologia,Fornecedor 22,Boleto,11561.88,11561.74,Pago
+MOV-00859,2025-11-15,2025-11-25,2025-11-24,Saída,Pessoal,Administrativo,Fornecedor 03,Boleto,10998.39,10883.62,Pago
+MOV-00860,2025-10-26,2025-11-11,2025-11-12,Saída,Fornecedores,Marketing,Fornecedor 05,Cartão,12492.64,12852.56,Pago
+MOV-00861,2025-11-06,2025-11-19,2025-11-18,Saída,Fornecedores,Administrativo,Fornecedor 12,PIX,2534.71,2472.85,Pago
+MOV-00862,2025-10-10,2025-11-01,2025-10-28,Saída,Logística,Tecnologia,Fornecedor 14,Boleto,8371.73,8578.35,Pago
+MOV-00863,2025-10-26,2025-11-15,2025-12-02,Saída,Fornecedores,Marketing,Fornecedor 26,Boleto,7440.02,7221.75,Pago em atraso
+MOV-00864,2025-10-29,2025-11-14,2025-11-10,Saída,Administrativo,Operações,Fornecedor 14,Transferência,2776.57,2758.08,Pago
+MOV-00865,2025-10-25,2025-11-20,2025-11-19,Saída,Pessoal,Marketing,Fornecedor 18,Boleto,11744.0,11805.65,Pago
+MOV-00866,2025-10-06,2025-11-03,2025-11-01,Saída,Fornecedores,Marketing,Fornecedor 30,Cartão,2936.49,2941.05,Pago
+MOV-00867,2025-10-11,2025-11-15,2025-11-14,Saída,Pessoal,Operações,Fornecedor 27,Boleto,9792.88,9728.89,Pago
+MOV-00868,2025-11-01,2025-11-14,2025-11-11,Saída,Fornecedores,Marketing,Fornecedor 45,PIX,8541.31,8643.05,Pago
+MOV-00869,2025-10-28,2025-11-09,2025-11-08,Saída,Fornecedores,Operações,Fornecedor 32,Cartão,11524.0,11639.23,Pago
+MOV-00870,2025-10-09,2025-11-12,2025-11-16,Saída,Administrativo,Tecnologia,Fornecedor 27,Cartão,7775.43,7777.48,Pago em atraso
+MOV-00871,2025-10-02,2025-11-02,2025-10-29,Saída,Fornecedores,Marketing,Fornecedor 25,Transferência,3699.62,3730.45,Pago
+MOV-00872,2025-10-30,2025-11-13,2025-11-22,Saída,Tecnologia,Tecnologia,Fornecedor 43,Cartão,11349.78,11087.38,Pago em atraso
+MOV-00873,2025-10-21,2025-11-08,2025-11-10,Saída,Pessoal,Operações,Fornecedor 11,PIX,12512.98,12242.89,Pago
+MOV-00874,2025-10-04,2025-11-04,2025-11-05,Saída,Marketing,Comercial,Fornecedor 44,Transferência,3344.07,3277.55,Pago
+MOV-00875,2025-10-27,2025-11-07,2025-11-05,Saída,Fornecedores,Administrativo,Fornecedor 42,PIX,5477.83,5458.79,Pago
+MOV-00876,2025-10-15,2025-11-01,2025-11-14,Saída,Pessoal,Tecnologia,Fornecedor 16,Boleto,7334.03,7451.57,Pago em atraso
+MOV-00877,2025-10-20,2025-11-01,2025-10-30,Saída,Fornecedores,Operações,Fornecedor 07,Boleto,6228.16,6295.41,Pago
+MOV-00878,2025-10-18,2025-11-17,2025-11-17,Saída,Tecnologia,Operações,Fornecedor 40,Boleto,1772.22,1753.36,Pago
+MOV-00879,2025-10-25,2025-11-14,2025-11-12,Saída,Administrativo,Operações,Fornecedor 01,Cartão,5914.1,5774.25,Pago
+MOV-00880,2025-10-20,2025-11-07,2025-11-03,Saída,Marketing,Administrativo,Fornecedor 24,PIX,1394.3,1407.51,Pago
+MOV-00881,2025-11-27,2025-12-10,2025-12-12,Entrada,Vendas B2B,Administrativo,Cliente 37,Boleto,6795.56,6992.54,Pago
+MOV-00882,2025-11-07,2025-12-11,2025-12-12,Entrada,Vendas B2B,Operações,Cliente 22,Boleto,4706.53,4756.77,Pago
+MOV-00883,2025-12-01,2025-12-11,2025-12-13,Entrada,Assinaturas,Administrativo,Cliente 38,Cartão,18022.29,17554.63,Pago
+MOV-00884,2025-11-09,2025-12-08,2025-12-03,Entrada,Vendas B2B,Comercial,Cliente 20,Boleto,13916.07,13692.81,Pago
+MOV-00885,2025-12-01,2025-12-20,2025-12-25,Entrada,Assinaturas,Operações,Cliente 10,Cartão,15884.25,15764.66,Pago em atraso
+MOV-00886,2025-12-04,2025-12-24,2025-12-26,Entrada,Vendas B2B,Operações,Cliente 18,Transferência,3747.56,3801.36,Pago
+MOV-00887,2025-11-28,2025-12-17,2025-12-18,Entrada,Assinaturas,Comercial,Cliente 15,Transferência,15939.05,16080.63,Pago
+MOV-00888,2025-10-31,2025-12-02,2025-11-30,Entrada,Vendas B2B,Operações,Cliente 39,Cartão,6580.55,6699.57,Pago
+MOV-00889,2025-12-05,2025-12-21,2026-01-06,Entrada,Assinaturas,Comercial,Cliente 41,Boleto,6204.78,6044.69,Pago em atraso
+MOV-00890,2025-11-24,2025-12-06,2025-12-04,Entrada,Serviços,Marketing,Cliente 30,Transferência,5226.47,5143.78,Pago
+MOV-00891,2025-11-16,2025-12-14,2025-12-12,Entrada,Vendas B2B,Marketing,Cliente 41,Boleto,6440.83,6364.74,Pago
+MOV-00892,2025-11-18,2025-12-03,2025-12-03,Entrada,Vendas B2B,Marketing,Cliente 29,Cartão,16289.91,16190.45,Pago
+MOV-00893,2025-12-03,2025-12-25,2026-01-10,Entrada,Vendas B2B,Marketing,Cliente 06,Transferência,15507.71,15060.91,Pago em atraso
+MOV-00894,2025-11-30,2025-12-24,2025-12-25,Entrada,Assinaturas,Tecnologia,Cliente 25,Cartão,5686.02,5673.62,Pago
+MOV-00895,2025-11-20,2025-12-16,2025-12-14,Entrada,Vendas B2B,Tecnologia,Cliente 32,Cartão,5413.67,5252.62,Pago
+MOV-00896,2025-11-26,2025-12-24,2025-12-26,Entrada,Serviços,Comercial,Cliente 27,PIX,18972.49,18753.71,Pago
+MOV-00897,2025-11-15,2025-12-19,2025-12-20,Entrada,Serviços,Tecnologia,Cliente 33,Cartão,5208.18,5351.02,Pago
+MOV-00898,2025-11-15,2025-12-02,2025-12-03,Entrada,Assinaturas,Marketing,Cliente 03,Transferência,9319.94,9451.72,Pago
+MOV-00899,2025-11-29,2025-12-23,2025-12-20,Entrada,Assinaturas,Operações,Cliente 17,Boleto,14520.65,14312.71,Pago
+MOV-00900,2025-11-27,2025-12-27,2025-12-23,Entrada,Assinaturas,Marketing,Cliente 26,PIX,19166.4,19478.01,Pago
+MOV-00901,2025-11-25,2025-12-14,2025-12-15,Entrada,Vendas B2B,Administrativo,Cliente 35,Cartão,6293.83,6200.51,Pago
+MOV-00902,2025-11-27,2025-12-25,2025-12-21,Entrada,Assinaturas,Tecnologia,Cliente 10,Transferência,15490.92,15127.76,Pago
+MOV-00903,2025-11-18,2025-12-13,2025-12-08,Entrada,Assinaturas,Comercial,Cliente 07,PIX,18799.24,19348.58,Pago
+MOV-00904,2025-11-23,2025-12-14,2025-12-15,Entrada,Assinaturas,Operações,Cliente 09,Boleto,10157.79,9957.05,Pago
+MOV-00905,2025-11-23,2025-12-04,2025-12-02,Entrada,Vendas B2B,Operações,Cliente 13,Transferência,11588.1,11369.53,Pago
+MOV-00906,2025-11-30,2025-12-15,2025-12-11,Entrada,Serviços,Comercial,Cliente 19,PIX,17813.9,18207.62,Pago
+MOV-00907,2025-11-10,2025-12-11,2025-12-19,Entrada,Vendas B2B,Comercial,Cliente 01,PIX,7777.53,7767.22,Pago em atraso
+MOV-00908,2025-11-26,2025-12-22,2025-12-17,Entrada,Vendas B2B,Comercial,Cliente 25,Transferência,19224.37,18759.34,Pago
+MOV-00909,2025-11-21,2025-12-11,2025-12-11,Entrada,Serviços,Tecnologia,Cliente 16,Transferência,11092.37,11006.37,Pago
+MOV-00910,2025-11-22,2025-12-02,2025-12-02,Entrada,Assinaturas,Marketing,Cliente 45,Cartão,9492.97,9667.41,Pago
+MOV-00911,2025-11-17,2025-12-05,2025-12-09,Entrada,Assinaturas,Operações,Cliente 24,Cartão,18089.84,18490.35,Pago em atraso
+MOV-00912,2025-11-16,2025-12-16,2025-12-14,Entrada,Assinaturas,Tecnologia,Cliente 02,Transferência,14224.56,13800.49,Pago
+MOV-00913,2025-11-29,2025-12-24,2025-12-26,Entrada,Serviços,Marketing,Cliente 40,PIX,19467.05,19155.84,Pago
+MOV-00914,2025-11-27,2025-12-16,2025-12-12,Entrada,Vendas B2B,Administrativo,Cliente 13,Boleto,18952.24,19218.65,Pago
+MOV-00915,2025-11-21,2025-12-26,2025-12-21,Saída,Logística,Comercial,Fornecedor 20,Cartão,12322.6,12047.46,Pago
+MOV-00916,2025-11-19,2025-12-04,2025-12-02,Saída,Fornecedores,Comercial,Fornecedor 07,Cartão,6929.77,6823.06,Pago
+MOV-00917,2025-11-23,2025-12-11,2025-12-10,Saída,Administrativo,Marketing,Fornecedor 43,PIX,1698.53,1670.03,Pago
+MOV-00918,2025-12-01,2025-12-21,2025-12-17,Saída,Marketing,Operações,Fornecedor 37,PIX,12905.88,13134.73,Pago
+MOV-00919,2025-11-18,2025-12-23,2025-12-24,Saída,Marketing,Administrativo,Fornecedor 28,Boleto,6060.84,6116.81,Pago
+MOV-00920,2025-11-17,2025-12-03,2025-12-03,Saída,Fornecedores,Comercial,Fornecedor 37,Transferência,2783.1,2823.27,Pago
+MOV-00921,2025-11-15,2025-12-13,2025-12-08,Saída,Fornecedores,Administrativo,Fornecedor 13,Cartão,5262.63,5202.89,Pago
+MOV-00922,2025-11-13,2025-12-12,2025-12-09,Saída,Administrativo,Administrativo,Fornecedor 15,PIX,5341.28,5347.61,Pago
+MOV-00923,2025-11-10,2025-12-05,2025-12-04,Saída,Pessoal,Marketing,Fornecedor 10,Transferência,12327.69,12577.12,Pago
+MOV-00924,2025-12-07,2025-12-26,2025-12-21,Saída,Fornecedores,Administrativo,Fornecedor 45,PIX,9677.49,9734.9,Pago
+MOV-00925,2025-11-17,2025-12-19,2025-12-17,Saída,Fornecedores,Marketing,Fornecedor 04,Transferência,11964.32,11960.75,Pago
+MOV-00926,2025-12-17,2025-12-28,2025-12-26,Saída,Fornecedores,Operações,Fornecedor 32,Cartão,10322.4,10446.52,Pago
+MOV-00927,2025-12-08,2025-12-28,2025-12-23,Saída,Fornecedores,Marketing,Fornecedor 44,Cartão,11554.7,11587.94,Pago
+MOV-00928,2025-11-27,2025-12-13,2025-12-23,Saída,Administrativo,Administrativo,Fornecedor 26,PIX,10836.01,10694.51,Pago em atraso
+MOV-00929,2025-11-17,2025-12-19,2025-12-14,Saída,Fornecedores,Tecnologia,Fornecedor 30,Boleto,10767.68,10993.68,Pago
+MOV-00930,2025-11-25,2025-12-05,2025-12-03,Saída,Pessoal,Tecnologia,Fornecedor 37,PIX,12570.1,12747.58,Pago
+MOV-00931,2025-11-20,2025-12-05,2025-12-06,Saída,Marketing,Comercial,Fornecedor 07,Transferência,13730.56,13878.39,Pago
+MOV-00932,2025-11-18,2025-12-02,2025-12-02,Saída,Administrativo,Marketing,Fornecedor 16,PIX,3585.14,3605.23,Pago
+MOV-00933,2025-11-18,2025-12-10,2025-12-07,Saída,Fornecedores,Comercial,Fornecedor 30,Cartão,6307.12,6364.94,Pago
+MOV-00934,2025-11-17,2025-12-12,2025-12-16,Saída,Fornecedores,Administrativo,Fornecedor 15,PIX,9525.03,9286.51,Pago em atraso
+MOV-00935,2025-12-01,2025-12-16,2025-12-12,Saída,Marketing,Marketing,Fornecedor 31,Cartão,13716.32,13958.56,Pago
+MOV-00936,2025-11-09,2025-12-11,2025-12-29,Saída,Fornecedores,Comercial,Fornecedor 26,Cartão,2902.84,2847.96,Pago em atraso
+MOV-00937,2025-12-02,2025-12-18,2025-12-14,Saída,Fornecedores,Comercial,Fornecedor 12,Boleto,11832.3,12012.28,Pago
+MOV-00938,2025-11-11,2025-12-11,2025-12-08,Saída,Fornecedores,Operações,Fornecedor 06,Transferência,6941.64,6972.91,Pago
+MOV-00939,2025-11-19,2025-12-04,2025-12-04,Saída,Logística,Marketing,Fornecedor 43,PIX,1771.07,1820.62,Pago
+MOV-00940,2025-11-23,2025-12-17,2025-12-16,Saída,Fornecedores,Operações,Fornecedor 37,Cartão,1911.06,1929.31,Pago
+MOV-00941,2025-11-11,2025-12-12,2025-12-10,Saída,Marketing,Comercial,Fornecedor 16,PIX,7887.8,7976.74,Pago
+MOV-00942,2025-12-11,2025-12-27,2025-12-24,Saída,Fornecedores,Administrativo,Fornecedor 23,Transferência,5091.25,5122.45,Pago
+MOV-00943,2025-11-18,2025-12-03,2025-12-02,Saída,Fornecedores,Marketing,Fornecedor 30,PIX,9137.67,9072.86,Pago
+MOV-00944,2025-11-20,2025-12-23,2025-12-21,Saída,Administrativo,Tecnologia,Fornecedor 41,Boleto,9817.66,9564.69,Pago
+MOV-00945,2025-12-07,2025-12-21,2025-12-18,Saída,Tecnologia,Tecnologia,Fornecedor 28,Cartão,8401.76,8361.27,Pago
+MOV-00946,2025-11-10,2025-12-03,2025-11-29,Saída,Fornecedores,Comercial,Fornecedor 22,PIX,8903.05,9001.33,Pago
+MOV-00947,2025-12-06,2025-12-28,2025-12-27,Saída,Pessoal,Operações,Fornecedor 25,PIX,10248.11,9946.73,Pago
+MOV-00948,2025-11-12,2025-12-17,2025-12-16,Saída,Tecnologia,Marketing,Fornecedor 07,Transferência,2881.1,2896.46,Pago
+MOV-00949,2025-12-03,2025-12-18,2025-12-14,Saída,Tecnologia,Tecnologia,Fornecedor 25,Boleto,12186.69,12476.66,Pago
+MOV-00950,2025-12-04,2025-12-18,2025-12-19,Saída,Pessoal,Tecnologia,Fornecedor 01,Boleto,17959.8,17934.87,Pago
+MOV-00951,2025-11-19,2025-12-19,2025-12-14,Saída,Marketing,Tecnologia,Fornecedor 16,Cartão,3121.51,3199.88,Pago
+MOV-00952,2025-11-19,2025-12-12,2025-12-11,Saída,Tecnologia,Administrativo,Fornecedor 15,Transferência,3628.68,3579.87,Pago
+MOV-00953,2025-11-10,2025-12-10,2025-12-10,Saída,Marketing,Comercial,Fornecedor 05,Boleto,2422.52,2472.7,Pago
+MOV-00954,2025-11-07,2025-12-02,2025-12-12,Saída,Administrativo,Comercial,Fornecedor 28,Boleto,3403.01,3414.07,Pago em atraso
+MOV-00955,2025-12-02,2025-12-18,2025-12-19,Saída,Pessoal,Comercial,Fornecedor 28,Transferência,18292.29,17758.78,Pago
+MOV-00956,2025-12-12,2025-12-27,2025-12-22,Saída,Fornecedores,Administrativo,Fornecedor 15,Boleto,10601.07,10669.37,Pago
+MOV-00957,2025-11-25,2025-12-17,2025-12-12,Saída,Fornecedores,Operações,Fornecedor 24,PIX,11860.71,11805.72,Pago
+MOV-00958,2025-12-03,2025-12-28,2025-12-24,Saída,Pessoal,Tecnologia,Fornecedor 17,Boleto,16447.16,16239.99,Pago
+MOV-00959,2025-11-13,2025-12-13,2025-12-12,Saída,Fornecedores,Administrativo,Fornecedor 03,Cartão,9248.85,9486.98,Pago
+MOV-00960,2025-11-11,2025-12-02,2025-12-04,Saída,Logística,Comercial,Fornecedor 01,Transferência,11972.88,11849.72,Pago
+MOV-00961,2025-12-31,2026-01-12,2026-01-26,Entrada,Serviços,Administrativo,Cliente 33,Boleto,5629.6,5626.91,Pago em atraso
+MOV-00962,2025-12-10,2026-01-01,2026-01-10,Entrada,Vendas B2B,Tecnologia,Cliente 20,Transferência,16679.26,16405.15,Pago em atraso
+MOV-00963,2026-01-02,2026-01-26,2026-01-28,Entrada,Vendas B2B,Operações,Cliente 09,Transferência,5569.17,5621.39,Pago
+MOV-00964,2026-01-17,2026-01-28,2026-01-24,Entrada,Assinaturas,Operações,Cliente 26,Cartão,2888.32,2834.52,Pago
+MOV-00965,2025-12-19,2026-01-06,2026-01-08,Entrada,Assinaturas,Comercial,Cliente 27,Cartão,16495.17,16950.14,Pago
+MOV-00966,2025-12-21,2026-01-23,2026-02-05,Entrada,Assinaturas,Marketing,Cliente 09,PIX,14957.27,14958.94,Pago em atraso
+MOV-00967,2025-12-05,2026-01-05,2026-01-22,Entrada,Serviços,Operações,Cliente 04,Transferência,14849.24,14415.92,Pago em atraso
+MOV-00968,2025-12-20,2026-01-01,2025-12-31,Entrada,Vendas B2B,Marketing,Cliente 16,Boleto,11875.72,11720.54,Pago
+MOV-00969,2025-12-23,2026-01-09,2026-01-08,Entrada,Assinaturas,Marketing,Cliente 13,Cartão,5640.28,5807.54,Pago
+MOV-00970,2025-12-26,2026-01-23,2026-01-20,Entrada,Assinaturas,Operações,Cliente 15,PIX,15111.28,14829.0,Pago
+MOV-00971,2025-12-22,2026-01-07,2026-01-08,Entrada,Vendas B2B,Comercial,Cliente 04,Cartão,3383.17,3285.26,Pago
+MOV-00972,2025-12-27,2026-01-21,2026-01-19,Entrada,Vendas B2B,Comercial,Cliente 33,Cartão,7457.98,7384.67,Pago
+MOV-00973,2025-12-23,2026-01-09,2026-01-09,Entrada,Assinaturas,Tecnologia,Cliente 04,Boleto,7425.21,7519.47,Pago
+MOV-00974,2025-12-26,2026-01-24,2026-01-23,Entrada,Vendas B2B,Comercial,Cliente 28,Boleto,3592.39,3586.37,Pago
+MOV-00975,2025-12-11,2026-01-11,2026-01-07,Entrada,Vendas B2B,Administrativo,Cliente 09,Transferência,10267.55,10371.63,Pago
+MOV-00976,2026-01-06,2026-01-24,2026-01-24,Entrada,Vendas B2B,Operações,Cliente 38,Cartão,15112.54,14875.2,Pago
+MOV-00977,2025-12-22,2026-01-21,2026-01-17,Entrada,Vendas B2B,Operações,Cliente 13,Cartão,4416.76,4295.13,Pago
+MOV-00978,2025-12-15,2026-01-18,2026-01-17,Entrada,Serviços,Operações,Cliente 35,Boleto,3938.17,3991.42,Pago
+MOV-00979,2025-12-25,2026-01-18,2026-01-18,Entrada,Vendas B2B,Comercial,Cliente 28,PIX,5713.94,5849.33,Pago
+MOV-00980,2025-12-16,2026-01-17,2026-01-14,Entrada,Vendas B2B,Operações,Cliente 19,PIX,10761.19,10825.21,Pago
+MOV-00981,2025-12-27,2026-01-23,2026-01-24,Entrada,Serviços,Administrativo,Cliente 05,Boleto,3724.06,3722.95,Pago
+MOV-00982,2026-01-02,2026-01-18,2026-01-19,Entrada,Vendas B2B,Operações,Cliente 01,Boleto,10541.03,10608.84,Pago
+MOV-00983,2025-11-29,2026-01-01,2026-01-03,Entrada,Assinaturas,Administrativo,Cliente 17,Transferência,11800.11,11802.81,Pago
+MOV-00984,2025-12-13,2026-01-09,2026-01-06,Entrada,Serviços,Operações,Cliente 19,PIX,7304.73,7183.73,Pago
+MOV-00985,2025-12-29,2026-01-09,2026-01-08,Entrada,Assinaturas,Operações,Cliente 14,PIX,17119.1,17502.62,Pago
+MOV-00986,2025-12-19,2026-01-20,2026-01-20,Entrada,Vendas B2B,Administrativo,Cliente 17,Boleto,8081.42,7879.34,Pago
+MOV-00987,2025-12-25,2026-01-11,2026-01-06,Entrada,Vendas B2B,Tecnologia,Cliente 12,Transferência,12094.53,12329.6,Pago
+MOV-00988,2025-12-27,2026-01-28,2026-01-24,Entrada,Serviços,Marketing,Cliente 42,Transferência,10968.31,11114.8,Pago
+MOV-00989,2025-12-31,2026-01-18,2026-01-20,Entrada,Serviços,Operações,Cliente 38,Cartão,12441.44,12232.9,Pago
+MOV-00990,2026-01-12,2026-01-24,2026-01-21,Entrada,Vendas B2B,Marketing,Cliente 12,Cartão,6322.19,6474.75,Pago
+MOV-00991,2025-12-28,2026-01-07,2026-01-04,Entrada,Vendas B2B,Tecnologia,Cliente 11,Boleto,15907.75,16048.59,Pago
+MOV-00992,2025-12-14,2026-01-07,2026-01-10,Entrada,Assinaturas,Marketing,Cliente 07,Boleto,13247.98,13189.47,Pago em atraso
+MOV-00993,2026-01-10,2026-01-20,2026-02-02,Entrada,Assinaturas,Comercial,Cliente 09,Boleto,15081.49,14647.79,Pago em atraso
+MOV-00994,2026-01-08,2026-01-21,2026-01-16,Entrada,Assinaturas,Administrativo,Cliente 22,PIX,6868.38,7056.97,Pago
+MOV-00995,2025-12-25,2026-01-19,2026-01-16,Saída,Fornecedores,Operações,Fornecedor 16,PIX,6628.81,6552.2,Pago
+MOV-00996,2025-12-19,2026-01-01,2025-12-28,Saída,Pessoal,Administrativo,Fornecedor 27,Boleto,11936.13,11968.1,Pago
+MOV-00997,2025-12-20,2026-01-08,2026-01-05,Saída,Fornecedores,Operações,Fornecedor 44,Cartão,3734.73,3701.86,Pago
+MOV-00998,2025-12-16,2026-01-04,2025-12-31,Saída,Marketing,Tecnologia,Fornecedor 05,Transferência,9277.82,9124.47,Pago
+MOV-00999,2025-12-08,2026-01-03,2025-12-31,Saída,Fornecedores,Tecnologia,Fornecedor 39,Boleto,11633.51,11408.8,Pago
+MOV-01000,2026-01-09,2026-01-22,2026-01-21,Saída,Marketing,Tecnologia,Fornecedor 32,Transferência,2897.49,2871.13,Pago
+MOV-01001,2026-01-09,2026-01-23,2026-01-18,Saída,Administrativo,Operações,Fornecedor 21,Boleto,10361.13,10586.0,Pago
+MOV-01002,2025-12-14,2026-01-16,2026-01-12,Saída,Pessoal,Tecnologia,Fornecedor 10,PIX,14355.46,14422.51,Pago
+MOV-01003,2025-12-20,2026-01-12,2026-01-13,Saída,Pessoal,Administrativo,Fornecedor 41,Transferência,14175.35,14159.44,Pago
+MOV-01004,2025-12-14,2026-01-08,2026-01-10,Saída,Fornecedores,Administrativo,Fornecedor 35,Boleto,11867.54,11895.13,Pago
+MOV-01005,2026-01-02,2026-01-19,2026-01-17,Saída,Pessoal,Tecnologia,Fornecedor 01,Boleto,10718.41,10849.02,Pago
+MOV-01006,2026-01-07,2026-01-18,2026-01-15,Saída,Administrativo,Tecnologia,Fornecedor 24,Boleto,1393.85,1429.05,Pago
+MOV-01007,2026-01-11,2026-01-28,2026-01-29,Saída,Fornecedores,Comercial,Fornecedor 09,PIX,2828.78,2785.07,Pago
+MOV-01008,2025-12-12,2026-01-13,2026-01-14,Saída,Administrativo,Comercial,Fornecedor 43,PIX,9154.78,9084.3,Pago
+MOV-01009,2025-12-26,2026-01-05,2026-01-01,Saída,Pessoal,Administrativo,Fornecedor 27,Boleto,8081.73,7958.1,Pago
+MOV-01010,2025-12-03,2026-01-05,2026-01-04,Saída,Tecnologia,Tecnologia,Fornecedor 29,PIX,6508.34,6496.7,Pago
+MOV-01011,2026-01-11,2026-01-21,2026-01-27,Saída,Fornecedores,Marketing,Fornecedor 28,Cartão,2961.53,2962.12,Pago em atraso
+MOV-01012,2026-01-02,2026-01-17,2026-01-15,Saída,Pessoal,Tecnologia,Fornecedor 06,Cartão,15691.5,15619.64,Pago
+MOV-01013,2025-12-23,2026-01-07,2026-01-02,Saída,Administrativo,Administrativo,Fornecedor 39,PIX,2614.01,2569.92,Pago
+MOV-01014,2025-12-27,2026-01-11,2026-01-12,Saída,Logística,Comercial,Fornecedor 24,Cartão,6493.33,6620.83,Pago
+MOV-01015,2025-12-15,2026-01-03,2026-01-03,Saída,Fornecedores,Operações,Fornecedor 35,PIX,2424.93,2356.26,Pago
+MOV-01016,2025-12-26,2026-01-25,2026-01-23,Saída,Fornecedores,Comercial,Fornecedor 16,Transferência,7947.35,7972.0,Pago
+MOV-01017,2025-12-13,2026-01-02,2026-01-04,Saída,Fornecedores,Comercial,Fornecedor 20,PIX,7642.39,7434.06,Pago
+MOV-01018,2025-12-11,2026-01-13,2026-01-13,Saída,Administrativo,Tecnologia,Fornecedor 09,PIX,9693.98,9840.46,Pago
+MOV-01019,2025-12-13,2026-01-17,2026-01-14,Saída,Pessoal,Marketing,Fornecedor 31,PIX,11535.78,11206.1,Pago
+MOV-01020,2025-12-29,2026-01-15,2026-01-18,Saída,Fornecedores,Operações,Fornecedor 44,Boleto,2912.38,2991.51,Pago em atraso
+MOV-01021,2026-01-03,2026-01-17,2026-01-17,Saída,Tecnologia,Tecnologia,Fornecedor 19,Transferência,3019.83,3010.31,Pago
+MOV-01022,2025-12-04,2026-01-02,2026-01-03,Saída,Marketing,Administrativo,Fornecedor 05,Boleto,11823.59,11638.51,Pago
+MOV-01023,2025-11-27,2026-01-01,2025-12-31,Saída,Pessoal,Comercial,Fornecedor 32,PIX,7474.06,7495.2,Pago
+MOV-01024,2025-12-22,2026-01-03,2026-01-03,Saída,Pessoal,Operações,Fornecedor 30,Transferência,9456.08,9372.89,Pago
+MOV-01025,2025-12-28,2026-01-25,2026-01-22,Saída,Administrativo,Marketing,Fornecedor 03,Transferência,12256.87,12580.33,Pago
+MOV-01026,2026-01-02,2026-01-28,2026-01-25,Saída,Logística,Administrativo,Fornecedor 21,Transferência,5730.61,5710.26,Pago
+MOV-01027,2025-12-16,2026-01-15,2026-01-10,Saída,Fornecedores,Comercial,Fornecedor 16,PIX,5869.09,5911.56,Pago
+MOV-01028,2025-12-27,2026-01-13,2026-01-14,Saída,Fornecedores,Marketing,Fornecedor 30,PIX,2389.87,2440.61,Pago
+MOV-01029,2026-01-14,2026-01-27,2026-01-23,Saída,Pessoal,Marketing,Fornecedor 28,Boleto,11851.16,11623.81,Pago
+MOV-01030,2025-12-27,2026-01-20,2026-01-22,Saída,Pessoal,Comercial,Fornecedor 35,Boleto,9924.24,9694.59,Pago
+MOV-01031,2025-12-04,2026-01-07,2026-01-02,Saída,Administrativo,Marketing,Fornecedor 04,Transferência,2844.31,2927.56,Pago
+MOV-01032,2025-12-07,2026-01-07,2026-01-08,Saída,Tecnologia,Marketing,Fornecedor 18,Transferência,12257.74,12590.64,Pago
+MOV-01033,2025-12-02,2026-01-03,2025-12-30,Saída,Marketing,Marketing,Fornecedor 27,Boleto,2144.58,2118.63,Pago
+MOV-01034,2025-12-24,2026-01-27,2026-02-10,Saída,Marketing,Tecnologia,Fornecedor 11,Boleto,4131.75,4092.59,Pago em atraso
+MOV-01035,2025-12-22,2026-01-23,2026-01-24,Saída,Pessoal,Administrativo,Fornecedor 25,PIX,11254.99,11156.86,Pago
+MOV-01036,2025-12-22,2026-01-24,2026-01-21,Saída,Pessoal,Tecnologia,Fornecedor 01,Boleto,8485.6,8395.86,Pago
+MOV-01037,2025-12-16,2026-01-16,2026-01-12,Saída,Logística,Marketing,Fornecedor 17,PIX,11752.16,11958.07,Pago
+MOV-01038,2025-12-31,2026-01-28,2026-01-30,Saída,Administrativo,Comercial,Fornecedor 03,Boleto,11859.56,11958.41,Pago
+MOV-01039,2026-01-07,2026-01-23,2026-01-20,Saída,Tecnologia,Tecnologia,Fornecedor 14,Boleto,3320.52,3340.63,Pago
+MOV-01040,2025-12-13,2026-01-01,2026-01-01,Saída,Administrativo,Administrativo,Fornecedor 08,Cartão,7718.25,7494.2,Pago
+MOV-01041,2026-01-11,2026-02-14,2026-02-15,Entrada,Assinaturas,Tecnologia,Cliente 08,Boleto,10606.97,10621.72,Pago
+MOV-01042,2026-01-18,2026-02-18,2026-02-19,Entrada,Vendas B2B,Marketing,Cliente 41,Transferência,9233.88,9168.26,Pago
+MOV-01043,2026-02-15,2026-02-28,2026-03-03,Entrada,Assinaturas,Comercial,Cliente 42,PIX,18591.15,18932.42,Pago em atraso
+MOV-01044,2026-01-21,2026-02-16,2026-02-12,Entrada,Assinaturas,Administrativo,Cliente 03,Transferência,9866.08,9945.12,Pago
+MOV-01045,2026-01-31,2026-02-25,2026-02-26,Entrada,Serviços,Comercial,Cliente 23,Cartão,6562.28,6410.49,Pago
+MOV-01046,2026-02-02,2026-02-23,2026-02-24,Entrada,Vendas B2B,Operações,Cliente 33,Transferência,16644.69,16152.94,Pago
+MOV-01047,2026-01-31,2026-02-10,2026-02-11,Entrada,Vendas B2B,Marketing,Cliente 03,PIX,13965.04,14110.25,Pago
+MOV-01048,2026-01-30,2026-02-27,2026-02-27,Entrada,Vendas B2B,Marketing,Cliente 16,Cartão,16149.17,15989.38,Pago
+MOV-01049,2026-01-28,2026-02-27,2026-03-13,Entrada,Vendas B2B,Marketing,Cliente 12,Cartão,13728.99,13423.28,Pago em atraso
+MOV-01050,2026-01-15,2026-02-14,2026-02-11,Entrada,Serviços,Administrativo,Cliente 26,Transferência,11622.25,11625.22,Pago
+MOV-01051,2026-02-01,2026-02-11,2026-02-07,Entrada,Serviços,Administrativo,Cliente 10,PIX,5687.19,5525.32,Pago
+MOV-01052,2026-01-20,2026-02-03,2026-01-29,Entrada,Assinaturas,Marketing,Cliente 41,Transferência,12059.57,12234.92,Pago
+MOV-01053,2026-01-04,2026-02-08,2026-02-06,Entrada,Vendas B2B,Marketing,Cliente 17,PIX,13863.0,14051.24,Pago
+MOV-01054,2026-01-23,2026-02-21,2026-02-25,Entrada,Vendas B2B,Comercial,Cliente 07,Boleto,18542.68,18109.82,Pago em atraso
+MOV-01055,2026-01-18,2026-02-03,2026-02-15,Entrada,Vendas B2B,Marketing,Cliente 07,Cartão,17873.81,18316.42,Pago em atraso
+MOV-01056,2026-01-24,2026-02-16,2026-02-12,Entrada,Assinaturas,Marketing,Cliente 21,Cartão,9906.93,9734.73,Pago
+MOV-01057,2026-01-12,2026-02-01,2026-01-27,Entrada,Assinaturas,Tecnologia,Cliente 31,PIX,6031.03,5892.51,Pago
+MOV-01058,2026-01-09,2026-02-04,2026-01-30,Entrada,Vendas B2B,Administrativo,Cliente 10,Boleto,15340.43,15373.52,Pago
+MOV-01059,2026-01-05,2026-02-07,2026-02-12,Entrada,Serviços,Operações,Cliente 18,Transferência,4953.82,4870.52,Pago em atraso
+MOV-01060,2026-01-08,2026-02-12,2026-02-11,Entrada,Vendas B2B,Marketing,Cliente 28,Cartão,18845.1,18807.84,Pago
+MOV-01061,2026-01-25,2026-02-07,2026-02-06,Entrada,Serviços,Administrativo,Cliente 38,Transferência,7195.54,7394.94,Pago
+MOV-01062,2026-01-22,2026-02-24,2026-02-26,Entrada,Vendas B2B,Tecnologia,Cliente 21,PIX,6462.22,6432.65,Pago
+MOV-01063,2026-02-08,2026-02-19,2026-02-15,Entrada,Assinaturas,Administrativo,Cliente 17,Cartão,10164.86,10134.0,Pago
+MOV-01064,2026-02-08,2026-02-21,2026-02-21,Entrada,Vendas B2B,Operações,Cliente 21,Cartão,16748.54,16646.35,Pago
+MOV-01065,2025-12-31,2026-02-03,2026-02-03,Entrada,Assinaturas,Tecnologia,Cliente 08,PIX,8979.11,8910.13,Pago
+MOV-01066,2026-01-15,2026-02-11,2026-02-11,Entrada,Vendas B2B,Comercial,Cliente 25,Transferência,3232.61,3309.95,Pago
+MOV-01067,2026-01-05,2026-02-04,2026-01-31,Entrada,Assinaturas,Marketing,Cliente 44,Cartão,11787.68,11839.98,Pago
+MOV-01068,2026-01-20,2026-02-07,2026-02-23,Entrada,Vendas B2B,Marketing,Cliente 08,PIX,8355.77,8355.09,Pago em atraso
+MOV-01069,2026-01-20,2026-02-19,2026-02-14,Entrada,Vendas B2B,Administrativo,Cliente 01,Cartão,13016.5,12848.62,Pago
+MOV-01070,2026-02-02,2026-02-13,2026-03-03,Entrada,Vendas B2B,Tecnologia,Cliente 42,PIX,16996.34,17422.64,Pago em atraso
+MOV-01071,2026-01-23,2026-02-26,2026-02-25,Entrada,Vendas B2B,Tecnologia,Cliente 26,PIX,4627.95,4565.38,Pago
+MOV-01072,2026-01-27,2026-02-20,2026-03-02,Entrada,Assinaturas,Marketing,Cliente 42,PIX,8240.68,8337.82,Pago em atraso
+MOV-01073,2026-01-21,2026-02-04,2026-02-06,Entrada,Serviços,Comercial,Cliente 21,Cartão,18587.88,18950.85,Pago
+MOV-01074,2026-01-28,2026-02-24,2026-02-24,Entrada,Vendas B2B,Comercial,Cliente 45,PIX,4510.26,4595.81,Pago
+MOV-01075,2026-01-15,2026-02-04,2026-02-14,Saída,Fornecedores,Administrativo,Fornecedor 25,Transferência,10976.16,10696.3,Pago em atraso
+MOV-01076,2026-02-05,2026-02-19,2026-02-16,Saída,Marketing,Administrativo,Fornecedor 27,Cartão,12699.48,12561.82,Pago
+MOV-01077,2026-01-19,2026-02-08,2026-02-10,Saída,Marketing,Marketing,Fornecedor 15,PIX,7734.56,7955.62,Pago
+MOV-01078,2026-01-01,2026-02-03,2026-02-01,Saída,Fornecedores,Operações,Fornecedor 45,PIX,4956.72,5004.15,Pago
+MOV-01079,2026-01-16,2026-02-07,2026-02-14,Saída,Fornecedores,Operações,Fornecedor 32,PIX,7400.06,7385.92,Pago em atraso
+MOV-01080,2026-01-18,2026-02-17,2026-02-16,Saída,Pessoal,Operações,Fornecedor 33,PIX,15386.47,15578.97,Pago
+MOV-01081,2026-01-17,2026-02-12,2026-02-14,Saída,Logística,Operações,Fornecedor 26,Boleto,4002.77,4091.12,Pago
+MOV-01082,2026-02-09,2026-02-22,2026-02-18,Saída,Fornecedores,Comercial,Fornecedor 16,PIX,6519.25,6381.29,Pago
+MOV-01083,2026-01-19,2026-02-01,2026-02-03,Saída,Logística,Administrativo,Fornecedor 06,Transferência,3611.65,3579.57,Pago
+MOV-01084,2026-02-04,2026-02-17,2026-02-19,Saída,Pessoal,Comercial,Fornecedor 42,Cartão,12558.88,12387.52,Pago
+MOV-01085,2026-01-15,2026-02-10,2026-02-07,Saída,Tecnologia,Administrativo,Fornecedor 32,Cartão,6513.02,6549.77,Pago
+MOV-01086,2026-01-28,2026-02-08,2026-02-06,Saída,Fornecedores,Administrativo,Fornecedor 18,Boleto,1922.27,1877.89,Pago
+MOV-01087,2026-01-26,2026-02-08,2026-02-09,Saída,Fornecedores,Operações,Fornecedor 45,Transferência,2552.41,2535.86,Pago
+MOV-01088,2026-02-08,2026-02-21,2026-02-20,Saída,Pessoal,Operações,Fornecedor 33,Cartão,9303.97,9434.53,Pago
+MOV-01089,2026-02-08,2026-02-23,2026-02-23,Saída,Tecnologia,Operações,Fornecedor 22,Cartão,11809.03,11937.59,Pago
+MOV-01090,2026-01-29,2026-02-16,2026-02-11,Saída,Fornecedores,Comercial,Fornecedor 11,PIX,1464.85,1436.51,Pago
+MOV-01091,2026-02-08,2026-02-19,2026-02-27,Saída,Marketing,Comercial,Fornecedor 37,Transferência,13249.84,13228.03,Pago em atraso
+MOV-01092,2026-01-02,2026-02-06,2026-02-02,Saída,Logística,Tecnologia,Fornecedor 29,Cartão,7777.74,7591.07,Pago
+MOV-01093,2026-01-30,2026-02-09,2026-02-08,Saída,Tecnologia,Tecnologia,Fornecedor 20,Transferência,13499.28,13389.36,Pago
+MOV-01094,2026-01-28,2026-02-28,2026-03-02,Saída,Logística,Administrativo,Fornecedor 41,PIX,10847.84,10595.8,Pago
+MOV-01095,2026-01-29,2026-02-08,2026-02-05,Saída,Fornecedores,Operações,Fornecedor 37,Cartão,6361.9,6307.39,Pago
+MOV-01096,2026-01-13,2026-02-13,2026-02-12,Saída,Pessoal,Administrativo,Fornecedor 29,Boleto,9197.88,9406.02,Pago
+MOV-01097,2026-01-24,2026-02-11,2026-02-12,Saída,Fornecedores,Tecnologia,Fornecedor 13,PIX,9672.06,9930.46,Pago
+MOV-01098,2025-12-31,2026-02-04,2026-02-06,Saída,Pessoal,Tecnologia,Fornecedor 19,PIX,16177.47,16242.18,Pago
+MOV-01099,2026-02-03,2026-02-22,2026-02-19,Saída,Administrativo,Administrativo,Fornecedor 36,Boleto,7453.28,7463.65,Pago
+MOV-01100,2026-01-04,2026-02-01,2026-01-30,Saída,Pessoal,Comercial,Fornecedor 04,Cartão,15802.66,15596.93,Pago
+MOV-01101,2026-01-13,2026-02-01,2026-02-06,Saída,Pessoal,Administrativo,Fornecedor 43,Boleto,14281.76,14153.41,Pago em atraso
+MOV-01102,2026-01-24,2026-02-05,2026-02-03,Saída,Administrativo,Tecnologia,Fornecedor 15,PIX,10092.45,10051.3,Pago
+MOV-01103,2026-02-08,2026-02-21,2026-02-22,Saída,Pessoal,Tecnologia,Fornecedor 20,Transferência,15932.63,16378.97,Pago
+MOV-01104,2026-01-26,2026-02-11,2026-02-08,Saída,Fornecedores,Tecnologia,Fornecedor 09,Cartão,6675.95,6749.38,Pago
+MOV-01105,2026-01-28,2026-02-19,2026-02-21,Saída,Pessoal,Marketing,Fornecedor 07,Boleto,8018.02,8040.07,Pago
+MOV-01106,2026-01-29,2026-02-22,2026-02-24,Saída,Pessoal,Marketing,Fornecedor 27,Cartão,12576.59,12466.57,Pago
+MOV-01107,2026-02-06,2026-02-25,2026-02-22,Saída,Fornecedores,Operações,Fornecedor 38,Transferência,8192.08,8248.71,Pago
+MOV-01108,2026-01-28,2026-02-19,2026-02-14,Saída,Fornecedores,Operações,Fornecedor 26,PIX,7999.45,8122.0,Pago
+MOV-01109,2026-01-28,2026-02-27,2026-03-01,Saída,Pessoal,Comercial,Fornecedor 22,PIX,12731.29,12555.73,Pago
+MOV-01110,2026-01-26,2026-02-23,2026-02-18,Saída,Logística,Administrativo,Fornecedor 04,Boleto,8272.57,8084.67,Pago
+MOV-01111,2026-01-17,2026-02-05,2026-02-02,Saída,Pessoal,Comercial,Fornecedor 32,Boleto,17628.34,17417.74,Pago
+MOV-01112,2026-02-07,2026-02-20,2026-02-16,Saída,Fornecedores,Marketing,Fornecedor 02,Cartão,1308.44,1288.59,Pago
+MOV-01113,2026-01-20,2026-02-16,2026-02-14,Saída,Pessoal,Tecnologia,Fornecedor 40,Cartão,10354.17,10566.46,Pago
+MOV-01114,2026-01-12,2026-02-14,2026-02-09,Saída,Logística,Operações,Fornecedor 11,Boleto,8909.54,8741.05,Pago
+MOV-01115,2026-01-18,2026-02-19,2026-02-18,Saída,Pessoal,Comercial,Fornecedor 30,Cartão,14361.14,14267.38,Pago
+MOV-01116,2026-01-22,2026-02-10,2026-02-11,Saída,Logística,Comercial,Fornecedor 42,Cartão,3132.97,3041.05,Pago
+MOV-01117,2026-01-21,2026-02-05,2026-02-07,Saída,Fornecedores,Tecnologia,Fornecedor 33,Boleto,12480.24,12313.18,Pago
+MOV-01118,2026-01-01,2026-02-03,2026-01-31,Saída,Pessoal,Administrativo,Fornecedor 22,Cartão,11342.81,11242.0,Pago
+MOV-01119,2026-01-28,2026-02-09,2026-02-08,Saída,Tecnologia,Marketing,Fornecedor 25,Cartão,10997.75,11277.19,Pago
+MOV-01120,2026-02-03,2026-02-23,2026-02-22,Saída,Marketing,Administrativo,Fornecedor 38,Transferência,3529.67,3451.19,Pago
+MOV-01121,2026-01-31,2026-03-03,2026-03-09,Entrada,Assinaturas,Comercial,Cliente 32,Cartão,17817.12,17530.3,Pago em atraso
+MOV-01122,2026-03-10,2026-03-25,2026-03-23,Entrada,Vendas B2B,Marketing,Cliente 27,PIX,7304.41,7131.48,Pago
+MOV-01123,2026-02-09,2026-03-02,2026-02-26,Entrada,Vendas B2B,Administrativo,Cliente 41,PIX,7637.34,7610.55,Pago
+MOV-01124,2026-02-23,2026-03-23,2026-03-20,Entrada,Serviços,Administrativo,Cliente 13,Boleto,8879.07,9139.51,Pago
+MOV-01125,2026-02-12,2026-03-10,2026-03-07,Entrada,Vendas B2B,Operações,Cliente 06,PIX,10923.37,10880.15,Pago
+MOV-01126,2026-02-14,2026-03-07,2026-03-12,Entrada,Assinaturas,Marketing,Cliente 37,PIX,14984.43,15338.02,Pago em atraso
+MOV-01127,2026-03-08,2026-03-24,2026-03-26,Entrada,Vendas B2B,Administrativo,Cliente 31,Transferência,15225.18,14942.12,Pago
+MOV-01128,2026-02-26,2026-03-28,2026-03-31,Entrada,Vendas B2B,Marketing,Cliente 05,PIX,19044.69,18974.85,Pago em atraso
+MOV-01129,2026-02-05,2026-03-04,2026-03-12,Entrada,Vendas B2B,Tecnologia,Cliente 02,Boleto,12324.22,11992.56,Pago em atraso
+MOV-01130,2026-03-12,2026-03-27,2026-03-27,Entrada,Serviços,Tecnologia,Cliente 05,Boleto,8329.8,8113.87,Pago
+MOV-01131,2026-03-04,2026-03-17,2026-03-12,Entrada,Serviços,Administrativo,Cliente 31,Transferência,19607.85,19661.9,Pago
+MOV-01132,2026-03-03,2026-03-14,2026-03-14,Entrada,Assinaturas,Operações,Cliente 14,Transferência,3803.53,3892.08,Pago
+MOV-01133,2026-02-02,2026-03-02,2026-02-26,Entrada,Serviços,Administrativo,Cliente 45,PIX,14890.92,15164.02,Pago
+MOV-01134,2026-02-17,2026-03-14,2026-03-10,Entrada,Vendas B2B,Operações,Cliente 18,PIX,4479.75,4583.91,Pago
+MOV-01135,2026-02-01,2026-03-08,2026-03-09,Entrada,Vendas B2B,Operações,Cliente 02,PIX,11961.41,11945.33,Pago
+MOV-01136,2026-02-02,2026-03-07,2026-03-08,Entrada,Vendas B2B,Comercial,Cliente 36,Cartão,16972.67,17157.95,Pago
+MOV-01137,2026-03-10,2026-03-23,2026-04-06,Entrada,Vendas B2B,Marketing,Cliente 08,Transferência,16689.08,16738.69,Pago em atraso
+MOV-01138,2026-02-13,2026-03-02,2026-02-26,Entrada,Vendas B2B,Marketing,Cliente 35,PIX,9265.0,9314.26,Pago
+MOV-01139,2026-03-10,2026-03-24,2026-03-19,Entrada,Serviços,Marketing,Cliente 12,Transferência,3498.24,3409.37,Pago
+MOV-01140,2026-02-27,2026-03-21,2026-03-20,Entrada,Vendas B2B,Marketing,Cliente 43,PIX,9379.94,9171.55,Pago
+MOV-01141,2026-03-01,2026-03-18,2026-03-18,Entrada,Assinaturas,Marketing,Cliente 20,Transferência,4578.39,4687.62,Pago
+MOV-01142,2026-02-22,2026-03-21,2026-03-20,Entrada,Assinaturas,Administrativo,Cliente 07,PIX,8378.76,8287.7,Pago
+MOV-01143,2026-03-06,2026-03-20,2026-03-16,Entrada,Vendas B2B,Administrativo,Cliente 15,Transferência,10454.6,10268.65,Pago
+MOV-01144,2026-02-23,2026-03-12,2026-03-09,Entrada,Assinaturas,Marketing,Cliente 42,Cartão,6939.58,6746.33,Pago
+MOV-01145,2026-03-08,2026-03-27,2026-04-05,Entrada,Serviços,Comercial,Cliente 04,Transferência,3610.52,3629.64,Pago em atraso
+MOV-01146,2026-02-12,2026-03-01,2026-03-02,Entrada,Serviços,Operações,Cliente 25,Boleto,9982.02,9948.49,Pago
+MOV-01147,2026-02-21,2026-03-22,2026-03-22,Entrada,Assinaturas,Tecnologia,Cliente 17,Boleto,12592.06,12922.39,Pago
+MOV-01148,2026-02-22,2026-03-27,2026-03-28,Entrada,Assinaturas,Comercial,Cliente 07,Cartão,9226.68,9383.13,Pago
+MOV-01149,2026-02-05,2026-03-10,2026-03-12,Entrada,Serviços,Administrativo,Cliente 34,Transferência,19619.51,19529.85,Pago
+MOV-01150,2026-03-14,2026-03-24,2026-03-22,Entrada,Vendas B2B,Tecnologia,Cliente 44,Transferência,9935.55,9716.1,Pago
+MOV-01151,2026-02-28,2026-03-18,2026-03-19,Entrada,Vendas B2B,Tecnologia,Cliente 18,Transferência,7627.65,7416.49,Pago
+MOV-01152,2026-02-28,2026-03-20,2026-03-30,Entrada,Assinaturas,Tecnologia,Cliente 12,Cartão,17472.29,17544.04,Pago em atraso
+MOV-01153,2026-02-16,2026-03-15,2026-03-27,Entrada,Vendas B2B,Operações,Cliente 27,PIX,10965.44,10952.42,Pago em atraso
+MOV-01154,2026-03-02,2026-03-20,2026-03-16,Entrada,Assinaturas,Tecnologia,Cliente 17,Cartão,4634.07,4617.51,Pago
+MOV-01155,2026-02-03,2026-03-05,2026-02-28,Saída,Fornecedores,Comercial,Fornecedor 12,Cartão,9620.22,9465.92,Pago
+MOV-01156,2026-02-20,2026-03-02,2026-03-01,Saída,Pessoal,Tecnologia,Fornecedor 35,PIX,15805.08,16255.79,Pago
+MOV-01157,2026-02-14,2026-03-03,2026-02-27,Saída,Marketing,Operações,Fornecedor 21,Transferência,5955.05,5958.99,Pago
+MOV-01158,2026-02-11,2026-03-03,2026-03-02,Saída,Logística,Administrativo,Fornecedor 24,Transferência,10282.15,10061.96,Pago
+MOV-01159,2026-02-25,2026-03-12,2026-03-11,Saída,Administrativo,Tecnologia,Fornecedor 03,Transferência,13108.35,13204.24,Pago
+MOV-01160,2026-02-03,2026-03-01,2026-02-27,Saída,Administrativo,Administrativo,Fornecedor 38,Transferência,13297.48,13543.24,Pago
+MOV-01161,2026-02-17,2026-03-19,2026-03-24,Saída,Administrativo,Comercial,Fornecedor 05,Boleto,6335.27,6290.07,Pago em atraso
+MOV-01162,2026-02-26,2026-03-24,2026-03-20,Saída,Pessoal,Comercial,Fornecedor 39,Cartão,14799.07,15107.72,Pago
+MOV-01163,2026-02-19,2026-03-11,2026-03-10,Saída,Marketing,Operações,Fornecedor 24,Boleto,8183.43,8385.27,Pago
+MOV-01164,2026-02-15,2026-03-08,2026-03-09,Saída,Pessoal,Administrativo,Fornecedor 33,PIX,8847.34,8774.02,Pago
+MOV-01165,2026-03-06,2026-03-20,2026-03-21,Saída,Logística,Administrativo,Fornecedor 16,Cartão,9920.53,9759.68,Pago
+MOV-01166,2026-03-07,2026-03-20,2026-03-19,Saída,Marketing,Comercial,Fornecedor 27,Cartão,10084.75,9988.89,Pago
+MOV-01167,2026-03-15,2026-03-25,2026-03-22,Saída,Pessoal,Operações,Fornecedor 08,Cartão,13225.63,13524.32,Pago
+MOV-01168,2026-02-21,2026-03-16,2026-03-13,Saída,Fornecedores,Comercial,Fornecedor 45,Boleto,8630.69,8822.01,Pago
+MOV-01169,2026-03-07,2026-03-28,2026-03-29,Saída,Administrativo,Operações,Fornecedor 26,Boleto,3116.11,3191.69,Pago
+MOV-01170,2026-03-16,2026-03-27,2026-03-23,Saída,Tecnologia,Comercial,Fornecedor 23,Cartão,2941.77,3028.99,Pago
+MOV-01171,2026-02-20,2026-03-24,2026-03-23,Saída,Logística,Operações,Fornecedor 12,PIX,9626.67,9775.49,Pago
+MOV-01172,2026-02-23,2026-03-19,2026-03-21,Saída,Fornecedores,Operações,Fornecedor 33,Transferência,1488.73,1477.96,Pago
+MOV-01173,2026-02-12,2026-03-10,2026-03-05,Saída,Administrativo,Administrativo,Fornecedor 33,Cartão,2652.7,2662.91,Pago
+MOV-01174,2026-02-20,2026-03-25,2026-03-22,Saída,Fornecedores,Operações,Fornecedor 28,Transferência,6403.56,6227.56,Pago
+MOV-01175,2026-02-14,2026-03-10,2026-03-09,Saída,Pessoal,Operações,Fornecedor 11,Transferência,8662.97,8545.42,Pago
+MOV-01176,2026-03-06,2026-03-20,2026-03-18,Saída,Administrativo,Comercial,Fornecedor 14,Boleto,4775.59,4823.28,Pago
+MOV-01177,2026-03-08,2026-03-18,2026-03-16,Saída,Fornecedores,Tecnologia,Fornecedor 14,Transferência,13175.6,12785.6,Pago
+MOV-01178,2026-03-05,2026-03-24,2026-03-21,Saída,Administrativo,Comercial,Fornecedor 08,Cartão,8847.33,9023.06,Pago
+MOV-01179,2026-02-18,2026-03-03,2026-03-02,Saída,Logística,Tecnologia,Fornecedor 06,Boleto,7829.72,7938.54,Pago
+MOV-01180,2026-02-19,2026-03-17,2026-03-19,Saída,Tecnologia,Comercial,Fornecedor 45,Transferência,5659.68,5704.04,Pago
+MOV-01181,2026-02-05,2026-03-04,2026-03-04,Saída,Logística,Comercial,Fornecedor 41,PIX,1888.06,1852.99,Pago
+MOV-01182,2026-03-14,2026-03-28,2026-03-26,Saída,Fornecedores,Marketing,Fornecedor 12,Cartão,9045.58,8918.19,Pago
+MOV-01183,2026-02-19,2026-03-03,2026-03-01,Saída,Fornecedores,Marketing,Fornecedor 36,Boleto,3980.72,3862.06,Pago
+MOV-01184,2026-03-06,2026-03-23,2026-03-24,Saída,Tecnologia,Tecnologia,Fornecedor 31,Boleto,1894.01,1908.9,Pago
+MOV-01185,2026-02-16,2026-03-10,2026-03-12,Saída,Logística,Administrativo,Fornecedor 23,Cartão,12367.75,12587.95,Pago
+MOV-01186,2026-03-05,2026-03-25,2026-03-26,Saída,Fornecedores,Operações,Fornecedor 43,Cartão,4246.62,4366.21,Pago
+MOV-01187,2026-02-07,2026-03-11,2026-03-11,Saída,Fornecedores,Operações,Fornecedor 31,Cartão,7457.21,7545.34,Pago
+MOV-01188,2026-01-25,2026-03-01,2026-02-27,Saída,Marketing,Marketing,Fornecedor 04,Transferência,10363.21,10605.59,Pago
+MOV-01189,2026-03-02,2026-03-13,2026-03-14,Saída,Fornecedores,Tecnologia,Fornecedor 32,Boleto,5535.63,5501.98,Pago
+MOV-01190,2026-02-08,2026-03-14,2026-03-11,Saída,Pessoal,Comercial,Fornecedor 40,Transferência,11079.28,11103.22,Pago
+MOV-01191,2026-02-20,2026-03-24,2026-04-06,Saída,Fornecedores,Tecnologia,Fornecedor 23,PIX,8437.23,8229.8,Pago em atraso
+MOV-01192,2026-02-18,2026-03-12,2026-03-09,Saída,Marketing,Operações,Fornecedor 19,Boleto,8161.39,8326.98,Pago
+MOV-01193,2026-02-24,2026-03-07,2026-03-05,Saída,Logística,Comercial,Fornecedor 34,PIX,5716.97,5867.9,Pago
+MOV-01194,2026-02-06,2026-03-10,2026-03-08,Saída,Pessoal,Operações,Fornecedor 03,Transferência,8002.02,8065.18,Pago
+MOV-01195,2026-02-23,2026-03-13,2026-03-10,Saída,Tecnologia,Comercial,Fornecedor 05,PIX,12006.0,12235.29,Pago
+MOV-01196,2026-02-15,2026-03-01,2026-03-19,Saída,Pessoal,Comercial,Fornecedor 38,Cartão,15981.71,16082.27,Pago em atraso
+MOV-01197,2026-02-28,2026-03-10,2026-03-11,Saída,Fornecedores,Tecnologia,Fornecedor 18,Cartão,9298.3,9305.19,Pago
+MOV-01198,2026-03-09,2026-03-21,2026-03-22,Saída,Fornecedores,Operações,Fornecedor 27,Transferência,4838.82,4778.21,Pago
+MOV-01199,2026-02-15,2026-03-08,2026-03-10,Saída,Pessoal,Administrativo,Fornecedor 07,Cartão,13676.47,13863.2,Pago
+MOV-01200,2026-02-13,2026-03-13,2026-03-15,Saída,Fornecedores,Comercial,Fornecedor 42,Transferência,14124.51,14014.19,Pago
+MOV-01201,2026-03-09,2026-04-03,2026-04-09,Entrada,Vendas B2B,Administrativo,Cliente 16,PIX,17826.43,17513.77,Pago em atraso
+MOV-01202,2026-03-22,2026-04-16,2026-04-14,Entrada,Vendas B2B,Tecnologia,Cliente 27,Transferência,14361.34,13981.28,Pago
+MOV-01203,2026-03-15,2026-04-02,2026-04-03,Entrada,Assinaturas,Operações,Cliente 36,Cartão,18268.42,18675.54,Pago
+MOV-01204,2026-03-26,2026-04-21,2026-04-23,Entrada,Assinaturas,Administrativo,Cliente 06,PIX,8918.26,9030.02,Pago
+MOV-01205,2026-03-23,2026-04-05,2026-04-02,Entrada,Vendas B2B,Operações,Cliente 13,Cartão,4694.12,4699.74,Pago
+MOV-01206,2026-03-18,2026-04-14,2026-04-16,Entrada,Serviços,Marketing,Cliente 26,PIX,5342.69,5227.24,Pago
+MOV-01207,2026-03-12,2026-04-10,2026-04-09,Entrada,Vendas B2B,Tecnologia,Cliente 37,Boleto,11114.76,11129.75,Pago
+MOV-01208,2026-03-20,2026-04-07,2026-04-07,Entrada,Vendas B2B,Marketing,Cliente 30,Boleto,12689.03,12703.78,Pago
+MOV-01209,2026-03-23,2026-04-24,2026-04-21,Entrada,Serviços,Marketing,Cliente 01,Transferência,19932.1,19530.55,Pago
+MOV-01210,2026-03-18,2026-04-03,2026-03-29,Entrada,Vendas B2B,Operações,Cliente 45,PIX,6000.66,5932.92,Pago
+MOV-01211,2026-03-03,2026-04-02,2026-03-30,Entrada,Assinaturas,Administrativo,Cliente 15,Transferência,9241.45,9001.23,Pago
+MOV-01212,2026-03-21,2026-04-09,2026-04-10,Entrada,Assinaturas,Tecnologia,Cliente 40,Cartão,19946.45,20047.54,Pago
+MOV-01213,2026-04-08,2026-04-21,2026-04-17,Entrada,Serviços,Operações,Cliente 18,Boleto,13368.11,13442.41,Pago
+MOV-01214,2026-03-23,2026-04-26,2026-04-27,Entrada,Vendas B2B,Administrativo,Cliente 39,Transferência,5139.25,5086.88,Pago
+MOV-01215,2026-04-10,2026-04-20,2026-04-22,Entrada,Serviços,Operações,Cliente 14,PIX,16527.59,16239.32,Pago
+MOV-01216,2026-03-25,2026-04-05,2026-03-31,Entrada,Serviços,Operações,Cliente 33,Cartão,14333.27,14181.34,Pago
+MOV-01217,2026-03-19,2026-04-10,2026-04-06,Entrada,Vendas B2B,Marketing,Cliente 25,Cartão,11764.22,11581.24,Pago
+MOV-01218,2026-03-12,2026-04-11,2026-04-09,Entrada,Vendas B2B,Tecnologia,Cliente 10,Cartão,18346.02,18847.26,Pago
+MOV-01219,2026-04-03,2026-04-26,2026-04-22,Entrada,Assinaturas,Tecnologia,Cliente 12,PIX,12094.32,12136.34,Pago
+MOV-01220,2026-03-29,2026-04-25,2026-04-26,Entrada,Serviços,Operações,Cliente 25,Transferência,18645.96,18325.75,Pago
+MOV-01221,2026-03-22,2026-04-01,2026-04-01,Entrada,Vendas B2B,Administrativo,Cliente 20,Transferência,16713.46,16739.54,Pago
+MOV-01222,2026-03-29,2026-04-09,2026-04-04,Entrada,Vendas B2B,Tecnologia,Cliente 42,Cartão,9920.01,9983.56,Pago
+MOV-01223,2026-04-13,2026-04-23,2026-04-18,Entrada,Vendas B2B,Marketing,Cliente 39,Cartão,21163.55,21761.81,Pago
+MOV-01224,2026-04-18,2026-04-28,2026-04-24,Entrada,Vendas B2B,Administrativo,Cliente 10,Boleto,11795.77,11468.93,Pago
+MOV-01225,2026-03-15,2026-04-14,2026-04-10,Entrada,Serviços,Comercial,Cliente 21,PIX,5665.24,5514.33,Pago
+MOV-01226,2026-03-28,2026-04-28,2026-04-23,Entrada,Serviços,Tecnologia,Cliente 11,Transferência,8280.85,8197.71,Pago
+MOV-01227,2026-03-10,2026-04-13,2026-04-08,Entrada,Vendas B2B,Administrativo,Cliente 10,Transferência,20173.62,19647.03,Pago
+MOV-01228,2026-03-07,2026-04-09,2026-04-10,Entrada,Vendas B2B,Comercial,Cliente 20,Transferência,11256.8,11035.92,Pago
+MOV-01229,2026-03-22,2026-04-15,2026-04-11,Entrada,Assinaturas,Comercial,Cliente 08,PIX,5415.33,5436.84,Pago
+MOV-01230,2026-03-07,2026-04-11,2026-04-06,Entrada,Vendas B2B,Comercial,Cliente 14,Transferência,4853.99,4931.67,Pago
+MOV-01231,2026-03-06,2026-04-08,2026-04-06,Entrada,Vendas B2B,Operações,Cliente 20,PIX,19037.43,19320.03,Pago
+MOV-01232,2026-03-24,2026-04-09,2026-04-20,Entrada,Vendas B2B,Tecnologia,Cliente 13,Boleto,8453.01,8409.38,Pago em atraso
+MOV-01233,2026-03-25,2026-04-15,2026-04-17,Entrada,Serviços,Tecnologia,Cliente 42,Cartão,7955.77,7886.63,Pago
+MOV-01234,2026-03-09,2026-04-06,2026-04-19,Entrada,Serviços,Operações,Cliente 45,Cartão,15626.75,15303.94,Pago em atraso
+MOV-01235,2026-03-04,2026-04-07,2026-04-06,Saída,Pessoal,Operações,Fornecedor 17,Boleto,17066.0,16646.95,Pago
+MOV-01236,2026-03-25,2026-04-22,2026-04-24,Saída,Pessoal,Tecnologia,Fornecedor 24,Cartão,9030.52,8835.36,Pago
+MOV-01237,2026-04-01,2026-04-11,2026-04-11,Saída,Marketing,Operações,Fornecedor 27,Cartão,13433.6,13731.29,Pago
+MOV-01238,2026-03-09,2026-04-12,2026-04-14,Saída,Pessoal,Comercial,Fornecedor 29,Cartão,8852.45,8877.3,Pago
+MOV-01239,2026-04-03,2026-04-24,2026-04-22,Saída,Marketing,Administrativo,Fornecedor 22,Cartão,10676.44,10517.94,Pago
+MOV-01240,2026-03-05,2026-04-08,2026-04-04,Saída,Marketing,Tecnologia,Fornecedor 37,Cartão,5418.51,5392.82,Pago
+MOV-01241,2026-03-09,2026-04-06,2026-04-04,Saída,Marketing,Operações,Fornecedor 09,Transferência,3603.12,3700.73,Pago
+MOV-01242,2026-03-10,2026-04-03,2026-03-31,Saída,Tecnologia,Marketing,Fornecedor 11,Cartão,2133.37,2171.96,Pago
+MOV-01243,2026-03-21,2026-04-06,2026-04-02,Saída,Fornecedores,Marketing,Fornecedor 06,Boleto,3382.65,3318.64,Pago
+MOV-01244,2026-04-12,2026-04-25,2026-04-27,Saída,Fornecedores,Marketing,Fornecedor 36,Cartão,8821.01,8640.71,Pago
+MOV-01245,2026-03-19,2026-04-22,2026-04-24,Saída,Marketing,Comercial,Fornecedor 25,Boleto,13587.72,13755.85,Pago
+MOV-01246,2026-03-15,2026-04-11,2026-04-12,Saída,Pessoal,Comercial,Fornecedor 23,Cartão,12388.63,12460.69,Pago
+MOV-01247,2026-03-11,2026-04-01,2026-03-29,Saída,Marketing,Tecnologia,Fornecedor 22,PIX,14352.99,14583.65,Pago
+MOV-01248,2026-03-23,2026-04-03,2026-03-31,Saída,Marketing,Operações,Fornecedor 20,Cartão,11438.96,11438.93,Pago
+MOV-01249,2026-03-06,2026-04-06,2026-04-05,Saída,Fornecedores,Marketing,Fornecedor 03,Transferência,6537.14,6463.04,Pago
+MOV-01250,2026-03-25,2026-04-06,2026-04-02,Saída,Administrativo,Tecnologia,Fornecedor 44,PIX,7039.44,7024.62,Pago
+MOV-01251,2026-03-31,2026-04-26,2026-05-07,Saída,Marketing,Marketing,Fornecedor 44,Cartão,6809.25,6657.57,Pago em atraso
+MOV-01252,2026-04-04,2026-04-22,2026-04-17,Saída,Fornecedores,Comercial,Fornecedor 39,Cartão,10134.0,10014.19,Pago
+MOV-01253,2026-04-13,2026-04-28,2026-04-28,Saída,Pessoal,Marketing,Fornecedor 35,Cartão,16071.88,15697.41,Pago
+MOV-01254,2026-03-03,2026-04-01,2026-03-31,Saída,Logística,Marketing,Fornecedor 28,PIX,2482.84,2437.79,Pago
+MOV-01255,2026-03-26,2026-04-15,2026-04-15,Saída,Pessoal,Tecnologia,Fornecedor 02,Transferência,17911.18,17645.01,Pago
+MOV-01256,2026-03-03,2026-04-01,2026-03-31,Saída,Fornecedores,Comercial,Fornecedor 23,PIX,6174.71,6225.09,Pago
+MOV-01257,2026-03-26,2026-04-18,2026-04-15,Saída,Pessoal,Tecnologia,Fornecedor 23,Cartão,9737.76,9815.42,Pago
+MOV-01258,2026-04-07,2026-04-27,2026-04-29,Saída,Marketing,Tecnologia,Fornecedor 03,Boleto,4670.84,4542.1,Pago
+MOV-01259,2026-03-24,2026-04-26,2026-04-27,Saída,Marketing,Comercial,Fornecedor 22,Transferência,11067.29,11075.68,Pago
+MOV-01260,2026-03-17,2026-04-09,2026-04-05,Saída,Pessoal,Comercial,Fornecedor 13,Transferência,18884.23,19265.9,Pago
+MOV-01261,2026-04-07,2026-04-18,2026-04-16,Saída,Administrativo,Tecnologia,Fornecedor 37,Cartão,9624.16,9736.33,Pago
+MOV-01262,2026-03-09,2026-04-09,2026-04-06,Saída,Fornecedores,Comercial,Fornecedor 39,Cartão,13889.67,13703.7,Pago
+MOV-01263,2026-03-17,2026-04-09,2026-04-16,Saída,Logística,Operações,Fornecedor 18,Transferência,10459.23,10157.2,Pago em atraso
+MOV-01264,2026-03-18,2026-04-04,2026-03-30,Saída,Pessoal,Comercial,Fornecedor 40,Transferência,15161.31,15351.44,Pago
+MOV-01265,2026-03-21,2026-04-15,2026-04-15,Saída,Tecnologia,Administrativo,Fornecedor 01,Transferência,9540.62,9564.35,Pago
+MOV-01266,2026-03-14,2026-04-15,2026-04-17,Saída,Pessoal,Operações,Fornecedor 44,Cartão,12913.72,12689.52,Pago
+MOV-01267,2026-04-01,2026-04-28,2026-04-24,Saída,Fornecedores,Tecnologia,Fornecedor 06,Boleto,1846.24,1860.79,Pago
+MOV-01268,2026-03-17,2026-04-10,2026-04-10,Saída,Tecnologia,Comercial,Fornecedor 10,Boleto,8477.58,8452.91,Pago
+MOV-01269,2026-03-26,2026-04-14,2026-04-09,Saída,Marketing,Administrativo,Fornecedor 32,Boleto,8948.28,9083.25,Pago
+MOV-01270,2026-04-15,2026-04-28,2026-04-29,Saída,Pessoal,Administrativo,Fornecedor 19,Boleto,12135.46,11930.35,Pago
+MOV-01271,2026-04-08,2026-04-24,2026-04-25,Saída,Logística,Marketing,Fornecedor 39,Transferência,11641.51,11538.15,Pago
+MOV-01272,2026-03-26,2026-04-22,2026-04-22,Saída,Pessoal,Marketing,Fornecedor 15,Cartão,8916.54,8917.77,Pago
+MOV-01273,2026-04-05,2026-04-15,2026-04-12,Saída,Pessoal,Administrativo,Fornecedor 22,Cartão,17418.43,17313.98,Pago
+MOV-01274,2026-03-12,2026-04-04,2026-04-05,Saída,Marketing,Operações,Fornecedor 41,PIX,10527.81,10827.38,Pago
+MOV-01275,2026-03-18,2026-04-20,2026-04-16,Saída,Marketing,Marketing,Fornecedor 02,Transferência,3263.72,3283.22,Pago
+MOV-01276,2026-04-11,2026-04-21,2026-04-17,Saída,Marketing,Administrativo,Fornecedor 42,Cartão,3635.56,3734.12,Pago
+MOV-01277,2026-03-05,2026-04-06,2026-04-04,Saída,Pessoal,Operações,Fornecedor 21,Boleto,17703.65,17358.65,Pago
+MOV-01278,2026-03-09,2026-04-07,2026-04-09,Saída,Fornecedores,Marketing,Fornecedor 16,Boleto,13342.54,13138.44,Pago
+MOV-01279,2026-03-20,2026-04-04,2026-04-04,Saída,Administrativo,Operações,Fornecedor 30,PIX,8085.87,8266.39,Pago
+MOV-01280,2026-04-10,2026-04-22,2026-04-24,Saída,Fornecedores,Marketing,Fornecedor 17,PIX,1846.99,1887.13,Pago
+MOV-01281,2026-04-15,2026-05-18,2026-05-20,Entrada,Assinaturas,Comercial,Cliente 19,Cartão,13900.72,13884.71,Pago
+MOV-01282,2026-04-19,2026-05-02,2026-05-04,Entrada,Serviços,Comercial,Cliente 10,Transferência,15976.97,15908.51,Pago
+MOV-01283,2026-04-25,2026-05-26,2026-06-01,Entrada,Assinaturas,Tecnologia,Cliente 10,Boleto,13423.45,13315.9,Pago em atraso
+MOV-01284,2026-04-02,2026-05-04,2026-04-30,Entrada,Assinaturas,Marketing,Cliente 16,Transferência,6927.55,6910.19,Pago
+MOV-01285,2026-04-12,2026-05-11,2026-05-10,Entrada,Vendas B2B,Comercial,Cliente 09,Boleto,15345.24,15408.06,Pago
+MOV-01286,2026-04-10,2026-05-12,2026-05-11,Entrada,Assinaturas,Operações,Cliente 37,Transferência,3692.24,3649.41,Pago
+MOV-01287,2026-04-21,2026-05-10,2026-05-15,Entrada,Vendas B2B,Marketing,Cliente 17,Boleto,10964.61,10732.07,Pago em atraso
+MOV-01288,2026-04-07,2026-05-10,2026-05-11,Entrada,Vendas B2B,Administrativo,Cliente 34,Cartão,6955.26,6854.86,Pago
+MOV-01289,2026-04-20,2026-05-12,2026-05-12,Entrada,Vendas B2B,Marketing,Cliente 42,Boleto,19049.05,19075.72,Pago
+MOV-01290,2026-05-04,2026-05-16,2026-05-11,Entrada,Serviços,Tecnologia,Cliente 15,Transferência,11705.87,11824.39,Pago
+MOV-01291,2026-04-29,2026-05-20,2026-05-16,Entrada,Vendas B2B,Marketing,Cliente 30,PIX,5873.45,5926.31,Pago
+MOV-01292,2026-05-05,2026-05-26,2026-05-24,Entrada,Serviços,Comercial,Cliente 26,PIX,18095.76,18357.83,Pago
+MOV-01293,2026-04-28,2026-05-09,2026-05-05,Entrada,Serviços,Marketing,Cliente 37,Boleto,12151.5,12494.49,Pago
+MOV-01294,2026-04-04,2026-05-06,2026-05-04,Entrada,Vendas B2B,Marketing,Cliente 12,PIX,17244.07,16963.0,Pago
+MOV-01295,2026-04-27,2026-05-09,2026-05-16,Entrada,Serviços,Operações,Cliente 34,Transferência,7905.79,8016.47,Pago em atraso
+MOV-01296,2026-04-22,2026-05-19,2026-05-21,Entrada,Vendas B2B,Comercial,Cliente 21,PIX,7235.04,7219.53,Pago
+MOV-01297,2026-04-17,2026-05-03,2026-04-29,Entrada,Vendas B2B,Administrativo,Cliente 32,Transferência,5281.67,5295.1,Pago
+MOV-01298,2026-05-12,2026-05-28,2026-05-30,Entrada,Assinaturas,Administrativo,Cliente 41,Cartão,13456.86,13680.83,Pago
+MOV-01299,2026-04-24,2026-05-14,2026-05-16,Entrada,Serviços,Administrativo,Cliente 31,Transferência,7659.55,7719.81,Pago
+MOV-01300,2026-05-01,2026-05-28,2026-05-28,Entrada,Serviços,Administrativo,Cliente 20,Cartão,8500.94,8386.32,Pago
+MOV-01301,2026-04-10,2026-05-06,2026-05-06,Entrada,Vendas B2B,Marketing,Cliente 32,Boleto,16529.73,16919.87,Pago
+MOV-01302,2026-04-21,2026-05-22,2026-05-24,Entrada,Vendas B2B,Administrativo,Cliente 12,Boleto,16596.95,16440.04,Pago
+MOV-01303,2026-04-11,2026-05-07,2026-05-06,Entrada,Assinaturas,Marketing,Cliente 07,Transferência,16639.37,16459.68,Pago
+MOV-01304,2026-04-30,2026-05-22,2026-05-28,Entrada,Serviços,Operações,Cliente 11,Boleto,6931.19,6803.06,Pago em atraso
+MOV-01305,2026-04-28,2026-05-16,2026-05-17,Entrada,Vendas B2B,Operações,Cliente 17,Cartão,12310.5,12517.14,Pago
+MOV-01306,2026-04-09,2026-05-12,2026-05-23,Entrada,Serviços,Tecnologia,Cliente 29,Transferência,17897.11,18140.56,Pago em atraso
+MOV-01307,2026-04-21,2026-05-14,2026-05-27,Entrada,Vendas B2B,Tecnologia,Cliente 42,Boleto,10150.8,9879.96,Pago em atraso
+MOV-01308,2026-03-30,2026-05-01,2026-04-29,Entrada,Serviços,Tecnologia,Cliente 19,Transferência,16713.1,16420.9,Pago
+MOV-01309,2026-04-14,2026-05-13,2026-05-11,Entrada,Vendas B2B,Administrativo,Cliente 29,Transferência,10747.39,10939.21,Pago
+MOV-01310,2026-04-30,2026-05-11,2026-05-13,Entrada,Vendas B2B,Marketing,Cliente 45,Cartão,7508.27,7711.91,Pago
+MOV-01311,2026-04-29,2026-05-19,2026-05-15,Entrada,Vendas B2B,Tecnologia,Cliente 35,Transferência,20576.28,20028.27,Pago
+MOV-01312,2026-04-12,2026-05-16,2026-05-19,Entrada,Vendas B2B,Marketing,Cliente 10,Boleto,8230.33,8143.69,Pago em atraso
+MOV-01313,2026-04-21,2026-05-18,2026-05-26,Entrada,Assinaturas,Tecnologia,Cliente 36,Transferência,13322.89,13185.27,Pago em atraso
+MOV-01314,2026-05-04,2026-05-25,2026-06-05,Entrada,Assinaturas,Marketing,Cliente 14,Boleto,5704.41,5860.89,Pago em atraso
+MOV-01315,2026-04-04,2026-05-07,2026-05-06,Saída,Pessoal,Comercial,Fornecedor 09,PIX,11699.91,11528.17,Pago
+MOV-01316,2026-05-15,2026-05-26,2026-05-21,Saída,Marketing,Administrativo,Fornecedor 24,PIX,6968.64,7107.32,Pago
+MOV-01317,2026-05-08,2026-05-28,2026-05-30,Saída,Pessoal,Comercial,Fornecedor 05,PIX,18607.29,18364.63,Pago
+MOV-01318,2026-04-24,2026-05-18,2026-05-14,Saída,Administrativo,Administrativo,Fornecedor 42,Boleto,11582.71,11634.09,Pago
+MOV-01319,2026-04-11,2026-05-14,2026-05-16,Saída,Tecnologia,Operações,Fornecedor 42,Transferência,11406.73,11373.39,Pago
+MOV-01320,2026-04-19,2026-05-11,2026-05-12,Saída,Fornecedores,Administrativo,Fornecedor 19,PIX,9848.82,10078.93,Pago
+MOV-01321,2026-04-14,2026-05-01,2026-05-02,Saída,Marketing,Administrativo,Fornecedor 44,Transferência,6480.36,6344.46,Pago
+MOV-01322,2026-04-25,2026-05-27,2026-05-27,Saída,Pessoal,Administrativo,Fornecedor 10,Boleto,9828.85,10060.76,Pago
+MOV-01323,2026-04-09,2026-05-06,2026-05-01,Saída,Tecnologia,Tecnologia,Fornecedor 05,Transferência,4079.61,4148.02,Pago
+MOV-01324,2026-05-04,2026-05-22,2026-05-21,Saída,Logística,Operações,Fornecedor 14,Transferência,13514.21,13241.19,Pago
+MOV-01325,2026-04-12,2026-05-15,2026-05-16,Saída,Fornecedores,Operações,Fornecedor 25,PIX,12850.32,12484.41,Pago
+MOV-01326,2026-04-28,2026-05-13,2026-05-09,Saída,Pessoal,Administrativo,Fornecedor 38,PIX,9890.12,9648.52,Pago
+MOV-01327,2026-04-26,2026-05-16,2026-05-16,Saída,Fornecedores,Marketing,Fornecedor 13,Boleto,4125.25,4187.05,Pago
+MOV-01328,2026-05-02,2026-05-12,2026-05-08,Saída,Administrativo,Comercial,Fornecedor 25,Cartão,11833.53,12149.41,Pago
+MOV-01329,2026-04-10,2026-05-10,2026-05-11,Saída,Pessoal,Tecnologia,Fornecedor 15,PIX,11612.95,11923.67,Pago
+MOV-01330,2026-04-26,2026-05-16,2026-05-25,Saída,Marketing,Comercial,Fornecedor 10,Boleto,11969.09,12134.0,Pago em atraso
+MOV-01331,2026-05-06,2026-05-17,2026-05-19,Saída,Fornecedores,Administrativo,Fornecedor 14,Transferência,1508.19,1531.92,Pago
+MOV-01332,2026-04-01,2026-05-06,2026-05-03,Saída,Pessoal,Operações,Fornecedor 24,PIX,9333.57,9469.07,Pago
+MOV-01333,2026-04-19,2026-05-07,2026-05-07,Saída,Tecnologia,Administrativo,Fornecedor 21,PIX,1778.65,1822.3,Pago
+MOV-01334,2026-05-05,2026-05-16,2026-05-21,Saída,Tecnologia,Administrativo,Fornecedor 25,Boleto,5718.02,5859.91,Pago em atraso
+MOV-01335,2026-04-13,2026-05-08,2026-05-04,Saída,Fornecedores,Marketing,Fornecedor 27,Cartão,1582.18,1545.39,Pago
+MOV-01336,2026-05-03,2026-05-21,2026-06-06,Saída,Fornecedores,Operações,Fornecedor 21,Transferência,9266.68,9249.71,Pago em atraso
+MOV-01337,2026-04-08,2026-05-04,2026-05-02,Saída,Administrativo,Operações,Fornecedor 10,Boleto,10117.78,9890.64,Pago
+MOV-01338,2026-05-05,2026-05-23,2026-05-19,Saída,Marketing,Operações,Fornecedor 43,Transferência,11094.17,10927.61,Pago
+MOV-01339,2026-05-03,2026-05-17,2026-05-16,Saída,Pessoal,Tecnologia,Fornecedor 28,Transferência,15238.68,15476.31,Pago
+MOV-01340,2026-04-23,2026-05-28,2026-06-10,Saída,Marketing,Operações,Fornecedor 12,PIX,8954.48,9025.34,Pago em atraso
+MOV-01341,2026-04-28,2026-05-26,2026-05-27,Saída,Fornecedores,Marketing,Fornecedor 31,Transferência,1832.64,1813.13,Pago
+MOV-01342,2026-05-01,2026-05-19,2026-05-17,Saída,Fornecedores,Administrativo,Fornecedor 29,PIX,12744.37,12708.58,Pago
+MOV-01343,2026-05-02,2026-05-17,2026-05-17,Saída,Tecnologia,Tecnologia,Fornecedor 22,Cartão,9948.36,10244.83,Pago
+MOV-01344,2026-04-16,2026-05-04,2026-05-04,Saída,Tecnologia,Comercial,Fornecedor 24,Cartão,7347.23,7463.29,Pago
+MOV-01345,2026-04-22,2026-05-05,2026-05-07,Saída,Marketing,Administrativo,Fornecedor 19,Boleto,13988.19,14265.22,Pago
+MOV-01346,2026-04-18,2026-05-14,2026-05-10,Saída,Logística,Operações,Fornecedor 26,Boleto,5397.34,5548.34,Pago
+MOV-01347,2026-04-21,2026-05-25,2026-06-06,Saída,Fornecedores,Operações,Fornecedor 37,PIX,10276.38,10292.15,Pago em atraso
+MOV-01348,2026-04-25,2026-05-08,2026-05-05,Saída,Logística,Operações,Fornecedor 41,Boleto,6123.89,6077.77,Pago
+MOV-01349,2026-04-17,2026-05-05,2026-05-06,Saída,Logística,Comercial,Fornecedor 26,Transferência,11197.61,11438.33,Pago
+MOV-01350,2026-04-27,2026-05-16,2026-05-13,Saída,Pessoal,Comercial,Fornecedor 05,Transferência,12382.58,12547.18,Pago
+MOV-01351,2026-04-14,2026-05-07,2026-05-03,Saída,Tecnologia,Operações,Fornecedor 10,Cartão,10113.71,9846.24,Pago
+MOV-01352,2026-05-11,2026-05-26,2026-05-24,Saída,Logística,Marketing,Fornecedor 26,Boleto,11373.79,11299.57,Pago
+MOV-01353,2026-04-16,2026-05-08,2026-05-07,Saída,Fornecedores,Comercial,Fornecedor 38,Boleto,5963.91,5835.25,Pago
+MOV-01354,2026-04-13,2026-05-09,2026-05-04,Saída,Fornecedores,Tecnologia,Fornecedor 34,PIX,3247.13,3273.77,Pago
+MOV-01355,2026-04-11,2026-05-08,2026-05-07,Saída,Tecnologia,Administrativo,Fornecedor 30,Boleto,9203.67,9381.62,Pago
+MOV-01356,2026-05-13,2026-05-24,2026-05-23,Saída,Fornecedores,Marketing,Fornecedor 17,PIX,14174.17,14556.44,Pago
+MOV-01357,2026-04-19,2026-05-06,2026-05-08,Saída,Marketing,Administrativo,Fornecedor 07,PIX,6950.09,7057.87,Pago
+MOV-01358,2026-04-19,2026-05-20,2026-05-18,Saída,Administrativo,Marketing,Fornecedor 45,Cartão,9267.27,9472.65,Pago
+MOV-01359,2026-04-09,2026-05-09,2026-05-08,Saída,Pessoal,Administrativo,Fornecedor 22,Cartão,17513.58,17938.88,Pago
+MOV-01360,2026-04-17,2026-05-12,2026-05-16,Saída,Marketing,Operações,Fornecedor 38,Cartão,4668.75,4728.44,Pago em atraso
+MOV-01361,2026-05-12,2026-06-09,2026-06-25,Entrada,Vendas B2B,Marketing,Cliente 39,Cartão,10238.65,10275.92,Pago em atraso
+MOV-01362,2026-06-14,2026-06-27,2026-06-23,Entrada,Vendas B2B,Operações,Cliente 24,Cartão,4837.99,4859.94,Pago
+MOV-01363,2026-05-05,2026-06-02,2026-06-04,Entrada,Assinaturas,Administrativo,Cliente 03,Cartão,14952.61,15268.62,Pago
+MOV-01364,2026-06-10,2026-06-25,2026-06-20,Entrada,Assinaturas,Comercial,Cliente 41,Transferência,13458.66,13229.36,Pago
+MOV-01365,2026-06-08,2026-06-26,2026-07-11,Entrada,Vendas B2B,Tecnologia,Cliente 44,Transferência,18305.66,18689.45,Pago em atraso
+MOV-01366,2026-05-08,2026-06-09,2026-06-04,Entrada,Vendas B2B,Tecnologia,Cliente 11,Boleto,19049.87,18849.29,Pago
+MOV-01367,2026-05-18,2026-06-21,2026-06-22,Entrada,Assinaturas,Operações,Cliente 32,PIX,17358.18,17622.01,Pago
+MOV-01368,2026-06-05,2026-06-24,2026-06-22,Entrada,Vendas B2B,Comercial,Cliente 06,Cartão,13264.56,13118.54,Pago
+MOV-01369,2026-05-05,2026-06-06,2026-06-04,Entrada,Vendas B2B,Marketing,Cliente 23,Transferência,11289.49,11130.09,Pago
+MOV-01370,2026-06-12,2026-06-25,2026-07-01,Entrada,Assinaturas,Operações,Cliente 38,Transferência,17893.29,17703.01,Pago em atraso
+MOV-01371,2026-05-17,2026-06-18,2026-06-15,Entrada,Serviços,Comercial,Cliente 13,PIX,14653.38,14563.68,Pago
+MOV-01372,2026-06-02,2026-06-22,2026-06-21,Entrada,Vendas B2B,Administrativo,Cliente 23,Cartão,12959.16,12683.73,Pago
+MOV-01373,2026-06-16,2026-06-28,2026-06-27,Entrada,Vendas B2B,Tecnologia,Cliente 15,Cartão,9434.66,9498.86,Pago
+MOV-01374,2026-05-19,2026-06-05,2026-06-04,Entrada,Serviços,Operações,Cliente 16,Boleto,7126.13,6923.62,Pago
+MOV-01375,2026-05-07,2026-06-05,2026-06-13,Entrada,Vendas B2B,Marketing,Cliente 29,Cartão,16497.35,16957.22,Pago em atraso
+MOV-01376,2026-05-16,2026-06-07,2026-06-08,Entrada,Assinaturas,Tecnologia,Cliente 24,Transferência,19593.04,19742.64,Pago
+MOV-01377,2026-05-07,2026-06-08,2026-06-08,Entrada,Vendas B2B,Operações,Cliente 21,Boleto,9091.28,8860.57,Pago
+MOV-01378,2026-05-22,2026-06-04,2026-06-06,Entrada,Assinaturas,Administrativo,Cliente 15,Transferência,12644.18,12671.01,Pago
+MOV-01379,2026-05-21,2026-06-18,2026-06-16,Entrada,Assinaturas,Comercial,Cliente 30,Cartão,13737.8,13709.19,Pago
+MOV-01380,2026-05-26,2026-06-06,2026-06-21,Entrada,Vendas B2B,Tecnologia,Cliente 31,Boleto,10278.7,10315.08,Pago em atraso
+MOV-01381,2026-05-22,2026-06-24,2026-06-23,Entrada,Vendas B2B,Comercial,Cliente 39,Cartão,8923.9,9163.43,Pago
+MOV-01382,2026-05-17,2026-06-05,2026-06-03,Entrada,Vendas B2B,Administrativo,Cliente 45,Transferência,15716.0,15868.57,Pago
+MOV-01383,2026-05-17,2026-06-17,2026-06-14,Entrada,Vendas B2B,Administrativo,Cliente 21,PIX,12493.4,12693.02,Pago
+MOV-01384,2026-06-13,2026-06-25,2026-06-21,Entrada,Serviços,Administrativo,Cliente 05,Cartão,3929.62,3994.37,Pago
+MOV-01385,2026-05-29,2026-06-08,2026-06-05,Entrada,Assinaturas,Marketing,Cliente 08,Transferência,15188.99,15494.96,Pago
+MOV-01386,2026-05-28,2026-06-19,2026-06-20,Entrada,Vendas B2B,Marketing,Cliente 09,Transferência,18727.77,19070.39,Pago
+MOV-01387,2026-05-22,2026-06-06,2026-06-05,Entrada,Vendas B2B,Tecnologia,Cliente 26,Boleto,8207.89,8207.73,Pago
+MOV-01388,2026-05-26,2026-06-21,2026-07-06,Entrada,Vendas B2B,Tecnologia,Cliente 02,PIX,19382.02,19674.86,Pago em atraso
+MOV-01389,2026-05-17,2026-06-12,2026-06-13,Entrada,Serviços,Comercial,Cliente 01,Transferência,4031.93,4144.08,Pago
+MOV-01390,2026-06-03,2026-06-19,2026-06-15,Entrada,Vendas B2B,Administrativo,Cliente 32,Boleto,3510.16,3606.14,Pago
+MOV-01391,2026-05-07,2026-06-04,2026-06-01,Entrada,Assinaturas,Operações,Cliente 29,Boleto,19218.63,19333.62,Pago
+MOV-01392,2026-05-11,2026-06-15,2026-06-17,Entrada,Vendas B2B,Comercial,Cliente 20,Transferência,16544.34,16976.44,Pago
+MOV-01393,2026-05-21,2026-06-19,2026-06-15,Entrada,Vendas B2B,Operações,Cliente 40,Transferência,14368.48,14366.45,Pago
+MOV-01394,2026-05-18,2026-06-18,2026-06-20,Entrada,Serviços,Administrativo,Cliente 05,Transferência,18437.15,18928.33,Pago
+MOV-01395,2026-06-16,2026-06-27,2026-06-28,Saída,Fornecedores,Marketing,Fornecedor 43,PIX,3049.39,2965.52,Pago
+MOV-01396,2026-05-22,2026-06-21,2026-06-22,Saída,Logística,Operações,Fornecedor 19,Transferência,2428.27,2465.7,Pago
+MOV-01397,2026-05-19,2026-06-10,2026-06-11,Saída,Fornecedores,Comercial,Fornecedor 32,PIX,10712.31,10650.76,Pago
+MOV-01398,2026-05-12,2026-06-13,2026-06-12,Saída,Pessoal,Comercial,Fornecedor 34,PIX,12361.74,12562.63,Pago
+MOV-01399,2026-05-17,2026-06-19,2026-06-16,Saída,Fornecedores,Comercial,Fornecedor 35,PIX,2406.52,2426.87,Pago
+MOV-01400,2026-05-07,2026-06-07,2026-06-02,Saída,Fornecedores,Marketing,Fornecedor 33,Boleto,5039.38,5137.27,Pago
+MOV-01401,2026-05-06,2026-06-07,2026-06-04,Saída,Pessoal,Tecnologia,Fornecedor 05,Boleto,7572.46,7750.73,Pago
+MOV-01402,2026-05-20,2026-06-02,2026-05-31,Saída,Pessoal,Tecnologia,Fornecedor 01,Boleto,13766.89,14097.56,Pago
+MOV-01403,2026-05-21,2026-06-11,2026-06-12,Saída,Marketing,Marketing,Fornecedor 03,Boleto,12581.07,12827.59,Pago
+MOV-01404,2026-05-21,2026-06-22,2026-06-23,Saída,Fornecedores,Tecnologia,Fornecedor 14,Transferência,4340.11,4387.09,Pago
+MOV-01405,2026-05-19,2026-06-13,2026-06-11,Saída,Pessoal,Tecnologia,Fornecedor 39,PIX,16061.75,16366.98,Pago
+MOV-01406,2026-06-06,2026-06-23,2026-06-20,Saída,Marketing,Comercial,Fornecedor 41,PIX,6178.99,6239.41,Pago
+MOV-01407,2026-05-14,2026-06-16,2026-07-04,Saída,Fornecedores,Tecnologia,Fornecedor 44,Cartão,12420.61,12291.97,Pago em atraso
+MOV-01408,2026-06-06,2026-06-28,2026-06-24,Saída,Fornecedores,Operações,Fornecedor 06,Cartão,4836.07,4911.8,Pago
+MOV-01409,2026-05-22,2026-06-02,2026-05-29,Saída,Fornecedores,Marketing,Fornecedor 12,PIX,7690.98,7511.66,Pago
+MOV-01410,2026-05-25,2026-06-08,2026-06-08,Saída,Tecnologia,Marketing,Fornecedor 39,PIX,11240.54,11198.8,Pago
+MOV-01411,2026-05-28,2026-06-07,2026-06-07,Saída,Marketing,Operações,Fornecedor 22,Transferência,7511.08,7305.47,Pago
+MOV-01412,2026-05-24,2026-06-07,2026-06-02,Saída,Administrativo,Tecnologia,Fornecedor 33,PIX,5620.39,5583.74,Pago
+MOV-01413,2026-05-18,2026-06-11,2026-06-13,Saída,Fornecedores,Comercial,Fornecedor 16,Transferência,9033.39,8776.11,Pago
+MOV-01414,2026-05-06,2026-06-02,2026-05-29,Saída,Pessoal,Comercial,Fornecedor 40,Boleto,17594.52,17499.43,Pago
+MOV-01415,2026-05-23,2026-06-02,2026-05-29,Saída,Tecnologia,Marketing,Fornecedor 01,PIX,5269.84,5328.12,Pago
+MOV-01416,2026-05-23,2026-06-04,2026-05-30,Saída,Logística,Comercial,Fornecedor 42,Cartão,10776.02,10817.17,Pago
+MOV-01417,2026-05-08,2026-06-10,2026-06-11,Saída,Administrativo,Operações,Fornecedor 44,Cartão,9249.88,9221.95,Pago
+MOV-01418,2026-05-31,2026-06-21,2026-06-18,Saída,Marketing,Operações,Fornecedor 10,Transferência,5559.17,5543.9,Pago
+MOV-01419,2026-06-03,2026-06-13,2026-06-10,Saída,Marketing,Marketing,Fornecedor 20,Boleto,3455.51,3428.16,Pago
+MOV-01420,2026-05-19,2026-06-18,2026-06-19,Saída,Fornecedores,Tecnologia,Fornecedor 14,Cartão,6362.55,6219.4,Pago
+MOV-01421,2026-05-26,2026-06-15,2026-06-17,Saída,Pessoal,Marketing,Fornecedor 09,Boleto,15079.6,14956.15,Pago
+MOV-01422,2026-05-23,2026-06-19,2026-06-19,Saída,Fornecedores,Marketing,Fornecedor 24,Transferência,10084.97,10327.22,Pago
+MOV-01423,2026-05-01,2026-06-04,2026-06-06,Saída,Fornecedores,Administrativo,Fornecedor 27,PIX,3048.78,3012.25,Pago
+MOV-01424,2026-05-13,2026-06-06,2026-06-07,Saída,Fornecedores,Comercial,Fornecedor 45,Boleto,5467.24,5362.37,Pago
+MOV-01425,2026-05-27,2026-06-24,2026-06-21,Saída,Pessoal,Operações,Fornecedor 10,Cartão,10064.19,10149.48,Pago
+MOV-01426,2026-05-22,2026-06-25,2026-06-25,Saída,Pessoal,Administrativo,Fornecedor 34,PIX,15134.28,15234.49,Pago
+MOV-01427,2026-05-22,2026-06-03,2026-06-05,Saída,Marketing,Tecnologia,Fornecedor 23,Boleto,11001.01,10889.8,Pago
+MOV-01428,2026-05-21,2026-06-10,2026-06-10,Saída,Tecnologia,Administrativo,Fornecedor 29,Cartão,13107.15,13204.06,Pago
+MOV-01429,2026-06-13,2026-06-26,2026-06-23,Saída,Pessoal,Administrativo,Fornecedor 40,Cartão,10390.32,10180.39,Pago
+MOV-01430,2026-05-30,2026-06-16,2026-06-15,Saída,Fornecedores,Comercial,Fornecedor 43,Boleto,8110.94,8203.39,Pago
+MOV-01431,2026-05-08,2026-06-02,2026-06-03,Saída,Logística,Operações,Fornecedor 02,Transferência,2503.6,2499.52,Pago
+MOV-01432,2026-05-06,2026-06-06,2026-06-01,Saída,Administrativo,Administrativo,Fornecedor 23,Transferência,8512.1,8752.29,Pago
+MOV-01433,2026-05-20,2026-06-03,2026-06-02,Saída,Administrativo,Comercial,Fornecedor 43,Boleto,12226.91,12357.03,Pago
+MOV-01434,2026-05-19,2026-06-23,2026-06-19,Saída,Administrativo,Marketing,Fornecedor 02,Cartão,5258.04,5212.2,Pago
+MOV-01435,2026-05-30,2026-06-09,2026-06-08,Saída,Administrativo,Marketing,Fornecedor 21,Boleto,5806.37,5974.3,Pago
+MOV-01436,2026-05-23,2026-06-10,2026-06-11,Saída,Fornecedores,Marketing,Fornecedor 43,PIX,4249.35,4207.92,Pago
+MOV-01437,2026-06-04,2026-06-20,2026-06-21,Saída,Pessoal,Marketing,Fornecedor 25,Cartão,16590.24,16393.86,Pago
+MOV-01438,2026-05-19,2026-06-23,2026-06-23,Saída,Fornecedores,Marketing,Fornecedor 27,Transferência,9583.84,9758.16,Pago
+MOV-01439,2026-05-28,2026-06-09,2026-06-11,Saída,Fornecedores,Marketing,Fornecedor 43,PIX,5572.63,5499.62,Pago
+MOV-01440,2026-06-14,2026-06-28,2026-06-24,Saída,Logística,Comercial,Fornecedor 16,PIX,12557.63,12198.24,Pago
+MOV-01441,2026-07-09,2026-07-19,2026-07-15,Entrada,Vendas B2B,Comercial,Cliente 22,PIX,3787.38,3870.03,Pago
+MOV-01442,2026-07-15,2026-07-28,2026-07-28,Entrada,Vendas B2B,Administrativo,Cliente 08,PIX,12317.12,12528.58,Pago
+MOV-01443,2026-07-12,2026-07-24,2026-07-21,Entrada,Assinaturas,Comercial,Cliente 28,Boleto,5832.72,5689.83,Pago
+MOV-01444,2026-06-27,2026-07-13,2026-07-11,Entrada,Vendas B2B,Marketing,Cliente 39,Boleto,13698.08,13678.39,Pago
+MOV-01445,2026-06-23,2026-07-19,2026-07-14,Entrada,Vendas B2B,Comercial,Cliente 06,Boleto,13919.78,13871.77,Pago
+MOV-01446,2026-06-16,2026-07-18,2026-07-16,Entrada,Serviços,Comercial,Cliente 13,Boleto,6801.58,6883.19,Pago
+MOV-01447,2026-06-12,2026-07-08,2026-07-07,Entrada,Serviços,Tecnologia,Cliente 14,Cartão,14295.55,14382.66,Pago
+MOV-01448,2026-06-23,2026-07-08,2026-07-07,Entrada,Vendas B2B,Comercial,Cliente 04,PIX,8040.34,7934.91,Pago
+MOV-01449,2026-05-29,2026-07-02,2026-07-03,Entrada,Vendas B2B,Marketing,Cliente 01,PIX,16520.94,16104.56,Pago
+MOV-01450,2026-06-09,2026-07-12,2026-07-08,Entrada,Vendas B2B,Tecnologia,Cliente 29,Transferência,14525.07,14585.38,Pago
+MOV-01451,2026-06-13,2026-07-16,2026-07-18,Entrada,Assinaturas,Operações,Cliente 15,Boleto,10102.82,9989.75,Pago
+MOV-01452,2026-06-23,2026-07-15,2026-07-15,Entrada,Vendas B2B,Marketing,Cliente 30,Cartão,8164.0,8371.42,Pago
+MOV-01453,2026-06-08,2026-07-13,2026-07-08,Entrada,Vendas B2B,Tecnologia,Cliente 25,Boleto,14015.46,14329.43,Pago
+MOV-01454,2026-07-11,2026-07-26,2026-07-23,Entrada,Vendas B2B,Operações,Cliente 07,PIX,3012.04,2948.97,Pago
+MOV-01455,2026-06-22,2026-07-11,2026-07-13,Entrada,Vendas B2B,Administrativo,Cliente 18,Boleto,5078.48,5045.64,Pago
+MOV-01456,2026-06-15,2026-07-16,2026-07-13,Entrada,Vendas B2B,Comercial,Cliente 23,PIX,12023.74,12014.61,Pago
+MOV-01457,2026-06-21,2026-07-16,2026-07-13,Entrada,Vendas B2B,Operações,Cliente 27,Cartão,7713.89,7591.31,Pago
+MOV-01458,2026-06-13,2026-07-06,2026-07-05,Entrada,Vendas B2B,Administrativo,Cliente 08,Boleto,7481.72,7564.34,Pago
+MOV-01459,2026-06-17,2026-07-12,2026-07-09,Entrada,Assinaturas,Comercial,Cliente 02,Cartão,7984.68,7922.19,Pago
+MOV-01460,2026-06-16,2026-07-11,2026-07-11,Entrada,Vendas B2B,Tecnologia,Cliente 36,Transferência,6540.87,6593.41,Pago
+MOV-01461,2026-06-09,2026-07-07,2026-07-07,Entrada,Assinaturas,Operações,Cliente 38,Boleto,7832.12,7964.45,Pago
+MOV-01462,2026-07-06,2026-07-19,2026-07-14,Entrada,Assinaturas,Marketing,Cliente 10,Transferência,6586.31,6512.59,Pago
+MOV-01463,2026-06-28,2026-07-20,2026-07-19,Entrada,Vendas B2B,Operações,Cliente 18,Boleto,10262.3,9995.64,Pago
+MOV-01464,2026-06-17,2026-07-16,2026-07-11,Entrada,Vendas B2B,Marketing,Cliente 36,Boleto,14621.94,14470.35,Pago
+MOV-01465,2026-06-16,2026-07-16,2026-07-14,Entrada,Assinaturas,Operações,Cliente 39,PIX,17341.35,17678.61,Pago
+MOV-01466,2026-06-15,2026-07-07,2026-07-06,Entrada,Vendas B2B,Marketing,Cliente 45,PIX,3720.56,3664.36,Pago
+MOV-01467,2026-06-16,2026-07-10,2026-07-24,Entrada,Vendas B2B,Operações,Cliente 29,Cartão,5904.45,5755.2,Pago em atraso
+MOV-01468,2026-07-09,2026-07-25,2026-07-24,Entrada,Assinaturas,Administrativo,Cliente 30,Transferência,11826.44,11795.18,Pago
+MOV-01469,2026-06-10,2026-07-01,2026-07-12,Entrada,Vendas B2B,Operações,Cliente 21,Cartão,4753.74,4768.74,Pago em atraso
+MOV-01470,2026-06-17,2026-07-21,2026-07-18,Entrada,Assinaturas,Comercial,Cliente 42,Transferência,12359.13,12230.55,Pago
+MOV-01471,2026-05-31,2026-07-02,2026-06-27,Entrada,Vendas B2B,Operações,Cliente 32,PIX,14298.67,14489.79,Pago
+MOV-01472,2026-06-13,2026-07-04,2026-07-02,Entrada,Serviços,Tecnologia,Cliente 22,PIX,4926.65,4806.0,Pago
+MOV-01473,2026-06-16,2026-07-16,2026-07-11,Entrada,Vendas B2B,Marketing,Cliente 45,Boleto,14212.93,14233.98,Pago
+MOV-01474,2026-06-19,2026-07-07,2026-07-03,Entrada,Assinaturas,Operações,Cliente 16,PIX,4160.0,4225.59,Pago
+MOV-01475,2026-06-21,2026-07-02,2026-06-30,Saída,Marketing,Operações,Fornecedor 15,Boleto,7501.84,7492.25,Pago
+MOV-01476,2026-06-07,2026-07-11,2026-07-12,Saída,Administrativo,Tecnologia,Fornecedor 32,PIX,2755.71,2676.22,Pago
+MOV-01477,2026-07-02,2026-07-18,2026-07-25,Saída,Marketing,Operações,Fornecedor 38,Cartão,9077.51,9126.35,Pago em atraso
+MOV-01478,2026-07-05,2026-07-19,2026-07-16,Saída,Fornecedores,Administrativo,Fornecedor 01,Transferência,9130.61,9074.28,Pago
+MOV-01479,2026-06-25,2026-07-13,2026-07-11,Saída,Fornecedores,Tecnologia,Fornecedor 13,Transferência,5429.6,5512.4,Pago
+MOV-01480,2026-06-21,2026-07-21,2026-07-16,Saída,Logística,Administrativo,Fornecedor 26,Boleto,5636.75,5618.33,Pago
+MOV-01481,2026-06-28,2026-07-26,2026-07-24,Saída,Fornecedores,Tecnologia,Fornecedor 45,Boleto,1670.76,1640.7,Pago
+MOV-01482,2026-06-24,2026-07-12,2026-07-10,Saída,Logística,Operações,Fornecedor 33,PIX,10441.82,10483.7,Pago
+MOV-01483,2026-06-17,2026-07-11,2026-07-12,Saída,Pessoal,Marketing,Fornecedor 39,Boleto,8309.19,8418.86,Pago
+MOV-01484,2026-07-07,2026-07-20,2026-07-18,Saída,Administrativo,Comercial,Fornecedor 02,PIX,6625.98,6458.08,Pago
+MOV-01485,2026-06-16,2026-07-01,2026-07-02,Saída,Logística,Comercial,Fornecedor 04,Transferência,11898.69,12062.0,Pago
+MOV-01486,2026-06-21,2026-07-14,2026-07-14,Saída,Fornecedores,Comercial,Fornecedor 20,PIX,3355.88,3270.53,Pago
+MOV-01487,2026-06-09,2026-07-09,2026-07-07,Saída,Logística,Comercial,Fornecedor 31,Boleto,4613.17,4508.08,Pago
+MOV-01488,2026-06-06,2026-07-08,2026-07-07,Saída,Fornecedores,Administrativo,Fornecedor 31,PIX,2172.88,2142.9,Pago
+MOV-01489,2026-06-08,2026-07-03,2026-07-04,Saída,Tecnologia,Marketing,Fornecedor 30,Cartão,2932.23,2849.52,Pago
+MOV-01490,2026-05-30,2026-07-02,2026-07-01,Saída,Fornecedores,Marketing,Fornecedor 13,Transferência,1349.94,1366.94,Pago
+MOV-01491,2026-06-28,2026-07-28,2026-07-30,Saída,Fornecedores,Comercial,Fornecedor 37,Cartão,4273.18,4352.75,Pago
+MOV-01492,2026-07-11,2026-07-23,2026-07-18,Saída,Pessoal,Administrativo,Fornecedor 24,Cartão,14419.64,14234.94,Pago
+MOV-01493,2026-06-15,2026-07-12,2026-07-12,Saída,Logística,Operações,Fornecedor 21,Transferência,7353.88,7453.69,Pago
+MOV-01494,2026-06-08,2026-07-12,2026-07-09,Saída,Pessoal,Marketing,Fornecedor 44,Cartão,10221.1,10413.81,Pago
+MOV-01495,2026-06-11,2026-07-05,2026-07-05,Saída,Pessoal,Administrativo,Fornecedor 44,Boleto,12521.52,12630.81,Pago
+MOV-01496,2026-07-01,2026-07-28,2026-07-25,Saída,Logística,Operações,Fornecedor 37,Boleto,5081.03,5111.15,Pago
+MOV-01497,2026-07-14,2026-07-27,2026-07-23,Saída,Administrativo,Administrativo,Fornecedor 35,PIX,10152.74,10349.77,Pago
+MOV-01498,2026-06-17,2026-07-18,2026-07-15,Saída,Pessoal,Tecnologia,Fornecedor 32,PIX,9047.17,9177.29,Pago
+MOV-01499,2026-06-22,2026-07-13,2026-07-14,Saída,Pessoal,Marketing,Fornecedor 45,PIX,10233.22,10060.73,Pago
+MOV-01500,2026-05-31,2026-07-05,2026-07-03,Saída,Fornecedores,Administrativo,Fornecedor 07,Cartão,8476.1,8586.05,Pago
+MOV-01501,2026-06-24,2026-07-10,2026-07-11,Saída,Fornecedores,Administrativo,Fornecedor 41,PIX,2015.94,1992.09,Pago
+MOV-01502,2026-05-28,2026-07-01,2026-07-05,Saída,Administrativo,Comercial,Fornecedor 05,Transferência,3358.37,3299.35,Pago em atraso
+MOV-01503,2026-07-01,2026-07-22,2026-07-21,Saída,Pessoal,Operações,Fornecedor 20,Cartão,15948.75,15798.68,Pago
+MOV-01504,2026-07-10,2026-07-21,2026-07-16,Saída,Marketing,Marketing,Fornecedor 21,Transferência,11590.98,11715.55,Pago
+MOV-01505,2026-06-30,2026-07-28,2026-07-24,Saída,Fornecedores,Administrativo,Fornecedor 23,Cartão,9117.14,9074.86,Pago
+MOV-01506,2026-06-19,2026-07-16,2026-07-12,Saída,Administrativo,Comercial,Fornecedor 06,Boleto,5493.63,5485.35,Pago
+MOV-01507,2026-06-09,2026-07-04,2026-07-04,Saída,Tecnologia,Comercial,Fornecedor 21,Transferência,9286.38,9142.28,Pago
+MOV-01508,2026-06-22,2026-07-20,2026-07-15,Saída,Pessoal,Comercial,Fornecedor 33,Cartão,11011.99,11133.45,Pago
+MOV-01509,2026-06-12,2026-07-09,2026-07-10,Saída,Fornecedores,Comercial,Fornecedor 17,PIX,3247.94,3306.66,Pago
+MOV-01510,2026-06-16,2026-07-15,2026-07-12,Saída,Marketing,Tecnologia,Fornecedor 28,PIX,6749.42,6563.06,Pago
+MOV-01511,2026-06-11,2026-07-03,2026-07-05,Saída,Marketing,Operações,Fornecedor 25,PIX,12144.78,11961.91,Pago
+MOV-01512,2026-06-14,2026-07-19,2026-07-17,Saída,Pessoal,Comercial,Fornecedor 07,Boleto,15155.66,15350.1,Pago
+MOV-01513,2026-06-15,2026-07-20,2026-07-22,Saída,Fornecedores,Marketing,Fornecedor 02,Transferência,9566.03,9563.82,Pago
+MOV-01514,2026-06-23,2026-07-16,2026-07-30,Saída,Marketing,Comercial,Fornecedor 05,PIX,2401.51,2409.76,Pago em atraso
+MOV-01515,2026-06-28,2026-07-12,2026-07-10,Saída,Fornecedores,Comercial,Fornecedor 02,Boleto,11919.88,12210.69,Pago
+MOV-01516,2026-06-12,2026-07-07,2026-07-07,Saída,Fornecedores,Comercial,Fornecedor 43,Boleto,3310.74,3322.14,Pago
+MOV-01517,2026-05-30,2026-07-02,2026-06-29,Saída,Marketing,Marketing,Fornecedor 01,Transferência,2509.1,2479.04,Pago
+MOV-01518,2026-06-24,2026-07-04,2026-07-03,Saída,Fornecedores,Tecnologia,Fornecedor 09,Transferência,10105.38,10157.26,Pago
+MOV-01519,2026-07-10,2026-07-26,2026-07-28,Saída,Administrativo,Comercial,Fornecedor 12,Cartão,10924.62,10910.38,Pago
+MOV-01520,2026-06-19,2026-07-03,2026-06-30,Saída,Pessoal,Comercial,Fornecedor 31,PIX,15086.93,15410.86,Pago
+MOV-01521,2026-08-02,2026-08-25,2026-08-23,Entrada,Assinaturas,Comercial,Cliente 28,PIX,5965.44,6082.83,Pago
+MOV-01522,2026-07-03,2026-08-01,2026-08-01,Entrada,Serviços,Operações,Cliente 09,Cartão,13345.7,13258.24,Pago
+MOV-01523,2026-07-19,2026-08-14,2026-08-11,Entrada,Assinaturas,Tecnologia,Cliente 32,PIX,13481.75,13272.52,Pago
+MOV-01524,2026-07-23,2026-08-03,2026-07-31,Entrada,Vendas B2B,Tecnologia,Cliente 18,Cartão,2975.6,3024.33,Pago
+MOV-01525,2026-07-17,2026-08-11,2026-08-11,Entrada,Vendas B2B,Administrativo,Cliente 32,Cartão,11541.11,11831.48,Pago
+MOV-01526,2026-08-07,2026-08-19,2026-08-16,Entrada,Assinaturas,Marketing,Cliente 22,PIX,14160.07,14134.01,Pago
+MOV-01527,2026-07-20,2026-08-09,2026-08-07,Entrada,Vendas B2B,Operações,Cliente 37,Boleto,6257.9,6187.71,Pago
+MOV-01528,2026-08-04,2026-08-27,2026-08-26,Entrada,Vendas B2B,Operações,Cliente 40,Boleto,6785.4,6689.28,Pago
+MOV-01529,2026-07-11,2026-08-07,2026-08-07,Entrada,Assinaturas,Tecnologia,Cliente 14,Cartão,12069.01,12222.98,Pago
+MOV-01530,2026-08-07,2026-08-24,,Entrada,Assinaturas,Operações,Cliente 39,Transferência,4946.68,0,Vencido
+MOV-01531,2026-07-29,2026-08-16,2026-08-17,Entrada,Vendas B2B,Administrativo,Cliente 30,Transferência,11503.91,11493.1,Pago
+MOV-01532,2026-07-18,2026-08-09,2026-08-22,Entrada,Vendas B2B,Comercial,Cliente 05,Boleto,10929.97,11135.31,Pago em atraso
+MOV-01533,2026-07-24,2026-08-16,2026-08-15,Entrada,Assinaturas,Operações,Cliente 18,PIX,6072.54,6076.59,Pago
+MOV-01534,2026-07-27,2026-08-16,2026-08-18,Entrada,Serviços,Comercial,Cliente 09,Boleto,11236.06,11193.7,Pago
+MOV-01535,2026-07-06,2026-08-02,2026-08-05,Entrada,Vendas B2B,Administrativo,Cliente 18,Boleto,13062.04,12887.55,Pago em atraso
+MOV-01536,2026-07-22,2026-08-22,,Entrada,Assinaturas,Administrativo,Cliente 04,PIX,15352.94,0,Vencido
+MOV-01537,2026-07-26,2026-08-24,2026-08-22,Entrada,Vendas B2B,Administrativo,Cliente 18,Transferência,16059.6,15790.22,Pago
+MOV-01538,2026-07-27,2026-08-18,2026-08-16,Entrada,Serviços,Operações,Cliente 35,PIX,4646.35,4554.87,Pago
+MOV-01539,2026-08-07,2026-08-24,2026-08-26,Entrada,Serviços,Marketing,Cliente 15,Boleto,3809.17,3723.36,Pago
+MOV-01540,2026-07-20,2026-08-06,2026-08-05,Entrada,Vendas B2B,Tecnologia,Cliente 28,Cartão,4839.17,4725.17,Pago
+MOV-01541,2026-08-06,2026-08-28,2026-09-12,Entrada,Vendas B2B,Administrativo,Cliente 25,PIX,5759.52,5638.7,Pago em atraso
+MOV-01542,2026-07-28,2026-08-22,2026-08-22,Entrada,Assinaturas,Administrativo,Cliente 40,Cartão,6306.48,6239.16,Pago
+MOV-01543,2026-07-11,2026-08-12,2026-08-15,Entrada,Serviços,Marketing,Cliente 11,Cartão,10937.85,11004.1,Pago em atraso
+MOV-01544,2026-07-22,2026-08-13,2026-08-12,Entrada,Vendas B2B,Administrativo,Cliente 31,PIX,6894.18,7059.0,Pago
+MOV-01545,2026-07-31,2026-08-21,2026-08-16,Entrada,Assinaturas,Tecnologia,Cliente 25,PIX,10339.69,10270.75,Pago
+MOV-01546,2026-07-27,2026-08-14,2026-08-23,Entrada,Vendas B2B,Tecnologia,Cliente 17,Cartão,12564.84,12450.42,Pago em atraso
+MOV-01547,2026-07-28,2026-08-19,2026-08-17,Entrada,Vendas B2B,Tecnologia,Cliente 04,Boleto,5579.1,5694.89,Pago
+MOV-01548,2026-07-08,2026-08-03,2026-07-29,Entrada,Vendas B2B,Tecnologia,Cliente 29,Boleto,15216.04,14988.16,Pago
+MOV-01549,2026-07-21,2026-08-09,2026-08-06,Entrada,Vendas B2B,Operações,Cliente 34,PIX,14422.78,14188.34,Pago
+MOV-01550,2026-07-08,2026-08-02,2026-07-30,Entrada,Vendas B2B,Marketing,Cliente 11,Boleto,3824.29,3775.7,Pago
+MOV-01551,2026-08-02,2026-08-20,2026-08-16,Entrada,Vendas B2B,Operações,Cliente 35,PIX,15845.28,16104.67,Pago
+MOV-01552,2026-07-28,2026-08-12,2026-08-09,Entrada,Assinaturas,Operações,Cliente 01,Transferência,10203.16,10223.76,Pago
+MOV-01553,2026-08-02,2026-08-17,2026-08-12,Entrada,Serviços,Comercial,Cliente 31,Boleto,13148.15,13064.37,Pago
+MOV-01554,2026-07-27,2026-08-20,2026-08-19,Entrada,Serviços,Operações,Cliente 08,Boleto,5894.31,5881.01,Pago
+MOV-01555,2026-07-14,2026-08-02,2026-08-15,Saída,Fornecedores,Marketing,Fornecedor 34,Cartão,7323.61,7163.62,Pago em atraso
+MOV-01556,2026-07-23,2026-08-18,2026-08-20,Saída,Marketing,Tecnologia,Fornecedor 39,Cartão,5153.96,5296.86,Pago
+MOV-01557,2026-08-03,2026-08-14,2026-08-16,Saída,Tecnologia,Operações,Fornecedor 05,Transferência,6474.85,6329.65,Pago
+MOV-01558,2026-07-25,2026-08-14,2026-08-13,Saída,Logística,Marketing,Fornecedor 13,PIX,2280.06,2262.77,Pago
+MOV-01559,2026-08-06,2026-08-25,2026-08-22,Saída,Fornecedores,Marketing,Fornecedor 16,Boleto,9062.07,9143.12,Pago
+MOV-01560,2026-07-22,2026-08-15,2026-08-16,Saída,Fornecedores,Tecnologia,Fornecedor 14,Cartão,3426.98,3420.06,Pago
+MOV-01561,2026-07-28,2026-08-08,2026-08-04,Saída,Fornecedores,Tecnologia,Fornecedor 30,Cartão,10959.76,10825.23,Pago
+MOV-01562,2026-07-07,2026-08-03,2026-08-03,Saída,Logística,Marketing,Fornecedor 03,Cartão,10059.94,10253.75,Pago
+MOV-01563,2026-07-28,2026-08-10,2026-08-07,Saída,Fornecedores,Operações,Fornecedor 36,Transferência,4500.32,4368.3,Pago
+MOV-01564,2026-07-30,2026-08-21,,Saída,Fornecedores,Tecnologia,Fornecedor 40,Cartão,6331.26,0,Vencido
+MOV-01565,2026-08-02,2026-08-26,,Saída,Pessoal,Marketing,Fornecedor 28,PIX,9263.5,0,Vencido
+MOV-01566,2026-08-10,2026-08-24,,Saída,Marketing,Marketing,Fornecedor 22,Cartão,6726.98,0,Vencido
+MOV-01567,2026-07-14,2026-08-05,2026-08-03,Saída,Tecnologia,Tecnologia,Fornecedor 26,Boleto,7623.81,7437.72,Pago
+MOV-01568,2026-07-22,2026-08-05,2026-08-03,Saída,Fornecedores,Marketing,Fornecedor 36,Transferência,4206.83,4186.03,Pago
+MOV-01569,2026-07-09,2026-08-03,2026-07-29,Saída,Administrativo,Comercial,Fornecedor 15,Cartão,3257.76,3211.92,Pago
+MOV-01570,2026-07-29,2026-08-22,,Saída,Logística,Tecnologia,Fornecedor 40,Transferência,2794.91,0,Vencido
+MOV-01571,2026-07-20,2026-08-09,2026-08-09,Saída,Logística,Administrativo,Fornecedor 10,Transferência,10919.14,11005.31,Pago
+MOV-01572,2026-07-21,2026-08-08,2026-08-03,Saída,Logística,Tecnologia,Fornecedor 33,Transferência,9095.22,9059.13,Pago
+MOV-01573,2026-08-05,2026-08-19,2026-08-18,Saída,Pessoal,Administrativo,Fornecedor 15,Boleto,9597.85,9371.24,Pago
+MOV-01574,2026-07-14,2026-08-05,2026-08-05,Saída,Logística,Marketing,Fornecedor 37,Transferência,3649.77,3630.64,Pago
+MOV-01575,2026-08-09,2026-08-20,2026-08-16,Saída,Fornecedores,Marketing,Fornecedor 26,Cartão,3585.57,3644.72,Pago
+MOV-01576,2026-07-15,2026-08-01,2026-08-01,Saída,Fornecedores,Marketing,Fornecedor 32,Cartão,5957.65,5821.18,Pago
+MOV-01577,2026-07-24,2026-08-28,,Saída,Marketing,Operações,Fornecedor 22,Boleto,5259.88,0,Vencido
+MOV-01578,2026-07-24,2026-08-28,,Saída,Marketing,Comercial,Fornecedor 10,Cartão,7194.41,0,Vencido
+MOV-01579,2026-08-15,2026-08-26,,Saída,Pessoal,Comercial,Fornecedor 31,Boleto,14742.55,0,Vencido
+MOV-01580,2026-08-15,2026-08-27,2026-08-27,Saída,Fornecedores,Comercial,Fornecedor 11,Transferência,4088.7,4129.44,Pago
+MOV-01581,2026-07-11,2026-08-02,2026-07-31,Saída,Pessoal,Marketing,Fornecedor 07,Transferência,11219.06,11413.96,Pago
+MOV-01582,2026-07-24,2026-08-17,2026-08-27,Saída,Marketing,Administrativo,Fornecedor 17,Boleto,7420.52,7259.62,Pago em atraso
+MOV-01583,2026-07-24,2026-08-04,2026-08-02,Saída,Marketing,Marketing,Fornecedor 22,Boleto,8289.51,8383.53,Pago
+MOV-01584,2026-07-11,2026-08-12,2026-08-11,Saída,Marketing,Marketing,Fornecedor 27,Boleto,9424.01,9307.33,Pago
+MOV-01585,2026-08-08,2026-08-22,,Saída,Tecnologia,Operações,Fornecedor 03,PIX,9802.96,0,Vencido
+MOV-01586,2026-07-03,2026-08-05,2026-08-07,Saída,Fornecedores,Comercial,Fornecedor 19,Transferência,10091.08,9864.7,Pago
+MOV-01587,2026-07-24,2026-08-23,,Saída,Marketing,Administrativo,Fornecedor 38,Transferência,7048.64,0,Vencido
+MOV-01588,2026-07-31,2026-08-16,2026-08-16,Saída,Administrativo,Tecnologia,Fornecedor 05,PIX,3249.08,3182.12,Pago
+MOV-01589,2026-07-18,2026-08-09,2026-08-11,Saída,Fornecedores,Tecnologia,Fornecedor 29,Boleto,9864.09,9842.49,Pago
+MOV-01590,2026-07-20,2026-08-23,,Saída,Logística,Administrativo,Fornecedor 45,Boleto,8755.73,0,Vencido
+MOV-01591,2026-07-20,2026-08-09,2026-08-11,Saída,Fornecedores,Operações,Fornecedor 03,Boleto,9145.71,9351.77,Pago
+MOV-01592,2026-07-06,2026-08-09,2026-08-06,Saída,Fornecedores,Comercial,Fornecedor 41,Transferência,7302.13,7266.15,Pago
+MOV-01593,2026-07-17,2026-08-12,2026-08-08,Saída,Tecnologia,Operações,Fornecedor 14,Boleto,9320.55,9310.93,Pago
+MOV-01594,2026-07-20,2026-08-17,2026-08-18,Saída,Pessoal,Administrativo,Fornecedor 40,Boleto,12617.56,12912.5,Pago
+MOV-01595,2026-07-12,2026-08-15,2026-08-14,Saída,Pessoal,Marketing,Fornecedor 03,Transferência,13197.54,13228.26,Pago
+MOV-01596,2026-07-28,2026-08-26,2026-09-09,Saída,Pessoal,Administrativo,Fornecedor 15,Transferência,11621.09,11920.25,Pago em atraso
+MOV-01597,2026-07-09,2026-08-09,2026-08-04,Saída,Logística,Administrativo,Fornecedor 17,Cartão,3384.08,3448.39,Pago
+MOV-01598,2026-07-23,2026-08-02,2026-08-04,Saída,Fornecedores,Marketing,Fornecedor 04,PIX,6549.63,6447.05,Pago
+MOV-01599,2026-07-25,2026-08-27,2026-08-22,Saída,Logística,Tecnologia,Fornecedor 39,PIX,3905.79,3906.2,Pago
+MOV-01600,2026-07-27,2026-08-18,2026-08-14,Saída,Pessoal,Administrativo,Fornecedor 22,Boleto,10775.22,11004.88,Pago

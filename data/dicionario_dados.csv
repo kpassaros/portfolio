@@ -1,0 +1,13 @@
+﻿campo,tipo,descrição
+id_movimento,texto,Identificador único do lançamento
+data_emissao,data,Data de emissão
+data_vencimento,data,Data prevista para liquidação
+data_pagamento,data,Data efetiva; vazia para títulos em aberto
+tipo,categoria,Entrada ou Saída
+categoria,categoria,Classificação financeira
+centro_custo,categoria,Área responsável
+entidade,texto,Cliente ou fornecedor fictício
+forma_pagamento,categoria,Meio de pagamento
+valor_previsto,decimal,Valor planejado em BRL
+valor_realizado,decimal,Valor efetivamente liquidado em BRL
+status,categoria,Situação do título
