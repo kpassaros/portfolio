@@ -19,3 +19,12 @@ Consulte [`GUIA-ADICIONAR-PROJETO.md`](GUIA-ADICIONAR-PROJETO.md).
 node scripts/validate-projects.mjs
 node scripts/build-projects.mjs
 ```
+
+## Versão consolidada
+- Rede interativa de dados
+- Loader de pipeline
+- PT/EN
+- Personagem 3D animado
+- Formspree assíncrono
+- Carreira e skills por JSON
+- Projetos futuros com status

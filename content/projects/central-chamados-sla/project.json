@@ -1,0 +1,83 @@
+{
+  "id": "central-chamados-sla",
+  "title": "Central de Chamados & SLA",
+  "category": "Automação",
+  "status": "Em breve",
+  "year": 2026,
+  "featured": true,
+  "new": true,
+  "summary": "Notion, indicadores e automações para controlar solicitações, prazos e recorrências.",
+  "problem": "Projeto planejado para transformar um processo relevante em uma solução documentada e demonstrável.",
+  "role": "Descoberta, requisitos, arquitetura, desenvolvimento, documentação e validação.",
+  "solution": "Case será publicado com dados seguros, documentação e demonstração reproduzível.",
+  "results": [
+    "Escopo e arquitetura definidos",
+    "Demonstração pública planejada",
+    "Documentação preparada para evolução"
+  ],
+  "technologies": [
+    "Notion",
+    "Power BI",
+    "APIs",
+    "Automação"
+  ],
+  "stackGroups": [
+    {
+      "label": "Operação",
+      "items": [
+        "Notion"
+      ]
+    },
+    {
+      "label": "Indicadores",
+      "items": [
+        "Power BI",
+        "SLA"
+      ]
+    },
+    {
+      "label": "Integração",
+      "items": [
+        "APIs"
+      ]
+    },
+    {
+      "label": "Automação",
+      "items": [
+        "Power Automate"
+      ]
+    }
+  ],
+  "cover": "cover.png",
+  "metrics": {},
+  "demo": {
+    "mode": "none",
+    "embedPath": "",
+    "embedUrl": "",
+    "externalUrl": "",
+    "fallbackImage": "content/projects/central-chamados-sla/cover.png",
+    "pbixDownload": ""
+  },
+  "links": {
+    "github": "https://github.com/kpassaros/portfolio-dados-bi",
+    "kaggle": "",
+    "documentation": "",
+    "dataset": ""
+  },
+  "i18n": {
+    "en-US": {
+      "title": "Service Desk & SLA Center",
+      "category": "Automation",
+      "status": "Coming soon",
+      "summary": "Notion, metrics and automations to manage requests, deadlines and recurring issues.",
+      "problem": "A planned project that turns a relevant process into a documented and demonstrable solution.",
+      "role": "Discovery, requirements, architecture, development, documentation and validation.",
+      "solution": "The case will be published with safe data, documentation and a reproducible demo.",
+      "results": [
+        "Scope and architecture defined",
+        "Public demo planned",
+        "Documentation prepared for evolution"
+      ]
+    }
+  }
+}

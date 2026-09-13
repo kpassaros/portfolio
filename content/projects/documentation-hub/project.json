@@ -1,0 +1,84 @@
+{
+  "id": "documentation-hub",
+  "title": "Data & BI Documentation Hub",
+  "category": "Governança",
+  "status": "Em breve",
+  "year": 2026,
+  "featured": false,
+  "new": true,
+  "summary": "Central pesquisável para dicionário de dados, KPIs, linhagem, arquitetura e regras de negócio.",
+  "problem": "Projeto planejado para transformar um processo relevante em uma solução documentada e demonstrável.",
+  "role": "Descoberta, requisitos, arquitetura, desenvolvimento, documentação e validação.",
+  "solution": "Case será publicado com dados seguros, documentação e demonstração reproduzível.",
+  "results": [
+    "Escopo e arquitetura definidos",
+    "Demonstração pública planejada",
+    "Documentação preparada para evolução"
+  ],
+  "technologies": [
+    "HTML",
+    "JSON",
+    "Governança",
+    "Documentação"
+  ],
+  "stackGroups": [
+    {
+      "label": "Interface",
+      "items": [
+        "HTML",
+        "JavaScript"
+      ]
+    },
+    {
+      "label": "Conteúdo",
+      "items": [
+        "JSON"
+      ]
+    },
+    {
+      "label": "Práticas",
+      "items": [
+        "Governança",
+        "Linhagem"
+      ]
+    },
+    {
+      "label": "Entrega",
+      "items": [
+        "GitHub Pages"
+      ]
+    }
+  ],
+  "cover": "cover.png",
+  "metrics": {},
+  "demo": {
+    "mode": "github-html",
+    "embedPath": "content/projects/documentation-hub/dashboard/index.html",
+    "embedUrl": "",
+    "externalUrl": "",
+    "fallbackImage": "content/projects/documentation-hub/cover.png",
+    "pbixDownload": ""
+  },
+  "links": {
+    "github": "https://github.com/kpassaros/portfolio-dados-bi",
+    "kaggle": "",
+    "documentation": "",
+    "dataset": ""
+  },
+  "i18n": {
+    "en-US": {
+      "title": "Data & BI Documentation Hub",
+      "category": "Governance",
+      "status": "Coming soon",
+      "summary": "Searchable hub for data dictionaries, KPIs, lineage, architecture and business rules.",
+      "problem": "A planned project that turns a relevant process into a documented and demonstrable solution.",
+      "role": "Discovery, requirements, architecture, development, documentation and validation.",
+      "solution": "The case will be published with safe data, documentation and a reproducible demo.",
+      "results": [
+        "Scope and architecture defined",
+        "Public demo planned",
+        "Documentation prepared for evolution"
+      ]
+    }
+  }
+}

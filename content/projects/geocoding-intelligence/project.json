@@ -1,0 +1,82 @@
+{
+  "id": "geocoding-intelligence",
+  "title": "Geocoding Intelligence",
+  "category": "Dados & BI",
+  "status": "Em breve",
+  "year": 2026,
+  "featured": false,
+  "new": false,
+  "summary": "Enriquecimento geográfico automatizado para análises territoriais e mapas de decisão.",
+  "problem": "Projeto planejado para transformar um processo relevante em uma solução documentada e demonstrável.",
+  "role": "Descoberta, requisitos, arquitetura, desenvolvimento, documentação e validação.",
+  "solution": "Case será publicado com dados seguros, documentação e demonstração reproduzível.",
+  "results": [
+    "Escopo e arquitetura definidos",
+    "Demonstração pública planejada",
+    "Documentação preparada para evolução"
+  ],
+  "technologies": [
+    "Google Sheets",
+    "Apps Script",
+    "Geocoding API",
+    "Looker Studio"
+  ],
+  "stackGroups": [
+    {
+      "label": "Entrada",
+      "items": [
+        "Google Sheets"
+      ]
+    },
+    {
+      "label": "Automação",
+      "items": [
+        "Apps Script"
+      ]
+    },
+    {
+      "label": "Enriquecimento",
+      "items": [
+        "Geocoding API"
+      ]
+    },
+    {
+      "label": "Visualização",
+      "items": [
+        "Looker Studio"
+      ]
+    }
+  ],
+  "cover": "cover.png",
+  "metrics": {},
+  "demo": {
+    "mode": "none",
+    "embedPath": "",
+    "embedUrl": "",
+    "externalUrl": "",
+    "fallbackImage": "content/projects/geocoding-intelligence/cover.png",
+    "pbixDownload": ""
+  },
+  "links": {
+    "github": "https://github.com/kpassaros/portfolio-dados-bi",
+    "kaggle": "",
+    "documentation": "",
+    "dataset": ""
+  },
+  "i18n": {
+    "en-US": {
+      "title": "Geocoding Intelligence",
+      "category": "Data & BI",
+      "status": "Coming soon",
+      "summary": "Automated geographic enrichment for territorial analysis and decision maps.",
+      "problem": "A planned project that turns a relevant process into a documented and demonstrable solution.",
+      "role": "Discovery, requirements, architecture, development, documentation and validation.",
+      "solution": "The case will be published with safe data, documentation and a reproducible demo.",
+      "results": [
+        "Scope and architecture defined",
+        "Public demo planned",
+        "Documentation prepared for evolution"
+      ]
+    }
+  }
+}

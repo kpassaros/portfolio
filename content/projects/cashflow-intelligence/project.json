@@ -43,5 +43,58 @@
     "kaggle": "",
     "documentation": "content/projects/cashflow-intelligence/README.md",
     "dataset": "data/fluxo_caixa.csv"
+  },
+  "new": false,
+  "stackGroups": [
+    {
+      "label": "Visualização",
+      "items": [
+        "Power BI"
+      ]
+    },
+    {
+      "label": "Modelagem",
+      "items": [
+        "DAX",
+        "Star Schema"
+      ]
+    },
+    {
+      "label": "Transformação",
+      "items": [
+        "Power Query",
+        "Python"
+      ]
+    },
+    {
+      "label": "Dados",
+      "items": [
+        "CSV",
+        "JSON"
+      ]
+    },
+    {
+      "label": "Publicação",
+      "items": [
+        "GitHub Pages",
+        "Power BI Online"
+      ]
+    }
+  ],
+  "i18n": {
+    "en-US": {
+      "title": "CashFlow Intelligence",
+      "category": "Data & BI",
+      "status": "Completed",
+      "summary": "Financial intelligence solution for monitoring actuals, forecasts, delays and cash availability.",
+      "problem": "Fragmented financial controls make cash visibility and risk anticipation difficult.",
+      "role": "Business analysis, synthetic dataset creation, dimensional modeling, KPI definition and visual experience.",
+      "solution": "Fact-and-dimension data model with an executive dashboard and reproducible documentation.",
+      "results": [
+        "1,600 documented synthetic transactions",
+        "Consolidated view of inflows, outflows, balance and overdue items",
+        "Ready for Power BI Online or an HTML dashboard"
+      ]
+    }
   }
 }

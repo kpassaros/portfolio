@@ -44,6 +44,475 @@
       "kaggle": "",
       "documentation": "content/projects/cashflow-intelligence/README.md",
       "dataset": "data/fluxo_caixa.csv"
+    },
+    "new": false,
+    "stackGroups": [
+      {
+        "label": "Visualização",
+        "items": [
+          "Power BI"
+        ]
+      },
+      {
+        "label": "Modelagem",
+        "items": [
+          "DAX",
+          "Star Schema"
+        ]
+      },
+      {
+        "label": "Transformação",
+        "items": [
+          "Power Query",
+          "Python"
+        ]
+      },
+      {
+        "label": "Dados",
+        "items": [
+          "CSV",
+          "JSON"
+        ]
+      },
+      {
+        "label": "Publicação",
+        "items": [
+          "GitHub Pages",
+          "Power BI Online"
+        ]
+      }
+    ],
+    "i18n": {
+      "en-US": {
+        "title": "CashFlow Intelligence",
+        "category": "Data & BI",
+        "status": "Completed",
+        "summary": "Financial intelligence solution for monitoring actuals, forecasts, delays and cash availability.",
+        "problem": "Fragmented financial controls make cash visibility and risk anticipation difficult.",
+        "role": "Business analysis, synthetic dataset creation, dimensional modeling, KPI definition and visual experience.",
+        "solution": "Fact-and-dimension data model with an executive dashboard and reproducible documentation.",
+        "results": [
+          "1,600 documented synthetic transactions",
+          "Consolidated view of inflows, outflows, balance and overdue items",
+          "Ready for Power BI Online or an HTML dashboard"
+        ]
+      }
+    }
+  },
+  {
+    "id": "central-chamados-sla",
+    "title": "Central de Chamados & SLA",
+    "category": "Automação",
+    "status": "Em breve",
+    "year": 2026,
+    "featured": true,
+    "new": true,
+    "summary": "Notion, indicadores e automações para controlar solicitações, prazos e recorrências.",
+    "problem": "Projeto planejado para transformar um processo relevante em uma solução documentada e demonstrável.",
+    "role": "Descoberta, requisitos, arquitetura, desenvolvimento, documentação e validação.",
+    "solution": "Case será publicado com dados seguros, documentação e demonstração reproduzível.",
+    "results": [
+      "Escopo e arquitetura definidos",
+      "Demonstração pública planejada",
+      "Documentação preparada para evolução"
+    ],
+    "technologies": [
+      "Notion",
+      "Power BI",
+      "APIs",
+      "Automação"
+    ],
+    "stackGroups": [
+      {
+        "label": "Operação",
+        "items": [
+          "Notion"
+        ]
+      },
+      {
+        "label": "Indicadores",
+        "items": [
+          "Power BI",
+          "SLA"
+        ]
+      },
+      {
+        "label": "Integração",
+        "items": [
+          "APIs"
+        ]
+      },
+      {
+        "label": "Automação",
+        "items": [
+          "Power Automate"
+        ]
+      }
+    ],
+    "cover": "cover.png",
+    "metrics": {},
+    "demo": {
+      "mode": "none",
+      "embedPath": "",
+      "embedUrl": "",
+      "externalUrl": "",
+      "fallbackImage": "content/projects/central-chamados-sla/cover.png",
+      "pbixDownload": ""
+    },
+    "links": {
+      "github": "https://github.com/kpassaros/portfolio-dados-bi",
+      "kaggle": "",
+      "documentation": "",
+      "dataset": ""
+    },
+    "i18n": {
+      "en-US": {
+        "title": "Service Desk & SLA Center",
+        "category": "Automation",
+        "status": "Coming soon",
+        "summary": "Notion, metrics and automations to manage requests, deadlines and recurring issues.",
+        "problem": "A planned project that turns a relevant process into a documented and demonstrable solution.",
+        "role": "Discovery, requirements, architecture, development, documentation and validation.",
+        "solution": "The case will be published with safe data, documentation and a reproducible demo.",
+        "results": [
+          "Scope and architecture defined",
+          "Public demo planned",
+          "Documentation prepared for evolution"
+        ]
+      }
+    }
+  },
+  {
+    "id": "power-bi-notion-api",
+    "title": "Power BI + Notion API",
+    "category": "Integração",
+    "status": "Em breve",
+    "year": 2026,
+    "featured": true,
+    "new": true,
+    "summary": "Pipeline para transformar bases operacionais do Notion em modelos analíticos confiáveis.",
+    "problem": "Projeto planejado para transformar um processo relevante em uma solução documentada e demonstrável.",
+    "role": "Descoberta, requisitos, arquitetura, desenvolvimento, documentação e validação.",
+    "solution": "Case será publicado com dados seguros, documentação e demonstração reproduzível.",
+    "results": [
+      "Escopo e arquitetura definidos",
+      "Demonstração pública planejada",
+      "Documentação preparada para evolução"
+    ],
+    "technologies": [
+      "Power BI",
+      "Notion API",
+      "Power Query",
+      "JSON"
+    ],
+    "stackGroups": [
+      {
+        "label": "Origem",
+        "items": [
+          "Notion"
+        ]
+      },
+      {
+        "label": "Integração",
+        "items": [
+          "Notion API",
+          "JSON"
+        ]
+      },
+      {
+        "label": "Transformação",
+        "items": [
+          "Power Query"
+        ]
+      },
+      {
+        "label": "Visualização",
+        "items": [
+          "Power BI"
+        ]
+      }
+    ],
+    "cover": "cover.png",
+    "metrics": {},
+    "demo": {
+      "mode": "none",
+      "embedPath": "",
+      "embedUrl": "",
+      "externalUrl": "",
+      "fallbackImage": "content/projects/power-bi-notion-api/cover.png",
+      "pbixDownload": ""
+    },
+    "links": {
+      "github": "https://github.com/kpassaros/portfolio-dados-bi",
+      "kaggle": "",
+      "documentation": "",
+      "dataset": ""
+    },
+    "i18n": {
+      "en-US": {
+        "title": "Power BI + Notion API",
+        "category": "Integration",
+        "status": "Coming soon",
+        "summary": "A pipeline that transforms operational Notion databases into reliable analytical models.",
+        "problem": "A planned project that turns a relevant process into a documented and demonstrable solution.",
+        "role": "Discovery, requirements, architecture, development, documentation and validation.",
+        "solution": "The case will be published with safe data, documentation and a reproducible demo.",
+        "results": [
+          "Scope and architecture defined",
+          "Public demo planned",
+          "Documentation prepared for evolution"
+        ]
+      }
+    }
+  },
+  {
+    "id": "documentation-hub",
+    "title": "Data & BI Documentation Hub",
+    "category": "Governança",
+    "status": "Em breve",
+    "year": 2026,
+    "featured": false,
+    "new": true,
+    "summary": "Central pesquisável para dicionário de dados, KPIs, linhagem, arquitetura e regras de negócio.",
+    "problem": "Projeto planejado para transformar um processo relevante em uma solução documentada e demonstrável.",
+    "role": "Descoberta, requisitos, arquitetura, desenvolvimento, documentação e validação.",
+    "solution": "Case será publicado com dados seguros, documentação e demonstração reproduzível.",
+    "results": [
+      "Escopo e arquitetura definidos",
+      "Demonstração pública planejada",
+      "Documentação preparada para evolução"
+    ],
+    "technologies": [
+      "HTML",
+      "JSON",
+      "Governança",
+      "Documentação"
+    ],
+    "stackGroups": [
+      {
+        "label": "Interface",
+        "items": [
+          "HTML",
+          "JavaScript"
+        ]
+      },
+      {
+        "label": "Conteúdo",
+        "items": [
+          "JSON"
+        ]
+      },
+      {
+        "label": "Práticas",
+        "items": [
+          "Governança",
+          "Linhagem"
+        ]
+      },
+      {
+        "label": "Entrega",
+        "items": [
+          "GitHub Pages"
+        ]
+      }
+    ],
+    "cover": "cover.png",
+    "metrics": {},
+    "demo": {
+      "mode": "github-html",
+      "embedPath": "content/projects/documentation-hub/dashboard/index.html",
+      "embedUrl": "",
+      "externalUrl": "",
+      "fallbackImage": "content/projects/documentation-hub/cover.png",
+      "pbixDownload": ""
+    },
+    "links": {
+      "github": "https://github.com/kpassaros/portfolio-dados-bi",
+      "kaggle": "",
+      "documentation": "",
+      "dataset": ""
+    },
+    "i18n": {
+      "en-US": {
+        "title": "Data & BI Documentation Hub",
+        "category": "Governance",
+        "status": "Coming soon",
+        "summary": "Searchable hub for data dictionaries, KPIs, lineage, architecture and business rules.",
+        "problem": "A planned project that turns a relevant process into a documented and demonstrable solution.",
+        "role": "Discovery, requirements, architecture, development, documentation and validation.",
+        "solution": "The case will be published with safe data, documentation and a reproducible demo.",
+        "results": [
+          "Scope and architecture defined",
+          "Public demo planned",
+          "Documentation prepared for evolution"
+        ]
+      }
+    }
+  },
+  {
+    "id": "geocoding-intelligence",
+    "title": "Geocoding Intelligence",
+    "category": "Dados & BI",
+    "status": "Em breve",
+    "year": 2026,
+    "featured": false,
+    "new": false,
+    "summary": "Enriquecimento geográfico automatizado para análises territoriais e mapas de decisão.",
+    "problem": "Projeto planejado para transformar um processo relevante em uma solução documentada e demonstrável.",
+    "role": "Descoberta, requisitos, arquitetura, desenvolvimento, documentação e validação.",
+    "solution": "Case será publicado com dados seguros, documentação e demonstração reproduzível.",
+    "results": [
+      "Escopo e arquitetura definidos",
+      "Demonstração pública planejada",
+      "Documentação preparada para evolução"
+    ],
+    "technologies": [
+      "Google Sheets",
+      "Apps Script",
+      "Geocoding API",
+      "Looker Studio"
+    ],
+    "stackGroups": [
+      {
+        "label": "Entrada",
+        "items": [
+          "Google Sheets"
+        ]
+      },
+      {
+        "label": "Automação",
+        "items": [
+          "Apps Script"
+        ]
+      },
+      {
+        "label": "Enriquecimento",
+        "items": [
+          "Geocoding API"
+        ]
+      },
+      {
+        "label": "Visualização",
+        "items": [
+          "Looker Studio"
+        ]
+      }
+    ],
+    "cover": "cover.png",
+    "metrics": {},
+    "demo": {
+      "mode": "none",
+      "embedPath": "",
+      "embedUrl": "",
+      "externalUrl": "",
+      "fallbackImage": "content/projects/geocoding-intelligence/cover.png",
+      "pbixDownload": ""
+    },
+    "links": {
+      "github": "https://github.com/kpassaros/portfolio-dados-bi",
+      "kaggle": "",
+      "documentation": "",
+      "dataset": ""
+    },
+    "i18n": {
+      "en-US": {
+        "title": "Geocoding Intelligence",
+        "category": "Data & BI",
+        "status": "Coming soon",
+        "summary": "Automated geographic enrichment for territorial analysis and decision maps.",
+        "problem": "A planned project that turns a relevant process into a documented and demonstrable solution.",
+        "role": "Discovery, requirements, architecture, development, documentation and validation.",
+        "solution": "The case will be published with safe data, documentation and a reproducible demo.",
+        "results": [
+          "Scope and architecture defined",
+          "Public demo planned",
+          "Documentation prepared for evolution"
+        ]
+      }
+    }
+  },
+  {
+    "id": "operations-command-center",
+    "title": "Operations Command Center",
+    "category": "Dados & BI",
+    "status": "Em breve",
+    "year": 2026,
+    "featured": false,
+    "new": false,
+    "summary": "Visão executiva de operação, capacidade, SLA, qualidade e prioridades de atendimento.",
+    "problem": "Projeto planejado para transformar um processo relevante em uma solução documentada e demonstrável.",
+    "role": "Descoberta, requisitos, arquitetura, desenvolvimento, documentação e validação.",
+    "solution": "Case será publicado com dados seguros, documentação e demonstração reproduzível.",
+    "results": [
+      "Escopo e arquitetura definidos",
+      "Demonstração pública planejada",
+      "Documentação preparada para evolução"
+    ],
+    "technologies": [
+      "Power BI",
+      "SQL",
+      "KPIs",
+      "SLA"
+    ],
+    "stackGroups": [
+      {
+        "label": "Dados",
+        "items": [
+          "SQL"
+        ]
+      },
+      {
+        "label": "Modelagem",
+        "items": [
+          "KPIs",
+          "SLA"
+        ]
+      },
+      {
+        "label": "Visualização",
+        "items": [
+          "Power BI"
+        ]
+      },
+      {
+        "label": "Gestão",
+        "items": [
+          "Prioridades",
+          "Capacidade"
+        ]
+      }
+    ],
+    "cover": "cover.png",
+    "metrics": {},
+    "demo": {
+      "mode": "none",
+      "embedPath": "",
+      "embedUrl": "",
+      "externalUrl": "",
+      "fallbackImage": "content/projects/operations-command-center/cover.png",
+      "pbixDownload": ""
+    },
+    "links": {
+      "github": "https://github.com/kpassaros/portfolio-dados-bi",
+      "kaggle": "",
+      "documentation": "",
+      "dataset": ""
+    },
+    "i18n": {
+      "en-US": {
+        "title": "Operations Command Center",
+        "category": "Data & BI",
+        "status": "Coming soon",
+        "summary": "Executive view of operations, capacity, SLA, quality and service priorities.",
+        "problem": "A planned project that turns a relevant process into a documented and demonstrable solution.",
+        "role": "Discovery, requirements, architecture, development, documentation and validation.",
+        "solution": "The case will be published with safe data, documentation and a reproducible demo.",
+        "results": [
+          "Scope and architecture defined",
+          "Public demo planned",
+          "Documentation prepared for evolution"
+        ]
+      }
     }
   }
 ]

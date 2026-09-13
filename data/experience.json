@@ -8,7 +8,18 @@
       "Estruturação de central de solicitações orientada por SLA",
       "Mais de 100 demandas mensais com 98% dentro do prazo",
       "Governança analítica, documentação e evolução de dashboards"
-    ]
+    ],
+    "en": {
+      "period": "2025–present",
+      "company": "Flukka Pharma",
+      "role": "Digital Transformation Specialist",
+      "summary": "Connecting business, systems, data and technology through projects, automation, traceable processes, governance and AI adoption.",
+      "highlights": [
+        "Estruturação de central de solicitações orientada por SLA",
+        "Mais de 100 demandas mensais com 98% dentro do prazo",
+        "Governança analítica, documentação e evolução de dashboards"
+      ]
+    }
   },
   {
     "period": "2024–2025",
@@ -19,7 +30,18 @@
       "Exploração e documentação de SQL Server",
       "Validação de regras, granularidade e qualidade de dados",
       "Integrações entre Notion, Power BI, Excel e Power Query"
-    ]
+    ],
+    "en": {
+      "period": "2024–2025",
+      "company": "Flukka Pharma",
+      "role": "Senior Data Analyst",
+      "summary": "Translating needs into KPIs, SQL queries, structured datasets and reliable dashboards.",
+      "highlights": [
+        "Exploração e documentação de SQL Server",
+        "Validação de regras, granularidade e qualidade de dados",
+        "Integrações entre Notion, Power BI, Excel e Power Query"
+      ]
+    }
   },
   {
     "period": "2021–2024",
@@ -30,13 +52,31 @@
       "Power BI, QlikView e Looker Studio",
       "MySQL, Python e Google Apps Script",
       "Integrações, VTEX e ferramentas internas"
-    ]
+    ],
+    "en": {
+      "period": "2021–2024",
+      "company": "SK Automotive",
+      "role": "Junior Business Intelligence Analyst",
+      "summary": "BI, digital and e-commerce through dashboards, automation, APIs and process improvement.",
+      "highlights": [
+        "Power BI, QlikView e Looker Studio",
+        "MySQL, Python e Google Apps Script",
+        "Integrações, VTEX e ferramentas internas"
+      ]
+    }
   },
   {
     "period": "2016–2021",
     "company": "Fast Shop • SK Automotive",
     "role": "Operação, administração e vendas",
     "summary": "Base prática em atendimento, ERP, logística, processos comerciais e indicadores operacionais.",
-    "highlights": []
+    "highlights": [],
+    "en": {
+      "period": "2016–2021",
+      "company": "Fast Shop • SK Automotive",
+      "role": "Operations, administration and sales",
+      "summary": "Practical foundation in customer service, ERP, logistics, commercial processes and operational metrics.",
+      "highlights": []
+    }
   }
 ]
