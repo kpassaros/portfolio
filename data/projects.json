@@ -17,9 +17,11 @@
     ],
     "technologies": [
       "Power BI",
-      "DAX",
       "Power Query",
-      "Python"
+      "DAX",
+      "Python",
+      "CSV",
+      "JSON"
     ],
     "cover": "cover.png",
     "metrics": {
@@ -48,30 +50,31 @@
     "new": false,
     "stackGroups": [
       {
-        "label": "Visualização",
+        "label": "Plataforma",
         "items": [
           "Power BI"
         ]
       },
       {
-        "label": "Modelagem",
+        "label": "Linguagens & expressões",
         "items": [
           "DAX",
-          "Star Schema"
-        ]
-      },
-      {
-        "label": "Transformação",
-        "items": [
-          "Power Query",
+          "M",
           "Python"
         ]
       },
       {
-        "label": "Dados",
+        "label": "Formatos de dados",
         "items": [
           "CSV",
           "JSON"
+        ]
+      },
+      {
+        "label": "Modelagem & análise",
+        "items": [
+          "Star Schema",
+          "KPIs financeiros"
         ]
       },
       {
@@ -127,18 +130,19 @@
     "technologies": [
       "Notion",
       "HTML",
-      "JavaScript e indicadores de SLA"
+      "CSS",
+      "JavaScript",
+      "CSV"
     ],
     "stackGroups": [
       {
-        "label": "Operação",
+        "label": "Plataforma",
         "items": [
-          "Notion",
-          "SLA"
+          "Notion"
         ]
       },
       {
-        "label": "Interface",
+        "label": "Interface & lógica",
         "items": [
           "HTML",
           "CSS",
@@ -146,10 +150,19 @@
         ]
       },
       {
-        "label": "Análise",
+        "label": "Dados & formatos",
         "items": [
+          "CSV",
+          "JSON"
+        ]
+      },
+      {
+        "label": "Práticas analíticas",
+        "items": [
+          "SLA",
           "KPIs",
-          "Backlog"
+          "Backlog",
+          "Recorrência"
         ]
       }
     ],
@@ -217,28 +230,36 @@
       "Power BI",
       "HTML",
       "DAX",
-      "CSV e Star Schema"
+      "Power Query",
+      "CSV"
     ],
     "stackGroups": [
       {
-        "label": "Visualização",
+        "label": "Plataformas",
         "items": [
           "Power BI",
           "HTML"
         ]
       },
       {
-        "label": "Modelagem",
+        "label": "Linguagens & expressões",
         "items": [
           "DAX",
-          "Star Schema"
+          "M"
         ]
       },
       {
-        "label": "Dados",
+        "label": "Dados & formatos",
         "items": [
-          "CSV",
-          "Power Query"
+          "CSV"
+        ]
+      },
+      {
+        "label": "Modelagem & gestão",
+        "items": [
+          "Star Schema",
+          "Run / Improve / Change",
+          "WIP"
         ]
       }
     ],
@@ -306,33 +327,35 @@
       "Power BI",
       "DAX",
       "Power Query",
-      "CSV e modelagem dimensional"
+      "CSV"
     ],
     "stackGroups": [
       {
-        "label": "Visualização",
+        "label": "Plataforma",
         "items": [
-          "Power BI",
-          "HTML"
+          "Power BI"
         ]
       },
       {
-        "label": "Modelagem",
+        "label": "Linguagens & expressões",
         "items": [
           "DAX",
-          "Star Schema"
+          "M"
         ]
       },
       {
-        "label": "Tratamento",
-        "items": [
-          "Power Query"
-        ]
-      },
-      {
-        "label": "Dados",
+        "label": "Dados & formatos",
         "items": [
           "CSV"
+        ]
+      },
+      {
+        "label": "Modelagem & análise",
+        "items": [
+          "Star Schema",
+          "Rendimento",
+          "Lead time",
+          "Risco"
         ]
       }
     ],
@@ -396,20 +419,22 @@
     ],
     "technologies": [
       "HTML",
+      "CSS",
+      "JavaScript",
       "JSON",
-      "Governança",
-      "Documentação"
+      "GitHub Pages"
     ],
     "stackGroups": [
       {
-        "label": "Interface",
+        "label": "Interface & lógica",
         "items": [
           "HTML",
+          "CSS",
           "JavaScript"
         ]
       },
       {
-        "label": "Conteúdo",
+        "label": "Formato de conteúdo",
         "items": [
           "JSON"
         ]
@@ -417,12 +442,14 @@
       {
         "label": "Práticas",
         "items": [
-          "Governança",
-          "Linhagem"
+          "Governança de dados",
+          "Linhagem",
+          "Dicionário de dados",
+          "Catálogo de KPIs"
         ]
       },
       {
-        "label": "Entrega",
+        "label": "Publicação",
         "items": [
           "GitHub Pages"
         ]
@@ -487,30 +514,39 @@
       "Biblioteca preparada para evolução e reutilização"
     ],
     "technologies": [
+      "Power BI",
       "HTML",
       "CSS",
       "JavaScript",
-      "Power BI e DAX"
+      "DAX"
     ],
     "stackGroups": [
-      {
-        "label": "Interface",
-        "items": [
-          "HTML",
-          "CSS"
-        ]
-      },
-      {
-        "label": "Lógica",
-        "items": [
-          "JavaScript",
-          "DAX"
-        ]
-      },
       {
         "label": "Plataforma",
         "items": [
           "Power BI"
+        ]
+      },
+      {
+        "label": "Interface & lógica",
+        "items": [
+          "HTML",
+          "CSS",
+          "JavaScript"
+        ]
+      },
+      {
+        "label": "Expressões analíticas",
+        "items": [
+          "DAX"
+        ]
+      },
+      {
+        "label": "Práticas",
+        "items": [
+          "Data visualization",
+          "UI para BI",
+          "Storytelling"
         ]
       }
     ],
@@ -578,7 +614,8 @@
       "Notion",
       "HTML",
       "CSS",
-      "JavaScript e JSON"
+      "JavaScript",
+      "JSON"
     ],
     "stackGroups": [
       {
@@ -588,7 +625,7 @@
         ]
       },
       {
-        "label": "Interface",
+        "label": "Interface & lógica",
         "items": [
           "HTML",
           "CSS",
@@ -596,10 +633,17 @@
         ]
       },
       {
-        "label": "Conteúdo",
+        "label": "Formato de configuração",
         "items": [
-          "JSON",
-          "UX Writing"
+          "JSON"
+        ]
+      },
+      {
+        "label": "Práticas",
+        "items": [
+          "UX Writing",
+          "Arquitetura da informação",
+          "Ferramentas internas"
         ]
       }
     ],
@@ -664,40 +708,47 @@
       "Integração conceitual entre ERP, e-commerce, catálogo e BI"
     ],
     "technologies": [
+      "VTEX",
+      "TOTVS Protheus",
       "QlikView",
       "Power BI",
       "Looker Studio",
-      "MySQL",
-      "VTEX e APIs"
+      "MySQL"
     ],
     "stackGroups": [
       {
-        "label": "Fontes",
+        "label": "Sistemas & plataformas",
         "items": [
-          "ERP",
           "VTEX",
-          "Catálogo"
-        ]
-      },
-      {
-        "label": "Integração",
-        "items": [
-          "APIs",
-          "ODBC"
-        ]
-      },
-      {
-        "label": "Dados",
-        "items": [
-          "MySQL",
-          "QVD"
-        ]
-      },
-      {
-        "label": "Consumo",
-        "items": [
+          "TOTVS Protheus",
+          "QlikView",
           "Power BI",
           "Looker Studio"
+        ]
+      },
+      {
+        "label": "Banco de dados",
+        "items": [
+          "MySQL"
+        ]
+      },
+      {
+        "label": "Integração & formatos",
+        "items": [
+          "REST APIs",
+          "ODBC",
+          "QVD",
+          "CSV",
+          "JSON",
+          "XML"
+        ]
+      },
+      {
+        "label": "Práticas",
+        "items": [
+          "Enriquecimento de dados",
+          "Produto 360°",
+          "Qualidade de cadastro"
         ]
       }
     ],
@@ -763,35 +814,41 @@
     ],
     "technologies": [
       "QlikView",
-      "QVD",
+      "Google Sheets",
       "MySQL",
-      "SQL e Google Apps Script"
+      "SQL",
+      "Google Apps Script",
+      "QVD"
     ],
     "stackGroups": [
       {
-        "label": "Entrada",
-        "items": [
-          "Google Sheets"
-        ]
-      },
-      {
-        "label": "ETL",
+        "label": "Plataformas",
         "items": [
           "QlikView",
-          "QVD"
+          "Google Sheets",
+          "MySQL"
         ]
       },
       {
-        "label": "Persistência",
+        "label": "Linguagens & scripts",
         "items": [
-          "MySQL",
-          "SQL"
+          "SQL",
+          "Google Apps Script"
         ]
       },
       {
-        "label": "Automação",
+        "label": "Formatos & estruturas",
         "items": [
-          "Apps Script"
+          "QVD",
+          "CSV"
+        ]
+      },
+      {
+        "label": "Práticas",
+        "items": [
+          "ETL",
+          "Versionamento de carga",
+          "Qualidade de dados"
         ]
       }
     ],

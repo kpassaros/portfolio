@@ -18,40 +18,47 @@
     "Integração conceitual entre ERP, e-commerce, catálogo e BI"
   ],
   "technologies": [
+    "VTEX",
+    "TOTVS Protheus",
     "QlikView",
     "Power BI",
     "Looker Studio",
-    "MySQL",
-    "VTEX e APIs"
+    "MySQL"
   ],
   "stackGroups": [
     {
-      "label": "Fontes",
+      "label": "Sistemas & plataformas",
       "items": [
-        "ERP",
         "VTEX",
-        "Catálogo"
-      ]
-    },
-    {
-      "label": "Integração",
-      "items": [
-        "APIs",
-        "ODBC"
-      ]
-    },
-    {
-      "label": "Dados",
-      "items": [
-        "MySQL",
-        "QVD"
-      ]
-    },
-    {
-      "label": "Consumo",
-      "items": [
+        "TOTVS Protheus",
+        "QlikView",
         "Power BI",
         "Looker Studio"
+      ]
+    },
+    {
+      "label": "Banco de dados",
+      "items": [
+        "MySQL"
+      ]
+    },
+    {
+      "label": "Integração & formatos",
+      "items": [
+        "REST APIs",
+        "ODBC",
+        "QVD",
+        "CSV",
+        "JSON",
+        "XML"
+      ]
+    },
+    {
+      "label": "Práticas",
+      "items": [
+        "Enriquecimento de dados",
+        "Produto 360°",
+        "Qualidade de cadastro"
       ]
     }
   ],

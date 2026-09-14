@@ -18,30 +18,39 @@
     "Biblioteca preparada para evolução e reutilização"
   ],
   "technologies": [
+    "Power BI",
     "HTML",
     "CSS",
     "JavaScript",
-    "Power BI e DAX"
+    "DAX"
   ],
   "stackGroups": [
-    {
-      "label": "Interface",
-      "items": [
-        "HTML",
-        "CSS"
-      ]
-    },
-    {
-      "label": "Lógica",
-      "items": [
-        "JavaScript",
-        "DAX"
-      ]
-    },
     {
       "label": "Plataforma",
       "items": [
         "Power BI"
+      ]
+    },
+    {
+      "label": "Interface & lógica",
+      "items": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ]
+    },
+    {
+      "label": "Expressões analíticas",
+      "items": [
+        "DAX"
+      ]
+    },
+    {
+      "label": "Práticas",
+      "items": [
+        "Data visualization",
+        "UI para BI",
+        "Storytelling"
       ]
     }
   ],

@@ -19,35 +19,41 @@
   ],
   "technologies": [
     "QlikView",
-    "QVD",
+    "Google Sheets",
     "MySQL",
-    "SQL e Google Apps Script"
+    "SQL",
+    "Google Apps Script",
+    "QVD"
   ],
   "stackGroups": [
     {
-      "label": "Entrada",
-      "items": [
-        "Google Sheets"
-      ]
-    },
-    {
-      "label": "ETL",
+      "label": "Plataformas",
       "items": [
         "QlikView",
-        "QVD"
+        "Google Sheets",
+        "MySQL"
       ]
     },
     {
-      "label": "Persistência",
+      "label": "Linguagens & scripts",
       "items": [
-        "MySQL",
-        "SQL"
+        "SQL",
+        "Google Apps Script"
       ]
     },
     {
-      "label": "Automação",
+      "label": "Formatos & estruturas",
       "items": [
-        "Apps Script"
+        "QVD",
+        "CSV"
+      ]
+    },
+    {
+      "label": "Práticas",
+      "items": [
+        "ETL",
+        "Versionamento de carga",
+        "Qualidade de dados"
       ]
     }
   ],

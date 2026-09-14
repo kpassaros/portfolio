@@ -21,7 +21,8 @@
     "Notion",
     "HTML",
     "CSS",
-    "JavaScript e JSON"
+    "JavaScript",
+    "JSON"
   ],
   "stackGroups": [
     {
@@ -31,7 +32,7 @@
       ]
     },
     {
-      "label": "Interface",
+      "label": "Interface & lógica",
       "items": [
         "HTML",
         "CSS",
@@ -39,10 +40,17 @@
       ]
     },
     {
-      "label": "Conteúdo",
+      "label": "Formato de configuração",
       "items": [
-        "JSON",
-        "UX Writing"
+        "JSON"
+      ]
+    },
+    {
+      "label": "Práticas",
+      "items": [
+        "UX Writing",
+        "Arquitetura da informação",
+        "Ferramentas internas"
       ]
     }
   ],

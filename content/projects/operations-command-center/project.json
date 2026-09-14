@@ -21,28 +21,36 @@
     "Power BI",
     "HTML",
     "DAX",
-    "CSV e Star Schema"
+    "Power Query",
+    "CSV"
   ],
   "stackGroups": [
     {
-      "label": "Visualização",
+      "label": "Plataformas",
       "items": [
         "Power BI",
         "HTML"
       ]
     },
     {
-      "label": "Modelagem",
+      "label": "Linguagens & expressões",
       "items": [
         "DAX",
-        "Star Schema"
+        "M"
       ]
     },
     {
-      "label": "Dados",
+      "label": "Dados & formatos",
       "items": [
-        "CSV",
-        "Power Query"
+        "CSV"
+      ]
+    },
+    {
+      "label": "Modelagem & gestão",
+      "items": [
+        "Star Schema",
+        "Run / Improve / Change",
+        "WIP"
       ]
     }
   ],

@@ -1,0 +1,96 @@
+# Evolução do Portfólio — registro para o case final
+
+Este documento preserva decisões, problemas encontrados, análises, correções e tecnologias utilizadas. O case público da construção do portfólio só será criado depois da conclusão dos demais projetos.
+
+## Princípios
+
+- Dados demonstrativos sempre fictícios.
+- Resultados reais somente agregados, contextualizados e anonimizados.
+- Cases devem permitir análise: filtros, indicadores, gráficos, tabelas e exploração.
+- Conteúdo mantido por JSON e bases sintéticas reproduzíveis.
+- A experiência precisa funcionar em desktop, notebook, mobile, light e dark mode.
+
+## Evolução funcional
+
+1. MVP do CashFlow Intelligence e arquitetura multipágina.
+2. Catálogo dinâmico de projetos por JSON.
+3. Página de detalhe, demonstrações incorporadas e documentação de manutenção.
+4. Temas, idiomas, formulário assíncrono e personagem 3D.
+5. Rede neural interativa e loader de pipeline.
+6. Modal de projetos e correção de cards expansíveis.
+7. Separação entre cases aplicados, estudos de caso e Labs.
+8. Inclusão de projetos históricos anonimizados.
+9. Revisão para notebook: navbar, rodapé, cards, modal e Labs.
+10. Revisão de taxonomia e início dos cases analíticos realmente interativos.
+
+## Problemas identificados e soluções
+
+- Cards com alturas diferentes: grid com linhas uniformes e conteúdo flexível.
+- Modal fora da viewport: ancoragem fixa, rolagem interna e ação final separada.
+- Iframes com largura padrão de 300 px: largura e altura responsivas explícitas.
+- Navbar congestionada: identidade compacta, breakpoint para menu e controles em SVG.
+- Light mode excessivamente claro: base cinza e conexões com contraste maior.
+- Rede neural pouco evidente: grafo persistente, múltiplos pulsos e interação por cursor/clique.
+- Classificação incorreta de JSON e REST API: criação do grupo Integração & formatos.
+- Demos estáticas: dashboards derivados de CSV com filtros, gráficos clicáveis, KPIs e tabelas.
+
+## Stack empregada no portfólio
+
+### Linguagens, consultas e marcação
+
+- JavaScript
+- HTML
+- CSS
+- Python
+- JSON Schema
+
+### Ferramentas e plataforma
+
+- Git
+- GitHub
+- GitHub Pages
+- Visual Studio Code
+- Playwright
+- FFmpeg
+- Pillow
+
+### Engenharia e arquitetura
+
+- Catálogo orientado por JSON
+- Validação automática
+- Componentes reutilizáveis
+- Design responsivo
+- Progressive enhancement
+- Acessibilidade e prefers-reduced-motion
+- Dados sintéticos e anonimização
+
+### Produto e processo
+
+- Levantamento de requisitos
+- Análise de problemas
+- Priorização e roadmap
+- QA visual e funcional
+- Documentação técnica
+- Storytelling de cases
+- Building in public
+
+## Fases de conteúdo analítico
+
+### Fase 1 — concluída
+
+- Central de Chamados & SLA
+- Operations Command Center
+- Production Performance Intelligence
+- Data & BI Documentation Hub
+
+### Fase 2 — próxima
+
+- Commercial Performance & Data Governance
+- Product 360° & Commercial Publishing
+- Quick Access Hub — aprofundamento de uso
+- HTML Visual Components — biblioteca ampliada
+
+### Fase final
+
+- Case: Construção e evolução do Portfólio de Dados & BI
+- Arquitetura, decisões, versões, problemas, QA, documentação e resultados.

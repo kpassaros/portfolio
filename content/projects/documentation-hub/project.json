@@ -17,20 +17,22 @@
   ],
   "technologies": [
     "HTML",
+    "CSS",
+    "JavaScript",
     "JSON",
-    "Governança",
-    "Documentação"
+    "GitHub Pages"
   ],
   "stackGroups": [
     {
-      "label": "Interface",
+      "label": "Interface & lógica",
       "items": [
         "HTML",
+        "CSS",
         "JavaScript"
       ]
     },
     {
-      "label": "Conteúdo",
+      "label": "Formato de conteúdo",
       "items": [
         "JSON"
       ]
@@ -38,12 +40,14 @@
     {
       "label": "Práticas",
       "items": [
-        "Governança",
-        "Linhagem"
+        "Governança de dados",
+        "Linhagem",
+        "Dicionário de dados",
+        "Catálogo de KPIs"
       ]
     },
     {
-      "label": "Entrega",
+      "label": "Publicação",
       "items": [
         "GitHub Pages"
       ]

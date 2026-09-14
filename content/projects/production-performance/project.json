@@ -21,33 +21,35 @@
     "Power BI",
     "DAX",
     "Power Query",
-    "CSV e modelagem dimensional"
+    "CSV"
   ],
   "stackGroups": [
     {
-      "label": "Visualização",
+      "label": "Plataforma",
       "items": [
-        "Power BI",
-        "HTML"
+        "Power BI"
       ]
     },
     {
-      "label": "Modelagem",
+      "label": "Linguagens & expressões",
       "items": [
         "DAX",
-        "Star Schema"
+        "M"
       ]
     },
     {
-      "label": "Tratamento",
-      "items": [
-        "Power Query"
-      ]
-    },
-    {
-      "label": "Dados",
+      "label": "Dados & formatos",
       "items": [
         "CSV"
+      ]
+    },
+    {
+      "label": "Modelagem & análise",
+      "items": [
+        "Star Schema",
+        "Rendimento",
+        "Lead time",
+        "Risco"
       ]
     }
   ],

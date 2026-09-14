@@ -16,9 +16,11 @@
   ],
   "technologies": [
     "Power BI",
-    "DAX",
     "Power Query",
-    "Python"
+    "DAX",
+    "Python",
+    "CSV",
+    "JSON"
   ],
   "cover": "cover.png",
   "metrics": {
@@ -47,30 +49,31 @@
   "new": false,
   "stackGroups": [
     {
-      "label": "Visualização",
+      "label": "Plataforma",
       "items": [
         "Power BI"
       ]
     },
     {
-      "label": "Modelagem",
+      "label": "Linguagens & expressões",
       "items": [
         "DAX",
-        "Star Schema"
-      ]
-    },
-    {
-      "label": "Transformação",
-      "items": [
-        "Power Query",
+        "M",
         "Python"
       ]
     },
     {
-      "label": "Dados",
+      "label": "Formatos de dados",
       "items": [
         "CSV",
         "JSON"
+      ]
+    },
+    {
+      "label": "Modelagem & análise",
+      "items": [
+        "Star Schema",
+        "KPIs financeiros"
       ]
     },
     {

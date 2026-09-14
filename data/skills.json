@@ -1,41 +1,49 @@
 {
   "competencies": [
     {
-      "name": "Business Intelligence",
-      "description": "Dashboards, KPIs, análise e storytelling para decisão."
+      "name": "Business Intelligence & Analytics",
+      "description": "KPIs, dashboards e análises para decisões operacionais, táticas e estratégicas."
     },
     {
       "name": "Análise de Dados",
-      "description": "Exploração, validação e interpretação de dados."
+      "description": "Exploração, validação, comparação e interpretação de dados para gerar evidências."
     },
     {
-      "name": "Modelagem de Dados",
-      "description": "Modelos dimensionais e camadas analíticas."
+      "name": "Modelagem & Arquitetura de Dados",
+      "description": "Estruturação de bases, granularidade, relacionamentos e modelos dimensionais."
     },
     {
-      "name": "Automação",
-      "description": "Fluxos confiáveis e redução de atividades manuais."
+      "name": "Governança & Qualidade de Dados",
+      "description": "Fonte de verdade, regras de negócio, rastreabilidade, dicionários e validações."
+    },
+    {
+      "name": "Automação de Processos",
+      "description": "Redução de trabalho manual por fluxos, scripts, integrações e controles."
     },
     {
       "name": "Integração de Sistemas",
-      "description": "APIs, webhooks e conexão entre plataformas."
+      "description": "Conexão entre plataformas, dados e eventos por APIs, webhooks e conectores."
     },
     {
-      "name": "Desenvolvimento",
-      "description": "Ferramentas internas e experiências web."
+      "name": "Desenvolvimento de Soluções Internas",
+      "description": "Interfaces, portais, componentes e ferramentas digitais para usuários."
     },
     {
-      "name": "Governança de Dados",
-      "description": "Qualidade, regras, segurança e documentação."
+      "name": "Transformação Digital",
+      "description": "Mapeamento de gargalos, padronização e evolução de processos e serviços."
     },
     {
-      "name": "Negócio & Gestão",
-      "description": "Requisitos, processos, projetos e stakeholders."
+      "name": "Gestão de Projetos & Requisitos",
+      "description": "Descoberta, escopo, priorização, riscos, dependências, critérios de aceite e stakeholders."
+    },
+    {
+      "name": "Data Storytelling & Capacitação",
+      "description": "Comunicação executiva, documentação, treinamentos e cultura orientada por dados."
     }
   ],
   "technologyGroups": [
     {
-      "name": "Linguagens & consultas",
+      "name": "Linguagens, consultas & marcação",
       "items": [
         "SQL",
         "Python",
@@ -48,81 +56,112 @@
       ]
     },
     {
-      "name": "Ferramentas",
+      "name": "Plataformas & ferramentas",
       "items": [
         "Power BI",
+        "Power Query",
         "Excel",
+        "Google Sheets",
         "QlikView",
         "Looker Studio",
         "Power Automate",
         "Notion",
         "Visual Studio Code",
-        "Power Query",
         "Git",
         "GitHub",
-        "APIs REST",
-        "Webhooks",
-        "JSON",
+        "Bizagi Modeler",
+        "VTEX",
+        "TOTVS Protheus"
+      ]
+    },
+    {
+      "name": "Bancos & plataformas de dados",
+      "items": [
         "SQL Server",
         "MySQL",
         "Snowflake",
-        "Azure",
         "Microsoft Fabric"
       ]
     },
     {
-      "name": "Metodologias & práticas",
+      "name": "Integração & formatos",
+      "items": [
+        "REST APIs",
+        "Webhooks",
+        "JSON",
+        "CSV",
+        "XML",
+        "ODBC",
+        "QVD"
+      ]
+    },
+    {
+      "name": "Métodos & práticas",
       "items": [
         "Modelagem dimensional",
         "Star Schema",
         "ETL / ELT",
         "Qualidade de dados",
-        "Governança",
+        "Governança de dados",
         "Definição de KPIs",
-        "Storytelling",
+        "Storytelling com dados",
+        "Levantamento de requisitos",
+        "Mapeamento de processos",
         "Agile / Kanban",
-        "Documentação técnica"
+        "Design Sprint",
+        "RACI / 5W2H",
+        "DoR / DoD",
+        "Documentação técnica",
+        "Testes e validação"
       ]
     }
   ],
   "en": {
     "competencies": [
       {
-        "name": "Business Intelligence",
-        "description": "Dashboards, KPIs, analytics and storytelling for decisions."
+        "name": "Business Intelligence & Analytics",
+        "description": "KPIs, dashboards e análises para decisões operacionais, táticas e estratégicas."
       },
       {
         "name": "Data Analysis",
-        "description": "Exploration, validation and interpretation of data."
+        "description": "Exploração, validação, comparação e interpretação de dados para gerar evidências."
       },
       {
-        "name": "Data Modeling",
-        "description": "Dimensional models and analytical layers."
+        "name": "Data Modeling & Architecture",
+        "description": "Estruturação de bases, granularidade, relacionamentos e modelos dimensionais."
       },
       {
-        "name": "Automation",
-        "description": "Reliable workflows and reduced manual effort."
+        "name": "Data Governance & Quality",
+        "description": "Fonte de verdade, regras de negócio, rastreabilidade, dicionários e validações."
+      },
+      {
+        "name": "Process Automation",
+        "description": "Redução de trabalho manual por fluxos, scripts, integrações e controles."
       },
       {
         "name": "Systems Integration",
-        "description": "APIs, webhooks and platform connections."
+        "description": "Conexão entre plataformas, dados e eventos por APIs, webhooks e conectores."
       },
       {
-        "name": "Development",
-        "description": "Internal tools and web experiences."
+        "name": "Internal Solution Development",
+        "description": "Interfaces, portais, componentes e ferramentas digitais para usuários."
       },
       {
-        "name": "Data Governance",
-        "description": "Quality, rules, security and documentation."
+        "name": "Digital Transformation",
+        "description": "Mapeamento de gargalos, padronização e evolução de processos e serviços."
       },
       {
-        "name": "Business & Management",
-        "description": "Requirements, processes, projects and stakeholders."
+        "name": "Project & Requirements Management",
+        "description": "Descoberta, escopo, priorização, riscos, dependências, critérios de aceite e stakeholders."
+      },
+      {
+        "name": "Data Storytelling & Enablement",
+        "description": "Comunicação executiva, documentação, treinamentos e cultura orientada por dados."
       }
     ],
     "technologyGroups": [
       {
-        "name": "Languages & queries",
+        "name": "Languages, queries & markup",
         "items": [
           "SQL",
           "Python",
@@ -135,40 +174,64 @@
         ]
       },
       {
-        "name": "Tools",
+        "name": "Platforms & tools",
         "items": [
           "Power BI",
+          "Power Query",
           "Excel",
+          "Google Sheets",
           "QlikView",
           "Looker Studio",
           "Power Automate",
           "Notion",
           "Visual Studio Code",
-          "Power Query",
           "Git",
           "GitHub",
-          "REST APIs",
-          "Webhooks",
-          "JSON",
+          "Bizagi Modeler",
+          "VTEX",
+          "TOTVS Protheus"
+        ]
+      },
+      {
+        "name": "Databases & data platforms",
+        "items": [
           "SQL Server",
           "MySQL",
           "Snowflake",
-          "Azure",
-          "Microsoft Fabric"
+          "Microsoft Fabric",
+          "Azure"
+        ]
+      },
+      {
+        "name": "Integration & formats",
+        "items": [
+          "REST APIs",
+          "Webhooks",
+          "JSON",
+          "CSV",
+          "XML",
+          "ODBC",
+          "QVD"
         ]
       },
       {
         "name": "Methods & practices",
         "items": [
-          "Dimensional modeling",
+          "Modelagem dimensional",
           "Star Schema",
           "ETL / ELT",
-          "Data quality",
-          "Governance",
-          "KPI definition",
-          "Storytelling",
+          "Qualidade de dados",
+          "Governança de dados",
+          "Definição de KPIs",
+          "Storytelling com dados",
+          "Levantamento de requisitos",
+          "Mapeamento de processos",
           "Agile / Kanban",
-          "Technical documentation"
+          "Design Sprint",
+          "RACI / 5W2H",
+          "DoR / DoD",
+          "Documentação técnica",
+          "Testes e validação"
         ]
       }
     ]

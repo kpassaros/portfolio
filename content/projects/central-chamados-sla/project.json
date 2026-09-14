@@ -20,18 +20,19 @@
   "technologies": [
     "Notion",
     "HTML",
-    "JavaScript e indicadores de SLA"
+    "CSS",
+    "JavaScript",
+    "CSV"
   ],
   "stackGroups": [
     {
-      "label": "Operação",
+      "label": "Plataforma",
       "items": [
-        "Notion",
-        "SLA"
+        "Notion"
       ]
     },
     {
-      "label": "Interface",
+      "label": "Interface & lógica",
       "items": [
         "HTML",
         "CSS",
@@ -39,10 +40,19 @@
       ]
     },
     {
-      "label": "Análise",
+      "label": "Dados & formatos",
       "items": [
+        "CSV",
+        "JSON"
+      ]
+    },
+    {
+      "label": "Práticas analíticas",
+      "items": [
+        "SLA",
         "KPIs",
-        "Backlog"
+        "Backlog",
+        "Recorrência"
       ]
     }
   ],
