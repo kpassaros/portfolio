@@ -1,0 +1,241 @@
+﻿ChamadoID,DataAbertura,Categoria,Prioridade,Status,Responsavel,Unidade,TempoResolucaoHoras,MetaSLAHoras,DentroSLA,Recorrente
+CH-1001,2026-06-23,Software,Crítica,Concluído,Analista D,Unidade Centro,3.2,8,Sim,Sim
+CH-1002,2026-03-16,Software,Média,Concluído,Analista D,Unidade Centro,13.6,32,Sim,Não
+CH-1003,2026-08-02,Sistemas,Alta,Concluído,Analista E,Unidade Sul,21.0,16,Não,Não
+CH-1004,2026-08-14,Equipamentos,Crítica,Em andamento,Analista D,Unidade Sul,3.1,8,Sim,Não
+CH-1005,2026-07-25,Acessos,Alta,Concluído,Analista D,Unidade Centro,4.1,16,Sim,Não
+CH-1006,2026-05-27,Equipamentos,Baixa,Concluído,Analista B,Unidade Sul,83.1,72,Não,Sim
+CH-1007,2026-07-07,Equipamentos,Alta,Concluído,Analista B,Unidade Sul,10.3,16,Sim,Não
+CH-1008,2026-01-27,Rede,Média,Em andamento,Analista D,Unidade Sul,2.3,32,Sim,Não
+CH-1009,2026-05-14,Software,Média,Concluído,Analista E,Unidade Norte,23.9,32,Sim,Não
+CH-1010,2026-03-04,Rede,Alta,Concluído,Analista C,Unidade Norte,10.0,16,Sim,Não
+CH-1011,2026-03-14,Sistemas,Média,Em andamento,Analista D,Unidade Centro,34.7,32,Não,Não
+CH-1012,2026-06-23,Acessos,Baixa,Concluído,Analista A,Unidade Centro,23.4,72,Sim,Não
+CH-1013,2026-04-30,Acessos,Média,Concluído,Analista A,Unidade Norte,9.8,32,Sim,Não
+CH-1014,2026-02-13,Rede,Média,Concluído,Analista E,Unidade Centro,38.9,32,Não,Não
+CH-1015,2026-04-20,Equipamentos,Média,Concluído,Analista E,Unidade Sul,2.4,32,Sim,Não
+CH-1016,2026-06-13,Software,Baixa,Concluído,Analista C,Unidade Norte,57.9,72,Sim,Não
+CH-1017,2026-05-11,Acessos,Média,Concluído,Analista A,Unidade Norte,36.4,32,Não,Não
+CH-1018,2026-05-15,Software,Média,Concluído,Analista E,Unidade Centro,8.0,32,Sim,Sim
+CH-1019,2026-08-15,Sistemas,Média,Aguardando,Analista C,Unidade Sul,30.5,32,Sim,Sim
+CH-1020,2026-05-26,Rede,Média,Concluído,Analista B,Unidade Norte,43.5,32,Não,Não
+CH-1021,2026-08-07,Software,Baixa,Concluído,Analista C,Unidade Sul,62.5,72,Sim,Não
+CH-1022,2026-06-28,Sistemas,Média,Concluído,Analista D,Unidade Centro,16.6,32,Sim,Não
+CH-1023,2026-06-12,Software,Média,Concluído,Analista C,Unidade Norte,22.0,32,Sim,Não
+CH-1024,2026-04-22,Software,Média,Concluído,Analista C,Unidade Centro,34.5,32,Não,Não
+CH-1025,2026-01-23,Rede,Baixa,Concluído,Analista B,Unidade Centro,5.3,72,Sim,Sim
+CH-1026,2026-01-28,Software,Média,Concluído,Analista E,Unidade Centro,6.0,32,Sim,Não
+CH-1027,2026-07-03,Software,Média,Aguardando,Analista E,Unidade Norte,16.4,32,Sim,Não
+CH-1028,2026-02-18,Sistemas,Alta,Em andamento,Analista B,Unidade Norte,4.6,16,Sim,Não
+CH-1029,2026-03-21,Software,Média,Concluído,Analista B,Unidade Centro,12.0,32,Sim,Não
+CH-1030,2026-03-30,Software,Média,Em andamento,Analista C,Unidade Norte,11.8,32,Sim,Sim
+CH-1031,2026-08-06,Acessos,Baixa,Concluído,Analista D,Unidade Norte,101.3,72,Não,Não
+CH-1032,2026-05-14,Sistemas,Média,Em andamento,Analista A,Unidade Sul,44.0,32,Não,Não
+CH-1033,2026-01-07,Sistemas,Média,Concluído,Analista D,Unidade Centro,26.7,32,Sim,Não
+CH-1034,2026-06-26,Equipamentos,Média,Em andamento,Analista A,Unidade Centro,22.3,32,Sim,Não
+CH-1035,2026-04-23,Software,Média,Concluído,Analista B,Unidade Norte,31.9,32,Sim,Não
+CH-1036,2026-03-05,Software,Média,Em andamento,Analista D,Unidade Norte,19.6,32,Sim,Não
+CH-1037,2026-01-25,Acessos,Alta,Em andamento,Analista E,Unidade Centro,7.7,16,Sim,Não
+CH-1038,2026-03-21,Acessos,Alta,Concluído,Analista A,Unidade Norte,13.5,16,Sim,Não
+CH-1039,2026-01-13,Acessos,Média,Concluído,Analista A,Unidade Norte,25.7,32,Sim,Não
+CH-1040,2026-06-26,Sistemas,Média,Concluído,Analista B,Unidade Norte,45.7,32,Não,Sim
+CH-1041,2026-01-15,Equipamentos,Crítica,Concluído,Analista D,Unidade Centro,3.1,8,Sim,Não
+CH-1042,2026-07-03,Acessos,Média,Concluído,Analista A,Unidade Sul,26.0,32,Sim,Não
+CH-1043,2026-03-11,Rede,Baixa,Concluído,Analista E,Unidade Centro,34.3,72,Sim,Não
+CH-1044,2026-01-07,Rede,Baixa,Concluído,Analista B,Unidade Norte,25.3,72,Sim,Não
+CH-1045,2026-02-13,Acessos,Média,Concluído,Analista C,Unidade Norte,37.0,32,Não,Não
+CH-1046,2026-06-15,Software,Média,Aguardando,Analista A,Unidade Sul,20.5,32,Sim,Sim
+CH-1047,2026-04-22,Equipamentos,Média,Concluído,Analista E,Unidade Norte,16.1,32,Sim,Não
+CH-1048,2026-08-01,Sistemas,Baixa,Concluído,Analista D,Unidade Norte,88.5,72,Não,Sim
+CH-1049,2026-01-17,Rede,Média,Concluído,Analista E,Unidade Sul,24.2,32,Sim,Não
+CH-1050,2026-05-29,Software,Alta,Em andamento,Analista D,Unidade Sul,7.9,16,Sim,Não
+CH-1051,2026-01-25,Software,Média,Concluído,Analista B,Unidade Norte,44.4,32,Não,Não
+CH-1052,2026-06-02,Acessos,Alta,Concluído,Analista B,Unidade Centro,17.8,16,Não,Não
+CH-1053,2026-04-05,Software,Média,Em andamento,Analista A,Unidade Norte,28.3,32,Sim,Sim
+CH-1054,2026-08-08,Rede,Crítica,Em andamento,Analista D,Unidade Norte,3.5,8,Sim,Não
+CH-1055,2026-02-02,Sistemas,Baixa,Em andamento,Analista D,Unidade Centro,33.3,72,Sim,Sim
+CH-1056,2026-08-26,Rede,Média,Concluído,Analista E,Unidade Sul,31.7,32,Sim,Não
+CH-1057,2026-04-04,Equipamentos,Alta,Concluído,Analista E,Unidade Norte,2.3,16,Sim,Não
+CH-1058,2026-01-20,Sistemas,Média,Concluído,Analista E,Unidade Centro,43.8,32,Não,Não
+CH-1059,2026-04-27,Acessos,Média,Concluído,Analista C,Unidade Norte,5.0,32,Sim,Não
+CH-1060,2026-03-15,Sistemas,Alta,Concluído,Analista E,Unidade Centro,22.3,16,Não,Não
+CH-1061,2026-03-28,Sistemas,Alta,Aguardando,Analista A,Unidade Centro,22.1,16,Não,Não
+CH-1062,2026-08-20,Software,Alta,Concluído,Analista D,Unidade Norte,21.9,16,Não,Não
+CH-1063,2026-05-08,Equipamentos,Crítica,Concluído,Analista C,Unidade Norte,7.9,8,Sim,Sim
+CH-1064,2026-06-08,Rede,Baixa,Concluído,Analista C,Unidade Norte,86.4,72,Não,Sim
+CH-1065,2026-08-10,Software,Baixa,Em andamento,Analista A,Unidade Norte,27.0,72,Sim,Não
+CH-1066,2026-05-30,Sistemas,Alta,Concluído,Analista A,Unidade Centro,20.8,16,Não,Não
+CH-1067,2026-02-02,Software,Média,Concluído,Analista B,Unidade Sul,45.2,32,Não,Não
+CH-1068,2026-04-24,Sistemas,Média,Concluído,Analista C,Unidade Centro,17.7,32,Sim,Não
+CH-1069,2026-05-22,Software,Crítica,Concluído,Analista D,Unidade Centro,6.9,8,Sim,Não
+CH-1070,2026-04-23,Rede,Alta,Em andamento,Analista C,Unidade Norte,6.8,16,Sim,Sim
+CH-1071,2026-08-05,Acessos,Alta,Concluído,Analista B,Unidade Centro,9.6,16,Sim,Não
+CH-1072,2026-08-09,Equipamentos,Baixa,Concluído,Analista D,Unidade Centro,90.1,72,Não,Não
+CH-1073,2026-06-01,Acessos,Alta,Concluído,Analista B,Unidade Centro,4.3,16,Sim,Sim
+CH-1074,2026-02-09,Equipamentos,Baixa,Concluído,Analista E,Unidade Centro,65.3,72,Sim,Não
+CH-1075,2026-03-28,Equipamentos,Baixa,Em andamento,Analista A,Unidade Sul,49.0,72,Sim,Não
+CH-1076,2026-06-09,Equipamentos,Baixa,Concluído,Analista E,Unidade Norte,88.8,72,Não,Sim
+CH-1077,2026-06-24,Software,Baixa,Concluído,Analista C,Unidade Sul,10.2,72,Sim,Sim
+CH-1078,2026-03-26,Software,Média,Concluído,Analista D,Unidade Norte,37.5,32,Não,Não
+CH-1079,2026-06-20,Software,Alta,Em andamento,Analista D,Unidade Norte,11.3,16,Sim,Não
+CH-1080,2026-05-01,Software,Média,Em andamento,Analista A,Unidade Sul,29.5,32,Sim,Não
+CH-1081,2026-05-06,Software,Alta,Concluído,Analista C,Unidade Centro,5.2,16,Sim,Não
+CH-1082,2026-04-23,Rede,Média,Concluído,Analista D,Unidade Sul,28.4,32,Sim,Não
+CH-1083,2026-08-22,Acessos,Baixa,Concluído,Analista D,Unidade Centro,82.2,72,Não,Sim
+CH-1084,2026-05-24,Sistemas,Média,Concluído,Analista E,Unidade Sul,15.9,32,Sim,Não
+CH-1085,2026-06-06,Rede,Média,Concluído,Analista B,Unidade Sul,18.3,32,Sim,Não
+CH-1086,2026-01-22,Rede,Baixa,Concluído,Analista B,Unidade Norte,44.8,72,Sim,Não
+CH-1087,2026-04-03,Equipamentos,Média,Concluído,Analista C,Unidade Sul,28.2,32,Sim,Não
+CH-1088,2026-03-18,Acessos,Alta,Concluído,Analista D,Unidade Centro,20.1,16,Não,Não
+CH-1089,2026-01-28,Sistemas,Alta,Concluído,Analista A,Unidade Centro,17.8,16,Não,Não
+CH-1090,2026-03-21,Acessos,Baixa,Aguardando,Analista D,Unidade Centro,59.6,72,Sim,Sim
+CH-1091,2026-05-16,Acessos,Baixa,Concluído,Analista D,Unidade Norte,58.2,72,Sim,Não
+CH-1092,2026-06-03,Equipamentos,Média,Concluído,Analista D,Unidade Sul,37.8,32,Não,Não
+CH-1093,2026-06-28,Equipamentos,Alta,Concluído,Analista B,Unidade Sul,21.9,16,Não,Sim
+CH-1094,2026-02-06,Sistemas,Baixa,Concluído,Analista E,Unidade Centro,31.0,72,Sim,Não
+CH-1095,2026-03-10,Acessos,Alta,Concluído,Analista B,Unidade Norte,10.0,16,Sim,Não
+CH-1096,2026-06-05,Equipamentos,Média,Concluído,Analista E,Unidade Centro,21.5,32,Sim,Não
+CH-1097,2026-04-16,Equipamentos,Média,Concluído,Analista A,Unidade Centro,28.3,32,Sim,Não
+CH-1098,2026-05-09,Rede,Média,Concluído,Analista B,Unidade Norte,7.8,32,Sim,Não
+CH-1099,2026-08-25,Sistemas,Baixa,Concluído,Analista C,Unidade Sul,50.4,72,Sim,Não
+CH-1100,2026-08-27,Software,Alta,Concluído,Analista B,Unidade Sul,16.9,16,Não,Não
+CH-1101,2026-03-27,Sistemas,Alta,Concluído,Analista B,Unidade Sul,9.8,16,Sim,Não
+CH-1102,2026-06-15,Equipamentos,Baixa,Concluído,Analista C,Unidade Norte,32.4,72,Sim,Não
+CH-1103,2026-01-25,Equipamentos,Baixa,Concluído,Analista D,Unidade Sul,27.5,72,Sim,Não
+CH-1104,2026-07-18,Sistemas,Média,Concluído,Analista C,Unidade Sul,3.4,32,Sim,Sim
+CH-1105,2026-07-29,Sistemas,Média,Em andamento,Analista B,Unidade Sul,14.6,32,Sim,Não
+CH-1106,2026-03-31,Rede,Crítica,Concluído,Analista B,Unidade Sul,4.3,8,Sim,Não
+CH-1107,2026-07-07,Sistemas,Média,Concluído,Analista D,Unidade Centro,32.1,32,Não,Não
+CH-1108,2026-01-01,Software,Alta,Aguardando,Analista E,Unidade Norte,17.4,16,Não,Não
+CH-1109,2026-08-18,Acessos,Alta,Em andamento,Analista E,Unidade Centro,13.5,16,Sim,Não
+CH-1110,2026-06-12,Equipamentos,Média,Concluído,Analista B,Unidade Centro,17.5,32,Sim,Não
+CH-1111,2026-06-06,Acessos,Média,Aguardando,Analista A,Unidade Norte,17.1,32,Sim,Não
+CH-1112,2026-01-05,Rede,Média,Concluído,Analista D,Unidade Norte,29.6,32,Sim,Não
+CH-1113,2026-02-15,Equipamentos,Média,Concluído,Analista E,Unidade Centro,30.6,32,Sim,Sim
+CH-1114,2026-02-23,Rede,Baixa,Concluído,Analista B,Unidade Centro,24.5,72,Sim,Não
+CH-1115,2026-01-03,Equipamentos,Alta,Concluído,Analista A,Unidade Sul,23.2,16,Não,Não
+CH-1116,2026-03-16,Software,Média,Aguardando,Analista B,Unidade Sul,17.5,32,Sim,Não
+CH-1117,2026-05-22,Equipamentos,Média,Concluído,Analista E,Unidade Sul,41.7,32,Não,Sim
+CH-1118,2026-08-28,Equipamentos,Baixa,Concluído,Analista B,Unidade Norte,27.5,72,Sim,Não
+CH-1119,2026-07-14,Equipamentos,Média,Concluído,Analista C,Unidade Sul,45.1,32,Não,Não
+CH-1120,2026-01-21,Rede,Média,Concluído,Analista E,Unidade Centro,21.5,32,Sim,Não
+CH-1121,2026-01-22,Rede,Baixa,Concluído,Analista E,Unidade Norte,22.8,72,Sim,Sim
+CH-1122,2026-06-05,Acessos,Média,Em andamento,Analista B,Unidade Centro,2.5,32,Sim,Não
+CH-1123,2026-03-18,Sistemas,Crítica,Concluído,Analista B,Unidade Sul,8.5,8,Não,Não
+CH-1124,2026-04-21,Software,Média,Concluído,Analista A,Unidade Centro,18.6,32,Sim,Não
+CH-1125,2026-07-06,Equipamentos,Alta,Em andamento,Analista D,Unidade Centro,9.5,16,Sim,Não
+CH-1126,2026-04-28,Equipamentos,Baixa,Aguardando,Analista B,Unidade Sul,69.5,72,Sim,Não
+CH-1127,2026-02-24,Acessos,Baixa,Em andamento,Analista D,Unidade Centro,3.4,72,Sim,Não
+CH-1128,2026-01-18,Software,Alta,Em andamento,Analista A,Unidade Centro,5.4,16,Sim,Não
+CH-1129,2026-03-28,Equipamentos,Média,Em andamento,Analista B,Unidade Norte,16.9,32,Sim,Não
+CH-1130,2026-08-25,Equipamentos,Alta,Concluído,Analista B,Unidade Sul,17.1,16,Não,Não
+CH-1131,2026-07-23,Sistemas,Média,Concluído,Analista E,Unidade Norte,27.4,32,Sim,Não
+CH-1132,2026-04-26,Rede,Média,Concluído,Analista E,Unidade Centro,38.1,32,Não,Não
+CH-1133,2026-05-25,Software,Média,Concluído,Analista D,Unidade Centro,39.5,32,Não,Não
+CH-1134,2026-02-05,Acessos,Alta,Concluído,Analista A,Unidade Sul,15.1,16,Sim,Não
+CH-1135,2026-08-02,Sistemas,Média,Aguardando,Analista E,Unidade Norte,2.5,32,Sim,Não
+CH-1136,2026-01-30,Sistemas,Crítica,Concluído,Analista B,Unidade Centro,6.4,8,Sim,Não
+CH-1137,2026-04-27,Sistemas,Média,Concluído,Analista C,Unidade Centro,31.6,32,Sim,Não
+CH-1138,2026-06-28,Acessos,Baixa,Concluído,Analista B,Unidade Norte,36.5,72,Sim,Não
+CH-1139,2026-05-12,Acessos,Baixa,Em andamento,Analista A,Unidade Centro,45.4,72,Sim,Não
+CH-1140,2026-04-18,Sistemas,Média,Concluído,Analista B,Unidade Centro,35.9,32,Não,Sim
+CH-1141,2026-05-24,Sistemas,Alta,Concluído,Analista A,Unidade Sul,18.6,16,Não,Sim
+CH-1142,2026-06-30,Rede,Crítica,Em andamento,Analista E,Unidade Norte,11.2,8,Não,Não
+CH-1143,2026-03-28,Acessos,Média,Concluído,Analista D,Unidade Sul,45.8,32,Não,Não
+CH-1144,2026-06-08,Equipamentos,Média,Concluído,Analista C,Unidade Centro,26.4,32,Sim,Não
+CH-1145,2026-07-05,Software,Baixa,Concluído,Analista B,Unidade Centro,85.5,72,Não,Não
+CH-1146,2026-03-09,Equipamentos,Média,Aguardando,Analista B,Unidade Sul,9.3,32,Sim,Sim
+CH-1147,2026-05-01,Rede,Média,Concluído,Analista B,Unidade Centro,33.5,32,Não,Não
+CH-1148,2026-05-18,Equipamentos,Baixa,Concluído,Analista C,Unidade Sul,67.9,72,Sim,Não
+CH-1149,2026-02-06,Rede,Média,Concluído,Analista E,Unidade Centro,36.1,32,Não,Não
+CH-1150,2026-04-11,Sistemas,Baixa,Concluído,Analista D,Unidade Sul,69.5,72,Sim,Sim
+CH-1151,2026-04-06,Software,Média,Concluído,Analista D,Unidade Norte,40.6,32,Não,Sim
+CH-1152,2026-08-19,Acessos,Média,Concluído,Analista B,Unidade Sul,44.1,32,Não,Não
+CH-1153,2026-04-27,Acessos,Média,Aguardando,Analista E,Unidade Sul,2.6,32,Sim,Não
+CH-1154,2026-07-05,Software,Alta,Concluído,Analista C,Unidade Centro,3.2,16,Sim,Não
+CH-1155,2026-05-27,Software,Alta,Concluído,Analista A,Unidade Centro,18.5,16,Não,Não
+CH-1156,2026-03-17,Software,Baixa,Concluído,Analista A,Unidade Centro,101.8,72,Não,Não
+CH-1157,2026-03-01,Rede,Média,Concluído,Analista C,Unidade Sul,46.0,32,Não,Sim
+CH-1158,2026-06-30,Equipamentos,Média,Concluído,Analista E,Unidade Norte,4.8,32,Sim,Não
+CH-1159,2026-05-29,Equipamentos,Baixa,Concluído,Analista D,Unidade Norte,92.9,72,Não,Não
+CH-1160,2026-02-25,Software,Baixa,Concluído,Analista E,Unidade Centro,8.4,72,Sim,Não
+CH-1161,2026-02-03,Sistemas,Média,Concluído,Analista A,Unidade Norte,46.3,32,Não,Sim
+CH-1162,2026-04-30,Sistemas,Baixa,Concluído,Analista D,Unidade Sul,90.3,72,Não,Sim
+CH-1163,2026-08-15,Rede,Média,Concluído,Analista D,Unidade Centro,27.2,32,Sim,Não
+CH-1164,2026-06-26,Rede,Média,Concluído,Analista D,Unidade Sul,9.9,32,Sim,Sim
+CH-1165,2026-01-08,Rede,Média,Aguardando,Analista A,Unidade Sul,30.9,32,Sim,Não
+CH-1166,2026-07-24,Software,Baixa,Concluído,Analista C,Unidade Norte,55.7,72,Sim,Sim
+CH-1167,2026-04-29,Sistemas,Média,Concluído,Analista A,Unidade Sul,9.0,32,Sim,Sim
+CH-1168,2026-07-17,Acessos,Média,Aguardando,Analista C,Unidade Norte,43.9,32,Não,Não
+CH-1169,2026-07-23,Software,Crítica,Concluído,Analista B,Unidade Norte,6.8,8,Sim,Não
+CH-1170,2026-05-11,Rede,Média,Concluído,Analista B,Unidade Norte,25.5,32,Sim,Não
+CH-1171,2026-07-30,Software,Média,Concluído,Analista D,Unidade Norte,31.0,32,Sim,Não
+CH-1172,2026-05-26,Equipamentos,Média,Concluído,Analista B,Unidade Norte,7.0,32,Sim,Não
+CH-1173,2026-01-04,Rede,Alta,Concluído,Analista E,Unidade Sul,16.4,16,Não,Não
+CH-1174,2026-04-07,Equipamentos,Média,Aguardando,Analista E,Unidade Sul,28.2,32,Sim,Não
+CH-1175,2026-06-08,Equipamentos,Baixa,Concluído,Analista E,Unidade Sul,6.6,72,Sim,Sim
+CH-1176,2026-07-08,Rede,Alta,Em andamento,Analista D,Unidade Norte,18.5,16,Não,Não
+CH-1177,2026-03-15,Rede,Baixa,Concluído,Analista B,Unidade Centro,45.9,72,Sim,Sim
+CH-1178,2026-06-09,Acessos,Média,Concluído,Analista A,Unidade Sul,4.1,32,Sim,Sim
+CH-1179,2026-07-28,Software,Baixa,Concluído,Analista C,Unidade Centro,35.0,72,Sim,Não
+CH-1180,2026-04-27,Sistemas,Média,Concluído,Analista B,Unidade Norte,21.0,32,Sim,Não
+CH-1181,2026-02-08,Sistemas,Baixa,Concluído,Analista E,Unidade Sul,3.7,72,Sim,Não
+CH-1182,2026-03-24,Sistemas,Alta,Concluído,Analista B,Unidade Sul,14.2,16,Sim,Não
+CH-1183,2026-03-09,Equipamentos,Baixa,Concluído,Analista E,Unidade Centro,33.2,72,Sim,Não
+CH-1184,2026-01-10,Rede,Alta,Concluído,Analista A,Unidade Centro,4.0,16,Sim,Não
+CH-1185,2026-07-15,Rede,Baixa,Concluído,Analista B,Unidade Sul,91.7,72,Não,Não
+CH-1186,2026-07-10,Rede,Baixa,Concluído,Analista C,Unidade Sul,86.8,72,Não,Sim
+CH-1187,2026-08-23,Sistemas,Baixa,Concluído,Analista D,Unidade Centro,79.3,72,Não,Não
+CH-1188,2026-07-03,Equipamentos,Média,Aguardando,Analista E,Unidade Sul,25.9,32,Sim,Não
+CH-1189,2026-05-29,Rede,Média,Aguardando,Analista B,Unidade Centro,9.4,32,Sim,Sim
+CH-1190,2026-04-15,Rede,Média,Em andamento,Analista D,Unidade Centro,42.4,32,Não,Não
+CH-1191,2026-05-11,Rede,Média,Em andamento,Analista D,Unidade Norte,31.2,32,Sim,Não
+CH-1192,2026-07-18,Sistemas,Média,Concluído,Analista E,Unidade Norte,12.8,32,Sim,Não
+CH-1193,2026-08-03,Software,Baixa,Concluído,Analista B,Unidade Norte,5.5,72,Sim,Não
+CH-1194,2026-02-25,Sistemas,Alta,Concluído,Analista C,Unidade Sul,11.1,16,Sim,Não
+CH-1195,2026-07-26,Sistemas,Média,Concluído,Analista A,Unidade Norte,18.6,32,Sim,Sim
+CH-1196,2026-04-14,Acessos,Baixa,Concluído,Analista B,Unidade Centro,4.9,72,Sim,Não
+CH-1197,2026-06-11,Acessos,Média,Concluído,Analista D,Unidade Sul,30.1,32,Sim,Não
+CH-1198,2026-01-27,Acessos,Baixa,Aguardando,Analista C,Unidade Sul,37.0,72,Sim,Não
+CH-1199,2026-01-08,Sistemas,Média,Em andamento,Analista A,Unidade Sul,16.7,32,Sim,Não
+CH-1200,2026-04-28,Equipamentos,Média,Concluído,Analista C,Unidade Sul,7.7,32,Sim,Não
+CH-1201,2026-01-23,Equipamentos,Baixa,Em andamento,Analista D,Unidade Centro,53.1,72,Sim,Não
+CH-1202,2026-02-19,Software,Alta,Concluído,Analista E,Unidade Sul,7.8,16,Sim,Não
+CH-1203,2026-05-07,Equipamentos,Alta,Concluído,Analista C,Unidade Norte,19.2,16,Não,Não
+CH-1204,2026-01-15,Rede,Baixa,Concluído,Analista A,Unidade Sul,57.6,72,Sim,Não
+CH-1205,2026-06-24,Equipamentos,Baixa,Concluído,Analista A,Unidade Centro,27.9,72,Sim,Não
+CH-1206,2026-02-08,Software,Média,Concluído,Analista B,Unidade Norte,46.3,32,Não,Não
+CH-1207,2026-08-09,Equipamentos,Média,Concluído,Analista A,Unidade Norte,21.9,32,Sim,Não
+CH-1208,2026-03-14,Rede,Alta,Aguardando,Analista A,Unidade Norte,11.6,16,Sim,Sim
+CH-1209,2026-05-29,Rede,Média,Concluído,Analista C,Unidade Norte,34.5,32,Não,Sim
+CH-1210,2026-01-13,Software,Média,Concluído,Analista A,Unidade Sul,46.0,32,Não,Não
+CH-1211,2026-02-01,Equipamentos,Baixa,Concluído,Analista D,Unidade Norte,54.9,72,Sim,Sim
+CH-1212,2026-01-29,Equipamentos,Média,Concluído,Analista A,Unidade Sul,6.6,32,Sim,Não
+CH-1213,2026-01-11,Equipamentos,Baixa,Concluído,Analista B,Unidade Norte,61.2,72,Sim,Não
+CH-1214,2026-03-09,Rede,Média,Concluído,Analista E,Unidade Norte,17.6,32,Sim,Não
+CH-1215,2026-05-19,Equipamentos,Média,Concluído,Analista B,Unidade Sul,9.2,32,Sim,Não
+CH-1216,2026-05-01,Rede,Alta,Concluído,Analista C,Unidade Sul,9.6,16,Sim,Não
+CH-1217,2026-05-07,Equipamentos,Baixa,Em andamento,Analista A,Unidade Sul,66.2,72,Sim,Sim
+CH-1218,2026-05-11,Software,Alta,Concluído,Analista D,Unidade Centro,5.5,16,Sim,Sim
+CH-1219,2026-07-29,Acessos,Baixa,Concluído,Analista D,Unidade Sul,76.4,72,Não,Sim
+CH-1220,2026-07-16,Software,Baixa,Aguardando,Analista E,Unidade Sul,18.1,72,Sim,Sim
+CH-1221,2026-01-11,Sistemas,Média,Concluído,Analista B,Unidade Norte,39.4,32,Não,Não
+CH-1222,2026-07-27,Software,Baixa,Concluído,Analista A,Unidade Norte,17.4,72,Sim,Não
+CH-1223,2026-07-14,Rede,Alta,Concluído,Analista E,Unidade Centro,4.1,16,Sim,Não
+CH-1224,2026-02-28,Sistemas,Alta,Em andamento,Analista D,Unidade Norte,22.9,16,Não,Sim
+CH-1225,2026-01-24,Sistemas,Alta,Concluído,Analista A,Unidade Norte,18.0,16,Não,Não
+CH-1226,2026-06-01,Sistemas,Baixa,Aguardando,Analista B,Unidade Sul,10.5,72,Sim,Não
+CH-1227,2026-04-23,Software,Média,Concluído,Analista D,Unidade Norte,38.8,32,Não,Não
+CH-1228,2026-07-22,Acessos,Baixa,Concluído,Analista A,Unidade Norte,17.2,72,Sim,Não
+CH-1229,2026-03-14,Rede,Média,Em andamento,Analista A,Unidade Centro,22.5,32,Sim,Não
+CH-1230,2026-08-01,Sistemas,Baixa,Concluído,Analista B,Unidade Norte,65.6,72,Sim,Não
+CH-1231,2026-06-01,Rede,Média,Concluído,Analista A,Unidade Sul,3.8,32,Sim,Não
+CH-1232,2026-05-24,Sistemas,Baixa,Aguardando,Analista A,Unidade Sul,16.8,72,Sim,Não
+CH-1233,2026-04-05,Software,Baixa,Concluído,Analista B,Unidade Centro,25.2,72,Sim,Não
+CH-1234,2026-02-05,Acessos,Média,Em andamento,Analista B,Unidade Centro,22.0,32,Sim,Sim
+CH-1235,2026-04-12,Equipamentos,Média,Aguardando,Analista B,Unidade Norte,21.2,32,Sim,Sim
+CH-1236,2026-07-12,Rede,Baixa,Concluído,Analista B,Unidade Centro,97.8,72,Não,Não
+CH-1237,2026-08-23,Sistemas,Média,Concluído,Analista B,Unidade Centro,5.3,32,Sim,Não
+CH-1238,2026-03-26,Equipamentos,Baixa,Concluído,Analista C,Unidade Centro,46.7,72,Sim,Não
+CH-1239,2026-03-05,Sistemas,Baixa,Concluído,Analista D,Unidade Sul,23.8,72,Sim,Não
+CH-1240,2026-02-08,Sistemas,Média,Concluído,Analista C,Unidade Norte,30.5,32,Sim,Não

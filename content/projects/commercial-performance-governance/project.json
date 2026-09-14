@@ -1,0 +1,82 @@
+{
+  "id": "commercial-performance-governance",
+  "title": "Commercial Performance & Data Governance",
+  "category": "Dados & BI",
+  "status": "Case aplicado",
+  "year": 2021,
+  "featured": false,
+  "new": true,
+  "projectType": "Case aplicado",
+  "dataNature": "Empresa anônima. Demonstração fictícia; volumes agregados correspondem a evidências reais do projeto.",
+  "summary": "Carga governada de metas por marca com validação, versionamento, histórico e consumo analítico.",
+  "problem": "Metas descentralizadas e sem validação reduziam a confiabilidade do acompanhamento comercial.",
+  "role": "Construção do fluxo de captura, chave composta, validações, comparação de versões e persistência.",
+  "solution": "Pipeline com planilha, QlikView/QVD e MySQL para classificar inclusões, atualizações e registros mantidos.",
+  "results": [
+    "15.555 registros processados em uma carga documentada",
+    "61 unidades e 255 marcas no escopo agregado",
+    "Histórico analisado superior a 229 mil linhas"
+  ],
+  "technologies": [
+    "QlikView",
+    "QVD",
+    "MySQL",
+    "SQL e Google Apps Script"
+  ],
+  "stackGroups": [
+    {
+      "label": "Entrada",
+      "items": [
+        "Google Sheets"
+      ]
+    },
+    {
+      "label": "ETL",
+      "items": [
+        "QlikView",
+        "QVD"
+      ]
+    },
+    {
+      "label": "Persistência",
+      "items": [
+        "MySQL",
+        "SQL"
+      ]
+    },
+    {
+      "label": "Automação",
+      "items": [
+        "Apps Script"
+      ]
+    }
+  ],
+  "cover": "cover.png",
+  "metrics": {},
+  "demo": {
+    "mode": "github-html",
+    "embedPath": "content/projects/commercial-performance-governance/dashboard/index.html",
+    "embedUrl": "",
+    "externalUrl": "",
+    "fallbackImage": "content/projects/commercial-performance-governance/cover.png",
+    "pbixDownload": ""
+  },
+  "links": {
+    "github": "https://github.com/kpassaros/portfolio-dados-bi",
+    "kaggle": "",
+    "documentation": "",
+    "dataset": ""
+  },
+  "disclosure": {
+    "label": "Demonstração com dados fictícios",
+    "detail": "Empresa anônima. Demonstração fictícia; volumes agregados correspondem a evidências reais do projeto."
+  },
+  "i18n": {
+    "en-US": {
+      "title": "Commercial Performance & Data Governance",
+      "category": "Data & BI",
+      "status": "Applied case",
+      "summary": "Governed brand-target pipeline with validation, versioning, history and analytics."
+    }
+  }
+}

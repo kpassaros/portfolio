@@ -1,0 +1,82 @@
+{
+  "id": "production-performance",
+  "title": "Production Performance Intelligence",
+  "category": "Dados & BI",
+  "status": "Estudo de caso",
+  "year": 2026,
+  "featured": true,
+  "new": true,
+  "projectType": "Estudo de caso",
+  "dataNature": "Processo inspirado em aplicação real; produtos, lotes, valores e indicadores são fictícios.",
+  "summary": "Painel para acompanhar produção, rendimento, perdas, lotes, lead time e riscos operacionais.",
+  "problem": "A operação precisava conectar volume produzido, eficiência, perdas e criticidade de lotes em uma leitura única.",
+  "role": "Análise do relatório original, reconstrução do modelo demonstrativo e definição de uma arquitetura reproduzível.",
+  "solution": "Case recriado com dados sintéticos, dashboard HTML e kit de modelagem para Power BI.",
+  "results": [
+    "13 perspectivas do relatório original consolidadas em uma jornada analítica",
+    "Visões de rendimento, perdas, lead time e risco",
+    "Base sintética pronta para estudo e reprodução"
+  ],
+  "technologies": [
+    "Power BI",
+    "DAX",
+    "Power Query",
+    "CSV e modelagem dimensional"
+  ],
+  "stackGroups": [
+    {
+      "label": "Visualização",
+      "items": [
+        "Power BI",
+        "HTML"
+      ]
+    },
+    {
+      "label": "Modelagem",
+      "items": [
+        "DAX",
+        "Star Schema"
+      ]
+    },
+    {
+      "label": "Tratamento",
+      "items": [
+        "Power Query"
+      ]
+    },
+    {
+      "label": "Dados",
+      "items": [
+        "CSV"
+      ]
+    }
+  ],
+  "cover": "cover.png",
+  "metrics": {},
+  "demo": {
+    "mode": "github-html",
+    "embedPath": "content/projects/production-performance/dashboard/index.html",
+    "embedUrl": "",
+    "externalUrl": "",
+    "fallbackImage": "content/projects/production-performance/cover.png",
+    "pbixDownload": ""
+  },
+  "links": {
+    "github": "https://github.com/kpassaros/portfolio-dados-bi",
+    "kaggle": "",
+    "documentation": "",
+    "dataset": ""
+  },
+  "disclosure": {
+    "label": "Demonstração com dados fictícios",
+    "detail": "Processo inspirado em aplicação real; produtos, lotes, valores e indicadores são fictícios."
+  },
+  "i18n": {
+    "en-US": {
+      "title": "Production Performance Intelligence",
+      "category": "Data & BI",
+      "status": "Case study",
+      "summary": "Dashboard for production, yield, losses, batches, lead time and operational risk."
+    }
+  }
+}

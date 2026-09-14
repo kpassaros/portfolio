@@ -1,0 +1,181 @@
+﻿ItemID,Data,Pilar,Categoria,Prioridade,Status,EsforcoHoras,Risco,Responsavel
+OP-001,2026-08-17,Run,Projetos,Média,Concluído,23,Médio,Pessoa C
+OP-002,2026-01-28,Change,Automação,Alta,Concluído,2,Alto,Pessoa D
+OP-003,2026-06-15,Run,Suporte,Baixa,Backlog,20,Baixo,Pessoa D
+OP-004,2026-08-15,Run,Projetos,Baixa,Concluído,53,Médio,Pessoa B
+OP-005,2026-03-28,Change,Projetos,Média,Backlog,22,Alto,Pessoa D
+OP-006,2026-03-06,Run,Automação,Média,Backlog,35,Baixo,Pessoa B
+OP-007,2026-02-18,Improve,Dados,Baixa,Concluído,27,Baixo,Pessoa A
+OP-008,2026-05-12,Run,Dados,Alta,Em andamento,25,Baixo,Pessoa E
+OP-009,2026-01-16,Improve,Suporte,Alta,Concluído,27,Médio,Pessoa A
+OP-010,2026-03-07,Run,Suporte,Alta,Concluído,31,Médio,Pessoa B
+OP-011,2026-08-02,Run,Dados,Média,Concluído,59,Alto,Pessoa C
+OP-012,2026-03-29,Run,Automação,Média,Backlog,19,Baixo,Pessoa A
+OP-013,2026-04-02,Change,Projetos,Alta,Backlog,29,Médio,Pessoa C
+OP-014,2026-07-05,Run,Infraestrutura,Média,Concluído,46,Alto,Pessoa C
+OP-015,2026-04-04,Change,Automação,Baixa,Backlog,43,Baixo,Pessoa B
+OP-016,2026-02-03,Improve,Dados,Alta,Concluído,45,Baixo,Pessoa D
+OP-017,2026-05-29,Improve,Infraestrutura,Média,Backlog,46,Baixo,Pessoa E
+OP-018,2026-04-22,Improve,Projetos,Baixa,Concluído,65,Médio,Pessoa A
+OP-019,2026-07-26,Improve,Suporte,Média,Concluído,64,Alto,Pessoa B
+OP-020,2026-01-09,Run,Infraestrutura,Alta,Concluído,56,Alto,Pessoa C
+OP-021,2026-04-10,Change,Automação,Alta,Concluído,4,Baixo,Pessoa E
+OP-022,2026-06-04,Change,Suporte,Baixa,Em andamento,77,Médio,Pessoa E
+OP-023,2026-08-15,Change,Suporte,Média,Concluído,46,Médio,Pessoa A
+OP-024,2026-05-31,Run,Suporte,Média,Backlog,62,Baixo,Pessoa B
+OP-025,2026-03-04,Run,Projetos,Alta,Concluído,43,Médio,Pessoa C
+OP-026,2026-02-10,Run,Dados,Média,Concluído,38,Médio,Pessoa E
+OP-027,2026-02-22,Run,Projetos,Baixa,Backlog,54,Alto,Pessoa D
+OP-028,2026-02-25,Run,Projetos,Média,Concluído,78,Baixo,Pessoa A
+OP-029,2026-03-12,Run,Automação,Baixa,Concluído,52,Alto,Pessoa B
+OP-030,2026-07-05,Improve,Suporte,Média,Backlog,27,Médio,Pessoa A
+OP-031,2026-04-27,Run,Projetos,Baixa,Concluído,38,Médio,Pessoa D
+OP-032,2026-03-19,Improve,Suporte,Alta,Em andamento,72,Baixo,Pessoa C
+OP-033,2026-05-08,Change,Projetos,Baixa,Concluído,7,Alto,Pessoa E
+OP-034,2026-02-16,Run,Infraestrutura,Baixa,Em andamento,57,Alto,Pessoa D
+OP-035,2026-08-18,Improve,Dados,Baixa,Concluído,31,Médio,Pessoa E
+OP-036,2026-06-06,Run,Projetos,Média,Em andamento,34,Baixo,Pessoa B
+OP-037,2026-07-23,Change,Automação,Baixa,Concluído,6,Alto,Pessoa D
+OP-038,2026-01-01,Run,Suporte,Alta,Concluído,46,Médio,Pessoa E
+OP-039,2026-08-21,Run,Infraestrutura,Alta,Concluído,60,Médio,Pessoa B
+OP-040,2026-01-24,Run,Automação,Baixa,Concluído,14,Baixo,Pessoa D
+OP-041,2026-01-22,Run,Projetos,Média,Concluído,24,Alto,Pessoa D
+OP-042,2026-08-03,Run,Suporte,Média,Concluído,51,Baixo,Pessoa E
+OP-043,2026-04-03,Change,Infraestrutura,Alta,Em andamento,11,Alto,Pessoa A
+OP-044,2026-05-22,Change,Dados,Baixa,Concluído,58,Baixo,Pessoa D
+OP-045,2026-03-25,Improve,Suporte,Alta,Concluído,35,Baixo,Pessoa D
+OP-046,2026-06-19,Change,Automação,Média,Concluído,68,Alto,Pessoa C
+OP-047,2026-08-19,Run,Automação,Alta,Backlog,19,Alto,Pessoa C
+OP-048,2026-01-04,Improve,Automação,Média,Concluído,36,Médio,Pessoa A
+OP-049,2026-01-25,Run,Automação,Baixa,Concluído,43,Alto,Pessoa C
+OP-050,2026-04-22,Run,Dados,Alta,Concluído,28,Alto,Pessoa C
+OP-051,2026-01-31,Improve,Infraestrutura,Média,Concluído,48,Alto,Pessoa E
+OP-052,2026-04-19,Change,Projetos,Alta,Concluído,16,Alto,Pessoa B
+OP-053,2026-02-01,Run,Automação,Média,Concluído,64,Alto,Pessoa B
+OP-054,2026-07-06,Run,Automação,Média,Em andamento,22,Alto,Pessoa A
+OP-055,2026-02-04,Change,Suporte,Baixa,Concluído,71,Médio,Pessoa C
+OP-056,2026-05-17,Run,Dados,Média,Concluído,70,Baixo,Pessoa B
+OP-057,2026-06-17,Run,Dados,Alta,Concluído,65,Médio,Pessoa D
+OP-058,2026-05-27,Improve,Dados,Alta,Concluído,3,Alto,Pessoa B
+OP-059,2026-01-31,Change,Dados,Baixa,Em andamento,32,Baixo,Pessoa B
+OP-060,2026-03-01,Run,Suporte,Alta,Concluído,37,Alto,Pessoa D
+OP-061,2026-05-31,Change,Suporte,Baixa,Concluído,38,Alto,Pessoa A
+OP-062,2026-07-22,Improve,Dados,Alta,Concluído,28,Baixo,Pessoa E
+OP-063,2026-05-19,Change,Dados,Média,Concluído,42,Alto,Pessoa C
+OP-064,2026-02-17,Run,Suporte,Alta,Concluído,27,Médio,Pessoa B
+OP-065,2026-08-11,Improve,Projetos,Baixa,Concluído,41,Baixo,Pessoa B
+OP-066,2026-03-06,Improve,Dados,Baixa,Backlog,56,Médio,Pessoa A
+OP-067,2026-02-28,Improve,Suporte,Média,Concluído,23,Alto,Pessoa C
+OP-068,2026-01-24,Change,Infraestrutura,Baixa,Concluído,29,Baixo,Pessoa A
+OP-069,2026-06-01,Run,Automação,Baixa,Em andamento,29,Médio,Pessoa D
+OP-070,2026-08-01,Improve,Dados,Média,Concluído,48,Baixo,Pessoa C
+OP-071,2026-02-21,Run,Dados,Baixa,Concluído,18,Alto,Pessoa C
+OP-072,2026-01-21,Run,Projetos,Alta,Concluído,50,Alto,Pessoa E
+OP-073,2026-06-04,Run,Dados,Média,Concluído,18,Médio,Pessoa C
+OP-074,2026-01-17,Improve,Infraestrutura,Média,Em andamento,19,Médio,Pessoa B
+OP-075,2026-04-07,Run,Automação,Alta,Concluído,27,Baixo,Pessoa E
+OP-076,2026-07-27,Run,Infraestrutura,Alta,Concluído,32,Médio,Pessoa E
+OP-077,2026-07-23,Run,Projetos,Baixa,Em andamento,9,Baixo,Pessoa D
+OP-078,2026-04-12,Change,Infraestrutura,Média,Concluído,15,Alto,Pessoa A
+OP-079,2026-03-04,Improve,Dados,Alta,Concluído,56,Alto,Pessoa A
+OP-080,2026-07-15,Run,Projetos,Alta,Concluído,5,Baixo,Pessoa D
+OP-081,2026-06-14,Run,Infraestrutura,Alta,Concluído,8,Baixo,Pessoa C
+OP-082,2026-07-24,Run,Dados,Alta,Backlog,6,Médio,Pessoa D
+OP-083,2026-03-27,Run,Infraestrutura,Baixa,Concluído,62,Baixo,Pessoa A
+OP-084,2026-08-08,Change,Suporte,Alta,Em andamento,55,Médio,Pessoa A
+OP-085,2026-01-07,Run,Automação,Alta,Concluído,31,Médio,Pessoa E
+OP-086,2026-02-12,Improve,Dados,Alta,Concluído,35,Médio,Pessoa B
+OP-087,2026-07-29,Run,Infraestrutura,Alta,Backlog,13,Médio,Pessoa E
+OP-088,2026-05-07,Run,Automação,Média,Concluído,46,Alto,Pessoa D
+OP-089,2026-01-13,Improve,Infraestrutura,Baixa,Concluído,37,Baixo,Pessoa C
+OP-090,2026-01-06,Run,Dados,Média,Concluído,10,Baixo,Pessoa E
+OP-091,2026-04-10,Improve,Infraestrutura,Média,Concluído,32,Médio,Pessoa A
+OP-092,2026-04-26,Improve,Suporte,Baixa,Em andamento,11,Médio,Pessoa B
+OP-093,2026-05-27,Run,Suporte,Alta,Em andamento,21,Baixo,Pessoa E
+OP-094,2026-01-17,Run,Dados,Média,Concluído,15,Baixo,Pessoa C
+OP-095,2026-05-06,Change,Automação,Média,Concluído,33,Médio,Pessoa A
+OP-096,2026-08-16,Improve,Automação,Alta,Backlog,48,Baixo,Pessoa E
+OP-097,2026-05-04,Run,Projetos,Alta,Concluído,12,Baixo,Pessoa C
+OP-098,2026-03-23,Run,Projetos,Média,Concluído,14,Baixo,Pessoa D
+OP-099,2026-03-24,Run,Projetos,Baixa,Concluído,19,Médio,Pessoa C
+OP-100,2026-01-22,Run,Automação,Alta,Concluído,60,Baixo,Pessoa A
+OP-101,2026-03-14,Run,Dados,Média,Concluído,23,Médio,Pessoa D
+OP-102,2026-01-05,Improve,Dados,Média,Em andamento,41,Médio,Pessoa C
+OP-103,2026-07-16,Run,Infraestrutura,Alta,Concluído,47,Baixo,Pessoa E
+OP-104,2026-07-15,Run,Suporte,Baixa,Concluído,49,Médio,Pessoa A
+OP-105,2026-05-04,Run,Automação,Alta,Concluído,51,Médio,Pessoa A
+OP-106,2026-08-16,Run,Projetos,Baixa,Backlog,16,Baixo,Pessoa E
+OP-107,2026-05-30,Run,Automação,Baixa,Concluído,24,Médio,Pessoa D
+OP-108,2026-06-08,Improve,Suporte,Média,Concluído,27,Alto,Pessoa A
+OP-109,2026-03-23,Change,Dados,Média,Concluído,66,Médio,Pessoa B
+OP-110,2026-06-18,Improve,Automação,Baixa,Concluído,13,Baixo,Pessoa D
+OP-111,2026-01-05,Improve,Dados,Alta,Em andamento,79,Médio,Pessoa D
+OP-112,2026-06-09,Run,Automação,Alta,Em andamento,44,Alto,Pessoa C
+OP-113,2026-03-12,Improve,Projetos,Média,Concluído,54,Alto,Pessoa B
+OP-114,2026-04-07,Run,Infraestrutura,Média,Backlog,75,Baixo,Pessoa B
+OP-115,2026-01-05,Run,Projetos,Alta,Concluído,77,Baixo,Pessoa B
+OP-116,2026-05-12,Run,Automação,Baixa,Concluído,72,Baixo,Pessoa B
+OP-117,2026-02-16,Improve,Infraestrutura,Alta,Concluído,79,Alto,Pessoa C
+OP-118,2026-02-28,Change,Dados,Baixa,Concluído,62,Alto,Pessoa C
+OP-119,2026-03-28,Run,Dados,Baixa,Concluído,36,Alto,Pessoa E
+OP-120,2026-08-16,Improve,Automação,Média,Concluído,61,Alto,Pessoa D
+OP-121,2026-08-10,Improve,Dados,Baixa,Backlog,47,Alto,Pessoa C
+OP-122,2026-06-07,Run,Dados,Baixa,Concluído,32,Baixo,Pessoa D
+OP-123,2026-06-25,Improve,Projetos,Alta,Concluído,46,Baixo,Pessoa D
+OP-124,2026-07-12,Run,Dados,Alta,Concluído,24,Baixo,Pessoa A
+OP-125,2026-04-12,Run,Automação,Média,Em andamento,41,Baixo,Pessoa E
+OP-126,2026-01-18,Run,Suporte,Média,Em andamento,56,Baixo,Pessoa A
+OP-127,2026-04-23,Run,Suporte,Alta,Em andamento,64,Alto,Pessoa B
+OP-128,2026-07-29,Improve,Suporte,Média,Em andamento,62,Baixo,Pessoa B
+OP-129,2026-03-08,Run,Infraestrutura,Alta,Concluído,45,Baixo,Pessoa B
+OP-130,2026-08-12,Improve,Infraestrutura,Média,Concluído,62,Alto,Pessoa A
+OP-131,2026-01-03,Run,Automação,Média,Concluído,24,Baixo,Pessoa E
+OP-132,2026-06-19,Run,Dados,Baixa,Backlog,63,Médio,Pessoa D
+OP-133,2026-03-23,Change,Dados,Alta,Concluído,57,Alto,Pessoa C
+OP-134,2026-05-12,Change,Projetos,Baixa,Concluído,47,Alto,Pessoa E
+OP-135,2026-01-01,Improve,Dados,Média,Concluído,5,Médio,Pessoa C
+OP-136,2026-01-29,Run,Projetos,Baixa,Concluído,61,Alto,Pessoa C
+OP-137,2026-04-04,Change,Dados,Baixa,Concluído,16,Baixo,Pessoa A
+OP-138,2026-07-09,Improve,Projetos,Média,Concluído,56,Alto,Pessoa B
+OP-139,2026-08-18,Change,Projetos,Alta,Backlog,65,Baixo,Pessoa D
+OP-140,2026-04-06,Improve,Projetos,Média,Concluído,62,Baixo,Pessoa D
+OP-141,2026-02-17,Change,Dados,Baixa,Concluído,6,Baixo,Pessoa B
+OP-142,2026-01-04,Run,Dados,Alta,Em andamento,31,Alto,Pessoa A
+OP-143,2026-08-27,Run,Suporte,Alta,Backlog,28,Baixo,Pessoa D
+OP-144,2026-01-07,Run,Infraestrutura,Baixa,Concluído,46,Baixo,Pessoa D
+OP-145,2026-03-04,Improve,Dados,Média,Em andamento,30,Baixo,Pessoa B
+OP-146,2026-05-26,Improve,Infraestrutura,Alta,Concluído,63,Baixo,Pessoa E
+OP-147,2026-08-27,Run,Infraestrutura,Média,Em andamento,47,Baixo,Pessoa E
+OP-148,2026-06-29,Run,Projetos,Baixa,Concluído,38,Médio,Pessoa C
+OP-149,2026-05-28,Improve,Dados,Média,Concluído,8,Médio,Pessoa D
+OP-150,2026-05-31,Change,Infraestrutura,Baixa,Concluído,73,Alto,Pessoa E
+OP-151,2026-07-24,Run,Projetos,Baixa,Backlog,22,Médio,Pessoa D
+OP-152,2026-06-18,Change,Infraestrutura,Baixa,Concluído,27,Alto,Pessoa C
+OP-153,2026-05-20,Change,Automação,Média,Concluído,42,Baixo,Pessoa B
+OP-154,2026-07-01,Run,Infraestrutura,Baixa,Backlog,68,Baixo,Pessoa C
+OP-155,2026-03-01,Run,Dados,Média,Concluído,66,Médio,Pessoa D
+OP-156,2026-06-12,Run,Dados,Média,Backlog,59,Médio,Pessoa B
+OP-157,2026-02-22,Change,Automação,Alta,Em andamento,4,Baixo,Pessoa E
+OP-158,2026-01-07,Improve,Dados,Alta,Concluído,2,Baixo,Pessoa A
+OP-159,2026-07-02,Change,Dados,Alta,Concluído,18,Alto,Pessoa D
+OP-160,2026-04-01,Run,Dados,Média,Concluído,43,Baixo,Pessoa E
+OP-161,2026-03-21,Run,Projetos,Média,Concluído,70,Médio,Pessoa C
+OP-162,2026-01-24,Change,Projetos,Baixa,Concluído,74,Médio,Pessoa A
+OP-163,2026-03-24,Run,Suporte,Alta,Concluído,62,Alto,Pessoa E
+OP-164,2026-03-28,Run,Suporte,Alta,Concluído,20,Baixo,Pessoa A
+OP-165,2026-01-19,Run,Projetos,Baixa,Em andamento,11,Baixo,Pessoa B
+OP-166,2026-06-09,Change,Suporte,Média,Concluído,50,Alto,Pessoa A
+OP-167,2026-06-18,Run,Suporte,Média,Concluído,34,Baixo,Pessoa A
+OP-168,2026-02-27,Run,Infraestrutura,Alta,Backlog,44,Baixo,Pessoa A
+OP-169,2026-07-26,Change,Infraestrutura,Baixa,Concluído,79,Alto,Pessoa A
+OP-170,2026-04-15,Improve,Dados,Alta,Backlog,16,Alto,Pessoa D
+OP-171,2026-02-28,Run,Suporte,Alta,Em andamento,26,Médio,Pessoa C
+OP-172,2026-07-27,Run,Automação,Baixa,Concluído,32,Alto,Pessoa E
+OP-173,2026-08-27,Improve,Infraestrutura,Alta,Concluído,47,Baixo,Pessoa B
+OP-174,2026-08-17,Change,Automação,Média,Concluído,50,Alto,Pessoa B
+OP-175,2026-08-26,Run,Dados,Média,Concluído,12,Médio,Pessoa E
+OP-176,2026-03-31,Run,Suporte,Baixa,Concluído,23,Alto,Pessoa E
+OP-177,2026-01-23,Improve,Infraestrutura,Baixa,Backlog,52,Alto,Pessoa C
+OP-178,2026-01-30,Change,Suporte,Baixa,Concluído,2,Alto,Pessoa E
+OP-179,2026-01-22,Run,Dados,Alta,Concluído,6,Alto,Pessoa A
+OP-180,2026-08-12,Change,Automação,Alta,Em andamento,13,Alto,Pessoa D

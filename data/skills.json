@@ -1,149 +1,93 @@
-[
-  {
-    "name": "Business Intelligence",
-    "description": "Dashboards estratégicos, táticos e operacionais.",
-    "stacks": [
-      "Power BI",
-      "DAX",
-      "QlikView",
-      "Looker Studio"
-    ],
-    "capabilities": [
-      "Storytelling",
-      "KPIs",
-      "Dashboard Design"
-    ],
-    "en": {
+{
+  "competencies": [
+    {
       "name": "Business Intelligence",
-      "description": "Strategic, tactical and operational dashboards.",
-      "capabilities": [
-        "Storytelling",
-        "KPIs",
-        "Dashboard Design"
-      ]
+      "description": "Dashboards, KPIs, análise e storytelling para decisão."
+    },
+    {
+      "name": "Análise de Dados",
+      "description": "Exploração, validação e interpretação de dados."
+    },
+    {
+      "name": "Modelagem de Dados",
+      "description": "Modelos dimensionais e camadas analíticas."
+    },
+    {
+      "name": "Automação",
+      "description": "Fluxos confiáveis e redução de atividades manuais."
+    },
+    {
+      "name": "Integração de Sistemas",
+      "description": "APIs, webhooks e conexão entre plataformas."
+    },
+    {
+      "name": "Desenvolvimento",
+      "description": "Ferramentas internas e experiências web."
+    },
+    {
+      "name": "Governança de Dados",
+      "description": "Qualidade, regras, segurança e documentação."
+    },
+    {
+      "name": "Negócio & Gestão",
+      "description": "Requisitos, processos, projetos e stakeholders."
     }
-  },
-  {
-    "name": "Dados & Modelagem",
-    "description": "Exploração, transformação e modelos analíticos.",
-    "stacks": [
-      "SQL Server",
-      "MySQL",
-      "Snowflake",
-      "Python",
-      "Power Query"
-    ],
-    "capabilities": [
-      "Modelagem dimensional",
-      "Star Schema",
-      "Qualidade de dados"
-    ],
-    "en": {
-      "name": "Data & Modeling",
-      "description": "Exploration, transformation and analytical models.",
-      "capabilities": [
-        "Dimensional Modeling",
+  ],
+  "technologyGroups": [
+    {
+      "name": "Linguagens & consultas",
+      "items": [
+        "SQL",
+        "Python",
+        "DAX",
+        "M / Power Query",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "Google Apps Script"
+      ]
+    },
+    {
+      "name": "Ferramentas",
+      "items": [
+        "Power BI",
+        "Excel",
+        "QlikView",
+        "Looker Studio",
+        "Power Automate",
+        "Notion",
+        "Visual Studio Code"
+      ]
+    },
+    {
+      "name": "Metodologias & práticas",
+      "items": [
+        "Modelagem dimensional",
         "Star Schema",
-        "Data Quality"
+        "ETL / ELT",
+        "Qualidade de dados",
+        "Governança",
+        "Definição de KPIs",
+        "Storytelling",
+        "Agile / Kanban",
+        "Documentação técnica"
+      ]
+    },
+    {
+      "name": "Ecossistema Dev & Data",
+      "items": [
+        "Git",
+        "GitHub",
+        "APIs REST",
+        "Webhooks",
+        "JSON",
+        "SQL Server",
+        "MySQL",
+        "Snowflake",
+        "Azure",
+        "Microsoft Fabric"
       ]
     }
-  },
-  {
-    "name": "Automação & Integração",
-    "description": "Fluxos rastreáveis e redução de atividades manuais.",
-    "stacks": [
-      "Power Automate",
-      "Google Apps Script",
-      "APIs",
-      "Webhooks",
-      "Notion API"
-    ],
-    "capabilities": [
-      "Desenho de fluxo",
-      "Integração de sistemas"
-    ],
-    "en": {
-      "name": "Automation & Integration",
-      "description": "Traceable flows and reduced manual work.",
-      "capabilities": [
-        "Flow Design",
-        "Systems Integration"
-      ]
-    }
-  },
-  {
-    "name": "Desenvolvimento",
-    "description": "Ferramentas internas, aplicações e experiências web.",
-    "stacks": [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "Python",
-      "GitHub"
-    ],
-    "capabilities": [
-      "Prototipação",
-      "Resolução de problemas"
-    ],
-    "en": {
-      "name": "Development",
-      "description": "Internal tools, applications and web experiences.",
-      "capabilities": [
-        "Prototyping",
-        "Problem Solving"
-      ]
-    }
-  },
-  {
-    "name": "Governança",
-    "description": "Bases confiáveis e critérios consistentes de decisão.",
-    "stacks": [
-      "Microsoft Fabric",
-      "Azure",
-      "Notion"
-    ],
-    "capabilities": [
-      "Governança",
-      "Regras de negócio",
-      "Documentação",
-      "Rastreabilidade"
-    ],
-    "en": {
-      "name": "Governance",
-      "description": "Reliable datasets and consistent decision criteria.",
-      "capabilities": [
-        "Governance",
-        "Business Rules",
-        "Documentation",
-        "Traceability"
-      ]
-    }
-  },
-  {
-    "name": "Negócio & Gestão",
-    "description": "Tradução entre contexto de negócio e solução técnica.",
-    "stacks": [
-      "Microsoft 365",
-      "Notion",
-      "Power BI"
-    ],
-    "capabilities": [
-      "Requisitos",
-      "Processos",
-      "Projetos",
-      "Stakeholders",
-      "Melhoria contínua"
-    ],
-    "en": {
-      "name": "Business & Management",
-      "description": "Translation between business context and technical solutions.",
-      "capabilities": [
-        "Requirements",
-        "Processes",
-        "Projects",
-        "Stakeholders",
-        "Continuous Improvement"
-      ]
-    }
-  }
-]
+  ],
+  "en": {}
+}

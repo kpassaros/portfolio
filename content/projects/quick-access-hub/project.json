@@ -1,0 +1,77 @@
+{
+  "id": "quick-access-hub",
+  "title": "Quick Access Hub para Notion",
+  "category": "Labs",
+  "status": "Case aplicado",
+  "year": 2026,
+  "featured": false,
+  "new": true,
+  "projectType": "Case aplicado",
+  "dataNature": "Demonstração 100% fictícia. Resultado de adoção é real, agregado e anonimizado.",
+  "summary": "Componente incorporado ao Notion para transformar links dispersos em uma central pesquisável de serviços.",
+  "problem": "Links nativos tinham pouca hierarquia, explicação e capacidade de descoberta para colaboradores.",
+  "role": "Desenho da experiência, protótipo HTML, categorização dos serviços e integração via embed.",
+  "solution": "Portal responsivo com busca, filtros, cards, status dos serviços e links que preservam as permissões do Notion.",
+  "results": [
+    "Nova experiência implantada em 14/08/2026",
+    "Página central registrou mais de 1.000 visualizações em 90 dias",
+    "Métrica de página agregada, sem atribuição causal integral à reformulação"
+  ],
+  "technologies": [
+    "Notion",
+    "HTML",
+    "CSS",
+    "JavaScript e JSON"
+  ],
+  "stackGroups": [
+    {
+      "label": "Plataforma",
+      "items": [
+        "Notion"
+      ]
+    },
+    {
+      "label": "Interface",
+      "items": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ]
+    },
+    {
+      "label": "Conteúdo",
+      "items": [
+        "JSON",
+        "UX Writing"
+      ]
+    }
+  ],
+  "cover": "cover.png",
+  "metrics": {},
+  "demo": {
+    "mode": "github-html",
+    "embedPath": "content/projects/quick-access-hub/dashboard/index.html",
+    "embedUrl": "",
+    "externalUrl": "",
+    "fallbackImage": "content/projects/quick-access-hub/cover.png",
+    "pbixDownload": ""
+  },
+  "links": {
+    "github": "https://github.com/kpassaros/portfolio-dados-bi",
+    "kaggle": "",
+    "documentation": "",
+    "dataset": ""
+  },
+  "disclosure": {
+    "label": "Demonstração com dados fictícios",
+    "detail": "Demonstração 100% fictícia. Resultado de adoção é real, agregado e anonimizado."
+  },
+  "i18n": {
+    "en-US": {
+      "title": "Quick Access Hub for Notion",
+      "category": "Labs",
+      "status": "Applied case",
+      "summary": "Embedded Notion component that turns scattered links into a searchable service hub."
+    }
+  }
+}

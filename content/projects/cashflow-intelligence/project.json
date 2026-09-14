@@ -96,5 +96,11 @@
         "Ready for Power BI Online or an HTML dashboard"
       ]
     }
+  },
+  "projectType": "Estudo de caso",
+  "dataNature": "Base 100% sintética criada para demonstração.",
+  "disclosure": {
+    "label": "Dados 100% fictícios",
+    "detail": "Indicadores e transações foram gerados exclusivamente para demonstração."
   }
 }

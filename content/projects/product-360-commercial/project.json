@@ -1,0 +1,86 @@
+{
+  "id": "product-360-commercial",
+  "title": "Product 360° & Commercial Publishing",
+  "category": "Integração",
+  "status": "Case aplicado",
+  "year": 2022,
+  "featured": false,
+  "new": true,
+  "projectType": "Case aplicado",
+  "dataNature": "Empresa, produtos, preços, unidades e clientes são fictícios; arquitetura baseada em aplicação real.",
+  "summary": "Integração de dados de produtos e geração parametrizada de materiais comerciais.",
+  "problem": "Informações de catálogo estavam distribuídas entre ERP, e-commerce, fornecedor técnico e controles paralelos.",
+  "role": "Mapeamento das fontes, definição de código comum, joins, enriquecimento e construção das experiências de consumo.",
+  "solution": "Modelo Produto 360° para catálogo e uma ferramenta parametrizada para gerar folders por unidade, marca e linha.",
+  "results": [
+    "Dados técnicos, imagens, aplicações e similares consolidados",
+    "Materiais comerciais gerados por filtros",
+    "Integração conceitual entre ERP, e-commerce, catálogo e BI"
+  ],
+  "technologies": [
+    "QlikView",
+    "Power BI",
+    "Looker Studio",
+    "MySQL",
+    "VTEX e APIs"
+  ],
+  "stackGroups": [
+    {
+      "label": "Fontes",
+      "items": [
+        "ERP",
+        "VTEX",
+        "Catálogo"
+      ]
+    },
+    {
+      "label": "Integração",
+      "items": [
+        "APIs",
+        "ODBC"
+      ]
+    },
+    {
+      "label": "Dados",
+      "items": [
+        "MySQL",
+        "QVD"
+      ]
+    },
+    {
+      "label": "Consumo",
+      "items": [
+        "Power BI",
+        "Looker Studio"
+      ]
+    }
+  ],
+  "cover": "cover.png",
+  "metrics": {},
+  "demo": {
+    "mode": "github-html",
+    "embedPath": "content/projects/product-360-commercial/dashboard/index.html",
+    "embedUrl": "",
+    "externalUrl": "",
+    "fallbackImage": "content/projects/product-360-commercial/cover.png",
+    "pbixDownload": ""
+  },
+  "links": {
+    "github": "https://github.com/kpassaros/portfolio-dados-bi",
+    "kaggle": "",
+    "documentation": "",
+    "dataset": ""
+  },
+  "disclosure": {
+    "label": "Demonstração com dados fictícios",
+    "detail": "Empresa, produtos, preços, unidades e clientes são fictícios; arquitetura baseada em aplicação real."
+  },
+  "i18n": {
+    "en-US": {
+      "title": "Product 360° & Commercial Publishing",
+      "category": "Integration",
+      "status": "Applied case",
+      "summary": "Product-data integration and parameterized generation of commercial materials."
+    }
+  }
+}

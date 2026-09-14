@@ -2,58 +2,55 @@
   "id": "operations-command-center",
   "title": "Operations Command Center",
   "category": "Dados & BI",
-  "status": "Em breve",
+  "status": "Estudo de caso",
   "year": 2026,
-  "featured": false,
-  "new": false,
-  "summary": "Visão executiva de operação, capacidade, SLA, qualidade e prioridades de atendimento.",
-  "problem": "Projeto planejado para transformar um processo relevante em uma solução documentada e demonstrável.",
-  "role": "Descoberta, requisitos, arquitetura, desenvolvimento, documentação e validação.",
-  "solution": "Case será publicado com dados seguros, documentação e demonstração reproduzível.",
+  "featured": true,
+  "new": true,
+  "projectType": "Estudo de caso",
+  "dataNature": "Base e indicadores 100% fictícios, inspirados em desafios operacionais reais.",
+  "summary": "Visão executiva integrada da operação de Tecnologia: sustentação, projetos, capacidade, risco e prioridades.",
+  "problem": "Chamados, projetos e tarefas disputavam capacidade sem uma leitura consolidada para priorização.",
+  "role": "Arquitetura do modelo, definição de indicadores, experiência executiva e criação do kit para reprodução no Power BI.",
+  "solution": "Dashboard HTML com dados sintéticos e kit Power BI contendo bases, modelo, medidas e tema.",
   "results": [
-    "Escopo e arquitetura definidos",
-    "Demonstração pública planejada",
-    "Documentação preparada para evolução"
+    "Visão Run, Improve e Change",
+    "Capacidade, WIP, SLA, backlog e risco em uma tela",
+    "Kit reproduzível para Power BI Desktop"
   ],
   "technologies": [
     "Power BI",
-    "SQL",
-    "KPIs",
-    "SLA"
+    "HTML",
+    "DAX",
+    "CSV e Star Schema"
   ],
   "stackGroups": [
     {
-      "label": "Dados",
+      "label": "Visualização",
       "items": [
-        "SQL"
+        "Power BI",
+        "HTML"
       ]
     },
     {
       "label": "Modelagem",
       "items": [
-        "KPIs",
-        "SLA"
+        "DAX",
+        "Star Schema"
       ]
     },
     {
-      "label": "Visualização",
+      "label": "Dados",
       "items": [
-        "Power BI"
-      ]
-    },
-    {
-      "label": "Gestão",
-      "items": [
-        "Prioridades",
-        "Capacidade"
+        "CSV",
+        "Power Query"
       ]
     }
   ],
   "cover": "cover.png",
   "metrics": {},
   "demo": {
-    "mode": "none",
-    "embedPath": "",
+    "mode": "github-html",
+    "embedPath": "content/projects/operations-command-center/dashboard/index.html",
     "embedUrl": "",
     "externalUrl": "",
     "fallbackImage": "content/projects/operations-command-center/cover.png",
@@ -65,20 +62,16 @@
     "documentation": "",
     "dataset": ""
   },
+  "disclosure": {
+    "label": "Demonstração com dados fictícios",
+    "detail": "Base e indicadores 100% fictícios, inspirados em desafios operacionais reais."
+  },
   "i18n": {
     "en-US": {
       "title": "Operations Command Center",
       "category": "Data & BI",
-      "status": "Coming soon",
-      "summary": "Executive view of operations, capacity, SLA, quality and service priorities.",
-      "problem": "A planned project that turns a relevant process into a documented and demonstrable solution.",
-      "role": "Discovery, requirements, architecture, development, documentation and validation.",
-      "solution": "The case will be published with safe data, documentation and a reproducible demo.",
-      "results": [
-        "Scope and architecture defined",
-        "Public demo planned",
-        "Documentation prepared for evolution"
-      ]
+      "status": "Case study",
+      "summary": "Executive view of technology operations: support, projects, capacity, risk and priorities."
     }
   }
 }

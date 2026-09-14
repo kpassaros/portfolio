@@ -1,8 +1,8 @@
 {
   "id": "documentation-hub",
   "title": "Data & BI Documentation Hub",
-  "category": "Governança",
-  "status": "Em breve",
+  "category": "Labs",
+  "status": "Lab",
   "year": 2026,
   "featured": false,
   "new": true,
@@ -80,5 +80,11 @@
         "Documentation prepared for evolution"
       ]
     }
+  },
+  "projectType": "Lab",
+  "dataNature": "Conteúdo e exemplos 100% fictícios.",
+  "disclosure": {
+    "label": "Lab fictício",
+    "detail": "Documentos, KPIs e linhagem existem apenas para demonstração."
   }
 }

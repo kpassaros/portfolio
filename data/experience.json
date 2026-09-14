@@ -19,7 +19,8 @@
         "Mais de 100 demandas mensais com 98% dentro do prazo",
         "Governança analítica, documentação e evolução de dashboards"
       ]
-    }
+    },
+    "side": "right"
   },
   {
     "period": "2024–2025",
@@ -41,7 +42,8 @@
         "Validação de regras, granularidade e qualidade de dados",
         "Integrações entre Notion, Power BI, Excel e Power Query"
       ]
-    }
+    },
+    "side": "left"
   },
   {
     "period": "2021–2024",
@@ -63,7 +65,8 @@
         "MySQL, Python e Google Apps Script",
         "Integrações, VTEX e ferramentas internas"
       ]
-    }
+    },
+    "side": "right"
   },
   {
     "period": "2016–2021",
@@ -77,6 +80,7 @@
       "role": "Operations, administration and sales",
       "summary": "Practical foundation in customer service, ERP, logistics, commercial processes and operational metrics.",
       "highlights": []
-    }
+    },
+    "side": "left"
   }
 ]

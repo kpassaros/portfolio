@@ -2,57 +2,55 @@
   "id": "central-chamados-sla",
   "title": "Central de Chamados & SLA",
   "category": "Automação",
-  "status": "Em breve",
+  "status": "Case aplicado",
   "year": 2026,
   "featured": true,
   "new": true,
-  "summary": "Notion, indicadores e automações para controlar solicitações, prazos e recorrências.",
-  "problem": "Projeto planejado para transformar um processo relevante em uma solução documentada e demonstrável.",
-  "role": "Descoberta, requisitos, arquitetura, desenvolvimento, documentação e validação.",
-  "solution": "Case será publicado com dados seguros, documentação e demonstração reproduzível.",
+  "projectType": "Case aplicado",
+  "dataNature": "Estudo baseado em solução real. Tickets, nomes, responsáveis e unidades são fictícios.",
+  "summary": "Central operacional para acompanhar volume, prioridade, SLA, backlog e recorrência de solicitações.",
+  "problem": "A entrada descentralizada de solicitações dificultava priorização, acompanhamento de prazo e análise de recorrência.",
+  "role": "Mapeamento do processo, estruturação da base no Notion, definição de categorias e indicadores e desenho da experiência analítica.",
+  "solution": "Modelo operacional com canal único, rastreabilidade e dashboard HTML recriado com tickets, pessoas e unidades fictícias.",
   "results": [
-    "Escopo e arquitetura definidos",
-    "Demonstração pública planejada",
-    "Documentação preparada para evolução"
+    "Demonstração interativa com filtros de prioridade e categoria",
+    "Visão de SLA, backlog, volume e recorrência",
+    "Estrutura preparada para análise semanal"
   ],
   "technologies": [
     "Notion",
-    "Power BI",
-    "APIs",
-    "Automação"
+    "HTML",
+    "JavaScript e indicadores de SLA"
   ],
   "stackGroups": [
     {
       "label": "Operação",
       "items": [
-        "Notion"
-      ]
-    },
-    {
-      "label": "Indicadores",
-      "items": [
-        "Power BI",
+        "Notion",
         "SLA"
       ]
     },
     {
-      "label": "Integração",
+      "label": "Interface",
       "items": [
-        "APIs"
+        "HTML",
+        "CSS",
+        "JavaScript"
       ]
     },
     {
-      "label": "Automação",
+      "label": "Análise",
       "items": [
-        "Power Automate"
+        "KPIs",
+        "Backlog"
       ]
     }
   ],
   "cover": "cover.png",
   "metrics": {},
   "demo": {
-    "mode": "none",
-    "embedPath": "",
+    "mode": "github-html",
+    "embedPath": "content/projects/central-chamados-sla/dashboard/index.html",
     "embedUrl": "",
     "externalUrl": "",
     "fallbackImage": "content/projects/central-chamados-sla/cover.png",
@@ -64,20 +62,16 @@
     "documentation": "",
     "dataset": ""
   },
+  "disclosure": {
+    "label": "Demonstração com dados fictícios",
+    "detail": "Estudo baseado em solução real. Tickets, nomes, responsáveis e unidades são fictícios."
+  },
   "i18n": {
     "en-US": {
       "title": "Service Desk & SLA Center",
       "category": "Automation",
-      "status": "Coming soon",
-      "summary": "Notion, metrics and automations to manage requests, deadlines and recurring issues.",
-      "problem": "A planned project that turns a relevant process into a documented and demonstrable solution.",
-      "role": "Discovery, requirements, architecture, development, documentation and validation.",
-      "solution": "The case will be published with safe data, documentation and a reproducible demo.",
-      "results": [
-        "Scope and architecture defined",
-        "Public demo planned",
-        "Documentation prepared for evolution"
-      ]
+      "status": "Applied case",
+      "summary": "Operational center for tracking volume, priority, SLA, backlog and recurring requests."
     }
   }
 }

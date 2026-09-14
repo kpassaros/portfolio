@@ -1,0 +1,76 @@
+{
+  "id": "html-visual-powerbi",
+  "title": "HTML Visual Components para Power BI",
+  "category": "Labs",
+  "status": "Em implementação",
+  "year": 2026,
+  "featured": false,
+  "new": true,
+  "projectType": "Applied Lab",
+  "dataNature": "Protótipo e dados 100% fictícios. Componentes em implementação para um próximo deploy.",
+  "summary": "Biblioteca de componentes HTML para reunir meta, realizado, variação e contexto em uma UI compacta.",
+  "problem": "Visuais tradicionais exigiam vários objetos para comunicar progresso, comparação e status.",
+  "role": "Concepção dos componentes, prototipação visual e preparação para uso com medidas do Power BI.",
+  "solution": "Playground com cards reutilizáveis e documentação de integração por medidas DAX.",
+  "results": [
+    "Protótipos validados",
+    "Componentes selecionados para o próximo deploy",
+    "Biblioteca preparada para evolução e reutilização"
+  ],
+  "technologies": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Power BI e DAX"
+  ],
+  "stackGroups": [
+    {
+      "label": "Interface",
+      "items": [
+        "HTML",
+        "CSS"
+      ]
+    },
+    {
+      "label": "Lógica",
+      "items": [
+        "JavaScript",
+        "DAX"
+      ]
+    },
+    {
+      "label": "Plataforma",
+      "items": [
+        "Power BI"
+      ]
+    }
+  ],
+  "cover": "cover.png",
+  "metrics": {},
+  "demo": {
+    "mode": "github-html",
+    "embedPath": "content/projects/html-visual-powerbi/dashboard/index.html",
+    "embedUrl": "",
+    "externalUrl": "",
+    "fallbackImage": "content/projects/html-visual-powerbi/cover.png",
+    "pbixDownload": ""
+  },
+  "links": {
+    "github": "https://github.com/kpassaros/portfolio-dados-bi",
+    "kaggle": "",
+    "documentation": "",
+    "dataset": ""
+  },
+  "disclosure": {
+    "label": "Demonstração com dados fictícios",
+    "detail": "Protótipo e dados 100% fictícios. Componentes em implementação para um próximo deploy."
+  },
+  "i18n": {
+    "en-US": {
+      "title": "HTML Visual Components for Power BI",
+      "category": "Labs",
+      "status": "In implementation",
+      "summary": "HTML component library combining goals, actuals, variance and context in a compact UI."
+    }
+  }
+}
