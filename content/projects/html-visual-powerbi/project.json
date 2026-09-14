@@ -70,7 +70,19 @@
       "title": "HTML Visual Components for Power BI",
       "category": "Labs",
       "status": "In implementation",
-      "summary": "HTML component library combining goals, actuals, variance and context in a compact UI."
+      "summary": "HTML component library combining goals, actuals, variance and context in a compact UI.",
+      "problem": "Traditional visuals required multiple objects to communicate progress, comparison and status.",
+      "role": "Component concept, visual prototyping and preparation for use with Power BI measures.",
+      "solution": "A reusable card playground plus guidance for integration through DAX measures.",
+      "results": [
+        "Prototypes validated",
+        "Components selected for the next deployment",
+        "Library prepared for evolution and reuse"
+      ],
+      "disclosure": {
+        "label": "Fictitious demonstration data",
+        "detail": "The public demonstration removes or recreates operational and personal information."
+      }
     }
   }
 }

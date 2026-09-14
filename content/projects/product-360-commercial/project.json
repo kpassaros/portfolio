@@ -80,7 +80,19 @@
       "title": "Product 360° & Commercial Publishing",
       "category": "Integration",
       "status": "Applied case",
-      "summary": "Product-data integration and parameterized generation of commercial materials."
+      "summary": "Product-data integration and parameterized generation of commercial materials.",
+      "problem": "Catalog information was distributed across ERP, e-commerce, technical suppliers and parallel controls.",
+      "role": "Source mapping, shared identifiers, joins, enrichment and consumption experience design.",
+      "solution": "A Product 360° model plus a parameterized tool for generating commercial materials by unit, brand and product line.",
+      "results": [
+        "Technical data, images, applications and alternatives consolidated",
+        "Commercial materials generated through filters",
+        "Conceptual integration across ERP, e-commerce, catalog and BI"
+      ],
+      "disclosure": {
+        "label": "Fictitious demonstration data",
+        "detail": "The public demonstration removes or recreates operational and personal information."
+      }
     }
   }
 }

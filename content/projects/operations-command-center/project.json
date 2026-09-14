@@ -71,7 +71,19 @@
       "title": "Operations Command Center",
       "category": "Data & BI",
       "status": "Case study",
-      "summary": "Executive view of technology operations: support, projects, capacity, risk and priorities."
+      "summary": "Executive view of technology operations: support, projects, capacity, risk and priorities.",
+      "problem": "Support requests, projects and tasks competed for capacity without a consolidated prioritization view.",
+      "role": "Data-model architecture, KPI definition, executive experience and a reproducible Power BI kit.",
+      "solution": "An HTML dashboard with synthetic data and a Power BI kit containing datasets, model guidance, measures and theme.",
+      "results": [
+        "Run, Improve and Change overview",
+        "Capacity, WIP, SLA, backlog and risk in one view",
+        "Reproducible Power BI Desktop kit"
+      ],
+      "disclosure": {
+        "label": "Fictitious demonstration data",
+        "detail": "The public demonstration removes or recreates operational and personal information."
+      }
     }
   }
 }

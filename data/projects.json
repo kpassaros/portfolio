@@ -178,7 +178,19 @@
         "title": "Service Desk & SLA Center",
         "category": "Automation",
         "status": "Applied case",
-        "summary": "Operational center for tracking volume, priority, SLA, backlog and recurring requests."
+        "summary": "Operational center for tracking volume, priority, SLA, backlog and recurring requests.",
+        "problem": "Requests arrived through scattered channels, making prioritization, due-date tracking and recurring-issue analysis difficult.",
+        "role": "Process mapping, Notion data structure, service categories, indicators and analytical experience design.",
+        "solution": "A single operational workflow with traceability and a recreated HTML dashboard using fictional tickets, people and business units.",
+        "results": [
+          "Interactive demo with priority and category filters",
+          "SLA, backlog, volume and recurrence views",
+          "Structure prepared for weekly operational reviews"
+        ],
+        "disclosure": {
+          "label": "Fictitious demonstration data",
+          "detail": "The public demonstration removes or recreates operational and personal information."
+        }
       }
     }
   },
@@ -255,7 +267,19 @@
         "title": "Operations Command Center",
         "category": "Data & BI",
         "status": "Case study",
-        "summary": "Executive view of technology operations: support, projects, capacity, risk and priorities."
+        "summary": "Executive view of technology operations: support, projects, capacity, risk and priorities.",
+        "problem": "Support requests, projects and tasks competed for capacity without a consolidated prioritization view.",
+        "role": "Data-model architecture, KPI definition, executive experience and a reproducible Power BI kit.",
+        "solution": "An HTML dashboard with synthetic data and a Power BI kit containing datasets, model guidance, measures and theme.",
+        "results": [
+          "Run, Improve and Change overview",
+          "Capacity, WIP, SLA, backlog and risk in one view",
+          "Reproducible Power BI Desktop kit"
+        ],
+        "disclosure": {
+          "label": "Fictitious demonstration data",
+          "detail": "The public demonstration removes or recreates operational and personal information."
+        }
       }
     }
   },
@@ -337,7 +361,19 @@
         "title": "Production Performance Intelligence",
         "category": "Data & BI",
         "status": "Case study",
-        "summary": "Dashboard for production, yield, losses, batches, lead time and operational risk."
+        "summary": "Dashboard for production, yield, losses, batches, lead time and operational risk.",
+        "problem": "The operation needed to connect production volume, efficiency, losses and batch criticality in one analytical journey.",
+        "role": "Review of the original report, reconstruction of the demo model and definition of a reproducible architecture.",
+        "solution": "Case recreated with synthetic data, an HTML dashboard and a Power BI modeling kit.",
+        "results": [
+          "Thirteen original report perspectives consolidated into one journey",
+          "Yield, losses, lead-time and risk views",
+          "Synthetic dataset ready for learning and reproduction"
+        ],
+        "disclosure": {
+          "label": "Fictitious demonstration data",
+          "detail": "The public demonstration removes or recreates operational and personal information."
+        }
       }
     }
   },
@@ -503,7 +539,19 @@
         "title": "HTML Visual Components for Power BI",
         "category": "Labs",
         "status": "In implementation",
-        "summary": "HTML component library combining goals, actuals, variance and context in a compact UI."
+        "summary": "HTML component library combining goals, actuals, variance and context in a compact UI.",
+        "problem": "Traditional visuals required multiple objects to communicate progress, comparison and status.",
+        "role": "Component concept, visual prototyping and preparation for use with Power BI measures.",
+        "solution": "A reusable card playground plus guidance for integration through DAX measures.",
+        "results": [
+          "Prototypes validated",
+          "Components selected for the next deployment",
+          "Library prepared for evolution and reuse"
+        ],
+        "disclosure": {
+          "label": "Fictitious demonstration data",
+          "detail": "The public demonstration removes or recreates operational and personal information."
+        }
       }
     }
   },
@@ -580,7 +628,19 @@
         "title": "Quick Access Hub for Notion",
         "category": "Labs",
         "status": "Applied case",
-        "summary": "Embedded Notion component that turns scattered links into a searchable service hub."
+        "summary": "Embedded Notion component that turns scattered links into a searchable service hub.",
+        "problem": "Native links provided limited hierarchy, explanation and discoverability for employees.",
+        "role": "Experience design, HTML prototype, service categorization and embed integration.",
+        "solution": "Responsive portal with search, filters, cards, service status and links that preserve Notion permissions.",
+        "results": [
+          "New experience launched on August 14, 2026",
+          "The central page recorded more than 1,000 views over 90 days",
+          "Aggregated page metric with no full causal attribution to the redesign"
+        ],
+        "disclosure": {
+          "label": "Fictitious demonstration data",
+          "detail": "The public demonstration removes or recreates operational and personal information."
+        }
       }
     }
   },
@@ -666,7 +726,19 @@
         "title": "Product 360° & Commercial Publishing",
         "category": "Integration",
         "status": "Applied case",
-        "summary": "Product-data integration and parameterized generation of commercial materials."
+        "summary": "Product-data integration and parameterized generation of commercial materials.",
+        "problem": "Catalog information was distributed across ERP, e-commerce, technical suppliers and parallel controls.",
+        "role": "Source mapping, shared identifiers, joins, enrichment and consumption experience design.",
+        "solution": "A Product 360° model plus a parameterized tool for generating commercial materials by unit, brand and product line.",
+        "results": [
+          "Technical data, images, applications and alternatives consolidated",
+          "Commercial materials generated through filters",
+          "Conceptual integration across ERP, e-commerce, catalog and BI"
+        ],
+        "disclosure": {
+          "label": "Fictitious demonstration data",
+          "detail": "The public demonstration removes or recreates operational and personal information."
+        }
       }
     }
   },
@@ -748,7 +820,19 @@
         "title": "Commercial Performance & Data Governance",
         "category": "Data & BI",
         "status": "Applied case",
-        "summary": "Governed brand-target pipeline with validation, versioning, history and analytics."
+        "summary": "Governed brand-target pipeline with validation, versioning, history and analytics.",
+        "problem": "Decentralized targets without validation reduced trust in commercial performance tracking.",
+        "role": "Capture flow, compound keys, validation, version comparison and persistence.",
+        "solution": "Spreadsheet, QlikView/QVD and MySQL pipeline classifying inserts, updates and unchanged records.",
+        "results": [
+          "15,555 records processed in one documented load",
+          "61 business units and 255 brands in the aggregated scope",
+          "More than 229,000 historical rows analyzed"
+        ],
+        "disclosure": {
+          "label": "Fictitious demonstration data",
+          "detail": "The public demonstration removes or recreates operational and personal information."
+        }
       }
     }
   }

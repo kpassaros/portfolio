@@ -89,5 +89,96 @@
       ]
     }
   ],
-  "en": {}
+  "en": {
+    "competencies": [
+      {
+        "name": "Business Intelligence",
+        "description": "Dashboards, KPIs, analytics and storytelling for decisions."
+      },
+      {
+        "name": "Data Analysis",
+        "description": "Exploration, validation and interpretation of data."
+      },
+      {
+        "name": "Data Modeling",
+        "description": "Dimensional models and analytical layers."
+      },
+      {
+        "name": "Automation",
+        "description": "Reliable workflows and reduced manual effort."
+      },
+      {
+        "name": "Systems Integration",
+        "description": "APIs, webhooks and platform connections."
+      },
+      {
+        "name": "Development",
+        "description": "Internal tools and web experiences."
+      },
+      {
+        "name": "Data Governance",
+        "description": "Quality, rules, security and documentation."
+      },
+      {
+        "name": "Business & Management",
+        "description": "Requirements, processes, projects and stakeholders."
+      }
+    ],
+    "technologyGroups": [
+      {
+        "name": "Languages & queries",
+        "items": [
+          "SQL",
+          "Python",
+          "DAX",
+          "M / Power Query",
+          "JavaScript",
+          "HTML",
+          "CSS",
+          "Google Apps Script"
+        ]
+      },
+      {
+        "name": "Tools",
+        "items": [
+          "Power BI",
+          "Excel",
+          "QlikView",
+          "Looker Studio",
+          "Power Automate",
+          "Notion",
+          "Visual Studio Code"
+        ]
+      },
+      {
+        "name": "Methods & practices",
+        "items": [
+          "Dimensional modeling",
+          "Star Schema",
+          "ETL / ELT",
+          "Data quality",
+          "Governance",
+          "KPI definition",
+          "Storytelling",
+          "Agile / Kanban",
+          "Technical documentation"
+        ]
+      },
+      {
+        "name": "Dev & Data ecosystem",
+        "items": [
+          "Git",
+          "GitHub",
+          "REST APIs",
+          "Webhooks",
+          "JSON",
+          "SQL Server",
+          "MySQL",
+          "Snowflake",
+          "Azure",
+          "Microsoft Fabric"
+        ]
+      }
+    ]
+  }
 }

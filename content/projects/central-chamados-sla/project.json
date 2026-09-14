@@ -71,7 +71,19 @@
       "title": "Service Desk & SLA Center",
       "category": "Automation",
       "status": "Applied case",
-      "summary": "Operational center for tracking volume, priority, SLA, backlog and recurring requests."
+      "summary": "Operational center for tracking volume, priority, SLA, backlog and recurring requests.",
+      "problem": "Requests arrived through scattered channels, making prioritization, due-date tracking and recurring-issue analysis difficult.",
+      "role": "Process mapping, Notion data structure, service categories, indicators and analytical experience design.",
+      "solution": "A single operational workflow with traceability and a recreated HTML dashboard using fictional tickets, people and business units.",
+      "results": [
+        "Interactive demo with priority and category filters",
+        "SLA, backlog, volume and recurrence views",
+        "Structure prepared for weekly operational reviews"
+      ],
+      "disclosure": {
+        "label": "Fictitious demonstration data",
+        "detail": "The public demonstration removes or recreates operational and personal information."
+      }
     }
   }
 }

@@ -71,7 +71,19 @@
       "title": "Quick Access Hub for Notion",
       "category": "Labs",
       "status": "Applied case",
-      "summary": "Embedded Notion component that turns scattered links into a searchable service hub."
+      "summary": "Embedded Notion component that turns scattered links into a searchable service hub.",
+      "problem": "Native links provided limited hierarchy, explanation and discoverability for employees.",
+      "role": "Experience design, HTML prototype, service categorization and embed integration.",
+      "solution": "Responsive portal with search, filters, cards, service status and links that preserve Notion permissions.",
+      "results": [
+        "New experience launched on August 14, 2026",
+        "The central page recorded more than 1,000 views over 90 days",
+        "Aggregated page metric with no full causal attribution to the redesign"
+      ],
+      "disclosure": {
+        "label": "Fictitious demonstration data",
+        "detail": "The public demonstration removes or recreates operational and personal information."
+      }
     }
   }
 }

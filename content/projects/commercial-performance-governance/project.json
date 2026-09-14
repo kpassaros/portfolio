@@ -76,7 +76,19 @@
       "title": "Commercial Performance & Data Governance",
       "category": "Data & BI",
       "status": "Applied case",
-      "summary": "Governed brand-target pipeline with validation, versioning, history and analytics."
+      "summary": "Governed brand-target pipeline with validation, versioning, history and analytics.",
+      "problem": "Decentralized targets without validation reduced trust in commercial performance tracking.",
+      "role": "Capture flow, compound keys, validation, version comparison and persistence.",
+      "solution": "Spreadsheet, QlikView/QVD and MySQL pipeline classifying inserts, updates and unchanged records.",
+      "results": [
+        "15,555 records processed in one documented load",
+        "61 business units and 255 brands in the aggregated scope",
+        "More than 229,000 historical rows analyzed"
+      ],
+      "disclosure": {
+        "label": "Fictitious demonstration data",
+        "detail": "The public demonstration removes or recreates operational and personal information."
+      }
     }
   }
 }

@@ -76,7 +76,19 @@
       "title": "Production Performance Intelligence",
       "category": "Data & BI",
       "status": "Case study",
-      "summary": "Dashboard for production, yield, losses, batches, lead time and operational risk."
+      "summary": "Dashboard for production, yield, losses, batches, lead time and operational risk.",
+      "problem": "The operation needed to connect production volume, efficiency, losses and batch criticality in one analytical journey.",
+      "role": "Review of the original report, reconstruction of the demo model and definition of a reproducible architecture.",
+      "solution": "Case recreated with synthetic data, an HTML dashboard and a Power BI modeling kit.",
+      "results": [
+        "Thirteen original report perspectives consolidated into one journey",
+        "Yield, losses, lead-time and risk views",
+        "Synthetic dataset ready for learning and reproduction"
+      ],
+      "disclosure": {
+        "label": "Fictitious demonstration data",
+        "detail": "The public demonstration removes or recreates operational and personal information."
+      }
     }
   }
 }
