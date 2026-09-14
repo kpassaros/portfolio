@@ -94,3 +94,17 @@ Este documento preserva decisões, problemas encontrados, análises, correções
 
 - Case: Construção e evolução do Portfólio de Dados & BI
 - Arquitetura, decisões, versões, problemas, QA, documentação e resultados.
+
+## Revisão v12 — experiência, narrativa e estabilidade visual
+
+- Dark mode definido como padrão antes da primeira pintura.
+- Preferência de tema preservada sem flash branco entre páginas.
+- Navbar fixada ao topo, com estado de scroll, vidro e hierarquia refinada.
+- Botão de tema corrigido para exibir somente um ícone.
+- Loader da home exibido em todas as entradas e sincronizado com a mídia principal.
+- Personagem substituído por vídeo WebM/MP4 otimizado em loop, com poster e fallback.
+- Hero recebeu superfície translúcida para proteger a leitura da rede neural.
+- Separador reposicionado com respiro após o card de posicionamento.
+- Ações dos cards receberam dimensões e alinhamento idênticos.
+- Página Sobre reconstruída com origem, trajetória, método, valores, hobbies e foto.
+- Card de princípio simplificado, sem órbita ou partículas, com azul translúcido.

@@ -28,3 +28,17 @@ node scripts/build-projects.mjs
 - Formspree assíncrono
 - Carreira e skills por JSON
 - Projetos futuros com status
+
+
+## Revisão v12 — narrativa e experiência
+
+- Dark mode aplicado antes da primeira pintura, sem flash branco.
+- Preferência de tema persistente e botão com um único ícone contextual.
+- Navbar fixa com estado visual de scroll.
+- Loader exibido em toda entrada na home e sincronizado com a mídia principal.
+- Personagem animado em WebM/MP4, com poster, fallback e suporte a movimento reduzido.
+- Hero com superfície translúcida para proteger a legibilidade.
+- Página Sobre com foto, trajetória, método, valores e interesses pessoais.
+- Citação em card azul translúcido, sem órbita ou partículas decorativas.
+- Botões dos cards padronizados e alinhados.
+- Validação realizada em 1366×768, 1024×768 e 390×844, em PT/EN e light/dark.
