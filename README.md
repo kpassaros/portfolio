@@ -54,3 +54,13 @@ node scripts/build-projects.mjs
 - Hero reorganizado como uma seção única, com topo e base alinhados nas duas colunas.
 - Card principal e posicionamento usam azul translúcido com blur mínimo.
 - Rede neural permanece visível e responde ao cursor e ao clique.
+
+
+## Revisão v14 — loader de rede pura
+
+- Loader da home reduzido à formação visual da rede neural, sem textos, siglas ou chips.
+- Nós surgem no centro, expandem pela viewport e recebem pulsos contínuos.
+- Faixa horizontal de vidro faz a passagem para a rede permanente da home.
+- Navbar, hero, vídeo, posicionamento e demais seções aparecem gradualmente.
+- Vídeo recortado para exibir somente a saudação, o retorno à posição neutra e uma pausa estática antes do loop.
+- WebM e MP4 otimizados permanecem disponíveis para compatibilidade.

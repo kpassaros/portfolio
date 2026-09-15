@@ -119,3 +119,12 @@ Este documento preserva decisões, problemas encontrados, análises, correções
 - Na home, a camada aparece em transição após a saída do loader; nas demais páginas é imediata.
 - Hero alinhado como uma única seção: card principal e coluna vídeo/posicionamento compartilham topo e base.
 - Superfícies verdes substituídas por azul translúcido com blur reduzido.
+
+## Revisão v14 — rede pura e transição de vidro
+
+- Removidos textos, siglas, chips, progresso e elementos editoriais do loader.
+- Loader passou a exibir somente a formação orgânica da rede neural e seus pulsos.
+- Nós nascem no centro e se expandem até preencher a viewport.
+- Faixa horizontal de vidro faz a passagem entre a rede do loader e a rede permanente da home.
+- Navbar, hero, vídeo, posicionamento e seções aparecem gradualmente.
+- Vídeo foi recortado para remover movimentos laterais iniciais: personagem cumprimenta, retorna à posição neutra e permanece parado antes do loop.
