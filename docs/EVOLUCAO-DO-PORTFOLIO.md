@@ -108,3 +108,14 @@ Este documento preserva decisões, problemas encontrados, análises, correções
 - Ações dos cards receberam dimensões e alinhamento idênticos.
 - Página Sobre reconstruída com origem, trajetória, método, valores, hobbies e foto.
 - Card de princípio simplificado, sem órbita ou partículas, com azul translúcido.
+
+## Revisão v13 — loader neural e proteção de leitura
+
+- Loader da home transformado em experiência de tela cheia.
+- Rede neural cresce do centro e conecta dados, BI, APIs, automação, processos e IA.
+- Status e barra de progresso acompanham a preparação da experiência.
+- Loader continua sincronizado ao vídeo, com limite para conexões lentas.
+- Camada azul global protege a leitura sem bloquear os pulsos ou interações do background.
+- Na home, a camada aparece em transição após a saída do loader; nas demais páginas é imediata.
+- Hero alinhado como uma única seção: card principal e coluna vídeo/posicionamento compartilham topo e base.
+- Superfícies verdes substituídas por azul translúcido com blur reduzido.

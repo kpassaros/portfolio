@@ -42,3 +42,15 @@ node scripts/build-projects.mjs
 - Citação em card azul translúcido, sem órbita ou partículas decorativas.
 - Botões dos cards padronizados e alinhados.
 - Validação realizada em 1366×768, 1024×768 e 390×844, em PT/EN e light/dark.
+
+
+## Revisão v13 — loader neural e camada de leitura
+
+- Loader exclusivo da home reconstruído como experiência de tela cheia.
+- Rede crescente conecta dados, BI, APIs, automação, processos e IA.
+- Loader acompanha a preparação do vídeo, possui progresso e limite de espera.
+- Camada azul global protege a leitura sem bloquear a rede interativa.
+- Na home, a camada surge em transição após o loader; nas demais páginas é imediata.
+- Hero reorganizado como uma seção única, com topo e base alinhados nas duas colunas.
+- Card principal e posicionamento usam azul translúcido com blur mínimo.
+- Rede neural permanece visível e responde ao cursor e ao clique.
