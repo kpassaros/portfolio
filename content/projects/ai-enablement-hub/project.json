@@ -1,0 +1,98 @@
+{
+  "id": "ai-enablement-hub",
+  "title": "AI Enablement Hub",
+  "category": "Labs",
+  "status": "Applied Lab",
+  "year": 2026,
+  "featured": false,
+  "new": true,
+  "projectType": "Applied Lab",
+  "dataNature": "Conteúdo baseado em práticas reais de capacitação; exemplos, pessoas, documentos e classificações são fictícios.",
+  "summary": "Guia interativo para adoção responsável de IA, com prompts, segurança, revisão humana e inteligência de reuniões.",
+  "problem": "O uso de IA sem contexto, critérios de segurança ou validação humana gera respostas frágeis e risco de exposição de informações.",
+  "role": "Estruturação do guia, padrões de prompts, matriz de risco, exercícios, fluxos de revisão e módulo de reuniões.",
+  "solution": "Hub de aprendizagem com biblioteca contextual, classificador de risco, comparação de prompts e human-in-the-loop.",
+  "results": [
+    "Padrão de orientação para decidir quando usar ou não usar IA",
+    "Biblioteca de prompts por situação e exercício de revisão humana",
+    "Módulo de reunião para resumo, decisões, responsáveis, prazos e tarefas"
+  ],
+  "technologies": [
+    "Notion AI",
+    "Microsoft Copilot",
+    "Prompt Engineering",
+    "HTML",
+    "JavaScript",
+    "Governança",
+    "Human-in-the-loop"
+  ],
+  "stackGroups": [
+    {
+      "label": "Plataformas",
+      "items": [
+        "Notion AI",
+        "Microsoft Copilot"
+      ]
+    },
+    {
+      "label": "Experiência",
+      "items": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ]
+    },
+    {
+      "label": "Práticas",
+      "items": [
+        "Prompt Engineering",
+        "Human-in-the-loop",
+        "Gestão do conhecimento"
+      ]
+    },
+    {
+      "label": "Governança",
+      "items": [
+        "Classificação da informação",
+        "Checklist de segurança",
+        "Revisão humana"
+      ]
+    }
+  ],
+  "cover": "cover.png",
+  "metrics": {},
+  "demo": {
+    "mode": "github-html",
+    "embedPath": "content/projects/ai-enablement-hub/dashboard/index.html",
+    "embedUrl": "",
+    "externalUrl": "",
+    "fallbackImage": "content/projects/ai-enablement-hub/cover.png",
+    "pbixDownload": ""
+  },
+  "links": {
+    "github": "https://github.com/kpassaros/portfolio-dados-bi/tree/main/content/projects/ai-enablement-hub",
+    "kaggle": "",
+    "documentation": "content/projects/ai-enablement-hub/README.md",
+    "dataset": ""
+  },
+  "disclosure": {
+    "label": "Applied Lab sem métricas inventadas",
+    "detail": "O conteúdo representa práticas e materiais reais. A demonstração não afirma adoção, ganho de produtividade ou implantação em escala."
+  },
+  "i18n": {
+    "en-US": {
+      "title": "AI Enablement Hub",
+      "category": "Labs",
+      "status": "Applied Lab",
+      "summary": "Interactive guide for responsible AI adoption with prompts, safety, human review and meeting intelligence.",
+      "problem": "AI use without context, security criteria or human validation creates weak answers and information exposure risks.",
+      "role": "Guide structure, prompt patterns, risk matrix, exercises, review flows and meeting module.",
+      "solution": "Learning hub with a contextual library, risk classifier, prompt comparison and human-in-the-loop.",
+      "results": [
+        "Guidance for deciding when to use or avoid AI",
+        "Prompt library by scenario and human-review exercise",
+        "Meeting module for summaries, decisions, owners, due dates and tasks"
+      ]
+    }
+  }
+}
