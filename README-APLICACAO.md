@@ -1,10 +1,5 @@
-# Atualização final v17
+# Correção do loading v18
 
 Substitua `index.html`, `styles.css` e `app.js` na raiz. Adicione `assets/brand/brand-mark.png`.
 
-Inclui:
-- transição idêntica ao protótipo portal neural com logo;
-- a mesma rede se forma, expande e permanece na Home;
-- pulsos e interações originais após a expansão;
-- Floating Dock v3;
-- nenhuma mudança nos demais componentes.
+Esta versão força atualização de cache com `?v=18`, posiciona a rede acima da Home durante o loading e mantém o mesmo canvas após a expansão. A interação original continua depois da entrada.
