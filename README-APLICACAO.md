@@ -1,6 +1,10 @@
-# Atualização v16 — portal v4 e navbar
+# Atualização final v17
 
-Substitua `index.html`, `styles.css` e `app.js` na raiz do repositório.
-Adicione `assets/brand/brand-mark.png`.
+Substitua `index.html`, `styles.css` e `app.js` na raiz. Adicione `assets/brand/brand-mark.png`.
 
-Esta versão reproduz a transição do protótipo v4, mantém a lógica original dos pulsos e altera somente a cor de fundo da Home e o espaçamento de hover/seleção da navbar. Os demais componentes permanecem inalterados.
+Inclui:
+- transição idêntica ao protótipo portal neural com logo;
+- a mesma rede se forma, expande e permanece na Home;
+- pulsos e interações originais após a expansão;
+- Floating Dock v3;
+- nenhuma mudança nos demais componentes.
