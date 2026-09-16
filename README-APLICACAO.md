@@ -1,10 +1,5 @@
-# Atualização final v17
+# Correção definitiva do loading v19
 
 Substitua `index.html`, `styles.css` e `app.js` na raiz. Adicione `assets/brand/brand-mark.png`.
 
-Inclui:
-- transição idêntica ao protótipo portal neural com logo;
-- a mesma rede se forma, expande e permanece na Home;
-- pulsos e interações originais após a expansão;
-- Floating Dock v3;
-- nenhuma mudança nos demais componentes.
+Nesta versão o próprio `#starfield` nasce dentro do loading e depois é movido para o background da Home. Não há segundo canvas. A rede também permanece ativa quando o sistema está em modo de movimento reduzido.
