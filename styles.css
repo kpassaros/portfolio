@@ -95,13 +95,18 @@ body.loader-active{overflow:hidden!important}.hero{grid-template-columns:minmax(
 @media(prefers-reduced-motion:reduce){.loader-glass{display:none!important}body.content-ready #site-header,body.content-ready .hero-copy,body.content-ready .character-stage,body.content-ready .signal,body.content-ready .home-paths,body.content-ready .building-public,body.content-ready main>.section:last-child,body.content-ready #site-footer,body[data-page="inicio"].content-ready #starfield{animation:none!important;opacity:1;transform:none}}
 
 
-/* v15 — portal neural com logo; preserva integralmente o background interativo v14 */
-.loader-glass{display:none!important}
-.loader-logo{position:absolute;z-index:5;left:50%;top:50%;transform:translate(-50%,-50%);display:grid;place-items:center;opacity:1;filter:drop-shadow(0 0 22px rgba(68,157,242,.42));animation:loaderLogoIn .7s ease both;transition:opacity .4s ease,transform .55s ease}
-.loader-logo img{display:block;width:clamp(88px,10vw,132px);height:auto}
-.loader-portal{position:absolute;z-index:2;left:50%;top:50%;width:126px;height:126px;border:1px solid rgba(105,188,255,.76);border-radius:50%;opacity:0;transform:translate(-50%,-50%) scale(.18);box-shadow:0 0 48px rgba(61,151,236,.24),inset 0 0 32px rgba(87,174,255,.14);animation:neuralPortal 2.4s .38s cubic-bezier(.17,.82,.22,1) both;pointer-events:none}
-.loader-portal::after{content:"";position:absolute;inset:12px;border:1px dashed rgba(113,193,255,.66);border-radius:50%;animation:loaderSpin 2.4s linear infinite}
-.neural-loader.handoff .loader-logo{opacity:0;transform:translate(-50%,-50%) scale(.88)}
-@keyframes loaderLogoIn{from{opacity:0;transform:translate(-50%,-50%) scale(.82)}to{opacity:1;transform:translate(-50%,-50%) scale(1)}}
-@keyframes neuralPortal{0%{opacity:0;transform:translate(-50%,-50%) scale(.18)}12%{opacity:1}48%{opacity:1;transform:translate(-50%,-50%) scale(1.08)}100%{opacity:0;transform:translate(-50%,-50%) scale(11)}}
-@media(prefers-reduced-motion:reduce){.loader-portal{animation:none!important;opacity:.45;transform:translate(-50%,-50%) scale(1)}.loader-logo{animation:none!important}}
+/* v16 — transição do protótipo v4; demais componentes preservados */
+html[data-theme="dark"] body[data-page="inicio"],html:not([data-theme]) body[data-page="inicio"]{background:radial-gradient(circle at 52% 40%,#11201f 0,#0a1110 42%,#080d0c 78%) fixed!important}
+.neural-loader{background:transparent!important}
+.neural-loader::before,.loader-glass,#loader-network{display:none!important}
+body[data-page="inicio"].home-loading #starfield{opacity:.88!important}
+.loader-logo{position:absolute;z-index:5;left:50%;top:50%;transform:translate(-50%,-50%);display:grid;place-items:center;opacity:1;filter:drop-shadow(0 0 18px rgba(73,157,242,.45));animation:v16LogoIn .7s ease both;transition:opacity .4s ease,transform .55s ease}
+.loader-logo img{display:block;width:clamp(90px,11vw,140px);height:auto}
+.loader-portal{position:absolute;z-index:3;left:50%;top:50%;width:126px;height:126px;border:1px solid rgba(99,180,255,.86);border-radius:50%;transform:translate(-50%,-50%) scale(.2);opacity:0;box-shadow:0 0 50px rgba(99,180,255,.22),inset 0 0 32px rgba(99,180,255,.12);animation:v16Portal 2.25s .55s cubic-bezier(.17,.82,.22,1) forwards;pointer-events:none}
+.loader-portal::after{content:"";position:absolute;inset:12px;border:1px dashed rgba(111,190,255,.72);border-radius:50%;animation:loaderSpin 2.2s linear infinite}
+.neural-loader.handoff .loader-logo{opacity:0;transform:translate(-50%,-50%) scale(.9)}
+@keyframes v16LogoIn{from{opacity:0;transform:translate(-50%,-50%) scale(.82)}to{opacity:1;transform:translate(-50%,-50%) scale(1)}}
+@keyframes v16Portal{8%{opacity:1}47%{opacity:1;transform:translate(-50%,-50%) scale(1.05)}100%{opacity:0;transform:translate(-50%,-50%) scale(11)}}
+/* Área de respiro no hover/seleção da navbar */
+@media(min-width:1041px){.nav-links{gap:7px!important}.nav-links>a{padding-left:11px!important;padding-right:11px!important;margin:0 2px}.nav-links>a::after{left:calc(50% - 11px);right:calc(50% - 11px)}.nav-links>a:hover::after,.nav-links>a.active::after{left:11px;right:11px}}
+@media(prefers-reduced-motion:reduce){.loader-portal,.loader-logo{animation:none!important}.loader-portal{opacity:.4;transform:translate(-50%,-50%) scale(1)}}

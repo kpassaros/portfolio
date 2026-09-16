@@ -1,16 +1,6 @@
-# Atualização — portal neural com logo
+# Atualização v16 — portal v4 e navbar
 
-Substitua na raiz do repositório:
-- `index.html`
-- `styles.css`
+Substitua `index.html`, `styles.css` e `app.js` na raiz do repositório.
+Adicione `assets/brand/brand-mark.png`.
 
-Adicione:
-- `assets/brand/brand-mark.png`
-
-O `app.js` não foi alterado. Assim, a interação original do background permanece exatamente como na v14:
-- pulsos automáticos;
-- aceleração perto do cursor;
-- destaque de nós e conexões;
-- agrupamento e 18 pulsos fortes ao clicar.
-
-A alteração remove apenas o feixe de transição e adiciona o portal neural com a logo no centro.
+Esta versão reproduz a transição do protótipo v4, mantém a lógica original dos pulsos e altera somente a cor de fundo da Home e o espaçamento de hover/seleção da navbar. Os demais componentes permanecem inalterados.
