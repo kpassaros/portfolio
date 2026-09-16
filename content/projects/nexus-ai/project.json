@@ -1,21 +1,22 @@
 {
+  "year": 2026,
+  "new": true,
+  "metrics": {},
   "id": "nexus-ai",
   "title": "Nexus AI — Arquitetura e Readiness",
   "category": "IA & Automação",
   "status": "Estudo de caso",
-  "year": 2026,
   "featured": true,
-  "new": true,
   "projectType": "Estudo de caso estratégico",
-  "dataNature": "Arquitetura baseada em análise real; usuários, consultas, custos e indicadores da demonstração são fictícios.",
-  "summary": "Arquitetura e plano de prontidão para um assistente corporativo seguro, auditável e conectado a fontes governadas.",
-  "problem": "Uma estratégia IA-first criaria risco sem processos maduros, dados confiáveis, regras de acesso e supervisão claramente definidos.",
-  "role": "Diagnóstico de maturidade, análise de viabilidade, desenho de arquitetura, matriz de riscos, critérios de decisão e roadmap progressivo.",
-  "solution": "Modelo de implantação em quatro fases, separando consultas determinísticas, APIs, conhecimento corporativo e uso controlado de LLM.",
+  "dataNature": "Arquitetura baseada em análise real; pessoas, consultas, custos, latência e indicadores do protótipo são fictícios.",
+  "summary": "Arquitetura e prontidão para um assistente corporativo seguro, auditável e conectado a fontes governadas.",
+  "problem": "Uma estratégia IA-first seria prematura sem processos maduros, dados confiáveis, regras de acesso e supervisão.",
+  "role": "Diagnóstico de maturidade, análise de viabilidade, arquitetura, matriz de riscos, critérios de decisão e roadmap.",
+  "solution": "Implantação em quatro fases, separando consultas determinísticas, APIs, conhecimento corporativo e LLM controlada.",
   "results": [
-    "Diagnóstico estruturado em dados, regras, desenvolvimento, supervisão e controle",
-    "Arquitetura de referência com gateway, APIs, MCP, permissões, fontes e auditoria",
-    "Roadmap progressivo com piloto por área, riscos, KPIs e critérios de avanço"
+    "Diagnóstico em dados, regras, desenvolvimento, supervisão e controle",
+    "Arquitetura com gateway, APIs, MCP, permissões, fontes e auditoria",
+    "Roadmap progressivo com piloto por área, KPIs e critérios de avanço"
   ],
   "technologies": [
     "Microsoft Teams",
@@ -45,7 +46,7 @@
       ]
     },
     {
-      "label": "Dados & conhecimento",
+      "label": "Dados e conhecimento",
       "items": [
         "SQL",
         "RAG",
@@ -53,26 +54,16 @@
       ]
     },
     {
-      "label": "Segurança & controle",
+      "label": "Controle",
       "items": [
         "IAM",
         "RBAC",
         "Auditoria",
         "Observabilidade"
       ]
-    },
-    {
-      "label": "Práticas",
-      "items": [
-        "AI Readiness",
-        "Human-in-the-loop",
-        "FinOps de IA",
-        "Privacy by design"
-      ]
     }
   ],
   "cover": "cover.png",
-  "metrics": {},
   "demo": {
     "mode": "github-html",
     "embedPath": "content/projects/nexus-ai/dashboard/index.html",
@@ -89,21 +80,22 @@
   },
   "disclosure": {
     "label": "Protótipo com dados fictícios",
-    "detail": "O diagnóstico e a arquitetura representam trabalho real. Pessoas, consultas, custos, latência e resultados do ambiente interativo são simulados."
+    "detail": "Diagnóstico e arquitetura representam trabalho real; números e interações são simulados."
   },
   "i18n": {
     "en-US": {
       "title": "Nexus AI — Architecture & Readiness",
       "category": "AI & Automation",
       "status": "Case study",
-      "summary": "Architecture and readiness plan for a secure, auditable corporate assistant connected to governed sources.",
-      "problem": "An AI-first strategy would create risk without mature processes, trustworthy data, access rules and clear supervision.",
-      "role": "Maturity assessment, feasibility analysis, architecture, risk matrix, decision criteria and phased roadmap.",
-      "solution": "A four-phase model separating deterministic queries, APIs, corporate knowledge and controlled LLM use.",
+      "projectType": "Strategic case study",
+      "summary": "Architecture and readiness for a secure, auditable corporate assistant connected to governed sources.",
+      "problem": "An AI-first strategy would be premature without mature processes, trustworthy data, access rules and supervision.",
+      "role": "Maturity assessment, feasibility analysis, architecture, risk matrix, decision criteria and roadmap.",
+      "solution": "A four-phase implementation separating deterministic queries, APIs, corporate knowledge and controlled LLM use.",
       "results": [
         "Assessment across data, rules, development, supervision and control",
-        "Reference architecture with gateway, APIs, MCP, permissions, sources and audit trail",
-        "Phased roadmap with area pilots, risks, KPIs and progression criteria"
+        "Architecture with gateway, APIs, MCP, permissions, sources and audit trail",
+        "Phased roadmap with area pilots, KPIs and progression criteria"
       ]
     }
   }

@@ -179,7 +179,7 @@
     "links": {
       "github": "https://github.com/kpassaros/portfolio-dados-bi",
       "kaggle": "",
-      "documentation": "",
+      "documentation": "content/projects/central-chamados-sla/README.md",
       "dataset": ""
     },
     "disclosure": {
@@ -276,7 +276,7 @@
     "links": {
       "github": "https://github.com/kpassaros/portfolio-dados-bi",
       "kaggle": "",
-      "documentation": "",
+      "documentation": "content/projects/operations-command-center/README.md",
       "dataset": ""
     },
     "disclosure": {
@@ -372,7 +372,7 @@
     "links": {
       "github": "https://github.com/kpassaros/portfolio-dados-bi",
       "kaggle": "",
-      "documentation": "",
+      "documentation": "content/projects/production-performance/README.md",
       "dataset": ""
     },
     "disclosure": {
@@ -398,6 +398,142 @@
           "detail": "The public demonstration removes or recreates operational and personal information."
         }
       }
+    }
+  },
+  {
+    "year": 2026,
+    "new": true,
+    "metrics": {},
+    "id": "nexus-ai",
+    "title": "Nexus AI — Arquitetura e Readiness",
+    "category": "IA & Automação",
+    "status": "Estudo de caso",
+    "featured": true,
+    "projectType": "Estudo de caso estratégico",
+    "dataNature": "Arquitetura baseada em análise real; pessoas, consultas, custos, latência e indicadores do protótipo são fictícios.",
+    "summary": "Arquitetura e prontidão para um assistente corporativo seguro, auditável e conectado a fontes governadas.",
+    "problem": "Uma estratégia IA-first seria prematura sem processos maduros, dados confiáveis, regras de acesso e supervisão.",
+    "role": "Diagnóstico de maturidade, análise de viabilidade, arquitetura, matriz de riscos, critérios de decisão e roadmap.",
+    "solution": "Implantação em quatro fases, separando consultas determinísticas, APIs, conhecimento corporativo e LLM controlada.",
+    "results": [
+      "Diagnóstico em dados, regras, desenvolvimento, supervisão e controle",
+      "Arquitetura com gateway, APIs, MCP, permissões, fontes e auditoria",
+      "Roadmap progressivo com piloto por área, KPIs e critérios de avanço"
+    ],
+    "technologies": [
+      "Microsoft Teams",
+      "LLM",
+      "APIs",
+      "MCP",
+      "SQL",
+      "RAG",
+      "IAM",
+      "Observabilidade"
+    ],
+    "stackGroups": [
+      {
+        "label": "Interface",
+        "items": [
+          "Microsoft Teams",
+          "Chat corporativo"
+        ]
+      },
+      {
+        "label": "Orquestração",
+        "items": [
+          "Gateway",
+          "APIs",
+          "MCP",
+          "Roteamento determinístico"
+        ]
+      },
+      {
+        "label": "Dados e conhecimento",
+        "items": [
+          "SQL",
+          "RAG",
+          "Documentos governados"
+        ]
+      },
+      {
+        "label": "Controle",
+        "items": [
+          "IAM",
+          "RBAC",
+          "Auditoria",
+          "Observabilidade"
+        ]
+      }
+    ],
+    "cover": "cover.png",
+    "demo": {
+      "mode": "github-html",
+      "embedPath": "content/projects/nexus-ai/dashboard/index.html",
+      "embedUrl": "",
+      "externalUrl": "",
+      "fallbackImage": "content/projects/nexus-ai/cover.png",
+      "pbixDownload": ""
+    },
+    "links": {
+      "github": "https://github.com/kpassaros/portfolio-dados-bi/tree/main/content/projects/nexus-ai",
+      "kaggle": "",
+      "documentation": "content/projects/nexus-ai/README.md",
+      "dataset": ""
+    },
+    "disclosure": {
+      "label": "Protótipo com dados fictícios",
+      "detail": "Diagnóstico e arquitetura representam trabalho real; números e interações são simulados."
+    },
+    "i18n": {
+      "en-US": {
+        "title": "Nexus AI — Architecture & Readiness",
+        "category": "AI & Automation",
+        "status": "Case study",
+        "projectType": "Strategic case study",
+        "summary": "Architecture and readiness for a secure, auditable corporate assistant connected to governed sources.",
+        "problem": "An AI-first strategy would be premature without mature processes, trustworthy data, access rules and supervision.",
+        "role": "Maturity assessment, feasibility analysis, architecture, risk matrix, decision criteria and roadmap.",
+        "solution": "A four-phase implementation separating deterministic queries, APIs, corporate knowledge and controlled LLM use.",
+        "results": [
+          "Assessment across data, rules, development, supervision and control",
+          "Architecture with gateway, APIs, MCP, permissions, sources and audit trail",
+          "Phased roadmap with area pilots, KPIs and progression criteria"
+        ]
+      }
+    }
+  },
+  {
+    "id": "nome-do-projeto",
+    "title": "Nome do projeto",
+    "category": "Dados & BI",
+    "status": "Em desenvolvimento",
+    "year": 2026,
+    "featured": false,
+    "summary": "Descrição curta para o card.",
+    "problem": "Problema de negócio.",
+    "role": "Seu papel.",
+    "solution": "Solução criada.",
+    "results": [
+      "Resultado ou evidência"
+    ],
+    "technologies": [
+      "Tecnologia 1"
+    ],
+    "cover": "cover.png",
+    "metrics": {},
+    "demo": {
+      "mode": "none",
+      "embedPath": "",
+      "embedUrl": "",
+      "externalUrl": "",
+      "fallbackImage": "cover.png",
+      "pbixDownload": ""
+    },
+    "links": {
+      "github": "",
+      "kaggle": "",
+      "documentation": "content/projects/nome-do-projeto/README.md",
+      "dataset": ""
     }
   },
   {
@@ -468,7 +604,7 @@
     "links": {
       "github": "https://github.com/kpassaros/portfolio-dados-bi",
       "kaggle": "",
-      "documentation": "",
+      "documentation": "content/projects/documentation-hub/README.md",
       "dataset": ""
     },
     "i18n": {
@@ -492,103 +628,6 @@
     "disclosure": {
       "label": "Lab fictício",
       "detail": "Documentos, KPIs e linhagem existem apenas para demonstração."
-    }
-  },
-  {
-    "id": "html-visual-powerbi",
-    "title": "HTML Visual Components para Power BI",
-    "category": "Labs",
-    "status": "Em implementação",
-    "year": 2026,
-    "featured": false,
-    "new": true,
-    "projectType": "Applied Lab",
-    "dataNature": "Protótipo e dados 100% fictícios. Componentes em implementação para um próximo deploy.",
-    "summary": "Biblioteca de componentes HTML para reunir meta, realizado, variação e contexto em uma UI compacta.",
-    "problem": "Visuais tradicionais exigiam vários objetos para comunicar progresso, comparação e status.",
-    "role": "Concepção dos componentes, prototipação visual e preparação para uso com medidas do Power BI.",
-    "solution": "Playground com cards reutilizáveis e documentação de integração por medidas DAX.",
-    "results": [
-      "Protótipos validados",
-      "Componentes selecionados para o próximo deploy",
-      "Biblioteca preparada para evolução e reutilização"
-    ],
-    "technologies": [
-      "Power BI",
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "DAX"
-    ],
-    "stackGroups": [
-      {
-        "label": "Plataforma",
-        "items": [
-          "Power BI"
-        ]
-      },
-      {
-        "label": "Interface & lógica",
-        "items": [
-          "HTML",
-          "CSS",
-          "JavaScript"
-        ]
-      },
-      {
-        "label": "Expressões analíticas",
-        "items": [
-          "DAX"
-        ]
-      },
-      {
-        "label": "Práticas",
-        "items": [
-          "Data visualization",
-          "UI para BI",
-          "Storytelling"
-        ]
-      }
-    ],
-    "cover": "cover.png",
-    "metrics": {},
-    "demo": {
-      "mode": "github-html",
-      "embedPath": "content/projects/html-visual-powerbi/dashboard/index.html",
-      "embedUrl": "",
-      "externalUrl": "",
-      "fallbackImage": "content/projects/html-visual-powerbi/cover.png",
-      "pbixDownload": ""
-    },
-    "links": {
-      "github": "https://github.com/kpassaros/portfolio-dados-bi",
-      "kaggle": "",
-      "documentation": "",
-      "dataset": ""
-    },
-    "disclosure": {
-      "label": "Demonstração com dados fictícios",
-      "detail": "Protótipo e dados 100% fictícios. Componentes em implementação para um próximo deploy."
-    },
-    "i18n": {
-      "en-US": {
-        "title": "HTML Visual Components for Power BI",
-        "category": "Labs",
-        "status": "In implementation",
-        "summary": "HTML component library combining goals, actuals, variance and context in a compact UI.",
-        "problem": "Traditional visuals required multiple objects to communicate progress, comparison and status.",
-        "role": "Component concept, visual prototyping and preparation for use with Power BI measures.",
-        "solution": "A reusable card playground plus guidance for integration through DAX measures.",
-        "results": [
-          "Prototypes validated",
-          "Components selected for the next deployment",
-          "Library prepared for evolution and reuse"
-        ],
-        "disclosure": {
-          "label": "Fictitious demonstration data",
-          "detail": "The public demonstration removes or recreates operational and personal information."
-        }
-      }
     }
   },
   {
@@ -660,7 +699,7 @@
     "links": {
       "github": "https://github.com/kpassaros/portfolio-dados-bi",
       "kaggle": "",
-      "documentation": "",
+      "documentation": "content/projects/quick-access-hub/README.md",
       "dataset": ""
     },
     "disclosure": {
@@ -685,6 +724,201 @@
           "label": "Fictitious demonstration data",
           "detail": "The public demonstration removes or recreates operational and personal information."
         }
+      }
+    }
+  },
+  {
+    "id": "html-visual-powerbi",
+    "title": "HTML Visual Components para Power BI",
+    "category": "Labs",
+    "status": "Em implementação",
+    "year": 2026,
+    "featured": false,
+    "new": true,
+    "projectType": "Applied Lab",
+    "dataNature": "Protótipo e dados 100% fictícios. Componentes em implementação para um próximo deploy.",
+    "summary": "Biblioteca de componentes HTML para reunir meta, realizado, variação e contexto em uma UI compacta.",
+    "problem": "Visuais tradicionais exigiam vários objetos para comunicar progresso, comparação e status.",
+    "role": "Concepção dos componentes, prototipação visual e preparação para uso com medidas do Power BI.",
+    "solution": "Playground com cards reutilizáveis e documentação de integração por medidas DAX.",
+    "results": [
+      "Protótipos validados",
+      "Componentes selecionados para o próximo deploy",
+      "Biblioteca preparada para evolução e reutilização"
+    ],
+    "technologies": [
+      "Power BI",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "DAX"
+    ],
+    "stackGroups": [
+      {
+        "label": "Plataforma",
+        "items": [
+          "Power BI"
+        ]
+      },
+      {
+        "label": "Interface & lógica",
+        "items": [
+          "HTML",
+          "CSS",
+          "JavaScript"
+        ]
+      },
+      {
+        "label": "Expressões analíticas",
+        "items": [
+          "DAX"
+        ]
+      },
+      {
+        "label": "Práticas",
+        "items": [
+          "Data visualization",
+          "UI para BI",
+          "Storytelling"
+        ]
+      }
+    ],
+    "cover": "cover.png",
+    "metrics": {},
+    "demo": {
+      "mode": "github-html",
+      "embedPath": "content/projects/html-visual-powerbi/dashboard/index.html",
+      "embedUrl": "",
+      "externalUrl": "",
+      "fallbackImage": "content/projects/html-visual-powerbi/cover.png",
+      "pbixDownload": ""
+    },
+    "links": {
+      "github": "https://github.com/kpassaros/portfolio-dados-bi",
+      "kaggle": "",
+      "documentation": "content/projects/html-visual-powerbi/README.md",
+      "dataset": ""
+    },
+    "disclosure": {
+      "label": "Demonstração com dados fictícios",
+      "detail": "Protótipo e dados 100% fictícios. Componentes em implementação para um próximo deploy."
+    },
+    "i18n": {
+      "en-US": {
+        "title": "HTML Visual Components for Power BI",
+        "category": "Labs",
+        "status": "In implementation",
+        "summary": "HTML component library combining goals, actuals, variance and context in a compact UI.",
+        "problem": "Traditional visuals required multiple objects to communicate progress, comparison and status.",
+        "role": "Component concept, visual prototyping and preparation for use with Power BI measures.",
+        "solution": "A reusable card playground plus guidance for integration through DAX measures.",
+        "results": [
+          "Prototypes validated",
+          "Components selected for the next deployment",
+          "Library prepared for evolution and reuse"
+        ],
+        "disclosure": {
+          "label": "Fictitious demonstration data",
+          "detail": "The public demonstration removes or recreates operational and personal information."
+        }
+      }
+    }
+  },
+  {
+    "year": 2026,
+    "new": true,
+    "metrics": {},
+    "id": "ai-enablement-hub",
+    "title": "AI Enablement Hub",
+    "category": "Labs",
+    "status": "Applied Lab",
+    "featured": false,
+    "projectType": "Applied Lab",
+    "dataNature": "Conteúdo baseado em práticas reais; exemplos, pessoas e classificações do protótipo são fictícios.",
+    "summary": "Guia interativo para adoção responsável de IA, com prompts, segurança, revisão humana e inteligência de reuniões.",
+    "problem": "Uso de IA sem contexto, segurança ou validação humana gera respostas frágeis e risco de exposição.",
+    "role": "Estruturação do guia, padrões de prompt, matriz de risco, exercícios, revisão humana e módulo de reuniões.",
+    "solution": "Hub de aprendizagem com biblioteca contextual, classificador de risco, comparação de prompts e human-in-the-loop.",
+    "results": [
+      "Orientação para decidir quando usar ou não usar IA",
+      "Biblioteca de prompts e exercício de revisão humana",
+      "Meeting Intelligence para resumos, decisões, responsáveis, prazos e tarefas"
+    ],
+    "technologies": [
+      "Notion AI",
+      "Microsoft Copilot",
+      "Prompt Engineering",
+      "HTML",
+      "JavaScript",
+      "Governança",
+      "Human-in-the-loop"
+    ],
+    "stackGroups": [
+      {
+        "label": "Plataformas",
+        "items": [
+          "Notion AI",
+          "Microsoft Copilot"
+        ]
+      },
+      {
+        "label": "Experiência",
+        "items": [
+          "HTML",
+          "CSS",
+          "JavaScript"
+        ]
+      },
+      {
+        "label": "Práticas",
+        "items": [
+          "Prompt Engineering",
+          "Human-in-the-loop",
+          "Gestão do conhecimento"
+        ]
+      },
+      {
+        "label": "Governança",
+        "items": [
+          "Classificação da informação",
+          "Segurança",
+          "Revisão humana"
+        ]
+      }
+    ],
+    "cover": "cover.png",
+    "demo": {
+      "mode": "github-html",
+      "embedPath": "content/projects/ai-enablement-hub/dashboard/index.html",
+      "embedUrl": "",
+      "externalUrl": "",
+      "fallbackImage": "content/projects/ai-enablement-hub/cover.png",
+      "pbixDownload": ""
+    },
+    "links": {
+      "github": "https://github.com/kpassaros/portfolio-dados-bi/tree/main/content/projects/ai-enablement-hub",
+      "kaggle": "",
+      "documentation": "content/projects/ai-enablement-hub/README.md",
+      "dataset": ""
+    },
+    "disclosure": {
+      "label": "Applied Lab sem métricas inventadas",
+      "detail": "Não são declarados ganhos de produtividade ou adoção sem evidências verificáveis."
+    },
+    "i18n": {
+      "en-US": {
+        "title": "AI Enablement Hub",
+        "category": "Labs",
+        "status": "Applied Lab",
+        "summary": "Interactive guide for responsible AI adoption with prompts, safety, human review and meeting intelligence.",
+        "problem": "AI use without context, security or human validation creates weak answers and exposure risks.",
+        "role": "Guide structure, prompt patterns, risk matrix, exercises, human review and meeting module.",
+        "solution": "Learning hub with a contextual library, risk classifier, prompt comparison and human-in-the-loop.",
+        "results": [
+          "Guidance for deciding when to use or avoid AI",
+          "Prompt library and human-review exercise",
+          "Meeting Intelligence for summaries, decisions, owners, deadlines and tasks"
+        ]
       }
     }
   },
@@ -765,7 +999,7 @@
     "links": {
       "github": "https://github.com/kpassaros/portfolio-dados-bi",
       "kaggle": "",
-      "documentation": "",
+      "documentation": "content/projects/product-360-commercial/README.md",
       "dataset": ""
     },
     "disclosure": {
@@ -865,7 +1099,7 @@
     "links": {
       "github": "https://github.com/kpassaros/portfolio-dados-bi",
       "kaggle": "",
-      "documentation": "",
+      "documentation": "content/projects/commercial-performance-governance/README.md",
       "dataset": ""
     },
     "disclosure": {

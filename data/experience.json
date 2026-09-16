@@ -15,9 +15,9 @@
       "role": "Digital Transformation Specialist",
       "summary": "Connecting business, systems, data and technology through projects, automation, traceable processes, governance and AI adoption.",
       "highlights": [
-        "Estruturação de central de solicitações orientada por SLA",
-        "Mais de 100 demandas mensais com 98% dentro do prazo",
-        "Governança analítica, documentação e evolução de dashboards"
+        "SLA-oriented service request center design",
+        "More than 100 monthly requests with 98% delivered on time",
+        "Analytics governance, documentation and dashboard evolution"
       ]
     },
     "side": "right"
@@ -38,9 +38,9 @@
       "role": "Senior Data Analyst",
       "summary": "Translating needs into KPIs, SQL queries, structured datasets and reliable dashboards.",
       "highlights": [
-        "Exploração e documentação de SQL Server",
-        "Validação de regras, granularidade e qualidade de dados",
-        "Integrações entre Notion, Power BI, Excel e Power Query"
+        "SQL Server exploration and documentation",
+        "Validation of business rules, granularity and data quality",
+        "Integrations across Notion, Power BI, Excel and Power Query"
       ]
     },
     "side": "left"
@@ -61,9 +61,9 @@
       "role": "Junior Business Intelligence Analyst",
       "summary": "BI, digital and e-commerce through dashboards, automation, APIs and process improvement.",
       "highlights": [
-        "Power BI, QlikView e Looker Studio",
-        "MySQL, Python e Google Apps Script",
-        "Integrações, VTEX e ferramentas internas"
+        "Power BI, QlikView and Looker Studio",
+        "MySQL, Python and Google Apps Script",
+        "Integrations, VTEX and internal tools"
       ]
     },
     "side": "right"
