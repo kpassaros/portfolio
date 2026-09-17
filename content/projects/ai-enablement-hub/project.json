@@ -94,5 +94,6 @@
         "Meeting Intelligence for summaries, decisions, owners, deadlines and tasks"
       ]
     }
-  }
+  },
+  "publish": false
 }

@@ -95,5 +95,6 @@
         "detail": "The public demonstration removes or recreates operational and personal information."
       }
     }
-  }
+  },
+  "publish": false
 }

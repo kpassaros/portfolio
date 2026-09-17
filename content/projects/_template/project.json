@@ -30,5 +30,6 @@
     "kaggle": "",
     "documentation": "content/projects/nome-do-projeto/README.md",
     "dataset": ""
-  }
+  },
+  "publish": false
 }

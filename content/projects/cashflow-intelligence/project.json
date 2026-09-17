@@ -2,17 +2,17 @@
   "id": "cashflow-intelligence",
   "title": "CashFlow Intelligence",
   "category": "Dados & BI",
-  "status": "Em evolução",
+  "status": "Concluído",
   "year": 2026,
   "featured": true,
-  "summary": "Projeto prático de inteligência financeira com pipeline em Apps Script, regras analíticas no DataStudio e dashboard interativo para acompanhar caixa, orçamento, atrasos, conciliação e qualidade dos dados.",
-  "problem": "Seis fontes financeiras com estruturas diferentes dificultavam a consolidação, a conciliação e a leitura executiva do fluxo de caixa.",
-  "role": "Estruturação das fontes no Google Sheets, tratamentos e automações em Apps Script, criação de regras analíticas e campos calculados no DataStudio, validação de código no VS Code e desenvolvimento de componentes visuais em HTML.",
-  "solution": "Pipeline reproduzível em Apps Script para padronizar e conciliar as fontes, modelo com fatos, dimensões e logs de qualidade, e dashboard no DataStudio com SQL e campos calculados para as análises financeiras.",
+  "summary": "Solução de inteligência financeira que consolida seis fontes, automatiza tratamento e conciliação com Apps Script e entrega análises atualizadas no DataStudio.",
+  "problem": "Uma organização opera contas a receber, contas a pagar, extratos bancários, orçamento, cadastro de entidades e centros de custo em seis fontes independentes. Como as estruturas, nomenclaturas e granularidades são diferentes, a gestão não consegue consolidar com rapidez e confiança saldo, previsto versus realizado, vencimentos e conciliações para apoiar decisões e reportar a saúde financeira ao conselho executivo.",
+  "role": "Arquitetura do processo, estruturação das fontes no Google Sheets, desenvolvimento do pipeline em Apps Script, regras de qualidade e conciliação, campos calculados no DataStudio, validação no VS Code e componentes visuais em HTML.",
+  "solution": "Tratamento automatizado das fontes brutas, geração de fatos, dimensões, conciliação e logs de qualidade, seguido da atualização do dashboard no DataStudio.",
   "results": [
-    "Dashboard interativo publicado e incorporado via DataStudio",
-    "Pipeline em Apps Script para tratamento, padronização e conciliação das fontes",
-    "Evolução documentada em seis frentes analíticas, com critérios explícitos de validação"
+    "Pipeline reproduzível com preservação das fontes brutas",
+    "Modelo analítico com fatos, dimensões, conciliação e log de qualidade",
+    "Dashboard interativo com atualização programada a cada 15 minutos"
   ],
   "technologies": [
     "DataStudio",
@@ -30,7 +30,7 @@
     "mode": "external",
     "embedPath": "",
     "embedUrl": "https://datastudio.google.com/embed/reporting/40e39169-0660-4056-8589-6b20f063e2cd/page/yo48F",
-    "externalUrl": "https://datastudio.google.com/embed/reporting/40e39169-0660-4056-8589-6b20f063e2cd/page/yo48F",
+    "externalUrl": "https://datastudio.google.com/u/0/reporting/40e39169-0660-4056-8589-6b20f063e2cd/page/yo48F",
     "fallbackImage": "content/projects/cashflow-intelligence/cover.png",
     "pbixDownload": ""
   },
@@ -38,7 +38,9 @@
     "github": "https://github.com/kpassaros/portfolio-dados-bi",
     "kaggle": "",
     "documentation": "content/projects/cashflow-intelligence/README.md",
-    "dataset": "data/fluxo_caixa.csv"
+    "dataset": "https://docs.google.com/spreadsheets/d/10dQYWEWD2r5ZemvdrXtYJuV-LNmScJr1INjqqe-j8mc/edit?gid=952473364#gid=952473364",
+    "dashboard": "https://datastudio.google.com/u/0/reporting/40e39169-0660-4056-8589-6b20f063e2cd/page/yo48F",
+    "code": "content/projects/cashflow-intelligence/CashFlow.gs"
   },
   "new": false,
   "stackGroups": [
@@ -81,22 +83,31 @@
     "en-US": {
       "title": "CashFlow Intelligence",
       "category": "Data & BI",
-      "status": "In progress",
-      "summary": "Practical financial intelligence project with an Apps Script pipeline, analytical rules in DataStudio and an interactive dashboard for cash flow, budget, overdue items, reconciliation and data quality.",
-      "problem": "Six financial sources with different structures made consolidation, reconciliation and executive cash-flow analysis difficult.",
-      "role": "Source structuring in Google Sheets, treatments and automation with Apps Script, analytical rules and calculated fields in DataStudio, code validation in VS Code and custom HTML visual development.",
-      "solution": "A reproducible Apps Script pipeline standardizes and reconciles the sources, feeding a facts-and-dimensions model and a DataStudio dashboard with SQL and calculated fields.",
+      "status": "Completed",
+      "summary": "Financial intelligence solution that consolidates six sources, automates treatment and reconciliation with Apps Script, and delivers updated analysis in DataStudio.",
+      "problem": "An organization operates receivables, payables, bank statements, budget, entities and cost centers in six independent sources. Different structures and granularities prevent fast, reliable consolidation for executive decisions.",
+      "role": "Process architecture, source structuring in Google Sheets, Apps Script pipeline, quality and reconciliation rules, DataStudio calculated fields, VS Code validation and HTML visual components.",
+      "solution": "Automated treatment of raw sources, analytical model generation and scheduled DataStudio dashboard updates.",
       "results": [
-        "Interactive dashboard published and embedded through DataStudio",
-        "Apps Script pipeline for source treatment, standardization and reconciliation",
-        "Progress documented across six analytical workstreams with explicit validation criteria"
+        "Reproducible pipeline preserving raw sources",
+        "Facts, dimensions, reconciliation and quality logs",
+        "Interactive dashboard refreshed every 15 minutes"
       ]
     }
   },
-  "projectType": "Projeto prático interativo",
+  "projectType": "Projeto de Dados & BI",
   "dataNature": "Base 100% sintética criada exclusivamente para demonstração e validação técnica.",
   "disclosure": {
     "label": "Dados 100% fictícios",
-    "detail": "Indicadores e transações são sintéticos; o projeto demonstra processo, arquitetura, tratamento e visualização."
-  }
+    "detail": "Informação apresentada somente na documentação completa."
+  },
+  "publish": true,
+  "solutionPoints": [
+    "Seis arquivos CSV representam exportações brutas de sistemas ou bancos de dados.",
+    "O Google Sheets funciona como camada acessível de armazenamento e visualização das fontes.",
+    "O Apps Script executa padronização, deduplicação, conciliação e geração do modelo analítico.",
+    "Acionadores executam o tratamento completo a cada 15 minutos, alinhados ao intervalo de atualização do dashboard.",
+    "O menu da planilha permite execução manual com confirmação de conclusão.",
+    "O DataStudio oferece navegação, filtros e visões executivas e analíticas."
+  ]
 }
