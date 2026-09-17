@@ -8,17 +8,16 @@
     "featured": true,
     "summary": "Solução de inteligência financeira para acompanhar realizado, previsto, atrasos e disponibilidade de caixa.",
     "problem": "Controles financeiros fragmentados dificultam a leitura do caixa e a antecipação de riscos.",
-    "role": "Análise de negócio, construção da base sintética, modelagem dimensional, definição de KPIs e experiência visual.",
-    "solution": "Modelo de dados orientado a fatos e dimensões, com dashboard executivo e documentação reproduzível.",
+    "role": "Análise de negócio, construção da base sintética, modelagem dimensional, definição de KPIs e desenvolvimento do dashboard no Looker Studio.",
+    "solution": "Modelo de dados orientado a fatos e dimensões, com tratamento em Python e Google Sheets e dashboard executivo publicado no Looker Studio.",
     "results": [
       "1.600 movimentações sintéticas e documentadas",
       "Visão consolidada de entradas, saídas, saldo e títulos vencidos",
-      "Estrutura preparada para Power BI Online ou dashboard HTML"
+      "Dashboard interativo publicado e incorporado ao case no Looker Studio"
     ],
     "technologies": [
-      "Power BI",
-      "Power Query",
-      "DAX",
+      "Looker Studio",
+      "Google Sheets",
       "Python",
       "CSV",
       "JSON"
@@ -34,10 +33,10 @@
       "periodo": "jan/2025–ago/2026"
     },
     "demo": {
-      "mode": "github-html",
-      "embedPath": "content/projects/cashflow-intelligence/dashboard/index.html",
-      "embedUrl": "",
-      "externalUrl": "",
+      "mode": "looker-studio",
+      "embedPath": "",
+      "embedUrl": "https://datastudio.google.com/embed/reporting/40e39169-0660-4056-8589-6b20f063e2cd/page/yo48F",
+      "externalUrl": "https://datastudio.google.com/embed/reporting/40e39169-0660-4056-8589-6b20f063e2cd/page/yo48F",
       "fallbackImage": "content/projects/cashflow-intelligence/cover.png",
       "pbixDownload": ""
     },
@@ -52,14 +51,13 @@
       {
         "label": "Plataforma",
         "items": [
-          "Power BI"
+          "Looker Studio",
+          "Google Sheets"
         ]
       },
       {
-        "label": "Linguagens & expressões",
+        "label": "Linguagens & automação",
         "items": [
-          "DAX",
-          "M",
           "Python"
         ]
       },
@@ -81,7 +79,7 @@
         "label": "Publicação",
         "items": [
           "GitHub Pages",
-          "Power BI Online"
+          "Looker Studio"
         ]
       }
     ],
@@ -92,12 +90,12 @@
         "status": "Completed",
         "summary": "Financial intelligence solution for monitoring actuals, forecasts, delays and cash availability.",
         "problem": "Fragmented financial controls make cash visibility and risk anticipation difficult.",
-        "role": "Business analysis, synthetic dataset creation, dimensional modeling, KPI definition and visual experience.",
-        "solution": "Fact-and-dimension data model with an executive dashboard and reproducible documentation.",
+        "role": "Business analysis, synthetic dataset creation, dimensional modeling, KPI definition and Looker Studio dashboard development.",
+        "solution": "Fact-and-dimension data model, processed with Python and Google Sheets, with an executive dashboard published in Looker Studio.",
         "results": [
           "1,600 documented synthetic transactions",
           "Consolidated view of inflows, outflows, balance and overdue items",
-          "Ready for Power BI Online or an HTML dashboard"
+          "Interactive Looker Studio dashboard published and embedded in the case"
         ]
       }
     },
