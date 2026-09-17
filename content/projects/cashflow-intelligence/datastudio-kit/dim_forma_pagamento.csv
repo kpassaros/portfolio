@@ -1,0 +1,5 @@
+﻿id_forma_pagamento,forma_pagamento
+1,Boleto
+2,Cartão
+3,PIX
+4,Transferência

@@ -1,0 +1,15 @@
+﻿campo,tipo,descricao,regra
+id_movimento,texto,Identificador único do lançamento,Obrigatório
+data_competencia,data,Mês de competência,Obrigatório
+data_vencimento,data,Data prevista,Obrigatório
+data_pagamento,data,Data efetiva; vazia quando não pago,Condicional
+tipo,texto,Entrada ou Saída,Obrigatório
+categoria,texto,Classificação financeira,Obrigatório
+centro_custo,texto,Área responsável,Obrigatório
+entidade,texto,Cliente ou fornecedor fictício,Obrigatório
+forma_pagamento,texto,Meio financeiro,Obrigatório
+status,texto,Situação calculada,Obrigatório
+valor_previsto,decimal,Valor esperado,Obrigatório
+valor_realizado,decimal,Valor efetivo,Condicional
+origem,texto,Proveniência,Obrigatório
+atualizado_em,data,Data da atualização,Obrigatório

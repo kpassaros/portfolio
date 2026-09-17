@@ -1,0 +1,12 @@
+{
+  "natureza": "100% sintética",
+  "periodo": "2025-01-01 a 2026-08-31",
+  "linhas_brutas": 1624,
+  "movimentos_unicos": 1600,
+  "duplicidades_removidas": 24,
+  "entradas_realizadas": 7323077.61,
+  "saidas_realizadas": 7864273.98,
+  "saldo_realizado": -541196.37,
+  "valor_vencido": 98220.44,
+  "taxa_pagamentos_em_atraso": 11.39
+}

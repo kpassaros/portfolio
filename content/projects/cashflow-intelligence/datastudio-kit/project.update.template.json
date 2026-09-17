@@ -1,0 +1,23 @@
+{
+  "instructions": "Mesclar estes campos no project.json somente após publicar o DataStudio.",
+  "technologies": [
+    "DataStudio",
+    "Google Sheets",
+    "Google Apps Script",
+    "SQL",
+    "CSV",
+    "JSON"
+  ],
+  "demo": {
+    "mode": "webapp",
+    "embedPath": "content/projects/cashflow-intelligence/dashboard/index.html",
+    "embedUrl": "COLE_AQUI_A_URL_DE_INCORPORACAO_DO_LOOKER_STUDIO",
+    "externalUrl": "COLE_AQUI_A_URL_PUBLICA_DO_RELATORIO",
+    "fallbackImage": "content/projects/cashflow-intelligence/cover.png",
+    "pbixDownload": ""
+  },
+  "links": {
+    "documentation": "content/projects/cashflow-intelligence/looker-kit/GUIA-LOOKER-STUDIO.md",
+    "dataset": "content/projects/cashflow-intelligence/looker-kit/base_tratada.csv"
+  }
+}

@@ -1,24 +1,47 @@
 # CashFlow Intelligence
 
-Case de portfólio de Dados & BI com dados 100% sintéticos.
+Projeto prático e interativo de inteligência financeira, construído com dados 100% sintéticos. O objetivo é transformar fontes financeiras dispersas em uma visão executiva e analítica de fluxo de caixa, orçamento, atrasos, conciliação e qualidade dos dados.
 
-## Problema
-Consolidar movimentações financeiras e transformar lançamentos em visão executiva de caixa.
+## Status
 
-## Entregáveis
-- `data/fluxo_caixa.csv`: base para importação no Power BI
-- `data/dicionario_dados.csv`: dicionário
-- `data/cashflow-summary.json`: KPIs validados
-- Portal estático com narrativa do case
+**Em evolução.** O dashboard já está publicado e incorporado ao portfólio, enquanto as páginas analíticas e suas validações continuam sendo detalhadas no guia de construção do projeto.
 
-## Modelo recomendado
-Fato_Movimentacoes ligada às dimensões Calendário, Categoria, Centro de Custo, Entidade e Forma de Pagamento.
+## Stack utilizada
 
-## Medidas DAX sugeridas
-```DAX
-Entradas = CALCULATE(SUM(Fato_Movimentacoes[valor_realizado]), Fato_Movimentacoes[tipo] = "Entrada")
-Saídas = CALCULATE(SUM(Fato_Movimentacoes[valor_realizado]), Fato_Movimentacoes[tipo] = "Saída")
-Saldo = [Entradas] - [Saídas]
-Valor Vencido = CALCULATE(SUM(Fato_Movimentacoes[valor_previsto]), Fato_Movimentacoes[status] = "Vencido")
-Taxa de Atraso = DIVIDE(CALCULATE(COUNTROWS(Fato_Movimentacoes), Fato_Movimentacoes[status] = "Pago em atraso"), CALCULATE(COUNTROWS(Fato_Movimentacoes), Fato_Movimentacoes[valor_realizado] > 0))
-```
+- **DataStudio:** dashboard, campos calculados e regras analíticas em SQL.
+- **Google Sheets:** armazenamento e organização das fontes tratadas.
+- **Google Apps Script:** tratamentos, padronização, automações e conciliação.
+- **VS Code:** escrita e validação dos códigos.
+- **HTML:** criação e teste de componentes visuais personalizados.
+- **CSV e JSON:** formatos de intercâmbio e documentação das bases.
+
+## Arquitetura do projeto
+
+O processo parte de seis fontes financeiras incompatíveis e as organiza em uma estrutura com fatos, dimensões, conciliação, log de qualidade e resumo de execução. O tratamento utiliza Apps Script e regras analíticas em SQL no DataStudio.
+
+A camada analítica utiliza as seguintes fontes principais:
+
+- `FATO_Financeira`
+- `FATO_Orcamento`
+- `CONCILIACAO`
+- `LOG_Qualidade`
+- `RESUMO_Execucao`
+
+## Jornada analítica
+
+O avanço do dashboard é acompanhado em seis frentes:
+
+1. Visão Executiva.
+2. Fluxo de Caixa.
+3. Contas a Receber.
+4. Contas a Pagar.
+5. Orçamento × Realizado.
+6. Conciliação e Qualidade.
+
+## Validação
+
+Antes de considerar cada etapa concluída, o projeto verifica totais de entradas, saídas e saldo, comportamento dos filtros, duplicidades, granularidade das combinações, rastreabilidade e funcionamento em tela de notebook.
+
+## Transparência
+
+Todos os indicadores e registros apresentados são fictícios. O valor demonstrado está na metodologia, na arquitetura, na automação, nas regras analíticas e na experiência interativa — não em resultados financeiros reais.

@@ -2,41 +2,35 @@
   "id": "cashflow-intelligence",
   "title": "CashFlow Intelligence",
   "category": "Dados & BI",
-  "status": "Concluído",
+  "status": "Em evolução",
   "year": 2026,
   "featured": true,
-  "summary": "Solução de inteligência financeira para acompanhar realizado, previsto, atrasos e disponibilidade de caixa.",
-  "problem": "Controles financeiros fragmentados dificultam a leitura do caixa e a antecipação de riscos.",
-  "role": "Análise de negócio, construção da base sintética, modelagem dimensional, definição de KPIs e experiência visual.",
-  "solution": "Modelo de dados orientado a fatos e dimensões, com dashboard executivo e documentação reproduzível.",
+  "summary": "Projeto prático de inteligência financeira com pipeline em Apps Script, regras analíticas no DataStudio e dashboard interativo para acompanhar caixa, orçamento, atrasos, conciliação e qualidade dos dados.",
+  "problem": "Seis fontes financeiras com estruturas diferentes dificultavam a consolidação, a conciliação e a leitura executiva do fluxo de caixa.",
+  "role": "Estruturação das fontes no Google Sheets, tratamentos e automações em Apps Script, criação de regras analíticas e campos calculados no DataStudio, validação de código no VS Code e desenvolvimento de componentes visuais em HTML.",
+  "solution": "Pipeline reproduzível em Apps Script para padronizar e conciliar as fontes, modelo com fatos, dimensões e logs de qualidade, e dashboard no DataStudio com SQL e campos calculados para as análises financeiras.",
   "results": [
-    "1.600 movimentações sintéticas e documentadas",
-    "Visão consolidada de entradas, saídas, saldo e títulos vencidos",
-    "Estrutura preparada para Power BI Online ou dashboard HTML"
+    "Dashboard interativo publicado e incorporado via DataStudio",
+    "Pipeline em Apps Script para tratamento, padronização e conciliação das fontes",
+    "Evolução documentada em seis frentes analíticas, com critérios explícitos de validação"
   ],
   "technologies": [
-    "Power BI",
-    "Power Query",
-    "DAX",
-    "Python",
+    "DataStudio",
+    "Google Sheets",
+    "Google Apps Script",
+    "SQL",
+    "VS Code",
+    "HTML",
     "CSV",
     "JSON"
   ],
   "cover": "cover.png",
-  "metrics": {
-    "movimentos": 1600,
-    "entradas": 7323077.61,
-    "saidas": 7864273.98,
-    "saldo": -541196.37,
-    "valor_vencido": 98220.44,
-    "taxa_atraso": 11.4,
-    "periodo": "jan/2025–ago/2026"
-  },
+  "metrics": {},
   "demo": {
-    "mode": "github-html",
-    "embedPath": "content/projects/cashflow-intelligence/dashboard/index.html",
-    "embedUrl": "",
-    "externalUrl": "",
+    "mode": "external",
+    "embedPath": "",
+    "embedUrl": "https://datastudio.google.com/embed/reporting/40e39169-0660-4056-8589-6b20f063e2cd/page/yo48F",
+    "externalUrl": "https://datastudio.google.com/embed/reporting/40e39169-0660-4056-8589-6b20f063e2cd/page/yo48F",
     "fallbackImage": "content/projects/cashflow-intelligence/cover.png",
     "pbixDownload": ""
   },
@@ -49,38 +43,37 @@
   "new": false,
   "stackGroups": [
     {
-      "label": "Plataforma",
+      "label": "Dados",
       "items": [
-        "Power BI"
-      ]
-    },
-    {
-      "label": "Linguagens & expressões",
-      "items": [
-        "DAX",
-        "M",
-        "Python"
-      ]
-    },
-    {
-      "label": "Formatos de dados",
-      "items": [
+        "Google Sheets",
         "CSV",
         "JSON"
       ]
     },
     {
-      "label": "Modelagem & análise",
+      "label": "Tratamento & automação",
       "items": [
-        "Star Schema",
-        "KPIs financeiros"
+        "Google Apps Script"
       ]
     },
     {
-      "label": "Publicação",
+      "label": "Lógica analítica",
       "items": [
-        "GitHub Pages",
-        "Power BI Online"
+        "SQL",
+        "Campos calculados no DataStudio"
+      ]
+    },
+    {
+      "label": "Desenvolvimento & validação",
+      "items": [
+        "VS Code",
+        "HTML"
+      ]
+    },
+    {
+      "label": "Visualização",
+      "items": [
+        "DataStudio"
       ]
     }
   ],
@@ -88,22 +81,22 @@
     "en-US": {
       "title": "CashFlow Intelligence",
       "category": "Data & BI",
-      "status": "Completed",
-      "summary": "Financial intelligence solution for monitoring actuals, forecasts, delays and cash availability.",
-      "problem": "Fragmented financial controls make cash visibility and risk anticipation difficult.",
-      "role": "Business analysis, synthetic dataset creation, dimensional modeling, KPI definition and visual experience.",
-      "solution": "Fact-and-dimension data model with an executive dashboard and reproducible documentation.",
+      "status": "In progress",
+      "summary": "Practical financial intelligence project with an Apps Script pipeline, analytical rules in DataStudio and an interactive dashboard for cash flow, budget, overdue items, reconciliation and data quality.",
+      "problem": "Six financial sources with different structures made consolidation, reconciliation and executive cash-flow analysis difficult.",
+      "role": "Source structuring in Google Sheets, treatments and automation with Apps Script, analytical rules and calculated fields in DataStudio, code validation in VS Code and custom HTML visual development.",
+      "solution": "A reproducible Apps Script pipeline standardizes and reconciles the sources, feeding a facts-and-dimensions model and a DataStudio dashboard with SQL and calculated fields.",
       "results": [
-        "1,600 documented synthetic transactions",
-        "Consolidated view of inflows, outflows, balance and overdue items",
-        "Ready for Power BI Online or an HTML dashboard"
+        "Interactive dashboard published and embedded through DataStudio",
+        "Apps Script pipeline for source treatment, standardization and reconciliation",
+        "Progress documented across six analytical workstreams with explicit validation criteria"
       ]
     }
   },
-  "projectType": "Estudo de caso",
-  "dataNature": "Base 100% sintética criada para demonstração.",
+  "projectType": "Projeto prático interativo",
+  "dataNature": "Base 100% sintética criada exclusivamente para demonstração e validação técnica.",
   "disclosure": {
     "label": "Dados 100% fictícios",
-    "detail": "Indicadores e transações foram gerados exclusivamente para demonstração."
+    "detail": "Indicadores e transações são sintéticos; o projeto demonstra processo, arquitetura, tratamento e visualização."
   }
 }
