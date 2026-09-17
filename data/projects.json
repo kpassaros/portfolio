@@ -3,37 +3,32 @@
     "id": "cashflow-intelligence",
     "title": "CashFlow Intelligence",
     "category": "Dados & BI",
-    "status": "Concluído",
+    "status": "Em evolução",
     "year": 2026,
     "featured": true,
-    "summary": "Solução de inteligência financeira para acompanhar realizado, previsto, atrasos e disponibilidade de caixa.",
-    "problem": "Controles financeiros fragmentados dificultam a leitura do caixa e a antecipação de riscos.",
-    "role": "Análise de negócio, construção da base sintética, modelagem dimensional, definição de KPIs e desenvolvimento do dashboard no Looker Studio.",
-    "solution": "Modelo de dados orientado a fatos e dimensões, com tratamento em Python e Google Sheets e dashboard executivo publicado no Looker Studio.",
+    "summary": "Projeto prático de inteligência financeira com pipeline em Apps Script, regras analíticas no DataStudio e dashboard interativo para acompanhar caixa, orçamento, atrasos, conciliação e qualidade dos dados.",
+    "problem": "Seis fontes financeiras com estruturas diferentes dificultavam a consolidação, a conciliação e a leitura executiva do fluxo de caixa.",
+    "role": "Estruturação das fontes no Google Sheets, tratamentos e automações em Apps Script, criação de regras analíticas e campos calculados no DataStudio, validação de código no VS Code e desenvolvimento de componentes visuais em HTML.",
+    "solution": "Pipeline reproduzível em Apps Script para padronizar e conciliar as fontes, modelo com fatos, dimensões e logs de qualidade, e dashboard no DataStudio com SQL e campos calculados para as análises financeiras.",
     "results": [
-      "1.600 movimentações sintéticas e documentadas",
-      "Visão consolidada de entradas, saídas, saldo e títulos vencidos",
-      "Dashboard interativo publicado e incorporado ao case no Looker Studio"
+      "Dashboard interativo publicado e incorporado via DataStudio",
+      "Pipeline em Apps Script para tratamento, padronização e conciliação das fontes",
+      "Evolução documentada em seis frentes analíticas, com critérios explícitos de validação"
     ],
     "technologies": [
-      "Looker Studio",
+      "DataStudio",
       "Google Sheets",
-      "Python",
+      "Google Apps Script",
+      "SQL",
+      "VS Code",
+      "HTML",
       "CSV",
       "JSON"
     ],
     "cover": "cover.png",
-    "metrics": {
-      "movimentos": 1600,
-      "entradas": 7323077.61,
-      "saidas": 7864273.98,
-      "saldo": -541196.37,
-      "valor_vencido": 98220.44,
-      "taxa_atraso": 11.4,
-      "periodo": "jan/2025–ago/2026"
-    },
+    "metrics": {},
     "demo": {
-      "mode": "looker-studio",
+      "mode": "external",
       "embedPath": "",
       "embedUrl": "https://datastudio.google.com/embed/reporting/40e39169-0660-4056-8589-6b20f063e2cd/page/yo48F",
       "externalUrl": "https://datastudio.google.com/embed/reporting/40e39169-0660-4056-8589-6b20f063e2cd/page/yo48F",
@@ -49,37 +44,37 @@
     "new": false,
     "stackGroups": [
       {
-        "label": "Plataforma",
+        "label": "Dados",
         "items": [
-          "Looker Studio",
-          "Google Sheets"
-        ]
-      },
-      {
-        "label": "Linguagens & automação",
-        "items": [
-          "Python"
-        ]
-      },
-      {
-        "label": "Formatos de dados",
-        "items": [
+          "Google Sheets",
           "CSV",
           "JSON"
         ]
       },
       {
-        "label": "Modelagem & análise",
+        "label": "Tratamento & automação",
         "items": [
-          "Star Schema",
-          "KPIs financeiros"
+          "Google Apps Script"
         ]
       },
       {
-        "label": "Publicação",
+        "label": "Lógica analítica",
         "items": [
-          "GitHub Pages",
-          "Looker Studio"
+          "SQL",
+          "Campos calculados no DataStudio"
+        ]
+      },
+      {
+        "label": "Desenvolvimento & validação",
+        "items": [
+          "VS Code",
+          "HTML"
+        ]
+      },
+      {
+        "label": "Visualização",
+        "items": [
+          "DataStudio"
         ]
       }
     ],
@@ -87,23 +82,23 @@
       "en-US": {
         "title": "CashFlow Intelligence",
         "category": "Data & BI",
-        "status": "Completed",
-        "summary": "Financial intelligence solution for monitoring actuals, forecasts, delays and cash availability.",
-        "problem": "Fragmented financial controls make cash visibility and risk anticipation difficult.",
-        "role": "Business analysis, synthetic dataset creation, dimensional modeling, KPI definition and Looker Studio dashboard development.",
-        "solution": "Fact-and-dimension data model, processed with Python and Google Sheets, with an executive dashboard published in Looker Studio.",
+        "status": "In progress",
+        "summary": "Practical financial intelligence project with an Apps Script pipeline, analytical rules in DataStudio and an interactive dashboard for cash flow, budget, overdue items, reconciliation and data quality.",
+        "problem": "Six financial sources with different structures made consolidation, reconciliation and executive cash-flow analysis difficult.",
+        "role": "Source structuring in Google Sheets, treatments and automation with Apps Script, analytical rules and calculated fields in DataStudio, code validation in VS Code and custom HTML visual development.",
+        "solution": "A reproducible Apps Script pipeline standardizes and reconciles the sources, feeding a facts-and-dimensions model and a DataStudio dashboard with SQL and calculated fields.",
         "results": [
-          "1,600 documented synthetic transactions",
-          "Consolidated view of inflows, outflows, balance and overdue items",
-          "Interactive Looker Studio dashboard published and embedded in the case"
+          "Interactive dashboard published and embedded through DataStudio",
+          "Apps Script pipeline for source treatment, standardization and reconciliation",
+          "Progress documented across six analytical workstreams with explicit validation criteria"
         ]
       }
     },
-    "projectType": "Estudo de caso",
-    "dataNature": "Base 100% sintética criada para demonstração.",
+    "projectType": "Projeto prático interativo",
+    "dataNature": "Base 100% sintética criada exclusivamente para demonstração e validação técnica.",
     "disclosure": {
       "label": "Dados 100% fictícios",
-      "detail": "Indicadores e transações foram gerados exclusivamente para demonstração."
+      "detail": "Indicadores e transações são sintéticos; o projeto demonstra processo, arquitetura, tratamento e visualização."
     }
   },
   {
@@ -202,6 +197,108 @@
           "label": "Fictitious demonstration data",
           "detail": "The public demonstration removes or recreates operational and personal information."
         }
+      }
+    }
+  },
+  {
+    "year": 2026,
+    "new": true,
+    "metrics": {},
+    "id": "nexus-ai",
+    "title": "Nexus AI — Arquitetura e Readiness",
+    "category": "IA & Automação",
+    "status": "Estudo de caso",
+    "featured": true,
+    "projectType": "Estudo de caso estratégico",
+    "dataNature": "Arquitetura baseada em análise real; pessoas, consultas, custos, latência e indicadores do protótipo são fictícios.",
+    "summary": "Arquitetura e prontidão para um assistente corporativo seguro, auditável e conectado a fontes governadas.",
+    "problem": "Uma estratégia IA-first seria prematura sem processos maduros, dados confiáveis, regras de acesso e supervisão.",
+    "role": "Diagnóstico de maturidade, análise de viabilidade, arquitetura, matriz de riscos, critérios de decisão e roadmap.",
+    "solution": "Implantação em quatro fases, separando consultas determinísticas, APIs, conhecimento corporativo e LLM controlada.",
+    "results": [
+      "Diagnóstico em dados, regras, desenvolvimento, supervisão e controle",
+      "Arquitetura com gateway, APIs, MCP, permissões, fontes e auditoria",
+      "Roadmap progressivo com piloto por área, KPIs e critérios de avanço"
+    ],
+    "technologies": [
+      "Microsoft Teams",
+      "LLM",
+      "APIs",
+      "MCP",
+      "SQL",
+      "RAG",
+      "IAM",
+      "Observabilidade"
+    ],
+    "stackGroups": [
+      {
+        "label": "Interface",
+        "items": [
+          "Microsoft Teams",
+          "Chat corporativo"
+        ]
+      },
+      {
+        "label": "Orquestração",
+        "items": [
+          "Gateway",
+          "APIs",
+          "MCP",
+          "Roteamento determinístico"
+        ]
+      },
+      {
+        "label": "Dados e conhecimento",
+        "items": [
+          "SQL",
+          "RAG",
+          "Documentos governados"
+        ]
+      },
+      {
+        "label": "Controle",
+        "items": [
+          "IAM",
+          "RBAC",
+          "Auditoria",
+          "Observabilidade"
+        ]
+      }
+    ],
+    "cover": "cover.png",
+    "demo": {
+      "mode": "github-html",
+      "embedPath": "content/projects/nexus-ai/dashboard/index.html",
+      "embedUrl": "",
+      "externalUrl": "",
+      "fallbackImage": "content/projects/nexus-ai/cover.png",
+      "pbixDownload": ""
+    },
+    "links": {
+      "github": "https://github.com/kpassaros/portfolio-dados-bi/tree/main/content/projects/nexus-ai",
+      "kaggle": "",
+      "documentation": "content/projects/nexus-ai/README.md",
+      "dataset": ""
+    },
+    "disclosure": {
+      "label": "Protótipo com dados fictícios",
+      "detail": "Diagnóstico e arquitetura representam trabalho real; números e interações são simulados."
+    },
+    "i18n": {
+      "en-US": {
+        "title": "Nexus AI — Architecture & Readiness",
+        "category": "AI & Automation",
+        "status": "Case study",
+        "projectType": "Strategic case study",
+        "summary": "Architecture and readiness for a secure, auditable corporate assistant connected to governed sources.",
+        "problem": "An AI-first strategy would be premature without mature processes, trustworthy data, access rules and supervision.",
+        "role": "Maturity assessment, feasibility analysis, architecture, risk matrix, decision criteria and roadmap.",
+        "solution": "A four-phase implementation separating deterministic queries, APIs, corporate knowledge and controlled LLM use.",
+        "results": [
+          "Assessment across data, rules, development, supervision and control",
+          "Architecture with gateway, APIs, MCP, permissions, sources and audit trail",
+          "Phased roadmap with area pilots, KPIs and progression criteria"
+        ]
       }
     }
   },
@@ -402,165 +499,41 @@
     "year": 2026,
     "new": true,
     "metrics": {},
-    "id": "nexus-ai",
-    "title": "Nexus AI — Arquitetura e Readiness",
-    "category": "IA & Automação",
-    "status": "Estudo de caso",
-    "featured": true,
-    "projectType": "Estudo de caso estratégico",
-    "dataNature": "Arquitetura baseada em análise real; pessoas, consultas, custos, latência e indicadores do protótipo são fictícios.",
-    "summary": "Arquitetura e prontidão para um assistente corporativo seguro, auditável e conectado a fontes governadas.",
-    "problem": "Uma estratégia IA-first seria prematura sem processos maduros, dados confiáveis, regras de acesso e supervisão.",
-    "role": "Diagnóstico de maturidade, análise de viabilidade, arquitetura, matriz de riscos, critérios de decisão e roadmap.",
-    "solution": "Implantação em quatro fases, separando consultas determinísticas, APIs, conhecimento corporativo e LLM controlada.",
-    "results": [
-      "Diagnóstico em dados, regras, desenvolvimento, supervisão e controle",
-      "Arquitetura com gateway, APIs, MCP, permissões, fontes e auditoria",
-      "Roadmap progressivo com piloto por área, KPIs e critérios de avanço"
-    ],
-    "technologies": [
-      "Microsoft Teams",
-      "LLM",
-      "APIs",
-      "MCP",
-      "SQL",
-      "RAG",
-      "IAM",
-      "Observabilidade"
-    ],
-    "stackGroups": [
-      {
-        "label": "Interface",
-        "items": [
-          "Microsoft Teams",
-          "Chat corporativo"
-        ]
-      },
-      {
-        "label": "Orquestração",
-        "items": [
-          "Gateway",
-          "APIs",
-          "MCP",
-          "Roteamento determinístico"
-        ]
-      },
-      {
-        "label": "Dados e conhecimento",
-        "items": [
-          "SQL",
-          "RAG",
-          "Documentos governados"
-        ]
-      },
-      {
-        "label": "Controle",
-        "items": [
-          "IAM",
-          "RBAC",
-          "Auditoria",
-          "Observabilidade"
-        ]
-      }
-    ],
-    "cover": "cover.png",
-    "demo": {
-      "mode": "github-html",
-      "embedPath": "content/projects/nexus-ai/dashboard/index.html",
-      "embedUrl": "",
-      "externalUrl": "",
-      "fallbackImage": "content/projects/nexus-ai/cover.png",
-      "pbixDownload": ""
-    },
-    "links": {
-      "github": "https://github.com/kpassaros/portfolio-dados-bi/tree/main/content/projects/nexus-ai",
-      "kaggle": "",
-      "documentation": "content/projects/nexus-ai/README.md",
-      "dataset": ""
-    },
-    "disclosure": {
-      "label": "Protótipo com dados fictícios",
-      "detail": "Diagnóstico e arquitetura representam trabalho real; números e interações são simulados."
-    },
-    "i18n": {
-      "en-US": {
-        "title": "Nexus AI — Architecture & Readiness",
-        "category": "AI & Automation",
-        "status": "Case study",
-        "projectType": "Strategic case study",
-        "summary": "Architecture and readiness for a secure, auditable corporate assistant connected to governed sources.",
-        "problem": "An AI-first strategy would be premature without mature processes, trustworthy data, access rules and supervision.",
-        "role": "Maturity assessment, feasibility analysis, architecture, risk matrix, decision criteria and roadmap.",
-        "solution": "A four-phase implementation separating deterministic queries, APIs, corporate knowledge and controlled LLM use.",
-        "results": [
-          "Assessment across data, rules, development, supervision and control",
-          "Architecture with gateway, APIs, MCP, permissions, sources and audit trail",
-          "Phased roadmap with area pilots, KPIs and progression criteria"
-        ]
-      }
-    }
-  },
-  {
-    "id": "nome-do-projeto",
-    "title": "Nome do projeto",
-    "category": "Dados & BI",
-    "status": "Em desenvolvimento",
-    "year": 2026,
-    "featured": false,
-    "summary": "Descrição curta para o card.",
-    "problem": "Problema de negócio.",
-    "role": "Seu papel.",
-    "solution": "Solução criada.",
-    "results": [
-      "Resultado ou evidência"
-    ],
-    "technologies": [
-      "Tecnologia 1"
-    ],
-    "cover": "cover.png",
-    "metrics": {},
-    "demo": {
-      "mode": "none",
-      "embedPath": "",
-      "embedUrl": "",
-      "externalUrl": "",
-      "fallbackImage": "cover.png",
-      "pbixDownload": ""
-    },
-    "links": {
-      "github": "",
-      "kaggle": "",
-      "documentation": "content/projects/nome-do-projeto/README.md",
-      "dataset": ""
-    }
-  },
-  {
-    "id": "documentation-hub",
-    "title": "Data & BI Documentation Hub",
+    "id": "ai-enablement-hub",
+    "title": "AI Enablement Hub",
     "category": "Labs",
-    "status": "Lab",
-    "year": 2026,
+    "status": "Applied Lab",
     "featured": false,
-    "new": true,
-    "summary": "Central pesquisável para dicionário de dados, KPIs, linhagem, arquitetura e regras de negócio.",
-    "problem": "Projeto planejado para transformar um processo relevante em uma solução documentada e demonstrável.",
-    "role": "Descoberta, requisitos, arquitetura, desenvolvimento, documentação e validação.",
-    "solution": "Case será publicado com dados seguros, documentação e demonstração reproduzível.",
+    "projectType": "Applied Lab",
+    "dataNature": "Conteúdo baseado em práticas reais; exemplos, pessoas e classificações do protótipo são fictícios.",
+    "summary": "Guia interativo para adoção responsável de IA, com prompts, segurança, revisão humana e inteligência de reuniões.",
+    "problem": "Uso de IA sem contexto, segurança ou validação humana gera respostas frágeis e risco de exposição.",
+    "role": "Estruturação do guia, padrões de prompt, matriz de risco, exercícios, revisão humana e módulo de reuniões.",
+    "solution": "Hub de aprendizagem com biblioteca contextual, classificador de risco, comparação de prompts e human-in-the-loop.",
     "results": [
-      "Escopo e arquitetura definidos",
-      "Demonstração pública planejada",
-      "Documentação preparada para evolução"
+      "Orientação para decidir quando usar ou não usar IA",
+      "Biblioteca de prompts e exercício de revisão humana",
+      "Meeting Intelligence para resumos, decisões, responsáveis, prazos e tarefas"
     ],
     "technologies": [
+      "Notion AI",
+      "Microsoft Copilot",
+      "Prompt Engineering",
       "HTML",
-      "CSS",
       "JavaScript",
-      "JSON",
-      "GitHub Pages"
+      "Governança",
+      "Human-in-the-loop"
     ],
     "stackGroups": [
       {
-        "label": "Interface & lógica",
+        "label": "Plataformas",
+        "items": [
+          "Notion AI",
+          "Microsoft Copilot"
+        ]
+      },
+      {
+        "label": "Experiência",
         "items": [
           "HTML",
           "CSS",
@@ -568,160 +541,55 @@
         ]
       },
       {
-        "label": "Formato de conteúdo",
-        "items": [
-          "JSON"
-        ]
-      },
-      {
         "label": "Práticas",
         "items": [
-          "Governança de dados",
-          "Linhagem",
-          "Dicionário de dados",
-          "Catálogo de KPIs"
+          "Prompt Engineering",
+          "Human-in-the-loop",
+          "Gestão do conhecimento"
         ]
       },
       {
-        "label": "Publicação",
+        "label": "Governança",
         "items": [
-          "GitHub Pages"
+          "Classificação da informação",
+          "Segurança",
+          "Revisão humana"
         ]
       }
     ],
     "cover": "cover.png",
-    "metrics": {},
     "demo": {
       "mode": "github-html",
-      "embedPath": "content/projects/documentation-hub/dashboard/index.html",
+      "embedPath": "content/projects/ai-enablement-hub/dashboard/index.html",
       "embedUrl": "",
       "externalUrl": "",
-      "fallbackImage": "content/projects/documentation-hub/cover.png",
+      "fallbackImage": "content/projects/ai-enablement-hub/cover.png",
       "pbixDownload": ""
     },
     "links": {
-      "github": "https://github.com/kpassaros/portfolio-dados-bi",
+      "github": "https://github.com/kpassaros/portfolio-dados-bi/tree/main/content/projects/ai-enablement-hub",
       "kaggle": "",
-      "documentation": "content/projects/documentation-hub/README.md",
-      "dataset": ""
-    },
-    "i18n": {
-      "en-US": {
-        "title": "Data & BI Documentation Hub",
-        "category": "Governance",
-        "status": "Coming soon",
-        "summary": "Searchable hub for data dictionaries, KPIs, lineage, architecture and business rules.",
-        "problem": "A planned project that turns a relevant process into a documented and demonstrable solution.",
-        "role": "Discovery, requirements, architecture, development, documentation and validation.",
-        "solution": "The case will be published with safe data, documentation and a reproducible demo.",
-        "results": [
-          "Scope and architecture defined",
-          "Public demo planned",
-          "Documentation prepared for evolution"
-        ]
-      }
-    },
-    "projectType": "Lab",
-    "dataNature": "Conteúdo e exemplos 100% fictícios.",
-    "disclosure": {
-      "label": "Lab fictício",
-      "detail": "Documentos, KPIs e linhagem existem apenas para demonstração."
-    }
-  },
-  {
-    "id": "quick-access-hub",
-    "title": "Quick Access Hub para Notion",
-    "category": "Labs",
-    "status": "Case aplicado",
-    "year": 2026,
-    "featured": false,
-    "new": true,
-    "projectType": "Case aplicado",
-    "dataNature": "Demonstração 100% fictícia. Resultado de adoção é real, agregado e anonimizado.",
-    "summary": "Componente incorporado ao Notion para transformar links dispersos em uma central pesquisável de serviços.",
-    "problem": "Links nativos tinham pouca hierarquia, explicação e capacidade de descoberta para colaboradores.",
-    "role": "Desenho da experiência, protótipo HTML, categorização dos serviços e integração via embed.",
-    "solution": "Portal responsivo com busca, filtros, cards, status dos serviços e links que preservam as permissões do Notion.",
-    "results": [
-      "Nova experiência implantada em 14/08/2026",
-      "Página central registrou mais de 1.000 visualizações em 90 dias",
-      "Métrica de página agregada, sem atribuição causal integral à reformulação"
-    ],
-    "technologies": [
-      "Notion",
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "JSON"
-    ],
-    "stackGroups": [
-      {
-        "label": "Plataforma",
-        "items": [
-          "Notion"
-        ]
-      },
-      {
-        "label": "Interface & lógica",
-        "items": [
-          "HTML",
-          "CSS",
-          "JavaScript"
-        ]
-      },
-      {
-        "label": "Formato de configuração",
-        "items": [
-          "JSON"
-        ]
-      },
-      {
-        "label": "Práticas",
-        "items": [
-          "UX Writing",
-          "Arquitetura da informação",
-          "Ferramentas internas"
-        ]
-      }
-    ],
-    "cover": "cover.png",
-    "metrics": {},
-    "demo": {
-      "mode": "github-html",
-      "embedPath": "content/projects/quick-access-hub/dashboard/index.html",
-      "embedUrl": "",
-      "externalUrl": "",
-      "fallbackImage": "content/projects/quick-access-hub/cover.png",
-      "pbixDownload": ""
-    },
-    "links": {
-      "github": "https://github.com/kpassaros/portfolio-dados-bi",
-      "kaggle": "",
-      "documentation": "content/projects/quick-access-hub/README.md",
+      "documentation": "content/projects/ai-enablement-hub/README.md",
       "dataset": ""
     },
     "disclosure": {
-      "label": "Demonstração com dados fictícios",
-      "detail": "Demonstração 100% fictícia. Resultado de adoção é real, agregado e anonimizado."
+      "label": "Applied Lab sem métricas inventadas",
+      "detail": "Não são declarados ganhos de produtividade ou adoção sem evidências verificáveis."
     },
     "i18n": {
       "en-US": {
-        "title": "Quick Access Hub for Notion",
+        "title": "AI Enablement Hub",
         "category": "Labs",
-        "status": "Applied case",
-        "summary": "Embedded Notion component that turns scattered links into a searchable service hub.",
-        "problem": "Native links provided limited hierarchy, explanation and discoverability for employees.",
-        "role": "Experience design, HTML prototype, service categorization and embed integration.",
-        "solution": "Responsive portal with search, filters, cards, service status and links that preserve Notion permissions.",
+        "status": "Applied Lab",
+        "summary": "Interactive guide for responsible AI adoption with prompts, safety, human review and meeting intelligence.",
+        "problem": "AI use without context, security or human validation creates weak answers and exposure risks.",
+        "role": "Guide structure, prompt patterns, risk matrix, exercises, human review and meeting module.",
+        "solution": "Learning hub with a contextual library, risk classifier, prompt comparison and human-in-the-loop.",
         "results": [
-          "New experience launched on August 14, 2026",
-          "The central page recorded more than 1,000 views over 90 days",
-          "Aggregated page metric with no full causal attribution to the redesign"
-        ],
-        "disclosure": {
-          "label": "Fictitious demonstration data",
-          "detail": "The public demonstration removes or recreates operational and personal information."
-        }
+          "Guidance for deciding when to use or avoid AI",
+          "Prompt library and human-review exercise",
+          "Meeting Intelligence for summaries, decisions, owners, deadlines and tasks"
+        ]
       }
     }
   },
@@ -823,44 +691,40 @@
     }
   },
   {
-    "year": 2026,
-    "new": true,
-    "metrics": {},
-    "id": "ai-enablement-hub",
-    "title": "AI Enablement Hub",
+    "id": "quick-access-hub",
+    "title": "Quick Access Hub para Notion",
     "category": "Labs",
-    "status": "Applied Lab",
+    "status": "Case aplicado",
+    "year": 2026,
     "featured": false,
-    "projectType": "Applied Lab",
-    "dataNature": "Conteúdo baseado em práticas reais; exemplos, pessoas e classificações do protótipo são fictícios.",
-    "summary": "Guia interativo para adoção responsável de IA, com prompts, segurança, revisão humana e inteligência de reuniões.",
-    "problem": "Uso de IA sem contexto, segurança ou validação humana gera respostas frágeis e risco de exposição.",
-    "role": "Estruturação do guia, padrões de prompt, matriz de risco, exercícios, revisão humana e módulo de reuniões.",
-    "solution": "Hub de aprendizagem com biblioteca contextual, classificador de risco, comparação de prompts e human-in-the-loop.",
+    "new": true,
+    "projectType": "Case aplicado",
+    "dataNature": "Demonstração 100% fictícia. Resultado de adoção é real, agregado e anonimizado.",
+    "summary": "Componente incorporado ao Notion para transformar links dispersos em uma central pesquisável de serviços.",
+    "problem": "Links nativos tinham pouca hierarquia, explicação e capacidade de descoberta para colaboradores.",
+    "role": "Desenho da experiência, protótipo HTML, categorização dos serviços e integração via embed.",
+    "solution": "Portal responsivo com busca, filtros, cards, status dos serviços e links que preservam as permissões do Notion.",
     "results": [
-      "Orientação para decidir quando usar ou não usar IA",
-      "Biblioteca de prompts e exercício de revisão humana",
-      "Meeting Intelligence para resumos, decisões, responsáveis, prazos e tarefas"
+      "Nova experiência implantada em 14/08/2026",
+      "Página central registrou mais de 1.000 visualizações em 90 dias",
+      "Métrica de página agregada, sem atribuição causal integral à reformulação"
     ],
     "technologies": [
-      "Notion AI",
-      "Microsoft Copilot",
-      "Prompt Engineering",
+      "Notion",
       "HTML",
+      "CSS",
       "JavaScript",
-      "Governança",
-      "Human-in-the-loop"
+      "JSON"
     ],
     "stackGroups": [
       {
-        "label": "Plataformas",
+        "label": "Plataforma",
         "items": [
-          "Notion AI",
-          "Microsoft Copilot"
+          "Notion"
         ]
       },
       {
-        "label": "Experiência",
+        "label": "Interface & lógica",
         "items": [
           "HTML",
           "CSS",
@@ -868,55 +732,58 @@
         ]
       },
       {
-        "label": "Práticas",
+        "label": "Formato de configuração",
         "items": [
-          "Prompt Engineering",
-          "Human-in-the-loop",
-          "Gestão do conhecimento"
+          "JSON"
         ]
       },
       {
-        "label": "Governança",
+        "label": "Práticas",
         "items": [
-          "Classificação da informação",
-          "Segurança",
-          "Revisão humana"
+          "UX Writing",
+          "Arquitetura da informação",
+          "Ferramentas internas"
         ]
       }
     ],
     "cover": "cover.png",
+    "metrics": {},
     "demo": {
       "mode": "github-html",
-      "embedPath": "content/projects/ai-enablement-hub/dashboard/index.html",
+      "embedPath": "content/projects/quick-access-hub/dashboard/index.html",
       "embedUrl": "",
       "externalUrl": "",
-      "fallbackImage": "content/projects/ai-enablement-hub/cover.png",
+      "fallbackImage": "content/projects/quick-access-hub/cover.png",
       "pbixDownload": ""
     },
     "links": {
-      "github": "https://github.com/kpassaros/portfolio-dados-bi/tree/main/content/projects/ai-enablement-hub",
+      "github": "https://github.com/kpassaros/portfolio-dados-bi",
       "kaggle": "",
-      "documentation": "content/projects/ai-enablement-hub/README.md",
+      "documentation": "content/projects/quick-access-hub/README.md",
       "dataset": ""
     },
     "disclosure": {
-      "label": "Applied Lab sem métricas inventadas",
-      "detail": "Não são declarados ganhos de produtividade ou adoção sem evidências verificáveis."
+      "label": "Demonstração com dados fictícios",
+      "detail": "Demonstração 100% fictícia. Resultado de adoção é real, agregado e anonimizado."
     },
     "i18n": {
       "en-US": {
-        "title": "AI Enablement Hub",
+        "title": "Quick Access Hub for Notion",
         "category": "Labs",
-        "status": "Applied Lab",
-        "summary": "Interactive guide for responsible AI adoption with prompts, safety, human review and meeting intelligence.",
-        "problem": "AI use without context, security or human validation creates weak answers and exposure risks.",
-        "role": "Guide structure, prompt patterns, risk matrix, exercises, human review and meeting module.",
-        "solution": "Learning hub with a contextual library, risk classifier, prompt comparison and human-in-the-loop.",
+        "status": "Applied case",
+        "summary": "Embedded Notion component that turns scattered links into a searchable service hub.",
+        "problem": "Native links provided limited hierarchy, explanation and discoverability for employees.",
+        "role": "Experience design, HTML prototype, service categorization and embed integration.",
+        "solution": "Responsive portal with search, filters, cards, service status and links that preserve Notion permissions.",
         "results": [
-          "Guidance for deciding when to use or avoid AI",
-          "Prompt library and human-review exercise",
-          "Meeting Intelligence for summaries, decisions, owners, deadlines and tasks"
-        ]
+          "New experience launched on August 14, 2026",
+          "The central page recorded more than 1,000 views over 90 days",
+          "Aggregated page metric with no full causal attribution to the redesign"
+        ],
+        "disclosure": {
+          "label": "Fictitious demonstration data",
+          "detail": "The public demonstration removes or recreates operational and personal information."
+        }
       }
     }
   },
