@@ -30,8 +30,8 @@
     "demo": {
       "mode": "external",
       "embedPath": "",
-      "embedUrl": "https://datastudio.google.com/embed/reporting/40e39169-0660-4056-8589-6b20f063e2cd/page/yo48F",
-      "externalUrl": "https://datastudio.google.com/u/0/reporting/40e39169-0660-4056-8589-6b20f063e2cd/page/yo48F",
+      "embedUrl": "https://datastudio.google.com/embed/reporting/40e39169-0660-4056-8589-6b20f063e2cd/page/p_5n6cpchl7d",
+      "externalUrl": "https://datastudio.google.com/u/0/reporting/40e39169-0660-4056-8589-6b20f063e2cd/page/p_5n6cpchl7d",
       "fallbackImage": "content/projects/cashflow-intelligence/cover.png",
       "pbixDownload": ""
     },
@@ -40,7 +40,7 @@
       "kaggle": "",
       "documentation": "content/projects/cashflow-intelligence/README.md",
       "dataset": "https://docs.google.com/spreadsheets/d/10dQYWEWD2r5ZemvdrXtYJuV-LNmScJr1INjqqe-j8mc/edit?gid=952473364#gid=952473364",
-      "dashboard": "https://datastudio.google.com/u/0/reporting/40e39169-0660-4056-8589-6b20f063e2cd/page/yo48F",
+      "dashboard": "https://datastudio.google.com/u/0/reporting/40e39169-0660-4056-8589-6b20f063e2cd/page/p_5n6cpchl7d",
       "code": "content/projects/cashflow-intelligence/CashFlow.gs"
     },
     "new": false,

@@ -2,8 +2,8 @@ from pathlib import Path
 import json,re
 root=Path('/data/work/portfolio-dados-bi-final5')
 proj=root/'content/projects/cashflow-intelligence'
-report='https://datastudio.google.com/u/0/reporting/40e39169-0660-4056-8589-6b20f063e2cd/page/yo48F'
-embed='https://datastudio.google.com/embed/reporting/40e39169-0660-4056-8589-6b20f063e2cd/page/yo48F'
+report='https://datastudio.google.com/u/0/reporting/40e39169-0660-4056-8589-6b20f063e2cd/page/p_5n6cpchl7d'
+embed='https://datastudio.google.com/embed/reporting/40e39169-0660-4056-8589-6b20f063e2cd/page/p_5n6cpchl7d'
 base='https://docs.google.com/spreadsheets/d/10dQYWEWD2r5ZemvdrXtYJuV-LNmScJr1INjqqe-j8mc/edit?gid=952473364#gid=952473364'
 # Curadoria reversível: somente CashFlow é publicado como projeto.
 for d in (root/'content/projects').iterdir():
