@@ -1,29 +1,24 @@
-# Portfólio — Kaíque Passaros
+# Portfólio Dados & BI — Astro
 
-Dados, BI, Automação, IA e Transformação Digital.
+Portfólio de Kaíque Passaros publicado como site estático com Astro e GitHub Pages.
 
-**Site:** https://kpassaros.github.io/portfolio-dados-bi/
+## Arquitetura
 
-| Projeto | Tipo | Status |
-|---|---|---|
-| CashFlow Intelligence | Estudo de caso | Concluído |
-| Central de Chamados & SLA | Case aplicado | Case aplicado |
-| Operations Command Center | Estudo de caso | Estudo de caso |
-| Production Performance Intelligence | Estudo de caso | Estudo de caso |
-| Nexus AI — Arquitetura e Readiness | Estudo de caso estratégico | Estudo de caso |
-| Nome do projeto | Dados & BI | Em desenvolvimento |
-| Data & BI Documentation Hub | Lab | Lab |
-| Quick Access Hub para Notion | Case aplicado | Case aplicado |
-| HTML Visual Components para Power BI | Applied Lab | Em implementação |
-| AI Enablement Hub | Applied Lab | Applied Lab |
-| Product 360° & Commercial Publishing | Case aplicado | Case aplicado |
-| Commercial Performance & Data Governance | Case aplicado | Case aplicado |
+- Páginas estáticas geradas pelo Astro.
+- Projetos e Labs mantidos em Content Collections tipadas.
+- GitHub Actions executa auditoria, verificação, build e deploy.
+- Base path inferido pelo nome do repositório para GitHub Pages.
 
-## Validação
+## Desenvolvimento
+
 ```bash
-node scripts/validate-projects.mjs
-node scripts/build-projects.mjs
-node scripts/check-content.mjs
+npm install
+npm run audit
+npm run check
+npm run build
+npm run dev
 ```
 
-Projetos são mantidos em JSON, com dados sintéticos ou anonimizados e deploy validado pelo GitHub Actions.
+## Publicação
+
+O workflow `Deploy portfolio to Pages` publica a branch `main` no GitHub Pages. Antes de produção, execute o checklist de `VALIDATION.md` em homologação.
