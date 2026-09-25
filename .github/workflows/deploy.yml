@@ -1,10 +1,10 @@
 name: Deploy portfolio to Pages
 
-on:
+'on':
   push:
     branches:
       - main
-  workflow_dispatch:
+  workflow_dispatch: {}
 
 permissions:
   contents: read
@@ -16,25 +16,52 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-
+  build:
+    name: Build
     runs-on: ubuntu-latest
+    timeout-minutes: 10
 
     steps:
-      - name: Baixar arquivos do repositório
-        uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v5
 
-      - name: Configurar GitHub Pages
+      - name: Setup Node.js
+        uses: actions/setup-node@v5
+        with:
+          node-version: '24'
+
+      - name: Install dependencies
+        run: npm install --no-audit --no-fund
+
+      - name: Audit project structure
+        run: npm run audit
+
+      - name: Check Astro project
+        run: npm run check
+
+      - name: Build static site
+        run: npm run build
+        env:
+          BASE_PATH: '/${{ github.event.repository.name }}'
+          SITE_URL: 'https://${{ github.repository_owner }}.github.io'
+
+      - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
 
-      - name: Preparar arquivos para publicação
+      - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: .
+          path: dist
 
-      - name: Publicar no GitHub Pages
+  deploy:
+    name: Deploy
+    environment:
+      name: github-pages
+      url: '${{ steps.deployment.outputs.page_url }}'
+    runs-on: ubuntu-latest
+    needs: build
+
+    steps:
+      - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
