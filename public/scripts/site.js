@@ -79,55 +79,6 @@
     });
   }
 
-  function initOrigami(loader){
-    const paper=q('#origami-paper',loader),exact=q('#origami-exact',loader);
-    if(!paper||!exact)return;
-    const polygons=qa('polygon',paper);
-    const states=[
-      [[-75,-75],[0,-75],[75,-75],[-75,0],[0,0],[75,0],[-75,75],[0,75],[75,75]],
-      [[-50,-74],[-6,-74],[50,-74],[-62,-6],[-6,-6],[58,-6],[-44,72],[-6,72],[44,72]],
-      [[-78,-66],[-8,-72],[38,-52],[-38,-8],[-8,-8],[58,-8],[-50,66],[-8,42],[80,-34]],
-      [[-94,-70],[-10,-70],[45,-70],[-40,-6],[-10,-6],[54,-6],[-50,70],[-10,40],[94,-38]],
-      [[-95,-70],[-10,-70],[48,-70],[-40,-5],[-10,-5],[54,-5],[-52,70],[-10,39],[95,-38]]
-    ];
-    const faces=[[0,1,4],[0,4,3],[1,2,5],[1,5,4],[3,4,7],[3,7,6],[4,5,8],[4,8,7]];
-    const colors=[[66,174,235],[43,145,220],[28,104,199],[14,77,176],[49,161,226],[38,132,213],[74,203,216],[18,86,185]];
-    const clamp=value=>Math.max(0,Math.min(1,value));
-    const smooth=value=>{value=clamp(value);return value*value*(3-2*value)};
-    const smoother=value=>{value=clamp(value);return value*value*value*(value*(value*6-15)+10)};
-    const interpolate=(a,b,progress)=>a.map((point,index)=>[
-      point[0]+(b[index][0]-point[0])*progress,
-      point[1]+(b[index][1]-point[1])*progress
-    ]);
-    const meshAt=progress=>{
-      if(progress<.22)return interpolate(states[0],states[1],smoother(progress/.22));
-      if(progress<.46)return interpolate(states[1],states[2],smoother((progress-.22)/.24));
-      if(progress<.72)return interpolate(states[2],states[3],smoother((progress-.46)/.26));
-      return interpolate(states[3],states[4],smoother((progress-.72)/.28));
-    };
-    polygons.forEach((polygon,index)=>{
-      polygon.style.fill=`rgb(${colors[index].join(',')})`;
-    });
-    paper.style.setProperty('opacity','1','important');
-    exact.style.setProperty('opacity','0','important');
-    const started=performance.now(),duration=reduced?180:1450;
-    function animate(now){
-      const progress=clamp((now-started)/duration),mesh=meshAt(progress);
-      polygons.forEach((polygon,index)=>{
-        polygon.setAttribute('points',faces[index].map(vertex=>mesh[vertex].join(',')).join(' '));
-      });
-      const takeover=smoother((progress-.52)/.4);
-      paper.style.setProperty('opacity',String(1-takeover),'important');
-      exact.style.setProperty('opacity',String(takeover),'important');
-      if(progress<1)requestAnimationFrame(animate);
-      else{
-        paper.style.setProperty('opacity','0','important');
-        exact.style.setProperty('opacity','1','important');
-      }
-    }
-    requestAnimationFrame(animate);
-  }
-
   function createNeuralNetwork(canvas,intro=false){
     const ctx=canvas.getContext('2d');
     let width=0,height=0,dpr=1,nodes=[],edges=[],focusEdges=[],pulses=[];
@@ -272,20 +223,31 @@
     }
     const canvas=q('#loader-network',loader);
     if(!canvas){releaseLoader(loader);return}
-    initOrigami(loader);
+    const video=q('.approved-loader-video',loader);
     const network=createNeuralNetwork(canvas,true);
-    const duration=reduced?300:2250;
-    setTimeout(()=>{loader.classList.add('is-expanding');network.expand()},reduced?50:180);
-    setTimeout(()=>{
+    let completed=false;
+    const finish=()=>{
+      if(completed)return;
+      completed=true;
       loader.classList.add('is-handoff');
       network.setAmbient();
-    },reduced?140:1550);
-    setTimeout(()=>{
-      canvas.id='starfield';
-      document.body.insertBefore(canvas,loader);
-      document.body.classList.add('content-ready');
-      releaseLoader(loader);
-    },duration);
+      setTimeout(()=>{
+        canvas.id='starfield';
+        document.body.insertBefore(canvas,loader);
+        document.body.classList.add('content-ready');
+        releaseLoader(loader);
+      },480);
+    };
+    setTimeout(()=>{loader.classList.add('is-expanding');network.expand()},reduced?50:180);
+    if(reduced){
+      if(video)video.pause();
+      setTimeout(finish,520);
+      return;
+    }
+    if(!video){setTimeout(finish,4000);return}
+    video.addEventListener('ended',finish,{once:true});
+    video.play().catch(()=>setTimeout(finish,4000));
+    setTimeout(finish,4600);
   }
 
   function initCareerTimeline(){

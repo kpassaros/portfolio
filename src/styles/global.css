@@ -225,12 +225,15 @@ body.home-loading > #site-footer{opacity:0!important}
 
 /* Loading v2.1 — short, continuous origami handoff */
 #page-loader.origami-loader .origami-mark{
-  width:clamp(154px,16vw,220px)!important;
+  width:clamp(210px,22vw,300px)!important;
   transform:none!important;
   transform-origin:center!important;
 }
 #page-loader.origami-loader #origami-paper{
   opacity:1!important;
+  transform-box:fill-box;
+  transform-origin:center;
+  will-change:transform,opacity;
 }
 #page-loader.origami-loader #origami-exact{
   opacity:0!important;
@@ -369,4 +372,37 @@ body[data-page]::before{display:none!important}
 @media(prefers-reduced-motion:reduce){
   #origami-paper{opacity:0!important}
   #origami-exact{opacity:1!important}
+}
+
+/* Approved loading film — exact approved prototype, static background */
+#page-loader.origami-loader{
+  background:#071117!important;
+}
+#page-loader.origami-loader .approved-loader-video{
+  position:absolute;
+  inset:0;
+  z-index:4;
+  display:block;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  object-position:center;
+  background:#071117;
+  opacity:1;
+  transition:opacity .48s ease;
+}
+#page-loader.origami-loader .approved-loader-static{
+  position:relative;
+  z-index:4;
+  display:none;
+  width:190px;
+  height:auto;
+  filter:drop-shadow(0 18px 34px rgba(0,0,0,.28));
+}
+#page-loader.origami-loader.is-handoff .approved-loader-video{
+  opacity:0;
+}
+@media(prefers-reduced-motion:reduce){
+  #page-loader.origami-loader .approved-loader-video{display:none}
+  #page-loader.origami-loader .approved-loader-static{display:block}
 }
