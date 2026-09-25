@@ -79,48 +79,6 @@
     });
   }
 
-  function initOrigami(loader){
-    const paper=q('#origami-paper',loader),exact=q('#origami-exact',loader);
-    if(!paper||!exact)return;
-    const polygons=qa('polygon',paper);
-    const states=[
-      [[-75,-75],[0,-75],[75,-75],[-75,0],[0,0],[75,0],[-75,75],[0,75],[75,75]],
-      [[-38,-75],[0,-75],[38,-75],[-48,0],[0,0],[48,0],[-38,75],[0,75],[38,75]],
-      [[-28,-56],[0,-80],[28,-56],[-46,0],[0,0],[46,0],[-24,55],[0,80],[24,55]],
-      [[-95,-70],[-10,-70],[48,-70],[-10,0],[-10,0],[52,0],[-52,70],[-10,37],[95,-38]]
-    ];
-    const faces=[[0,1,4],[0,4,3],[1,2,5],[1,5,4],[3,4,7],[3,7,6],[4,5,8],[4,8,7]];
-    const colors=[[66,174,235],[43,145,220],[28,104,199],[14,77,176],[49,161,226],[38,132,213],[74,203,216],[18,86,185]];
-    const clamp=value=>Math.max(0,Math.min(1,value));
-    const smooth=value=>{value=clamp(value);return value*value*(3-2*value)};
-    const interpolate=(a,b,progress)=>a.map((point,index)=>[
-      point[0]+(b[index][0]-point[0])*progress,
-      point[1]+(b[index][1]-point[1])*progress
-    ]);
-    const meshAt=progress=>{
-      if(progress<.28)return interpolate(states[0],states[1],smooth(progress/.28));
-      if(progress<.55)return interpolate(states[1],states[2],smooth((progress-.28)/.27));
-      if(progress<.84)return interpolate(states[2],states[3],smooth((progress-.55)/.29));
-      return states[3];
-    };
-    polygons.forEach((polygon,index)=>{
-      polygon.style.fill=`rgb(${colors[index].join(',')})`;
-    });
-    const started=performance.now(),duration=reduced?260:3000;
-    function animate(now){
-      const progress=clamp((now-started)/duration),mesh=meshAt(progress);
-      polygons.forEach((polygon,index)=>{
-        polygon.setAttribute('points',faces[index].map(vertex=>mesh[vertex].join(',')).join(' '));
-      });
-      const takeover=smooth((progress-.76)/.22);
-      paper.style.opacity=String(1-takeover);
-      exact.style.opacity=String(takeover);
-      if(progress<1)requestAnimationFrame(animate);
-      else{paper.style.opacity='0';exact.style.opacity='1'}
-    }
-    requestAnimationFrame(animate);
-  }
-
   function createNeuralNetwork(canvas,intro=false){
     const ctx=canvas.getContext('2d');
     let width=0,height=0,dpr=1,nodes=[],edges=[],focusEdges=[],pulses=[];
@@ -204,8 +162,8 @@
     function draw(now){
       ctx.clearRect(0,0,width,height);
       const rgb=getComputedStyle(root).getPropertyValue('--star').trim()||'105,169,238';
-      const expansion=stage==='expanding'?clamp((now-transitionStart)/2200):stage==='ambient'?1:0;
-      const introAge=clamp((now-transitionStart)/900);
+      const expansion=stage==='expanding'?clamp((now-transitionStart)/950):stage==='ambient'?1:0;
+      const introAge=clamp((now-transitionStart)/520);
       nodes.forEach(node=>{
         if(stage==='expanding'){
           const local=ease(clamp((expansion-node.delay*.18)/(.82-node.delay*.18+.001)));
@@ -265,20 +223,31 @@
     }
     const canvas=q('#loader-network',loader);
     if(!canvas){releaseLoader(loader);return}
-    initOrigami(loader);
+    const video=q('.approved-loader-video',loader);
     const network=createNeuralNetwork(canvas,true);
-    const duration=reduced?500:5000;
-    setTimeout(()=>{loader.classList.add('is-expanding');network.expand()},reduced?80:520);
-    setTimeout(()=>{
+    let completed=false;
+    const finish=()=>{
+      if(completed)return;
+      completed=true;
       loader.classList.add('is-handoff');
       network.setAmbient();
-    },reduced?220:3000);
-    setTimeout(()=>{
-      canvas.id='starfield';
-      document.body.insertBefore(canvas,loader);
-      document.body.classList.add('content-ready');
-      releaseLoader(loader);
-    },duration);
+      setTimeout(()=>{
+        canvas.id='starfield';
+        document.body.insertBefore(canvas,loader);
+        document.body.classList.add('content-ready');
+        releaseLoader(loader);
+      },480);
+    };
+    setTimeout(()=>{loader.classList.add('is-expanding');network.expand()},reduced?50:180);
+    if(reduced){
+      if(video)video.pause();
+      setTimeout(finish,520);
+      return;
+    }
+    if(!video){setTimeout(finish,4000);return}
+    video.addEventListener('ended',finish,{once:true});
+    video.play().catch(()=>setTimeout(finish,4000));
+    setTimeout(finish,4600);
   }
 
   function initCareerTimeline(){
