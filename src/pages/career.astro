@@ -1,0 +1,5 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import experience from '../data/experience.json';
+---
+<BaseLayout title="Carreira — Kaíque Passaros" active="career"><section class="page-hero compact"><p class="eyebrow">CARREIRA</p><h1>Da operação à transformação digital.</h1><p class="lede">Uma evolução construída pela proximidade com problemas reais e pela busca contínua de soluções mais estruturadas.</p></section><section id="career-timeline" class="section timeline" aria-label="Linha do tempo profissional">{experience.map((item,index)=><article class={`career-entry side-${item.side}`} style={`--delay:${index*.08}s`}><div class="career-date year">{item.period}</div><span class="career-node" aria-hidden="true"></span><div class="career-content"><small>{item.company}</small><h2>{item.role}</h2><p>{item.summary}</p>{item.highlights.length>0&&<ul>{item.highlights.map(x=><li>{x}</li>)}</ul>}</div></article>)}</section></BaseLayout>

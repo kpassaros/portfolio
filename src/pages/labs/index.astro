@@ -1,0 +1,5 @@
+---
+import { getCollection } from 'astro:content'; import BaseLayout from '../../layouts/BaseLayout.astro'; import ProjectCard from '../../components/ProjectCard.astro';
+const items=await getCollection('labs',({data})=>data.publish);
+---
+<BaseLayout title="Labs — Kaíque Passaros" active="labs"><section class="page-hero compact"><p class="eyebrow">LABS</p><h1>Hipóteses técnicas em construção.</h1><p class="lede">Protótipos e investigações apresentados com seu estágio, limitações e próximos testes.</p></section><section class="section catalog"><label class="search-box"><span>Buscar</span><input id="catalog-search" type="search" placeholder="Nome, stack ou experimento"/></label><p class="catalog-note">{items.length} Lab publicado.</p><div class="project-list" id="catalog-list">{items.map(entry=><ProjectCard entry={entry} collection="labs"/>)}</div></section></BaseLayout>

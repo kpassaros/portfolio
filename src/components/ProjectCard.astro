@@ -1,0 +1,15 @@
+---
+interface Props { entry: any; collection: 'projects'|'labs' }
+const { entry, collection } = Astro.props;
+const base = import.meta.env.BASE_URL;
+const data = entry.data;
+const href = `${base}${collection}/${entry.id}/`;
+---
+<article class="project-card" data-search={`${data.title} ${data.summary} ${data.projectType ?? ''} ${data.status} ${data.technologies.join(' ')}`.toLowerCase()} data-filters={`${data.projectType ?? ''} ${data.status} ${data.technologies.join(' ')}`.toLowerCase()}>
+  <div class="project-cover"><img src={`${base}${data.cover}`} alt={`Capa do projeto ${data.title}`} /></div>
+  <div class="project-summary">
+    <div class="project-meta"><span>{collection === 'labs' ? 'Labs' : data.projectType} • {data.year}</span><span class="status-badge">{data.status}</span></div>
+    <h2>{data.title}</h2><p>{data.summary}</p>
+    <div class="card-actions single"><a class="project-link" href={href}>Ver case completo <span>→</span></a></div>
+  </div>
+</article>

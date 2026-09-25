@@ -1,0 +1,379 @@
+{
+  "competencies": [
+    {
+      "name": "Business Intelligence & Analytics",
+      "description": "KPIs, dashboards e análises para decisões operacionais, táticas e estratégicas."
+    },
+    {
+      "name": "Análise de Dados",
+      "description": "Exploração, validação, comparação e interpretação de dados para gerar evidências."
+    },
+    {
+      "name": "Modelagem & Arquitetura de Dados",
+      "description": "Estruturação de bases, granularidade, relacionamentos e modelos dimensionais."
+    },
+    {
+      "name": "Governança & Qualidade de Dados",
+      "description": "Fonte de verdade, regras de negócio, rastreabilidade, dicionários e validações."
+    },
+    {
+      "name": "Automação de Processos",
+      "description": "Redução de trabalho manual por fluxos, scripts, integrações e controles."
+    },
+    {
+      "name": "Integração de Sistemas",
+      "description": "Conexão entre plataformas, dados e eventos por APIs, webhooks e conectores."
+    },
+    {
+      "name": "Desenvolvimento de Soluções Internas",
+      "description": "Interfaces, portais, componentes e ferramentas digitais para usuários."
+    },
+    {
+      "name": "Transformação Digital",
+      "description": "Mapeamento de gargalos, padronização e evolução de processos e serviços."
+    },
+    {
+      "name": "Gestão de Projetos & Requisitos",
+      "description": "Descoberta, escopo, priorização, riscos, dependências, critérios de aceite e stakeholders."
+    },
+    {
+      "name": "Data Storytelling & Capacitação",
+      "description": "Comunicação executiva, documentação, treinamentos e cultura orientada por dados."
+    }
+  ],
+  "technologyGroups": [
+    {
+      "name": "Linguagens, consultas & marcação",
+      "items": [
+        "SQL",
+        "Python",
+        "DAX",
+        "M",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "Google Apps Script"
+      ]
+    },
+    {
+      "name": "Plataformas & ferramentas",
+      "items": [
+        {
+          "name": "Power BI",
+          "purpose": "Criação de dashboards, modelos semânticos, métricas e análises interativas."
+        },
+        {
+          "name": "Power Query",
+          "purpose": "Extração, transformação, padronização e carga de dados."
+        },
+        {
+          "name": "Power Platform",
+          "purpose": "Ecossistema para construir aplicativos, automações, análises e soluções low-code."
+        },
+        {
+          "name": "Power Automate",
+          "purpose": "Automação de fluxos, aprovações, alertas e integrações entre sistemas."
+        },
+        {
+          "name": "Excel",
+          "purpose": "Análises, controles, protótipos e modelagem de dados em planilhas."
+        },
+        {
+          "name": "Google Sheets",
+          "purpose": "Bases colaborativas, protótipos e integrações leves com o ecossistema Google."
+        },
+        {
+          "name": "QlikView",
+          "purpose": "Desenvolvimento e manutenção de análises e dashboards legados."
+        },
+        {
+          "name": "Looker Studio",
+          "purpose": "Publicação de dashboards web e análises conectadas a fontes Google."
+        },
+        {
+          "name": "Notion",
+          "purpose": "Gestão de conhecimento, projetos, processos, documentação e bases operacionais."
+        },
+        {
+          "name": "ClickUp",
+          "purpose": "Planejamento e acompanhamento de projetos, tarefas, prazos e cargas de trabalho."
+        },
+        {
+          "name": "Jira",
+          "purpose": "Gestão de backlog, sprints, incidentes e fluxos de desenvolvimento."
+        },
+        {
+          "name": "Microsoft Planner",
+          "purpose": "Organização visual de tarefas e planos integrados ao Microsoft 365."
+        },
+        {
+          "name": "Visual Studio Code",
+          "purpose": "Desenvolvimento, revisão e manutenção de código e arquivos de configuração."
+        },
+        {
+          "name": "Git",
+          "purpose": "Versionamento local, histórico e controle de mudanças no código."
+        },
+        {
+          "name": "GitHub",
+          "purpose": "Hospedagem de repositórios, colaboração, documentação e automação de deploy."
+        },
+        {
+          "name": "dbdiagram.io",
+          "purpose": "Modelagem visual de bancos de dados e documentação de relacionamentos."
+        },
+        {
+          "name": "Lucidchart",
+          "purpose": "Desenho colaborativo de processos, arquiteturas, jornadas e diagramas."
+        },
+        {
+          "name": "draw.io",
+          "purpose": "Criação de fluxogramas, mapas técnicos e diagramas de arquitetura."
+        },
+        {
+          "name": "Bizagi Modeler",
+          "purpose": "Mapeamento e documentação de processos com notação BPMN."
+        },
+        {
+          "name": "VTEX",
+          "purpose": "Operação e análise de dados do ecossistema de e-commerce."
+        },
+        {
+          "name": "TOTVS Protheus",
+          "purpose": "Consulta e entendimento de processos e dados do ERP."
+        }
+      ]
+    },
+    {
+      "name": "Bancos & plataformas de dados",
+      "items": [
+        "SQL Server",
+        "MySQL",
+        "Snowflake",
+        "Microsoft Fabric"
+      ]
+    },
+    {
+      "name": "Integração & formatos",
+      "items": [
+        "REST APIs",
+        "Webhooks",
+        "JSON",
+        "CSV",
+        "XML",
+        "ODBC",
+        "QVD"
+      ]
+    },
+    {
+      "name": "Métodos & práticas",
+      "items": [
+        "Modelagem dimensional",
+        "Star Schema",
+        "ETL / ELT",
+        "Qualidade de dados",
+        "Governança de dados",
+        "Definição de KPIs",
+        "Storytelling com dados",
+        "Levantamento de requisitos",
+        "Mapeamento de processos",
+        "Agile / Kanban",
+        "Design Sprint",
+        "RACI / 5W2H",
+        "DoR / DoD",
+        "Documentação técnica",
+        "Testes e validação"
+      ]
+    }
+  ],
+  "en": {
+    "competencies": [
+      {
+        "name": "Business Intelligence & Analytics",
+        "description": "KPIs, dashboards e análises para decisões operacionais, táticas e estratégicas."
+      },
+      {
+        "name": "Data Analysis",
+        "description": "Exploração, validação, comparação e interpretação de dados para gerar evidências."
+      },
+      {
+        "name": "Data Modeling & Architecture",
+        "description": "Estruturação de bases, granularidade, relacionamentos e modelos dimensionais."
+      },
+      {
+        "name": "Data Governance & Quality",
+        "description": "Fonte de verdade, regras de negócio, rastreabilidade, dicionários e validações."
+      },
+      {
+        "name": "Process Automation",
+        "description": "Redução de trabalho manual por fluxos, scripts, integrações e controles."
+      },
+      {
+        "name": "Systems Integration",
+        "description": "Conexão entre plataformas, dados e eventos por APIs, webhooks e conectores."
+      },
+      {
+        "name": "Internal Solution Development",
+        "description": "Interfaces, portais, componentes e ferramentas digitais para usuários."
+      },
+      {
+        "name": "Digital Transformation",
+        "description": "Mapeamento de gargalos, padronização e evolução de processos e serviços."
+      },
+      {
+        "name": "Project & Requirements Management",
+        "description": "Descoberta, escopo, priorização, riscos, dependências, critérios de aceite e stakeholders."
+      },
+      {
+        "name": "Data Storytelling & Enablement",
+        "description": "Comunicação executiva, documentação, treinamentos e cultura orientada por dados."
+      }
+    ],
+    "technologyGroups": [
+      {
+        "name": "Languages, queries & markup",
+        "items": [
+          "SQL",
+          "Python",
+          "DAX",
+          "M",
+          "JavaScript",
+          "HTML",
+          "CSS",
+          "Google Apps Script"
+        ]
+      },
+      {
+        "name": "Platforms & tools",
+        "items": [
+          {
+            "name": "Power BI",
+            "purpose": "Dashboards, semantic models, metrics and interactive analytics."
+          },
+          {
+            "name": "Power Query",
+            "purpose": "Data extraction, transformation, standardization and loading."
+          },
+          {
+            "name": "Power Platform",
+            "purpose": "Low-code ecosystem for apps, automation, analytics and business solutions."
+          },
+          {
+            "name": "Power Automate",
+            "purpose": "Workflow, approval, alert and system integration automation."
+          },
+          {
+            "name": "Excel",
+            "purpose": "Spreadsheet analysis, controls, prototypes and data modeling."
+          },
+          {
+            "name": "Google Sheets",
+            "purpose": "Collaborative datasets, prototypes and lightweight Google integrations."
+          },
+          {
+            "name": "QlikView",
+            "purpose": "Development and maintenance of legacy analytics and dashboards."
+          },
+          {
+            "name": "Looker Studio",
+            "purpose": "Web dashboards and analytics connected to Google data sources."
+          },
+          {
+            "name": "Notion",
+            "purpose": "Knowledge, project, process, documentation and operational database management."
+          },
+          {
+            "name": "ClickUp",
+            "purpose": "Project, task, deadline and workload planning and tracking."
+          },
+          {
+            "name": "Jira",
+            "purpose": "Backlog, sprint, incident and software workflow management."
+          },
+          {
+            "name": "Microsoft Planner",
+            "purpose": "Visual task and plan management within Microsoft 365."
+          },
+          {
+            "name": "Visual Studio Code",
+            "purpose": "Code and configuration development, review and maintenance."
+          },
+          {
+            "name": "Git",
+            "purpose": "Local version control, history and change tracking."
+          },
+          {
+            "name": "GitHub",
+            "purpose": "Repository hosting, collaboration, documentation and deployment automation."
+          },
+          {
+            "name": "dbdiagram.io",
+            "purpose": "Visual database modeling and relationship documentation."
+          },
+          {
+            "name": "Lucidchart",
+            "purpose": "Collaborative process, architecture, journey and diagram design."
+          },
+          {
+            "name": "draw.io",
+            "purpose": "Flowchart, technical map and architecture diagram creation."
+          },
+          {
+            "name": "Bizagi Modeler",
+            "purpose": "Process mapping and documentation using BPMN."
+          },
+          {
+            "name": "VTEX",
+            "purpose": "E-commerce ecosystem operation and data analysis."
+          },
+          {
+            "name": "TOTVS Protheus",
+            "purpose": "ERP process and data exploration."
+          }
+        ]
+      },
+      {
+        "name": "Databases & data platforms",
+        "items": [
+          "SQL Server",
+          "MySQL",
+          "Snowflake",
+          "Microsoft Fabric",
+          "Azure"
+        ]
+      },
+      {
+        "name": "Integration & formats",
+        "items": [
+          "REST APIs",
+          "Webhooks",
+          "JSON",
+          "CSV",
+          "XML",
+          "ODBC",
+          "QVD"
+        ]
+      },
+      {
+        "name": "Methods & practices",
+        "items": [
+          "Modelagem dimensional",
+          "Star Schema",
+          "ETL / ELT",
+          "Qualidade de dados",
+          "Governança de dados",
+          "Definição de KPIs",
+          "Storytelling com dados",
+          "Levantamento de requisitos",
+          "Mapeamento de processos",
+          "Agile / Kanban",
+          "Design Sprint",
+          "RACI / 5W2H",
+          "DoR / DoD",
+          "Documentação técnica",
+          "Testes e validação"
+        ]
+      }
+    ]
+  }
+}

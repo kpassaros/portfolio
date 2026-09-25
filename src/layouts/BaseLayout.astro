@@ -1,0 +1,51 @@
+---
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import '../styles/global.css';
+interface Props { title: string; description?: string; active?: string }
+const { title, description='Portfólio de Dados, BI e Transformação Digital de Kaíque Passaros', active='' } = Astro.props;
+const base = import.meta.env.BASE_URL;
+const isHome = active === 'inicio';
+---
+<!doctype html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <meta name="description" content={description}/>
+  <meta name="theme-color" content="#151817"/>
+  <link rel="icon" href={`${base}assets/brand/favicon-32.png`}/>
+  {isHome && <link rel="preload" href={`${base}assets/character/character-loop.webm`} as="video" type="video/webm"/>}
+  <title>{title}</title>
+  <script is:inline>try{document.documentElement.dataset.theme=localStorage.getItem('portfolio-theme')||'dark'}catch{}</script>
+</head>
+<body data-page={active} class:list={[isHome && 'loader-active', isHome && 'home-loading']}>
+  {isHome ? (
+    <div id="page-loader" class="origami-loader" aria-label="Carregando portfólio" role="status">
+      <canvas id="loader-network" aria-hidden="true"></canvas>
+      <svg class="origami-mark" viewBox="-120 -100 240 200" aria-hidden="true">
+        <g id="origami-paper">
+          {Array.from({ length: 8 }).map(() => <polygon points="0,0 0,0 0,0"/>)}
+        </g>
+        <image id="origami-exact" href={`${base}assets/brand/brand-mark.png`} x="-95" y="-74.5" width="190" height="149" preserveAspectRatio="xMidYMid meet"/>
+      </svg>
+    </div>
+  ) : (
+    <canvas id="starfield" aria-hidden="true"></canvas>
+  )}
+  <a class="skip" href="#conteudo">Ir para o conteúdo</a>
+  <Header active={active}/>
+  <main id="conteudo"><slot /></main>
+  <Footer/>
+  <script is:inline>
+    setTimeout(()=>{
+      const loader=document.querySelector('#page-loader');
+      if(!loader)return;
+      document.body.classList.remove('loader-active','home-loading');
+      document.body.classList.add('content-ready');
+      loader.remove();
+    },6200);
+  </script>
+  <script src={`${base}scripts/site.js`} defer></script>
+</body>
+</html>

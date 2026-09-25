@@ -1,0 +1,24 @@
+---
+interface Props { active?: string }
+const { active = '' } = Astro.props;
+const base = import.meta.env.BASE_URL;
+const nav = [
+  ['inicio','Início',''],['about','Sobre','about/'],['career','Carreira','career/'],
+  ['skills','Competências','skills/'],['projects','Projetos','projects/'],['labs','Labs','labs/'],['contact','Contato','contact/']
+];
+---
+<header id="site-header">
+  <nav class="navbar">
+    <a class="brand brand-wide" href={base} aria-label="Kaíque Passaros — início">
+      <img src={`${base}assets/brand/brand-mark.png`} alt="" />
+      <span><strong>Kaíque Passaros</strong><small>Dados &amp; BI</small></span>
+    </a>
+    <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false"><span></span><span></span></button>
+    <div class="nav-links">
+      {nav.map(([id,label,path]) => <a class={active===id?'active':''} href={`${base}${path}`}><span>{label}</span></a>)}
+      <div class="nav-actions">
+        <button class="theme-toggle" aria-label="Alternar tema" title="Alternar tema">☼</button>
+      </div>
+    </div>
+  </nav>
+</header>
