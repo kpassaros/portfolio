@@ -223,6 +223,26 @@ body.home-loading > #site-footer{opacity:0!important}
 
 .footer-socials a{position:relative}
 
+/* Loading v2.1 — short, continuous origami handoff */
+#page-loader.origami-loader .origami-mark{
+  width:clamp(154px,16vw,220px)!important;
+  transform:none!important;
+  transform-origin:center!important;
+}
+#page-loader.origami-loader #origami-paper{
+  opacity:1!important;
+}
+#page-loader.origami-loader #origami-exact{
+  opacity:0!important;
+}
+#page-loader.origami-loader.is-handoff .origami-mark{
+  opacity:1!important;
+  transform:none!important;
+}
+#page-loader.origami-loader.is-complete{
+  transition:opacity .52s ease,visibility .52s ease!important;
+}
+
 @media(max-width:900px){
   .driver-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
 }
