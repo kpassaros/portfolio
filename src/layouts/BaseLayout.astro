@@ -15,7 +15,7 @@ const isHome = active === 'inicio';
   <meta name="description" content={description}/>
   <meta name="theme-color" content="#151817"/>
   <link rel="icon" href={`${base}assets/brand/favicon-32.png`}/>
-  {isHome && <link rel="preload" href={`${base}assets/loading/origami-approved.mp4`} as="video" type="video/mp4"/>}
+  {isHome && <link rel="preload" href={`${base}assets/loading/origami-bird-transparent.webm`} as="video" type="video/webm"/>}
   {isHome && <link rel="preload" href={`${base}assets/character/character-loop.webm`} as="video" type="video/webm"/>}
   <title>{title}</title>
   <script is:inline>try{document.documentElement.dataset.theme=localStorage.getItem('portfolio-theme')||'dark'}catch{}</script>
@@ -25,7 +25,7 @@ const isHome = active === 'inicio';
     <div id="page-loader" class="origami-loader" aria-label="Carregando portfólio" role="status">
       <canvas id="loader-network" aria-hidden="true"></canvas>
       <video class="approved-loader-video" autoplay muted playsinline preload="auto" aria-hidden="true">
-        <source src={`${base}assets/loading/origami-approved.mp4`} type="video/mp4"/>
+        <source src={`${base}assets/loading/origami-bird-transparent.webm`} type="video/webm"/>
       </video>
       <img class="approved-loader-static" src={`${base}assets/brand/brand-mark.png`} alt=""/>
     </div>

@@ -374,7 +374,7 @@ body[data-page]::before{display:none!important}
   #origami-exact{opacity:1!important}
 }
 
-/* Approved loading film — exact approved prototype, static background */
+/* Approved layered loading — live neural canvas + transparent bird */
 #page-loader.origami-loader{
   background:#071117!important;
 }
@@ -387,7 +387,7 @@ body[data-page]::before{display:none!important}
   height:100%;
   object-fit:cover;
   object-position:center;
-  background:#071117;
+  background:transparent;
   opacity:1;
   transition:opacity .48s ease;
 }
