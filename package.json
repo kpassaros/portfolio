@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
+  "engines": {
+    "node": "24.x"
+  },
   "scripts": {
     "dev": "astro dev",
     "check": "astro check",
@@ -11,8 +14,8 @@
     "audit": "node scripts/audit.mjs"
   },
   "dependencies": {
-    "@astrojs/check": "latest",
-    "astro": "latest",
-    "typescript": "latest"
+    "@astrojs/check": "0.9.10",
+    "astro": "7.3.5",
+    "typescript": "6.0.3"
   }
 }
