@@ -1,0 +1,62 @@
+/* Spacing for project cases and Labs only. Global identity stays unchanged. */
+.project-case .case-section > h2 {
+  margin-block-end: 24px;
+}
+
+.project-case .case-section > .case-grid,
+.project-case .case-section > .architecture-flow {
+  margin-block-start: 0;
+}
+
+.project-case .automation-grid {
+  gap: 16px;
+}
+
+.project-case .case-prose {
+  margin-block-start: 24px;
+}
+
+.project-case .automation-grid + .case-prose {
+  margin-block-start: 48px;
+}
+
+.project-case .case-prose > * {
+  margin-block: 0;
+}
+
+.project-case .case-prose > * + * {
+  margin-block-start: 16px;
+}
+
+.project-case .case-prose > h2:not(:first-child) {
+  margin-block-start: 48px;
+}
+
+.project-case .case-prose > h3:not(:first-child) {
+  margin-block-start: 32px;
+}
+
+.project-case .case-prose > h4:not(:first-child) {
+  margin-block-start: 24px;
+}
+
+.project-case .case-prose li + li {
+  margin-block-start: 8px;
+}
+
+.project-case .case-prose img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.project-case .case-section > .case-showcase + .case-showcase {
+  margin-block-start: 24px;
+}
+
+@media (max-width: 760px) {
+  .project-case .automation-grid + .case-prose,
+  .project-case .case-prose > h2:not(:first-child) {
+    margin-block-start: 32px;
+  }
+}

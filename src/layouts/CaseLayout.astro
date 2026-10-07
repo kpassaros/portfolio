@@ -1,5 +1,6 @@
 ---
 import BaseLayout from './BaseLayout.astro';
+import '../styles/case-spacing.css';
 interface Props { entry:any; collection:'projects'|'labs' }
 const { entry, collection } = Astro.props;
 const d=entry.data; const base=import.meta.env.BASE_URL; const isLab=collection==='labs';
@@ -12,7 +13,7 @@ const labels:any={introducao:'Introdução',objetivo:'Objetivo',experimentos:'Ex
 <div class="case-content">
 <section id="introducao" class="case-intro"><a class="back-button" href={`${base}${collection}/`}>← Voltar a {isLab?'Labs':'Projetos'}</a><p class="eyebrow">{isLab?'CREATIVE LAB':d.projectType} • {d.year}</p><div class="case-title-line"><h1>{d.title}</h1><span class="status-badge">{d.status}</span></div><p class="lede">{d.summary}</p></section>
 {isLab ? <>
-<section id="objetivo" class="case-section"><p class="eyebrow">OBJETIVO</p><h2>{d.hypothesis}</h2><slot /></section>
+<section id="objetivo" class="case-section"><p class="eyebrow">OBJETIVO</p><h2>{d.hypothesis}</h2><div class="case-prose"><slot /></div></section>
 <section id="experimentos" class="case-section"><p class="eyebrow">EXPERIMENTOS</p><h2>Frentes em investigação</h2><div class="automation-grid">{d.experiments.map((x:string)=><article><b>Experimento</b><p>{x}</p></article>)}</div></section>
 <section id="evidencias" class="case-section"><p class="eyebrow">ESTADO ATUAL</p><h2>O que o protótipo apresenta</h2><ul>{d.currentState.map((x:string)=><li>{x}</li>)}</ul></section>
 <section id="limitacoes" class="case-section"><p class="eyebrow">LIMITAÇÕES</p><h2>Restrições conhecidas</h2><ul>{d.limitations.map((x:string)=><li>{x}</li>)}</ul></section>
@@ -22,7 +23,7 @@ const labels:any={introducao:'Introdução',objetivo:'Objetivo',experimentos:'Ex
 <section id="stack-projeto" class="case-section"><p class="eyebrow">STACK</p><h2>Tecnologias</h2><div class="tags">{d.technologies.map((x:string)=><span>{x}</span>)}</div></section>
 <section id="demonstracao" class="case-section"><p class="eyebrow">DEMONSTRAÇÃO</p><h2>Explore a solução</h2>{d.embeds.map((e:any)=>e.type==='iframe'?<div class="datastudio-frame" style={`aspect-ratio:${e.aspectRatio}`}><div class="dashboard-loading">Carregando dashboard…</div><iframe src={e.url} title={e.title} loading="lazy" allowfullscreen sandbox={e.sandbox.join(' ')}></iframe></div>:e.fallback&&<img class="case-showcase" src={`${base}${e.fallback}`} alt={e.title}/>)}</section>
 <section id="arquitetura" class="case-section"><p class="eyebrow">FLUXO TÉCNICO</p><h2>Arquitetura</h2><div class="architecture-flow">{d.architecture.map((x:string,i:number)=><><span>{x}</span>{i<d.architecture.length-1&&<i>→</i>}</>)}</div></section>
-<section id="resultados" class="case-section"><p class="eyebrow">RESULTADOS</p><h2>Entregas</h2><div class="automation-grid">{d.results.map((x:string)=><article><b>Resultado</b><p>{x}</p></article>)}</div><slot /></section>
+<section id="resultados" class="case-section"><p class="eyebrow">RESULTADOS</p><h2>Entregas</h2><div class="automation-grid">{d.results.map((x:string)=><article><b>Resultado</b><p>{x}</p></article>)}</div><div class="case-prose"><slot /></div></section>
 {d.links.length>0&&<section id="links-projeto" class="case-section project-dashboard-link"><p class="eyebrow">ACESSOS</p><h2>Links do projeto</h2><div class="doc-links">{d.links.map((link:any)=><a class={link.primary?'primary':'secondary'} href={link.url} target="_blank" rel="noopener noreferrer">{link.label} ↗</a>)}</div></section>}
 </>}
 </div></div></article>
