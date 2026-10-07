@@ -1,51 +1,82 @@
-# Guia — adicionar um novo projeto
+# Adicionar um projeto — arquitetura Astro vigente
 
-## Regra principal
-Você nunca precisa editar as páginas HTML. Cada projeto vive em uma pasta própria dentro de `content/projects/`.
+Este guia substitui as instruções de edição de `content/projects/` e `project.json` da implementação anterior. Essa estrutura ainda existe como legado no repositório; não é a fonte das Content Collections publicadas.
 
-## 1. Duplique o template
-Copie `content/projects/_template` e renomeie usando letras minúsculas, números e hífens. Exemplo: `central-chamados-ti`.
+## Onde editar
 
-## 2. Preencha o project.json
-O campo `id` deve ser exatamente igual ao nome da pasta. Preencha título, categoria, resumo, problema, papel, solução, resultados, tecnologias e capa.
+- Case: `src/content/projects/SEU-SLUG.md`.
+- Lab: `src/content/labs/SEU-SLUG.md`.
+- Imagens e arquivos públicos: `public/projects/SEU-SLUG/` ou `public/labs/SEU-SLUG/`.
+- Contrato: `src/content.config.ts`.
+- Layout compartilhado: `src/layouts/CaseLayout.astro`.
 
-## 3. Adicione a capa
-Coloque `cover.png` na pasta do projeto. Recomendação: 1200 × 675 px, sem dados confidenciais.
+O slug vem do nome do arquivo. Não criar um HTML por projeto nem editar arquivos gerados em `dist/`.
 
-## 4. Escolha a demonstração
+## 1. Partir de um case vigente
 
-### Power BI Online
-Use `mode: powerbi-online` e coloque a URL pública em `embedUrl`. Use somente dados públicos ou sintéticos.
+Use `src/content/projects/prisma-central.md` ou outro case da mesma coleção como referência. Crie somente o novo Markdown e seus assets. Mantenha nomes em minúsculas e kebab-case.
 
-### Dashboard HTML no GitHub
-Use `mode: github-html` e `embedPath: content/projects/SEU-ID/dashboard/index.html`. Coloque o dashboard nessa pasta.
+## 2. Preencher o frontmatter
 
-### Aplicação externa
-Use `mode: webapp`, preencha `embedUrl` e `externalUrl`. Alguns sites bloqueiam iframe; mantenha um link externo.
+Campos comuns: `title`, `summary`, `year`, `status`, `featured`, `publish`, `cover`, `technologies`, `links` e `locale` (opcional; padrão `pt-BR`).
 
-### Sem demonstração
-Use `mode: none`. A página ainda mostrará problema, papel, solução, resultados e links.
+Campos de projeto: `kind: project`, `projectType`, `problem`, `role`, `solution`, `results`, `architecture` e `embeds`.
 
-## 5. Arquivo PBIX
-O GitHub não executa `.pbix`. Você pode armazená-lo em `files/` e informar `pbixDownload`, ou publicar o relatório no Power BI Online. Para migrar de HTML para Power BI Online, altere apenas `demo.mode` e `demo.embedUrl`.
+- `publish: true` inclui o case nas rotas e no catálogo.
+- `featured: true` o inclui nos destaques da Home; só marcar após decisão explícita.
+- `cover` e `embeds[].fallback` usam caminhos relativos a `public/`, sem `/` inicial.
+- `links[].url` é uma URL completa. `primary` escolhe a ênfase do botão.
+- `technologies` descreve tecnologias realmente utilizadas, não ferramentas desejadas.
 
-## 6. Validar localmente
-Com Node.js instalado, execute:
+Não adicionar `id`, `slug`, `demo`, `repository`, `dataNature` ou `disclosure` como se fossem campos do schema atual. Metadados novos exigem decisão e atualização do contrato.
+
+## 3. Adicionar imagens e demonstração
+
+Use imagens sem dados sensíveis. Capas 16:9 funcionam no card atual; preserve a proporção de capturas completas.
+
+O layout vigente renderiza `iframe` por URL externa e imagens por `fallback`. Para uma aplicação independente, a opção de menor acoplamento é usar capturas e botões externos. Um iframe precisa de revisão de permissões, comportamento de scroll e alternativa externa. O campo `fallback` de um iframe não cria sozinho uma detecção de falha no layout atual.
+
+Projetos completos continuam em repositórios próprios. O portfólio apresenta a narrativa e os links; não copie backend, banco, segredos ou bases operacionais para `public/`.
+
+## 4. Escrever a narrativa
+
+O frontmatter alimenta introdução, problema, papel, solução, stack, demonstração, arquitetura, resultados e links. O corpo Markdown entra na seção de resultados do layout atual.
+
+Inclua, quando pertinente: motivação, processo, evidências, limitações e aprendizados. Não atribua resultados reais a dados sintéticos e não descreva protótipos como soluções implantadas.
+
+## 5. Validar e publicar
+
+Node 24, dependências do lockfile:
 
 ```bash
-node scripts/validate-projects.mjs
-node scripts/build-projects.mjs
+npm ci
+npm run audit
+npm run check
+npm run build
 ```
 
-## 7. Commit
-Envie a pasta do projeto e use uma mensagem como `Adiciona projeto Central de Chamados de TI`. O GitHub Actions valida antes de publicar. Se houver erro, a versão anterior continua no ar.
+Para simular o prefixo do GitHub Pages:
+
+```bash
+BASE_PATH=/portfolio SITE_URL=https://kpassaros.github.io npm run build
+npm run preview
+```
+
+O comando com variáveis acima usa sintaxe de terminal POSIX; no Windows, configure as mesmas variáveis no terminal antes do comando ou valide pelo workflow.
+
+Fluxo: preservar tag/release estável → branch a partir da main → PR → audit/check/build verdes → prévia aprovada → merge → deploy → homologação. Mantenha a branch até a homologação final. Se a main mudou desde o pacote revisado, atualize a base antes de sobrescrever arquivos completos.
 
 ## Checklist
-- [ ] ID igual ao nome da pasta
-- [ ] Capa adicionada
-- [ ] Categoria e status preenchidos
-- [ ] Problema, papel e solução descritos
-- [ ] Resultados e tecnologias preenchidos
-- [ ] Demonstração testada
-- [ ] Links testados
-- [ ] Sem dados pessoais, credenciais ou informações confidenciais
+
+- [ ] Slug único e estável.
+- [ ] Frontmatter aceito pelo schema.
+- [ ] Capa e imagens disponíveis.
+- [ ] Publicação e destaque definidos conscientemente.
+- [ ] Catálogo e case funcionam com `/portfolio/`.
+- [ ] Busca e filtros encontram o projeto.
+- [ ] Desktop, notebook e celular sem overflow.
+- [ ] Temas claro/escuro e menu verificados.
+- [ ] Links externos conferidos, sem prometer embed não testado.
+- [ ] Sem credenciais, dados reais ou endpoints internos.
+- [ ] Limitações descritas e resultados sustentados.
+- [ ] PR aprovado e checks remotos verdes antes do merge.
