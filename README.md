@@ -184,7 +184,7 @@ A auditoria mínima **não é** uma certificação de segurança, acessibilidade
 
 Não copiar páginas HTML completas nem editar `dist/` manualmente.
 
-[Guia atualizado de inclusão de projetos →](GUIA-ADICIONAR-PROJETO.md)
+[Guia atualizado de inclusão de projetos →](docs/guides/adicionar-projetos-e-labs.md)
 
 ## Publicar com controle
 
@@ -216,10 +216,10 @@ Versão estável / tag de rollback
 
 ## Documentação, legado e limites
 
-- [Guia de inclusão de projetos](GUIA-ADICIONAR-PROJETO.md) — fonte atual para adicionar cases Astro.
+- [Guia de inclusão de projetos](docs/guides/adicionar-projetos-e-labs.md) — fonte atual para adicionar cases Astro.
 - [Auditoria do repositório e plano de limpeza](docs/audits/2026-10-06-prisma-readme-audit.md) — 24 READMEs da baseline, duplicações e riscos.
-- [Checklist de homologação](VALIDATION.md) — roteiro a executar, não um atestado de aprovação.
-- [Política de dados](POLITICA-DADOS-PORTFOLIO.md) — princípios vigentes; o trecho final ainda usa nomes de campos do contrato legado, conforme a auditoria.
+- [Checklist de homologação](docs/guides/homologacao.md) — roteiro a executar, não um atestado de aprovação.
+- [Política de dados](docs/guides/politica-de-dados.md) — princípios vigentes; o trecho final ainda usa nomes de campos do contrato legado, conforme a auditoria.
 - [Histórico de evolução](docs/EVOLUCAO-DO-PORTFOLIO.md) — decisões e entregas históricas, não inventário de funcionalidades atuais.
 
 O pacote preserva arquivos antigos e não executa limpeza automática. Não aplicar instruções de pacotes históricos à aplicação vigente sem revisar os caminhos e o impacto.

@@ -128,3 +128,28 @@ Este documento preserva decisões, problemas encontrados, análises, correções
 - Faixa horizontal de vidro faz a passagem entre a rede do loader e a rede permanente da home.
 - Navbar, hero, vídeo, posicionamento e seções aparecem gradualmente.
 - Vídeo foi recortado para remover movimentos laterais iniciais: personagem cumprimenta, retorna à posição neutra e permanece parado antes do loop.
+
+
+## Organizacao documental automatizada — mapa de preservacao
+
+Um README principal na raiz; cinco guias atuais agrupados; doze documentos historicos preservados integralmente. Codigo, estudos, kits, assets e workflows existentes nao foram reorganizados. Esta etapa nao implementa demos nem atualiza semanticamente toda a documentacao.
+
+| Origem | Destino |
+| --- | --- |
+| `README-APLICACAO.md` | `docs/archive/pacotes/aplicacao.md` |
+| `README-ATUALIZACAO.md` | `docs/archive/pacotes/atualizacao.md` |
+| `README-BACKGROUND-FIX.md` | `docs/archive/pacotes/background-fix.md` |
+| `README-CORRECAO.md` | `docs/archive/pacotes/correcao.md` |
+| `README-FINAL3.md` | `docs/archive/pacotes/final-3.md` |
+| `README-FINAL4.md` | `docs/archive/pacotes/final-4.md` |
+| `README-FINAL5.md` | `docs/archive/pacotes/final-5.md` |
+| `README-FINAL6.md` | `docs/archive/pacotes/final-6.md` |
+| `ATUALIZACOES-DESTE-PACOTE.md` | `docs/archive/pacotes/pacote-unificado.md` |
+| `HOTFIX-CASHFLOW-NAVEGACAO.md` | `docs/archive/pacotes/hotfix-cashflow-navegacao.md` |
+| `PRODUCTION-CANDIDATE.md` | `docs/archive/pacotes/production-candidate.md` |
+| `UPDATE-2026-09-25.md` | `docs/archive/pacotes/homologacao-2026-09-25.md` |
+| `GUIA-ADICIONAR-PROJETO.md` | `docs/guides/adicionar-projetos-e-labs.md` |
+| `GUIA-ATUALIZAR-CARREIRA.md` | `docs/guides/atualizar-carreira.md` |
+| `GUIA-FORMULARIO-E-IDIOMAS.md` | `docs/guides/formulario-e-idiomas.md` |
+| `POLITICA-DADOS-PORTFOLIO.md` | `docs/guides/politica-de-dados.md` |
+| `VALIDATION.md` | `docs/guides/homologacao.md` |

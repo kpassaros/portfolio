@@ -1,6 +1,11 @@
 import fs from 'node:fs';
 import path from 'node:path';
 
+// Normaliza somente a leitura: aceita LF, CRLF e BOM UTF-8 sem alterar arquivos.
+const readText = (file) => fs.readFileSync(file, 'utf8')
+  .replace(/^\uFEFF/, '')
+  .replace(/\r\n?/g, '\n');
+
 const roots = ['src/content/projects', 'src/content/labs'];
 const required = ['title', 'summary', 'year', 'status', 'publish', 'cover'];
 const errors = [];
@@ -24,7 +29,7 @@ const forbiddenProductionText = [
 for (const root of roots) {
   const files = fs.readdirSync(root).filter((name) => /\.mdx?$/.test(name));
   for (const file of files) {
-    const text = fs.readFileSync(path.join(root, file), 'utf8');
+    const text = readText(path.join(root, file));
     const frontmatter = text.match(/^---\n([\s\S]*?)\n---/);
     if (!frontmatter) {
       errors.push(`${file}: frontmatter ausente`);
@@ -43,13 +48,13 @@ for (const file of productionFiles) {
     errors.push(`${file}: página obrigatória ausente`);
     continue;
   }
-  const text = fs.readFileSync(file, 'utf8');
+  const text = readText(file);
   for (const forbidden of forbiddenProductionText) {
     if (text.includes(forbidden)) errors.push(`${file}: texto provisório encontrado: ${forbidden}`);
   }
 }
 
-const labText = fs.readFileSync('src/content/labs/futureviz-lab.md', 'utf8');
+const labText = readText('src/content/labs/futureviz-lab.md');
 if (labText.includes('validatedCapabilities:')) {
   errors.push('futureviz-lab.md: capacidades não podem ser apresentadas como validadas');
 }
