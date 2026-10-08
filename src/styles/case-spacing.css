@@ -60,3 +60,6 @@
     margin-block-start: 32px;
   }
 }
+
+.project-case .case-section > h3 { margin-block:32px 16px; }
+.project-case .case-section > .catalog-note + .case-prose { margin-block-start:24px; }

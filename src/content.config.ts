@@ -42,6 +42,7 @@ const labs = defineCollection({
   schema: baseSchema.extend({
     kind: z.literal('lab'),
     maturity: z.string(),
+    demo: z.string().regex(/^labs\/[a-z0-9-]+\/demo\/index\.html$/).optional(),
     hypothesis: z.string(),
     experiments: z.array(z.string()),
     evidence: z.array(z.string()).default([]),
