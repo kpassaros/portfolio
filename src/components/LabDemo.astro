@@ -1,0 +1,41 @@
+---
+interface Props { src: string; title: string; fallback: string }
+const { src, title, fallback } = Astro.props;
+const base = import.meta.env.BASE_URL;
+---
+<div class="lab-preview" data-lab-preview>
+  <p class="lab-preview-note">Prévia sintética incorporada. Nenhuma conexão à ferramenta real.</p>
+  <p class="lab-preview-loading" role="status">Carregando o experimento…</p>
+  <iframe class="lab-preview-frame" src={`${base}${src}`} title={title} loading="lazy" sandbox="allow-scripts" referrerpolicy="no-referrer"></iframe>
+  <details class="lab-preview-fallback"><summary>Se a prévia não carregar, veja a estrutura aqui</summary><p>Este Lab executa um experimento local sobre dados fictícios. A hipótese, os passos e as limitações continuam disponíveis nesta página.</p><img src={`${base}${fallback}`} alt={`Estrutura do Lab: ${title}`} loading="lazy"/></details>
+</div>
+<style>
+.lab-preview{margin-top:24px}.lab-preview-note{margin:0 0 16px}.lab-preview-loading{margin:0 0 12px}.lab-preview-frame{display:block;width:100%;height:950px;border:1px solid var(--border,#52615c);border-radius:12px;background:transparent}.lab-preview-fallback{margin-top:20px;border:1px solid var(--border,#52615c);border-radius:10px;padding:16px}.lab-preview-fallback summary{cursor:pointer;min-height:44px;display:flex;align-items:center}.lab-preview-fallback p{margin:16px 0}.lab-preview-fallback img{display:block;max-width:100%;height:auto}.lab-preview-fallback summary:focus-visible{outline:3px solid #65adf0;outline-offset:4px}@media(max-width:760px){.lab-preview-frame{height:1300px}}
+</style>
+<script>
+const previews = document.querySelectorAll<HTMLElement>('[data-lab-preview]');
+previews.forEach((container) => {
+  const frame = container.querySelector<HTMLIFrameElement>('iframe');
+  const status = container.querySelector<HTMLElement>('.lab-preview-loading');
+  if (!frame || !status) return;
+  let ready = false;
+  const sendTheme = () => frame.contentWindow?.postMessage({type:'portfolio-lab-theme',theme:document.documentElement.dataset.theme === 'light' ? 'light' : 'dark'}, '*');
+  const observer = new MutationObserver(sendTheme);
+  observer.observe(document.documentElement, {attributes:true,attributeFilter:['data-theme']});
+  frame.addEventListener('load', sendTheme);
+  window.addEventListener('message', (event) => {
+    if (event.source !== frame.contentWindow || event.data?.type !== 'portfolio-lab-ready') return;
+    const height = Number(event.data.height);
+    if (!Number.isFinite(height) || height < 300 || height > 4000) return;
+    frame.style.height = `${Math.ceil(height) + 8}px`;
+    if (!ready) {
+      ready = true;
+      status.hidden = true;
+      sendTheme();
+    }
+  });
+  window.setTimeout(() => {
+    if (!ready) status.textContent = 'Se o experimento não aparecer, use a explicação e a estrutura abaixo. Não é necessário sair do portfólio.';
+  }, 15000);
+});
+</script>

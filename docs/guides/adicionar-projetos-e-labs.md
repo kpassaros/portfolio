@@ -80,3 +80,8 @@ Fluxo: preservar tag/release estável → branch a partir da main → PR → aud
 - [ ] Sem credenciais, dados reais ou endpoints internos.
 - [ ] Limitações descritas e resultados sustentados.
 - [ ] PR aprovado e checks remotos verdes antes do merge.
+
+
+## Labs com prévia sintética incorporada
+
+Para os Labs de integração, demo pode declarar labs/SEU-SLUG/demo/index.html. O arquivo deve existir em public/; não usar URL externa neste campo. LabDemo incorpora a prévia com isolamento, acompanha tema/altura e mantém alternativa local. Campos maturity, evidence e unsupportedCapabilities ficam explícitos na página. Consulte [Labs experimentais](labs-experimentais.md). Não criar links para fontes privadas ou anunciar esta prévia como integração real.
