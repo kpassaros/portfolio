@@ -6,7 +6,7 @@ year: 2026
 status: Experimental
 featured: false
 publish: true
-cover: projects/quick-access-hub/cover.png
+cover: labs/quick-access-hub/cover.png
 technologies:
   - Notion
   - HTML
