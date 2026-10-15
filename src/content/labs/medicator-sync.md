@@ -7,7 +7,7 @@ featured: false
 publish: true
 kind: "lab"
 maturity: "Estudo de engenharia"
-cover: "projects/cashflow-intelligence/cover.png"
+cover: "projects/medicator-sync/cover.png"
 technologies:
   - "Python"
   - "SQL"
