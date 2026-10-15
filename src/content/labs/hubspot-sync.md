@@ -1,39 +1,59 @@
 ---
-title: "HubSpot API Sync Lab"
-summary: "Laboratório de arquitetura para ingestão paginada, controle de taxa de requisições e persistência de checkpoints em APIs REST."
+kind: lab
+title: HubSpot Lab — Ingestão e resiliência de API
+summary: Investigação de paginação orientada a cursor, controle de taxa de requisições e persistência de checkpoints em APIs REST.
 year: 2026
-status: "Experimental"
+status: Experimental
 featured: false
 publish: true
-kind: "lab"
-maturity: "Estudo de engenharia"
-cover: "labs/hubspot-sync/cover.png"
+cover: labs/hubspot-sync/cover.png
 technologies:
-  - "Python"
-  - "REST API"
-  - "JSONL"
-hypothesis: "A persistência de estados por cursor e a escrita em arquivos intermediários JSONL garantem recuperação rápida de falhas sem sobrecarregar limites de API."
+  - Modelagem CRM (conceito)
+  - Python
+  - REST API
+  - JSONL
+maturity: Experimento sintético com fixtures locais
+hypothesis: A persistência de estados por cursor e a escrita intermediária em JSONL garantem recuperação rápida de falhas sem duplicar chamadas nem estourar rate limits?
 experiments:
-  - "Paginação orientada por cursor com gravação de checkpoint"
-  - "Estratégia de backoff exponencial para tratamento de rate limits"
-evidence: "Extração consistente de 100% dos registros sintéticos mesmo sob simulação de quedas de rede."
-currentState: "Padrão de script testado localmente em ambiente simulado."
+  - Paginação orientada por cursor com gravação de checkpoint
+  - Estratégia de backoff exponencial e contenção de rate limits
+  - Validação de integridade do payload por hashing incremental
+evidence:
+  - Prévia simulada e calculada localmente no portfólio
+  - Recuperação completa de lote interrompido sem reprocessar páginas anteriores
+currentState:
+  - Cenários de extração simulados sobre fixtures sintéticas
+  - Pipeline de execução e log de acompanhamento em tempo real
+  - Nenhuma conexão direta ou credencial real do HubSpot exposta
 unsupportedCapabilities:
-  - "Execução da extração em tempo real pelo navegador"
+  - Autenticação OAuth/Bearer em tempo real via navegador
+  - Execução distribuída de workers ou filas Celery/RabbitMQ
+  - Carga operacional direta sobre o CRM de produção
 limitations:
-  - "Simulação de API realizada com fixtures locais"
+  - Não consome cotas nem endpoints ao vivo do provedor
+  - Limites e tempos de resposta calibrados para o teste estático
+  - Persistência de checkpoint restrita ao escopo da sessão local
 nextTests:
-  - "Implementação de dead-letter queue para payloads corrompidos"
-links:
-  - label: "Repositório"
-    url: "https://github.com/kpassaros/portfolio"
-    primary: true
-locale: "pt-BR"
+  - Implementação de dead-letter queue para payloads malformados
+  - Validação cruzada com contratos OpenAPI oficiais do fornecedor
+  - Testes com esquemas customizados de entidades associadas
+links: []
+demo: labs/hubspot-integracao/demo/index.html
+locale: pt-BR
 ---
 
-## Escopo do Estudo
-Padrões de extração e resiliência em APIs de CRM com paginação por token e limites estritos de requisições por minuto[cite: 1, 9].
+## O problema investigado
 
-## Estrutura Validada
-* **Controle de Paginação:** Cursor gravado a cada lote processado com sucesso[cite: 1, 9].
-* **Persistência Imutável:** Gravação inicial em arquivos de linhas JSON (JSONL) com cálculo de hash SHA-256[cite: 1, 9].
+A extração de dados volumosos em APIs corporativas impõe limites rigorosos de requisições e janelas curtas de token. Falhas no meio do processo não devem forçar o reinício da extração desde o primeiro registro, nem gerar duplicidades em caso de novas tentativas.
+
+## Estrutura do experimento
+
+O Lab estrutura uma rotina de paginação onde cada página extraída é registrada em um manifesto local com seu cursor de continuidade. As linhas são estruturadas em JSONL e passam por checagem de integridade antes da consolidação.
+
+## O que observar
+
+A simulação demonstra como o cursor impede a leitura repetida de registros já processados. Caso ocorra uma interrupção simulada no fluxo, a rotina retoma a partir do último checkpoint gravado, minimizando o impacto no servidor de origem.
+
+## Limite da evidência
+
+Os esquemas, regras de paginação e cenários de falha foram desenhados para este ambiente experimental. Não representam credenciais operacionais nem realizam chamadas ativas à infraestrutura do HubSpot.
