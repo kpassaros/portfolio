@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Menu rápido para colaboradores</title>
+<style>
+:root{color-scheme:light dark;--bg:#fff;--surface:#f9f8f7;--raised:#fff;--text:#2c2c2b;--muted:#6f6d69;--border:#e6e5e3;--blue:#2783de;--blueSoft:#e5f2fc;--green:#46a171;--greenSoft:#e8f1ec;--shadow:0 1px 2px rgba(0,0,0,.05),0 4px 12px rgba(0,0,0,.04)}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:16px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}.shell{max-width:1060px;margin:auto;padding:24px}header{display:flex;align-items:flex-start;justify-content:space-between;gap:20px;margin-bottom:20px}.eyebrow{font-size:12px;font-weight:700;color:var(--blue);letter-spacing:.04em;text-transform:uppercase}.header h1{font-size:26px;line-height:1.2;margin:4px 0 6px}.header p{color:var(--muted);margin:0;max-width:630px;font-size:15px}.badge{background:var(--blueSoft);color:var(--blue);padding:6px 10px;border-radius:8px;font-size:12px;font-weight:700;white-space:nowrap}.toolbar{display:flex;gap:12px;align-items:center;margin-bottom:18px}.tabs{display:flex;gap:4px;padding:4px;background:var(--surface);border:1px solid var(--border);border-radius:10px}.tab{min-height:40px;border:0;background:transparent;color:var(--muted);padding:0 14px;border-radius:7px;font-weight:700;cursor:pointer;font-size:14px}.tab.active{background:var(--raised);color:var(--text);box-shadow:var(--shadow)}.search{flex:1;min-height:42px;border:1px solid var(--border);background:var(--raised);color:var(--text);border-radius:10px;padding:0 14px;font:inherit;font-size:14px}.search:focus,.tab:focus-visible,.card:focus-visible{outline:3px solid rgba(39,131,222,.24);outline-offset:2px}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.card{display:flex;align-items:center;gap:14px;min-height:84px;padding:14px;border:1px solid var(--border);border-radius:12px;background:var(--raised);color:inherit;text-decoration:none;transition:transform .16s ease,border-color .16s ease,box-shadow .16s ease;cursor:pointer}.card:hover{transform:translateY(-2px);border-color:#b9d7f1;box-shadow:var(--shadow)}.icon{width:42px;height:42px;border-radius:10px;display:grid;place-items:center;font-size:20px;flex:0 0 auto;background:var(--blueSoft)}.follow .icon{background:var(--greenSoft)}.copy{min-width:0;flex:1}.title{display:block;font-weight:700;line-height:1.25;margin-bottom:3px;font-size:15px}.desc{display:block;color:var(--muted);font-size:13px}.arrow{color:var(--muted);font-size:18px}.empty{display:none;text-align:center;color:var(--muted);padding:30px;border:1px dashed var(--border);border-radius:12px;font-size:14px}.footer{margin-top:16px;color:var(--muted);font-size:12px}.hidden{display:none!important}
+@media(max-width:650px){.shell{padding:16px}.header{display:block}.badge{display:inline-block;margin-top:10px}.header h1{font-size:22px}.toolbar{display:block}.tabs{margin-bottom:10px}.tab{flex:1;padding:0 8px}.search{width:100%}.grid{grid-template-columns:1fr}.card{min-height:80px}}
+@media(prefers-color-scheme:dark){:root{--bg:#191919;--surface:#202020;--raised:#242424;--text:#fff;--muted:rgba(255,255,255,.65);--border:rgba(255,255,255,.2);--blue:#5e9fe8;--blueSoft:rgba(94,159,232,.12);--green:#72bc8f;--greenSoft:rgba(114,188,143,.12);--shadow:none}.card:hover{border-color:#5e9fe8}}
+@media(prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<main class="shell">
+  <header class="header">
+    <div><div class="eyebrow">Central do colaborador</div><h1>Como podemos ajudar?</h1><p>Escolha uma categoria ou pesquise o serviço desejado.</p></div>
+    <span class="badge">Protótipo interativo</span>
+  </header>
+  <section class="toolbar" aria-label="Filtros do menu">
+    <div class="tabs" role="tablist">
+      <button class="tab active" data-filter="all" role="tab" aria-selected="true">Todos</button>
+      <button class="tab" data-filter="request" role="tab" aria-selected="false">Solicitar</button>
+      <button class="tab" data-filter="follow" role="tab" aria-selected="false">Acompanhar</button>
+    </div>
+    <input class="search" id="search" type="search" placeholder="Buscar por tecnologia, compras, RH…" aria-label="Buscar serviço" />
+  </section>
+  <section class="grid" id="grid">
+    <a class="card request" data-group="request" data-search="tecnologia suporte ti chamado" href="#demo"><span class="icon">💻</span><span class="copy"><span class="title">Solicitar suporte de Tecnologia</span><span class="desc">Acessos, sistemas, equipamentos e incidentes</span></span><span class="arrow">›</span></a>
+    <a class="card request" data-group="request" data-search="compras pedido aquisição" href="#demo"><span class="icon">🛒</span><span class="copy"><span class="title">Solicitar uma compra</span><span class="desc">Materiais, serviços e novas aquisições</span></span><span class="arrow">›</span></a>
+    <a class="card request" data-group="request" data-search="rh vaga contratação pessoa" href="#demo"><span class="icon">👥</span><span class="copy"><span class="title">Solicitar uma vaga</span><span class="desc">Iniciar uma demanda de contratação</span></span><span class="arrow">›</span></a>
+    <a class="card request" data-group="request" data-search="manutenção reparo ordem serviço" href="#demo"><span class="icon">🛠️</span><span class="copy"><span class="title">Solicitar manutenção</span><span class="desc">Abrir uma ordem de serviço</span></span><span class="arrow">›</span></a>
+    <a class="card follow" data-group="follow" data-search="acompanhar contratação promoção rh status" href="#demo"><span class="icon">🔎</span><span class="copy"><span class="title">Acompanhar contratação ou promoção</span><span class="desc">Consulte o andamento da solicitação</span></span><span class="arrow">›</span></a>
+    <a class="card follow" data-group="follow" data-search="acompanhar compras solicitações de compras compra pedido aquisição status" href="#demo"><span class="icon">🛒</span><span class="copy"><span class="title">Acompanhar solicitações de compras</span><span class="desc">Consulte o andamento da solicitação</span></span><span class="arrow">›</span></a>
+    <a class="card follow" data-group="follow" data-search="acompanhar manutenção status ordem serviço" href="#demo"><span class="icon">📍</span><span class="copy"><span class="title">Acompanhar manutenção</span><span class="desc">Consulte o status da ordem de serviço</span></span><span class="arrow">›</span></a>
+  </section>
+  <div class="empty" id="empty">Nenhum serviço encontrado. Tente outro termo.</div>
+  <div class="footer">Os acessos respeitam as permissões de cada página no Notion.</div>
+</main>
+<script>
+const tabs=[...document.querySelectorAll('.tab')],cards=[...document.querySelectorAll('.card')],search=document.getElementById('search'),empty=document.getElementById('empty');let filter='all';
+function apply(){const q=search.value.trim().toLocaleLowerCase('pt-BR');let count=0;cards.forEach(c=>{const okGroup=filter==='all'||c.dataset.group===filter;const okText=!q||(c.innerText+' '+c.dataset.search).toLocaleLowerCase('pt-BR').includes(q);c.classList.toggle('hidden',!(okGroup&&okText));if(okGroup&&okText)count++});empty.style.display=count?'none':'block'}
+tabs.forEach(t=>t.addEventListener('click',()=>{filter=t.dataset.filter;tabs.forEach(x=>{x.classList.toggle('active',x===t);x.setAttribute('aria-selected',x===t)});apply()}));search.addEventListener('input',apply);
+cards.forEach(c=>c.addEventListener('click',e=>{e.preventDefault();alert('Acesso demonstrativo ao serviço: '+c.querySelector('.title').innerText)}));
+</script>
+</body>
+</html>
