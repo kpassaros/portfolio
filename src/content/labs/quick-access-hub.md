@@ -1,48 +1,60 @@
 ---
-title: "Quick Access Hub para Notion"
-summary: "Componente experimental incorporado ao Notion para transformar links dispersos em uma central pesquisável de serviços."
+kind: lab
+title: Quick Access Hub — Central de serviços para Notion
+summary: Componente web modular incorporado ao Notion para transformar links dispersos em uma central dinâmica e pesquisável.
 year: 2026
-status: "Experimental"
+status: Experimental
 featured: false
 publish: true
-kind: "lab"
-maturity: "Protótipo funcional"
-cover: "projects/quick-access-hub/cover.png"
+cover: projects/quick-access-hub/cover.png
 technologies:
-  - "Notion"
-  - "HTML"
-  - "CSS"
-  - "JavaScript"
-hypothesis: "Incorporar uma interface web leve com busca e filtragem dinâmica dentro de páginas do Notion reduz o tempo de localização de serviços internos em comparação a listas de links nativas."
+  - Notion
+  - HTML
+  - CSS
+  - JavaScript
+  - JSON
+maturity: Protótipo funcional navegável
+hypothesis: Incorporar uma interface web leve com busca e filtragem dinâmica dentro de páginas do Notion reduz o tempo de localização de serviços internos?
 experiments:
-  - "Renderização de catálogo modular a partir de micro-componente HTML/JS puro"
-  - "Preservação da hierarquia de permissões original do workspace"
-  - "Adaptação responsiva e suporte a dark mode nativo dentro de embeds"
-evidence: "Mais de 1.000 visualizações na página central em 90 dias com aumento significativo na adoção dos serviços internos."
-currentState: "Componente interativo funcional operando como micro-frontend autocontido, sem chamadas externas a APIs ou dependências pesadas."
+  - Microportal autocontido consumindo catálogo dinâmico em JSON
+  - Preservação da governança e permissões nativas do workspace
+  - Adaptação responsiva e suporte a dark mode nativo dentro de iframes
+evidence:
+  - Prévia funcional incorporada diretamente ao portfólio
+  - Mais de 1.000 visualizações na página central em 90 dias com aumento na adoção
+currentState:
+  - Componente estável para consumo de catálogos locais
+  - Execução client-side pura sem dependência de serviços externos
+  - Demonstração com links e categorias simuladas
 unsupportedCapabilities:
-  - "Edição de permissões dos links diretamente pela interface do componente"
-  - "Sincronização bidirecional em tempo real com bancos externos sem recarregar a página"
+  - Edição de permissões dos links diretamente pelo componente
+  - Sincronização bidirecional em tempo real sem recarregar
+  - Persistência de preferências de usuário fora do navegador
 limitations:
-  - "Dependência do suporte a iframes/embeds da plataforma hospedeira"
-  - "Necessidade de atualização no catálogo para adicionar novos serviços"
+  - Dependência do suporte a iframes/embeds da plataforma hospedeira
+  - Atualização do catálogo demanda ajuste no arquivo estruturado de dados
+  - Redirecionamento restrito aos links configurados
 nextTests:
-  - "Geração automatizada do manifesto de links via automação em CI"
-  - "Suporte a atalhos rápidos de teclado para focar a barra de busca"
-links:
-  - label: "Repositório"
-    url: "https://github.com/kpassaros/portfolio"
-    primary: true
-demo: "labs/quick-access-hub/demo/index.html"
-locale: "pt-BR"
+  - Geração automatizada do manifesto de serviços via pipeline CI
+  - Implementação de atalhos rápidos de teclado para busca instantânea
+  - Métricas de uso de cliques por categoria sem tracking invasivo
+links: []
+demo: labs/quick-access-hub/demo/index.html
+locale: pt-BR
 ---
 
-## Hipótese do Experimento
-A navegação padrão em estruturas extensas de páginas no Notion tende a ficar dispersa e com baixa hierarquia visual[cite: 4]. O objetivo deste experimento foi validar se um componente web autocontido embutido via iframe/embed ofereceria maior velocidade de localização de serviços para colaboradores[cite: 3, 4, 11].
+## O problema investigado
 
-## O que foi validado
-* **Desacoplamento de Visual e Navegação:** A busca instantânea e o agrupamento em abas ("Solicitar" e "Acompanhar") organizam a jornada do usuário em uma única tela compacta[cite: 3, 6].
-* **Resiliência e Acessibilidade:** Suporte completo a tema claro e escuro (`prefers-color-scheme`) e adaptação a telas menores sem transbordamento horizontal[cite: 6, 10].
+Árvores extensas de páginas e listas nativas de links no Notion costumam dificultar a localização de serviços operacionais por colaboradores, gerando dúvidas frequentes e sobrecarga nas equipes de suporte.
 
-## Governança e Dados
-> **Aviso de Dados:** A demonstração pública do projeto utiliza serviços e links 100% fictícios[cite: 12]. O resultado de adoção reportado reflete métricas agregadas e anonimizadas[cite: 3, 4, 12].
+## Estrutura do experimento
+
+O Lab constrói uma interface leve em HTML/CSS/JS modularizada para ser incorporada via embed no Notion. O componente separa a visualização dos dados em abas funcionais ("Solicitar" e "Acompanhar") e aplica filtros dinâmicos conforme a digitação do usuário.
+
+## O que observar
+
+A busca filtra instantaneamente os cards de serviço sem recarregar a página e se adapta tanto ao tema claro quanto ao tema escuro. O componente opera de forma estática e leve, sem atrasar o carregamento da página principal do Notion.
+
+## Limite da evidência
+
+Os serviços, títulos e links presentes na demonstração pública são inteiramente fictícios e representativos. O resultado de adoção reportado decorre de métricas reais consolidadas de forma agregada e anônima.
